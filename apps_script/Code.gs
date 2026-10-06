@@ -1,4 +1,4 @@
-// ĐTCL Coach v1.0 (2026-10-06) — Database Google Sheets cho nhật ký ván đấu
+// ĐTCL Coach v1.1 (2026-10-06) — Database Google Sheets cho nhật ký ván đấu
 /**
  * Database miễn phí trên Google Sheets
  *

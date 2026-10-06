@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — trang Kiến thức & tra cứu (tộc hệ, tướng, lộ trình Thách Đấu, từ điển, nguồn)
+# ĐTCL Coach v1.1 (2026-10-06) — trang Kiến thức & tra cứu (tộc hệ, tướng, lộ trình Thách Đấu, từ điển, nguồn)
 import streamlit as st
 
 from core import engine, ui
@@ -32,14 +32,15 @@ with tab1:
             if q and engine.norm(q) not in engine.norm(u["ten"] + " " + " ".join(u["toc_he"])):
                 continue
             rows.append([u["ten"], u["gia"], ", ".join(u["toc_he"]), ", ".join(u["doi_hinh"])])
-        st.markdown(ui.html_table(["Tướng", "Giá", "Tộc / Hệ", "Đội hình dùng"], rows), unsafe_allow_html=True)
+        st.markdown(ui.html_table(["Tướng", "Giá", "Tộc / Hệ", "Đội hình dùng"], rows, rich_text=True), unsafe_allow_html=True)
 
 with tab2:
     for i, x in enumerate(kt["nguyen_tac_vang"], 1):
         st.markdown(f"**{i}.** {x}")
     st.markdown("### Có gì mới · bản 18.4 (07/10/2026)")
+    st.caption("Xem đầy đủ có hình ở trang “Phân tích bản cập nhật”.")
     for x in kt["ban_moi"]:
-        st.markdown(f"- **{x['k']}** — {x['v']}")
+        st.markdown(f"<div style='margin:4px 0'><b>{ui.esc(x['k'])}</b> — {ui.rich(x['v'])}</div>", unsafe_allow_html=True)
     st.markdown("### Xếp bàn")
     for x in d["meo"]["xep_ban"]:
         st.markdown(f"- **{x['tieu_de']}.** {x['noi_dung']}")

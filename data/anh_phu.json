@@ -1,0 +1,16 @@
+{
+ "_ghi_chu": "Ảnh bổ sung từ Community Dragon (vi_vn.json, dữ liệu Riot). Tinh Linh trong game dùng chung 1 biểu tượng.",
+ "tao_tac": {
+  "Đại Bác Hải Tặc": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnthecollector.png",
+  "Kiếm Tai Ương": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/ornn_items/tft_item_artifact_lichbane.png",
+  "Đá Hắc Hóa": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_blightingjewel.png",
+  "Lõi Bình Minh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_dawncore.png",
+  "Khế Ước Vĩnh Hằng": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_eternalpact.png",
+  "Chùy Bạch Ngân": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_silvermeredawn.png",
+  "Đao Chớp": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_navoriflickerplade.png",
+  "Đao Tím / Rìu Hỏa Ngục": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_witsend.png",
+  "Giáp Tay Seeker": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_seekersarmguard.png",
+  "Huy Hiệu Thánh Khiên / Khiên Hừng Đông": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_lightshieldcrest.png"
+ },
+ "tinh_linh": "https://raw.communitydragon.org/latest/game/assets/ux/tft/hud/zaps/wands/set18_mechanicicon.png"
+}

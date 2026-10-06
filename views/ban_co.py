@@ -1,7 +1,8 @@
-# ĐTCL Coach v1.0 (2026-10-06) — trang Bàn cờ & xếp vị trí (bàn 4×7 bấm để đặt tướng)
+# ĐTCL Coach v1.1 (2026-10-06) — trang Bàn cờ & xếp vị trí (bàn 4×7 bấm để đặt tướng)
 import streamlit as st
 
 from core import engine, ui
+from core import plan as P
 
 d = engine.data()
 kt = d["hd_kien_thuc"]
@@ -22,7 +23,18 @@ champs = sorted(d["tuong"], key=lambda c: (c["gia"], c["ten"]))
 
 tab1, tab2 = st.tabs(["Bàn của bạn", "Mẫu theo tình huống"])
 
+
+def set_pick(cid):
+    st.session_state.bc_pick = cid
+
+
 with tab1:
+    st.caption("Bấm hình tướng muốn đặt (đang chọn = ô vàng), rồi bấm ô trên bàn.")
+    gtabs = st.tabs([f"{g} vàng" for g in range(1, 6)])
+    for g, tb in zip(range(1, 6), gtabs):
+        with tb:
+            ui.pick_grid(f"bc{g}", [o for o in ui.champ_options() if engine.champ(o[0])["gia"] == g],
+                         {st.session_state.get("bc_pick")}, set_pick, per_row=8)
     c1, c2, c3 = st.columns([1.4, 1.4, 1])
     pick = c1.selectbox("Tướng sẽ đặt", [c["id"] for c in champs],
                         format_func=lambda x: f"{engine.champ(x)['ten']} · {engine.champ(x)['gia']} vàng", key="bc_pick")
@@ -33,13 +45,15 @@ with tab1:
         b1, b2 = st.columns(2)
         if b1.button("Tải", use_container_width=True, disabled=tpl == "—"):
             comp = engine.comp_by_name(tpl)
-            st.session_state["bc_board"] = {f"{r},{c}": u for (r, c), u in engine.template_board(comp).items()}
+            final = P.stage_boards(comp)["giai_doan"][-1]
+            st.session_state["bc_board"] = {f"{r},{c}": u for (r, c), u in final["ban_co"].items()}
             st.rerun()
         if b2.button("Xoá", use_container_width=True):
             st.session_state["bc_board"] = {}
             st.rerun()
 
-    st.caption("Hàng trên cùng là hàng gần đối thủ nhất.")
+    st.caption("Hàng trên cùng là hàng gần đối thủ nhất. “Tải” đặt đội theo vị trí đứng phổ biến nhất của người chơi "
+               "Bạch Kim+ (MetaTFT).")
     with st.container(key="hexgrid"):
         for r in range(engine.ROWS):
             spec = [1] * engine.COLS + [0.5] if r % 2 == 0 else [0.5] + [1] * engine.COLS
@@ -48,8 +62,8 @@ with tab1:
             for c, col in enumerate(cells):
                 k = f"{r},{c}"
                 uid = board.get(k)
-                label = engine.champ(uid)["ten"] if uid else "＋"
-                if col.button(label, key=f"hex_{k}", use_container_width=True,
+                label = f"![{engine.champ(uid)['ten']}]({engine.champ(uid).get('anh', '')})" if uid else "＋"
+                if col.button(label, key=f"hex_{k}", use_container_width=True, help=engine.champ(uid)["ten"] if uid else None,
                               type="primary" if uid else "secondary"):
                     if uid:
                         board.pop(k, None)

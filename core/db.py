@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — lưu nhật ký ván đấu vào Google Sheets (miễn phí)
+# ĐTCL Coach v1.1 (2026-10-06) — lưu nhật ký ván đấu vào Google Sheets (miễn phí)
 """
 Database = 1 file Google Sheets, truy cập qua Google Apps Script Web App
 (file apps_script/Code.gs). Không cần service account, không tốn server.

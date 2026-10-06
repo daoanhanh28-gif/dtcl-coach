@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06)
+# ĐTCL Coach v1.1 (2026-10-06)
 streamlit>=1.40,<2
 pandas>=2.0
 requests>=2.31

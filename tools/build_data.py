@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — dựng data/*.json từ dữ liệu thô (Community Dragon + MetaTFT)
+# ĐTCL Coach v1.1 (2026-10-06) — dựng data/*.json từ dữ liệu thô (Community Dragon + MetaTFT)
 """
 Chạy:  python tools/build_data.py
 Đọc tools/raw/*.tsv|txt  →  ghi data/tuong.json, toc_he.json, trang_bi.json, loi.json, doi_hinh.json, meta.json

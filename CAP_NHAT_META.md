@@ -1,4 +1,4 @@
-# ĐTCL Coach · v1.0 · 2026-10-06 — Quy trình “cập nhật meta”
+# ĐTCL Coach · v1.1 · 2026-10-06 — Quy trình “cập nhật meta”
 
 Khi Riot ra bản mới (khoảng 2 tuần / lần), anh Peach chỉ cần nhắn Claude: **“cập nhật meta”**.
 Claude làm theo các bước dưới. Mọi dữ liệu nằm trong `data/*.json` — không cần sửa code.
@@ -16,6 +16,9 @@ Claude làm theo các bước dưới. Mọi dữ liệu nằm trong `data/*.jso
 ## 3. Thống kê
 - MetaTFT: API `comps_data` + `comps_stats` (Bạch Kim+, 3 ngày) → `tools/raw/comps_metatft.tsv`;
   `augments_tiers` → `tools/raw/augment_tiers_metatft.tsv`; độ hiếm lõi → `augment_rarity_metatft.txt`.
+- MetaTFT `comp_details?comp=<id>` (form cấp 4/5/6/7, ô đứng, mốc lên cấp) → `tools/raw/comp_details_metatft.tsv`;
+  `unit_items_processed` (đồ hay dùng từng tướng) → `tools/raw/unit_items_metatft.tsv`; chạy `python tools/build_chi_tiet.py`.
+- Bản mới: ghi danh sách tăng / giảm vào `data/ban_cap_nhat.json` (trang Phân tích bản cập nhật tự xếp đội theo đó).
 - Số liệu máy chủ VN (OP.GG lọc `region=vn`) → cập nhật trong file Excel, rồi chạy bước 4.
 - **Không bịa** tỉ lệ thắng / hạng trung bình. Không lấy được số thì ghi rõ “chưa có số liệu”.
 
@@ -26,6 +29,7 @@ Claude làm theo các bước dưới. Mọi dữ liệu nằm trong `data/*.jso
 ## 5. Dựng lại + kiểm thử + phiên bản
 ```
 python tools/build_data.py
+python tools/build_chi_tiet.py
 python tools/import_excel.py
 python -m pytest -q
 ```

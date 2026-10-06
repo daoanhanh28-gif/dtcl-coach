@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — bộ não tính toán (luật viết trong code, không dùng AI)
+# ĐTCL Coach v1.1 (2026-10-06) — bộ não tính toán (luật viết trong code, không dùng AI)
 """
 Mọi phép tính của web nằm ở đây, không phụ thuộc Streamlit → kiểm thử dễ.
 Nguồn nội dung chính: file Excel hướng dẫn v1.8 của anh Peach (data/hd_*.json).
@@ -23,7 +23,7 @@ from functools import lru_cache
 from core import config
 
 FILES = ("tuong", "toc_he", "trang_bi", "loi", "metatft_doi_hinh", "kinh_te", "cau_hoi", "meo", "meta",
-         "hd_doi_hinh", "hd_an", "hd_loi", "hd_nhip", "hd_kien_thuc")
+         "hd_doi_hinh", "hd_an", "hd_loi", "hd_nhip", "hd_kien_thuc", "metatft_chi_tiet", "anh_phu", "ban_cap_nhat")
 
 # tên gọi khác trong Excel / GGMeo → tên trong dữ liệu game
 ITEM_ALIAS = {"Kiếm BF": "Kiếm B.F.", "Xẻng Vàng": "Siêu Xẻng", "Gậy": "Gậy Quá Khổ", "Nước Mắt": "Nước Mắt Nữ Thần",
@@ -684,6 +684,11 @@ def roll_or_level(st: GameState, comp: dict | None = None) -> dict:
         if interest(g - lv_cost) < interest(g):
             why.append(f"Lên cấp tốn {lv_cost} vàng (lãi giảm {interest(g)} → {interest(g - lv_cost)}) — vẫn đáng vì giữ nhịp.")
         return out("len_cap", f"Lên cấp {lv + 1}")
+    if lv < want and t >= 3.2 and g >= 4:
+        why.append(f"Theo lộ trình {style_key(comp)}, vòng {st.stage}-{st.rnd} nên ở cấp {want}; lên cấp {lv + 1} cần tối đa "
+                   f"{lv_cost} vàng (trừ kinh nghiệm đang có).")
+        why.append("Bấm mua kinh nghiệm tới khi lên cấp, rồi mới đổi tướng bằng phần vàng còn lại.")
+        return out("mua_xp", f"Mua kinh nghiệm lên cấp {lv + 1}")
     spike = (lv >= 8 and t >= 4.2 and kieu == "fast8") or (lv >= 9 and kieu == "fast9")
     if spike and g >= 20:
         keep = 10 if hp <= 50 else 20

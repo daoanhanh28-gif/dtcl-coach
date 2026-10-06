@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — chuyển file Excel hướng dẫn (v1.8) của anh Peach thành data/*.json
+# ĐTCL Coach v1.1 (2026-10-06) — chuyển file Excel hướng dẫn (v1.8) của anh Peach thành data/*.json
 """
 Chạy:  python tools/import_excel.py [đường_dẫn_file.xlsx]
 Mặc định đọc tools/raw/excel/v1.8_2026-10-06_DTCL_Huong_Dan_Thach_Dau_Mua18.xlsx (giá trị đã tính sẵn trong file).

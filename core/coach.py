@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — AI diễn giải lời khuyên (Gemini); phần tính toán đã xong ở engine
+# ĐTCL Coach v1.1 (2026-10-06) — AI diễn giải lời khuyên (Gemini); phần tính toán đã xong ở engine
 """AI chỉ DIỄN GIẢI kết quả luật đã tính, không tự quyết định. Không có khoá → trả lời soạn sẵn."""
 from __future__ import annotations
 

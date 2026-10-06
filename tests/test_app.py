@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — kiểm thử giao diện bằng Streamlit AppTest (offline, lưu CSV cục bộ)
+# ĐTCL Coach v1.1 (2026-10-06) — kiểm thử giao diện bằng Streamlit AppTest (offline, lưu CSV cục bộ)
 import os
 import shutil
 import sys
@@ -16,7 +16,7 @@ from streamlit.testing.v1 import AppTest  # noqa: E402
 
 from core import config  # noqa: E402
 
-PAGES = ["views/doi_hinh.py", "views/tro_ly.py", "views/loi.py", "views/trang_bi.py", "views/ban_co.py",
+PAGES = ["views/doi_hinh.py", "views/tro_ly.py", "views/phan_tich.py", "views/loi.py", "views/trang_bi.py", "views/ban_co.py",
          "views/kinh_te.py", "views/luyen_tap.py", "views/nhat_ky.py", "views/kien_thuc.py"]
 
 
@@ -93,9 +93,56 @@ def test_tro_ly_full_flow():
     _ok(at)
     md = " ".join(m.value for m in at.markdown)
     assert "Lúc này nên làm gì" in md and "Nên đi đội nào" in md and "Chọn lõi nào" in md
+    assert "dc-ans" in md and "Hoàn chỉnh" in " ".join(t.label for t in at.tabs)
     at.button(key="tl_ai").click().run()
     _ok(at)
     assert at.session_state["tl_ai_txt"][1] is False      # offline → lời giải thích soạn sẵn
+
+
+def test_tro_ly_image_pickers():
+    at = _page("views/tro_ly.py").run()
+    _ok(at)
+    at.button(key="pku3_Azir").click().run()            # bấm hình Azir (3 vàng) → chọn
+    _ok(at)
+    assert at.session_state["tl_units"] == ["Azir"]
+    at.button(key="pku3_Azir").click().run()            # bấm lại → bỏ
+    assert at.session_state["tl_units"] == []
+    at.button(key="pkp_BFSword").click().run()
+    at.button(key="pkp_BFSword").click().run()
+    _ok(at)
+    assert at.session_state["tl_p_BFSword"] == 2
+    at.button(key="pke_Emblem_Executioner").click().run()
+    assert at.session_state["tl_items"] == ["Emblem_Executioner"]
+    at.button(key="tl_clear_p").click().run()
+    assert at.session_state["tl_p_BFSword"] == 0
+    at.button(key="pkan_Emblem_Executioner").click().run()
+    at.button(key="pkan_Emblem_Lunar").click().run()
+    _ok(at)
+    assert at.session_state["an_1"] == "Ấn Đao Phủ" and at.session_state["an_2"] == "Ấn Mặt Trăng"
+    md = " ".join(m.value for m in at.markdown)
+    assert "Cấp 8" in md and "Cấp 9" in md
+    at.button(key="an_clear").click().run()
+    assert at.session_state["an_1"] == "— Không có —"
+
+
+def test_phan_tich_page():
+    at = _page("views/phan_tich.py").run()
+    _ok(at)
+    md = " ".join(m.value for m in at.markdown)
+    assert "Dễ top 1" in md and "Mạnh mà ít người chơi" in md and "Được lợi" in md
+    assert "dc-up" in md and "dc-down" in md
+
+
+def test_trang_bi_champ_items():
+    at = _page("views/trang_bi.py").run()
+    at.button(key="pktc3_Azir").click().run()
+    _ok(at)
+    assert at.session_state["td_champ"] == "Azir"
+    assert any("Đồ hay lên nhất" in m.value for m in at.markdown)
+    at.button(key="pktd_BFSword").click().run()
+    at.button(key="pktd_SparringGloves").click().run()
+    _ok(at)
+    assert any("Vô Cực Kiếm" in m.value for m in at.markdown)
 
 
 def test_tro_ly_emblem_and_aug_tabs():

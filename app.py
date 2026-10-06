@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — điểm vào của web
+# ĐTCL Coach v1.1 (2026-10-06) — điểm vào của web
 # Chạy local:  streamlit run app.py
 import streamlit as st
 
@@ -26,6 +26,7 @@ user = auth.current_user()
 pages = [
     st.Page("views/doi_hinh.py", title="Đội hình meta", icon="🏆", default=True),
     st.Page("views/tro_ly.py", title="Trợ lý ván đấu", icon="🧭"),
+    st.Page("views/phan_tich.py", title="Phân tích bản cập nhật", icon="📈"),
     st.Page("views/loi.py", title="Lõi nâng cấp", icon="✨"),
     st.Page("views/trang_bi.py", title="Trang bị & Ấn", icon="⚔️"),
     st.Page("views/ban_co.py", title="Bàn cờ & xếp vị trí", icon="🗺️"),

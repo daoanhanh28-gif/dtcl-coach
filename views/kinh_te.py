@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — trang Kinh tế & nhịp ván
+# ĐTCL Coach v1.1 (2026-10-06) — trang Kinh tế & nhịp ván
 import streamlit as st
 
 from core import engine, ui
@@ -68,14 +68,15 @@ with tab2:
 
 with tab3:
     st.markdown("### Làm gì ở mỗi vòng")
-    st.markdown(ui.html_table(["Vòng", "Sự kiện", "Việc cần làm"], [[x["vong"], x["su_kien"], x["viec"]] for x in kt["vong_dau"]]),
+    st.markdown(ui.html_table(["Vòng", "Sự kiện", "Việc cần làm"], [[x["vong"], x["su_kien"], x["viec"]] for x in kt["vong_dau"]], rich_text=True),
                 unsafe_allow_html=True)
     st.markdown("### Tinh Linh")
     for x in kt["tinh_linh"]["quy_tac"]:
         st.markdown(f"- {x}")
     loai = st.selectbox("Lọc loại Tinh Linh", ["Tất cả"] + sorted({x["loai"] for x in kt["tinh_linh"]["danh_sach"]}), key="kt_tl")
-    st.markdown(ui.html_table(["Tinh Linh", "Loại", "Giá (vàng)", "Hiệu ứng", "Khi nào mua"],
-                              [[x["ten"], x["loai"], x["gia"], x["hieu_ung"], x["khi_nao"]] for x in kt["tinh_linh"]["danh_sach"]
+    tl_pic = ui.Raw(ui.img(d["anh_phu"]["tinh_linh"], 26))
+    st.markdown(ui.html_table(["", "Tinh Linh", "Loại", "Giá (vàng)", "Hiệu ứng", "Khi nào mua"],
+                              [[tl_pic, x["ten"], x["loai"], x["gia"], x["hieu_ung"], x["khi_nao"]] for x in kt["tinh_linh"]["danh_sach"]
                                if loai == "Tất cả" or x["loai"] == loai]), unsafe_allow_html=True)
 
 with tab4:

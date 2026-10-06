@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — cấu hình trung tâm
+# ĐTCL Coach v1.1 (2026-10-06) — cấu hình trung tâm
 """Đọc cấu hình từ st.secrets (Streamlit Cloud) hoặc biến môi trường (chạy local/test)."""
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from functools import lru_cache
 from pathlib import Path
 
 APP_NAME = "ĐTCL Coach"
-VERSION = "v1.0"
+VERSION = "v1.1"
 VERSION_DATE = "2026-10-06"
 VERSION_LABEL = f"{VERSION} · {VERSION_DATE}"
 

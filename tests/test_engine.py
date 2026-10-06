@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — kiểm thử mọi phép tính của bộ luật (không cần Streamlit)
+# ĐTCL Coach v1.1 (2026-10-06) — kiểm thử mọi phép tính của bộ luật (không cần Streamlit)
 import sys
 from pathlib import Path
 
@@ -118,6 +118,9 @@ def test_roll_or_level_rules():
     assert r["hanh_dong"] == "roll_cham" and "12" in r["tieu_de"]
     s = e.GameState(stage=2, rnd=3, level=4, gold=20, hp=90)
     assert e.roll_or_level(s, comp)["hanh_dong"] == "giu_vang"
+    s = e.GameState(stage=4, rnd=2, level=7, gold=55, hp=60)        # thiếu 1 vàng để lên 8 thẳng → mua kinh nghiệm dần
+    r = e.roll_or_level(s, comp)
+    assert r["hanh_dong"] == "mua_xp" and "cấp 8" in r["tieu_de"]
 
 
 def test_pace_advice_uses_excel_plan():

@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — lớp gọi AI dùng chung cho mọi nhà cung cấp
+# ĐTCL Coach v1.1 (2026-10-06) — lớp gọi AI dùng chung cho mọi nhà cung cấp
 """
 Một hàm duy nhất `chat()` cho 3 nhà cung cấp (gọi thẳng REST, không cần SDK):
   - gemini    : Google AI Studio — có gói MIỄN PHÍ (khuyên dùng để chạy 0 đồng)

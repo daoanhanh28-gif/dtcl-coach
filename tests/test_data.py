@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — kiểm thử dữ liệu game (data/*.json) và quy ước phiên bản
+# ĐTCL Coach v1.1 (2026-10-06) — kiểm thử dữ liệu game (data/*.json) và quy ước phiên bản
 import json
 import re
 import sys

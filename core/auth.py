@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — đăng nhập đơn giản bằng mã truy cập
+# ĐTCL Coach v1.1 (2026-10-06) — đăng nhập đơn giản bằng mã truy cập
 """
 - Người chơi: nhập Tên + ACCESS_CODE (mã do chủ web đặt trong Secrets).
 - Chủ web:    nhập Tên + ADMIN_CODE → xem được nhật ký của mọi người.

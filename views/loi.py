@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — trang Lõi nâng cấp
+# ĐTCL Coach v1.1 (2026-10-06) — trang Lõi nâng cấp
 import streamlit as st
 
 from core import engine, ui
@@ -8,6 +8,21 @@ hl = d["hd_loi"]
 ui.header("Lõi nâng cấp",
           "Tra lõi theo bậc Bạc / Vàng / Kim Cương, lọc theo đội hình. Xếp hạng lấy từ MetaTFT, "
           "ghi chú và lõi ăn top 1 lấy từ file hướng dẫn v1.8.")
+
+
+
+def _aug_pic(text: str) -> str:
+    ids = engine.aug_ids_from_text(text)
+    return ui.aug_icon(ids[0], 32) if ids else ""
+
+
+def _trait_pic(text: str) -> str:
+    for part in str(text).replace("/", ",").split(","):
+        tid = d["trait_by_name"].get(engine.norm(part))
+        if tid:
+            return ui.trait_icon(tid, 30)
+    return ""
+
 
 tab1, tab2, tab3, tab4 = st.tabs(["Tra lõi", "Lõi ăn top 1", "Quy tắc theo mốc", "Lõi tộc hệ"])
 
@@ -61,7 +76,7 @@ with tab2:
         chips = "".join(ui.aug_chip(a) for a in ids)
         st.markdown(f"<div class='dc-card'><div style='font-weight:700'>{ui.esc(x['ten'])}</div>"
                     f"<div style='color:var(--gold);font-size:.85rem'>{ui.esc(x['uu_tien'])} · hay gặp ở {ui.esc(x['vong'])} · "
-                    f"ép: {ui.esc(x['doi_hinh'])}</div><p style='margin:6px 0'>{ui.esc(x['lam_gi'])}</p>"
+                    f"ép: {ui.rich(x['doi_hinh'])}</div><p style='margin:6px 0'>{ui.rich(x['lam_gi'])}</p>"
                     f"<div style='color:var(--mute);font-size:.85rem'>Kỳ vọng: {ui.esc(x['ky_vong'])}</div>"
                     f"<div class='dc-row' style='margin-top:6px'>{chips}</div></div>", unsafe_allow_html=True)
     st.caption(hl["ghi_chu_top1"])
@@ -72,15 +87,17 @@ with tab3:
         st.markdown(f"- **{x['moc']}** — {x['quy_tac']}")
     st.markdown("### Danh sách lõi mạnh (bản 18.3b)")
     loai = st.selectbox("Loại", ["Tất cả"] + sorted({x["loai"] for x in hl["loi_manh"]}), key="l_manh")
-    st.markdown(ui.html_table(["Lõi", "Loại", "Hạng", "Hợp với", "Ghi chú"],
-                              [[x["ten"], x["loai"], x["hang"], x["hop_voi"], x["ghi_chu"]] for x in hl["loi_manh"]
-                               if loai == "Tất cả" or x["loai"] == loai]), unsafe_allow_html=True)
+    st.markdown(ui.html_table(["", "Lõi", "Loại", "Hạng", "Hợp với", "Ghi chú"],
+                              [[ui.Raw(_aug_pic(x["ten"])), x["ten"], x["loai"], x["hang"], x["hop_voi"], x["ghi_chu"]]
+                               for x in hl["loi_manh"] if loai == "Tất cả" or x["loai"] == loai], rich_text=True),
+                unsafe_allow_html=True)
 
 with tab4:
     st.markdown("### Xếp hạng lõi tộc hệ — bản 18.3b + thay đổi 18.4")
-    st.markdown(ui.html_table(["Lõi", "Tộc/Hệ", "Sức mạnh", "Cho bạn", "Đội hình hợp", "Cách đánh", "Bản 18.4"],
-                              [[x["ten"], x["toc_he"], x["suc_manh"], x["cho"], x["doi_hinh"], x["cach_danh"], x["ban_moi"]]
-                               for x in hl["loi_toc_he"]]), unsafe_allow_html=True)
+    st.markdown(ui.html_table(["", "Lõi", "Tộc/Hệ", "Sức mạnh", "Cho bạn", "Đội hình hợp", "Cách đánh", "Bản 18.4"],
+                              [[ui.Raw(_aug_pic(x["ten"]) or _trait_pic(x["toc_he"])), x["ten"], x["toc_he"], x["suc_manh"],
+                                x["cho"], x["doi_hinh"], x["cach_danh"], x["ban_moi"]]
+                               for x in hl["loi_toc_he"]], rich_text=True), unsafe_allow_html=True)
     st.caption("Muốn biết lõi vừa nhận nên đánh thế nào: mở Trợ lý ván đấu → thẻ “Lõi → cách đánh”.")
 
 ui.source_note()

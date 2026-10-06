@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — trang Nhật ký ván đấu (lưu Google Sheets) + thống kê đội hợp tay
+# ĐTCL Coach v1.1 (2026-10-06) — trang Nhật ký ván đấu (lưu Google Sheets) + thống kê đội hợp tay
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st

@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.0 (2026-10-06) — trang Đội hình meta (Excel v1.8 + số liệu VN/Trung/Hàn + MetaTFT)
+# ĐTCL Coach v1.1 (2026-10-06) — trang Đội hình meta (Excel v1.8 + số liệu VN/Trung/Hàn + MetaTFT)
 import pandas as pd
 import streamlit as st
 
@@ -12,7 +12,8 @@ ui.header("Đội hình meta",
 
 with st.expander("Bản 18.4 (07/10/2026) thay đổi gì?", expanded=False):
     for x in kt["ban_moi"]:
-        st.markdown(f"- **{x['k']}** — {x['v']}")
+        st.markdown(f"<div style='margin:4px 0'><b>{ui.esc(x['k'])}</b> — {ui.rich(x['v'])}</div>", unsafe_allow_html=True)
+    st.caption("Phân tích đầy đủ (đội được lợi, dễ top 1, ít người chơi…): trang “Phân tích bản cập nhật”.")
 
 tab1, tab2, tab3 = st.tabs(["Xếp hạng đội hình", "Máy chủ VN · Trung · Hàn", "Thống kê MetaTFT"])
 
@@ -34,20 +35,21 @@ with tab2:
     mc = kt["may_chu"]
     st.markdown("### Máy chủ Việt Nam")
     st.caption(mc["vn"]["tieu_de"])
-    st.markdown(ui.html_table(mc["vn"]["cot"], mc["vn"]["dong"]), unsafe_allow_html=True)
+    st.markdown(ui.html_table(mc["vn"]["cot"], mc["vn"]["dong"], rich_text=True), unsafe_allow_html=True)
     ui.note(mc["vn"]["goi_y"])
     st.markdown("### So sánh Việt Nam – Hàn – Trung")
     st.markdown(ui.html_table(["Đội hình", "Việt Nam", "Hàn / quốc tế", "Trung Quốc", "Ý nghĩa cho bạn"],
-                              [[x["doi_hinh"], x["vn"], x["han"], x["trung"], x["y_nghia"].lstrip("→ ")] for x in mc["so_sanh"]]),
+                              [[x["doi_hinh"], x["vn"], x["han"], x["trung"], x["y_nghia"].lstrip("→ ")] for x in mc["so_sanh"]],
+                              rich_text=True),
                 unsafe_allow_html=True)
     st.caption("Số trước là hạng trung bình (càng thấp càng tốt), số trong ngoặc là tỉ lệ người chơi (càng cao càng dễ bị tranh tướng).")
     cA, cB = st.columns(2)
     with cA:
         st.markdown("### Hàn / quốc tế (OP.GG)")
-        st.markdown(ui.html_table(mc["han"]["cot"], mc["han"]["dong"]), unsafe_allow_html=True)
+        st.markdown(ui.html_table(mc["han"]["cot"], mc["han"]["dong"], rich_text=True), unsafe_allow_html=True)
     with cB:
         st.markdown("### Trung Quốc (TopMeta)")
-        st.markdown(ui.html_table(mc["trung"]["cot"], mc["trung"]["dong"]), unsafe_allow_html=True)
+        st.markdown(ui.html_table(mc["trung"]["cot"], mc["trung"]["dong"], rich_text=True), unsafe_allow_html=True)
     st.caption(mc["ghi_chu"])
     st.markdown("### Cách build từng bước")
     for b in mc["cach_build"]:
