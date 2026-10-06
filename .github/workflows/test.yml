@@ -10,4 +10,16 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt pytest
-      - run: python -m pytest -q
+      - name: pytest
+        shell: bash
+        run: |
+          set +e
+          python -m pytest -q --tb=short -rfE -p no:cacheprovider > out.txt 2>&1
+          code=$?
+          cat out.txt
+          # đưa kết quả thành ghi chú (annotation) để đọc được qua API
+          grep -E "^(FAILED|ERROR) " out.txt | head -9 | while IFS= read -r l; do echo "::error title=test::${l//$'\n'/ }"; done
+          msg=$(grep -E "^(E |tests/|[A-Za-z]+Error)" out.txt | head -60 | sed ':a;N;$!ba;s/%/%25/g;s/\n/%0A/g')
+          [ $code -ne 0 ] && echo "::error title=chi tiet::$msg"
+          echo "::notice title=ket qua::$(tail -1 out.txt)"
+          exit $code
