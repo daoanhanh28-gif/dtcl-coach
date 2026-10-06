@@ -1,0 +1,26 @@
+{
+ "mua": 18,
+ "ten_mua": "Enchanted Wilds",
+ "phien_ban": "18.3b",
+ "ngay_cap_nhat": "2026-10-06",
+ "nguon": [
+  {
+   "ten": "Community Dragon (dữ liệu game Riot, bản tiếng Việt)",
+   "url": "https://raw.communitydragon.org/latest/cdragon/tft/vi_vn.json"
+  },
+  {
+   "ten": "MetaTFT – thống kê đội hình (Bạch Kim+, 3 ngày, bản 18.3b)",
+   "url": "https://www.metatft.com/comps"
+  },
+  {
+   "ten": "MetaTFT – bảng xếp hạng lõi",
+   "url": "https://www.metatft.com/augments"
+  },
+  {
+   "ten": "SeeMeta – tỉ lệ cửa hàng Mùa 18",
+   "url": "https://seemeta.com/en/tft/set-18/odds"
+  }
+ ],
+ "ghi_chu": "Số liệu đội hình là thống kê thật từ MetaTFT. Xếp hạng lõi là bảng chấm của chuyên gia MetaTFT (không phải tỉ lệ thắng). Lõi hợp đội do luật của ĐTCL Coach gợi ý.",
+ "ten_mua_vi": "Đại Ngàn Kỳ Bí"
+}

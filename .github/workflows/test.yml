@@ -1,0 +1,13 @@
+# ĐTCL Coach v1.0 (2026-10-06) — tự chạy kiểm thử mỗi lần đẩy mã lên GitHub
+name: Kiem thu
+on: [push, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pytest
+      - run: python -m pytest -q

@@ -1,0 +1,14 @@
+# ĐTCL Coach v1.0 (2026-10-06)
+[theme]
+base = "dark"
+primaryColor = "#C9A45C"
+backgroundColor = "#0F1714"
+secondaryBackgroundColor = "#17211D"
+textColor = "#ECE6D6"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

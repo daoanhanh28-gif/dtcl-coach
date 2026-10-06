@@ -1,0 +1,7 @@
+# ĐTCL Coach v1.0 (2026-10-06)
+.streamlit/secrets.toml
+data/_logs/
+__pycache__/
+*.pyc
+.pytest_cache/
+tools/raw/excel/*.txt

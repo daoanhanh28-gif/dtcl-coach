@@ -1,0 +1,580 @@
+{
+ "loi_choi": [
+  {
+   "ten": "Lên 8 nhanh (tướng 4 vàng)",
+   "doi_hinh": [
+    "[S] Đao Phủ Azir – Soraka & Zyra (Thực Vật)",
+    "[S] Nidalee & Aphelios Mặt Trăng",
+    "[S] Sivir & Nidalee Nguyên Sinh",
+    "[A] Ahri & Morgana Thuật Sĩ",
+    "[C] Cassiopeia Tiên Hắc Ám (Tà Thuật – ĐANG TẮT)"
+   ],
+   "lo_trinh": [
+    {
+     "vong": "1-x",
+     "cap": "3",
+     "vang": "—",
+     "viec": "Nhặt đồ theo hướng đội hình; mua cặp tướng; chưa đổi tướng.",
+     "cap_so": 3,
+     "su_kien": "Băng chuyền mở màn + đánh quái"
+    },
+    {
+     "vong": "2-1",
+     "cap": "4",
+     "vang": "≥ 10 sau khi lên",
+     "viec": "Lên cấp 4 · Lõi 1 kinh tế/trang bị · Ghép sớm 1–2 món mạnh cho tướng tạm.",
+     "cap_so": 4,
+     "su_kien": "Chọn Lõi 1"
+    },
+    {
+     "vong": "2-3",
+     "cap": "4",
+     "vang": "10–20",
+     "viec": "Giữ mốc lãi; mua Tinh Linh 0–1 vàng; bán tướng lẻ không có cặp.",
+     "cap_so": 4,
+     "su_kien": "Đấu người"
+    },
+    {
+     "vong": "2-5",
+     "cap": "5",
+     "vang": "20–30",
+     "viec": "Lên cấp 5 (chuỗi thắng: ở 2-5; chuỗi thua: có thể đã lên ở 2-3).",
+     "cap_so": 5,
+     "su_kien": "Đấu người (sau băng chuyền 2-4)"
+    },
+    {
+     "vong": "3-1",
+     "cap": "6",
+     "vang": "30",
+     "viec": "Lên cấp 6 · Giữ 3 tướng mạnh nhất có cặp; chưa đổi tướng.",
+     "cap_so": 6,
+     "su_kien": "Đấu người (sau Quái Đá 2-7)"
+    },
+    {
+     "vong": "3-2",
+     "cap": "6",
+     "vang": "30–40",
+     "viec": "Lõi 2 khớp hướng đội hình · Đang thua liên tục: lên 6 tại đây nếu chưa lên.",
+     "cap_so": 6,
+     "su_kien": "Chọn Lõi 2"
+    },
+    {
+     "vong": "3-5",
+     "cap": "7",
+     "vang": "40–50",
+     "viec": "Lên cấp 7 sau băng chuyền · Chỉ đổi tướng nếu máu < 50.",
+     "cap_so": 7,
+     "su_kien": "Đấu người (sau băng chuyền 3-4)"
+    },
+    {
+     "vong": "4-1",
+     "cap": "7 → 8",
+     "vang": "50",
+     "viec": "Đang thua liên tục / máu thấp: lên 8 ngay và đổi tướng cho ổn.",
+     "cap_so": 8,
+     "su_kien": "Đấu người (sau Sói 3-7)"
+    },
+    {
+     "vong": "4-2",
+     "cap": "8",
+     "vang": "còn 10–20 sau khi đổi",
+     "viec": "MỐC ĐỔI TƯỚNG: lên 8 + Lõi 3 → dồn vàng tìm chủ lực & đỡ đòn 4 vàng 2 sao.",
+     "cap_so": 8,
+     "su_kien": "Chọn Lõi 3"
+    },
+    {
+     "vong": "4-5",
+     "cap": "8",
+     "vang": "tích lại 50",
+     "viec": "Đội đã ổn: không đổi tướng, tích lại 50 vàng · Chưa ổn: đổi tướng nhẹ để giữ máu.",
+     "cap_so": 8,
+     "su_kien": "Đấu người (sau băng chuyền 4-4)"
+    },
+    {
+     "vong": "5-1",
+     "cap": "8 → 9",
+     "vang": "50+",
+     "viec": "Máu > 50 và đội ổn: chuẩn bị lên 9.",
+     "cap_so": 9,
+     "su_kien": "Đấu người (sau Chim 4-7)"
+    },
+    {
+     "vong": "5-2+",
+     "cap": "9",
+     "vang": "dồn vàng đổi tướng",
+     "viec": "Lên 9 · đổi tướng tìm tướng 5 vàng / 4 vàng 2 sao · thay tướng yếu.",
+     "cap_so": 9,
+     "su_kien": "Cuối game – Tinh Linh Giao Tranh xen kẽ"
+    }
+   ]
+  },
+  {
+   "ten": "Lên 9 nhanh (tướng 5 vàng)",
+   "doi_hinh": [
+    "[A] Ashe Hoa Linh Lên 9",
+    "[A] Rồng Ngàn Tuổi Quái Rừng",
+    "[A] Draven Lên 9 (Thần Rừng Đao Phủ)"
+   ],
+   "lo_trinh": [
+    {
+     "vong": "1-x",
+     "cap": "3",
+     "vang": "—",
+     "viec": "Ưu tiên đồ phòng thủ + 1 chủ lực tạm; mua cặp.",
+     "cap_so": 3,
+     "su_kien": "Băng chuyền mở màn + đánh quái"
+    },
+    {
+     "vong": "2-1",
+     "cap": "4",
+     "vang": "≥ 10",
+     "viec": "Lên cấp 4 · Lõi 1 KINH TẾ (gần như bắt buộc nếu không có chuỗi).",
+     "cap_so": 4,
+     "su_kien": "Chọn Lõi 1"
+    },
+    {
+     "vong": "2-3",
+     "cap": "4",
+     "vang": "20",
+     "viec": "Tham lãi; chỉ mua Tinh Linh 0 vàng / kinh tế.",
+     "cap_so": 4,
+     "su_kien": "Đấu người"
+    },
+    {
+     "vong": "2-5",
+     "cap": "5",
+     "vang": "30",
+     "viec": "Lên cấp 5 · Giữ chuỗi (thắng hay thua đều được).",
+     "cap_so": 5,
+     "su_kien": "Đấu người (sau băng chuyền 2-4)"
+    },
+    {
+     "vong": "3-1",
+     "cap": "6",
+     "vang": "30–40",
+     "viec": "Lên cấp 6 · Chưa đổi tướng.",
+     "cap_so": 6,
+     "su_kien": "Đấu người (sau Quái Đá 2-7)"
+    },
+    {
+     "vong": "3-2",
+     "cap": "6",
+     "vang": "40–50",
+     "viec": "Lõi 2: kinh tế / kinh nghiệm (Quà Sinh Nhật, Thăng Tiến Cuối Trận).",
+     "cap_so": 6,
+     "su_kien": "Chọn Lõi 2"
+    },
+    {
+     "vong": "3-5",
+     "cap": "7",
+     "vang": "50",
+     "viec": "Lên cấp 7 · Giữ ≥ 50 vàng.",
+     "cap_so": 7,
+     "su_kien": "Đấu người (sau băng chuyền 3-4)"
+    },
+    {
+     "vong": "4-1",
+     "cap": "7",
+     "vang": "50+",
+     "viec": "Máu < 45: chuyển sang lối lên 8 nhanh (đổi tướng ở 4-2).",
+     "cap_so": 7,
+     "su_kien": "Đấu người (sau Sói 3-7)"
+    },
+    {
+     "vong": "4-2",
+     "cap": "8",
+     "vang": "≥ 30 sau khi lên",
+     "viec": "Lên 8 · đổi tướng ÍT (≤ 20 vàng) chỉ để giữ máu · Lõi 3.",
+     "cap_so": 8,
+     "su_kien": "Chọn Lõi 3"
+    },
+    {
+     "vong": "4-5",
+     "cap": "8",
+     "vang": "50+",
+     "viec": "Tích lại trên 50 vàng; đội đủ mạnh để giữ top 4.",
+     "cap_so": 8,
+     "su_kien": "Đấu người (sau băng chuyền 4-4)"
+    },
+    {
+     "vong": "5-1",
+     "cap": "9",
+     "vang": "dồn 30–40 vàng",
+     "viec": "Lên 9 (5-1) · đổi tướng tìm tướng 5 vàng chủ lực.",
+     "cap_so": 9,
+     "su_kien": "Đấu người (sau Chim 4-7)"
+    },
+    {
+     "vong": "5-2+",
+     "cap": "9 → 10",
+     "vang": "dồn vàng đổi tướng",
+     "viec": "Ổn định ở 9 · chỉ lên 10 khi đội đã mạnh và dư vàng.",
+     "cap_so": 10,
+     "su_kien": "Cuối game – Tinh Linh Giao Tranh xen kẽ"
+    }
+   ]
+  },
+  {
+   "ten": "Săn 3 sao tướng 1 vàng",
+   "doi_hinh": [
+    "[B] Veigar Thực Vật Hấp Thụ (Tinh Nghịch)",
+    "[B] Mầm Non Quái Rừng",
+    "[C] Akali Mặt Trời"
+   ],
+   "lo_trinh": [
+    {
+     "vong": "1-x",
+     "cap": "3",
+     "vang": "—",
+     "viec": "Mua MỌI bản chủ lực 1 vàng; nhặt đồ cho chủ lực.",
+     "cap_so": 3,
+     "su_kien": "Băng chuyền mở màn + đánh quái"
+    },
+    {
+     "vong": "2-1",
+     "cap": "4",
+     "vang": "≥ 10",
+     "viec": "Lên cấp 4 · Lõi 1 (ưu tiên săn 3 sao / trang bị).",
+     "cap_so": 4,
+     "su_kien": "Chọn Lõi 1"
+    },
+    {
+     "vong": "2-3",
+     "cap": "4",
+     "vang": "20–30",
+     "viec": "Giữ cấp 4, tích vàng; mua Tinh Linh Nguyên Phân / Tập Sự.",
+     "cap_so": 4,
+     "su_kien": "Đấu người"
+    },
+    {
+     "vong": "2-5",
+     "cap": "4 → 5",
+     "vang": "30–50",
+     "viec": "Giữ cấp 4/5, chưa lên thêm. Nếu chủ lực đã 2 sao + có 6 bản: chuẩn bị dồn vàng.",
+     "cap_so": 5,
+     "su_kien": "Đấu người (sau băng chuyền 2-4)"
+    },
+    {
+     "vong": "3-1",
+     "cap": "4–5",
+     "vang": "đổi tới khi còn ≥ 20",
+     "viec": "DỒN VÀNG ĐỔI TƯỚNG tìm chủ lực 3 sao (dừng khi đủ hoặc còn 20 vàng).",
+     "cap_so": 5,
+     "su_kien": "Đấu người (sau Quái Đá 2-7)"
+    },
+    {
+     "vong": "3-2",
+     "cap": "5",
+     "vang": "chỉ đổi phần trên 50",
+     "viec": "Lõi 2 · Đổi tướng từ từ: chỉ dùng phần vàng trên 50.",
+     "cap_so": 5,
+     "su_kien": "Chọn Lõi 2"
+    },
+    {
+     "vong": "3-5",
+     "cap": "6",
+     "vang": "50",
+     "viec": "Đã đủ 3 sao chính: lên 6 · Chưa đủ: tiếp tục đổi tướng từ từ.",
+     "cap_so": 6,
+     "su_kien": "Đấu người (sau băng chuyền 3-4)"
+    },
+    {
+     "vong": "4-1",
+     "cap": "7",
+     "vang": "50",
+     "viec": "Lên 7 · thêm tướng 3–4 vàng hỗ trợ.",
+     "cap_so": 7,
+     "su_kien": "Đấu người (sau Sói 3-7)"
+    },
+    {
+     "vong": "4-2",
+     "cap": "8",
+     "vang": "đổi tướng nhẹ",
+     "viec": "Lõi 3 · Lên 8 tìm tướng 4 vàng hỗ trợ/đỡ đòn.",
+     "cap_so": 8,
+     "su_kien": "Chọn Lõi 3"
+    },
+    {
+     "vong": "4-5",
+     "cap": "8",
+     "vang": "50",
+     "viec": "Tích vàng; hoàn thiện 3 sao cho tướng phụ.",
+     "cap_so": 8,
+     "su_kien": "Đấu người (sau băng chuyền 4-4)"
+    },
+    {
+     "vong": "5-1",
+     "cap": "8 → 9",
+     "vang": "50+",
+     "viec": "Lên 9 nếu máu cao để thêm tướng 5 vàng.",
+     "cap_so": 9,
+     "su_kien": "Đấu người (sau Chim 4-7)"
+    },
+    {
+     "vong": "5-2+",
+     "cap": "9",
+     "vang": "dồn vàng đổi tướng",
+     "viec": "Hoàn thiện đội bằng tướng 5 vàng / đồ Ánh Sáng.",
+     "cap_so": 9,
+     "su_kien": "Cuối game – Tinh Linh Giao Tranh xen kẽ"
+    }
+   ]
+  },
+  {
+   "ten": "Săn 3 sao tướng 2 vàng",
+   "doi_hinh": [
+    "[B] Caitlyn Dũng Sĩ Thợ Săn",
+    "[B] Yunara Mặt Trời (săn 3 sao)",
+    "[C] Kayle Mặt Trời Liên Kích"
+   ],
+   "lo_trinh": [
+    {
+     "vong": "1-x",
+     "cap": "3",
+     "vang": "—",
+     "viec": "Mua mọi bản chủ lực 2 vàng xuất hiện; nhặt đồ.",
+     "cap_so": 3,
+     "su_kien": "Băng chuyền mở màn + đánh quái"
+    },
+    {
+     "vong": "2-1",
+     "cap": "4",
+     "vang": "≥ 10",
+     "viec": "Lên cấp 4 · Lõi 1.",
+     "cap_so": 4,
+     "su_kien": "Chọn Lõi 1"
+    },
+    {
+     "vong": "2-3",
+     "cap": "4",
+     "vang": "20",
+     "viec": "Tích vàng; giữ cặp tướng 2 vàng.",
+     "cap_so": 4,
+     "su_kien": "Đấu người"
+    },
+    {
+     "vong": "2-5",
+     "cap": "5",
+     "vang": "30",
+     "viec": "Lên cấp 5.",
+     "cap_so": 5,
+     "su_kien": "Đấu người (sau băng chuyền 2-4)"
+    },
+    {
+     "vong": "3-1",
+     "cap": "6",
+     "vang": "30–50",
+     "viec": "Lên cấp 6 (tỉ lệ ra tướng 2 vàng cao nhất = 40%).",
+     "cap_so": 6,
+     "su_kien": "Đấu người (sau Quái Đá 2-7)"
+    },
+    {
+     "vong": "3-2",
+     "cap": "6",
+     "vang": "chỉ đổi phần trên 50",
+     "viec": "ĐỔI TƯỚNG: Lõi 2 → đổi tướng từ từ ở cấp 6 trên 50 vàng tìm 3 sao.",
+     "cap_so": 6,
+     "su_kien": "Chọn Lõi 2"
+    },
+    {
+     "vong": "3-5",
+     "cap": "6",
+     "vang": "chỉ đổi phần trên 50",
+     "viec": "Tiếp tục đổi từ từ; máu thấp → dồn vàng xuống còn 20.",
+     "cap_so": 6,
+     "su_kien": "Đấu người (sau băng chuyền 3-4)"
+    },
+    {
+     "vong": "4-1",
+     "cap": "7",
+     "vang": "50",
+     "viec": "Đủ 3 sao: lên 7.",
+     "cap_so": 7,
+     "su_kien": "Đấu người (sau Sói 3-7)"
+    },
+    {
+     "vong": "4-2",
+     "cap": "8",
+     "vang": "đổi tướng nhẹ",
+     "viec": "Lõi 3 · Lên 8 thêm tướng 4 vàng.",
+     "cap_so": 8,
+     "su_kien": "Chọn Lõi 3"
+    },
+    {
+     "vong": "4-5",
+     "cap": "8",
+     "vang": "50",
+     "viec": "Tích lại vàng; nâng 3 sao tướng phụ.",
+     "cap_so": 8,
+     "su_kien": "Đấu người (sau băng chuyền 4-4)"
+    },
+    {
+     "vong": "5-1",
+     "cap": "8 → 9",
+     "vang": "50+",
+     "viec": "Lên 9 khi máu cao.",
+     "cap_so": 9,
+     "su_kien": "Đấu người (sau Chim 4-7)"
+    },
+    {
+     "vong": "5-2+",
+     "cap": "9",
+     "vang": "dồn vàng đổi tướng",
+     "viec": "Hoàn thiện đội bằng tướng 5 vàng.",
+     "cap_so": 9,
+     "su_kien": "Cuối game – Tinh Linh Giao Tranh xen kẽ"
+    }
+   ]
+  },
+  {
+   "ten": "Săn 3 sao tướng 3 vàng",
+   "doi_hinh": [
+    "[A] Kha'Zix Khắc Tinh (Thần Rừng Đao Phủ)",
+    "[B] Azir Triệu Hồi (săn 3 sao)",
+    "[B] Cassiopeia Vệ Quân",
+    "[B] Master Yi & Kog'Maw Thích Ứng",
+    "[C] Tristana & Rengar Tiên Linh"
+   ],
+   "lo_trinh": [
+    {
+     "vong": "1-x",
+     "cap": "3",
+     "vang": "—",
+     "viec": "Giữ tướng 3 vàng nếu gặp; nhặt đồ cho chủ lực.",
+     "cap_so": 3,
+     "su_kien": "Băng chuyền mở màn + đánh quái"
+    },
+    {
+     "vong": "2-1",
+     "cap": "4",
+     "vang": "≥ 10",
+     "viec": "Lên cấp 4 · Lõi 1.",
+     "cap_so": 4,
+     "su_kien": "Chọn Lõi 1"
+    },
+    {
+     "vong": "2-3",
+     "cap": "4",
+     "vang": "20",
+     "viec": "Tích vàng.",
+     "cap_so": 4,
+     "su_kien": "Đấu người"
+    },
+    {
+     "vong": "2-5",
+     "cap": "5",
+     "vang": "30",
+     "viec": "Lên cấp 5.",
+     "cap_so": 5,
+     "su_kien": "Đấu người (sau băng chuyền 2-4)"
+    },
+    {
+     "vong": "3-1",
+     "cap": "6",
+     "vang": "30–40",
+     "viec": "Lên cấp 6.",
+     "cap_so": 6,
+     "su_kien": "Đấu người (sau Quái Đá 2-7)"
+    },
+    {
+     "vong": "3-2",
+     "cap": "6 → 7",
+     "vang": "40–50",
+     "viec": "Lõi 2 · Đang thua liên tục: lên 7 ngay ở 3-2.",
+     "cap_so": 7,
+     "su_kien": "Chọn Lõi 2"
+    },
+    {
+     "vong": "3-5",
+     "cap": "7",
+     "vang": "chỉ đổi phần trên 50",
+     "viec": "Lên 7 · ĐỔI TƯỚNG TỪ TỪ trên 50 vàng tìm 3 sao (tỉ lệ ra tướng 3 vàng cao nhất = 43%).",
+     "cap_so": 7,
+     "su_kien": "Đấu người (sau băng chuyền 3-4)"
+    },
+    {
+     "vong": "4-1",
+     "cap": "7",
+     "vang": "chỉ đổi phần trên 50",
+     "viec": "Tiếp tục đổi từ từ; máu < 40 → dồn vàng đổi tướng.",
+     "cap_so": 7,
+     "su_kien": "Đấu người (sau Sói 3-7)"
+    },
+    {
+     "vong": "4-2",
+     "cap": "7 → 8",
+     "vang": "dồn vàng đổi tướng",
+     "viec": "Lõi 3 · Đủ 3 sao: lên 8. Chưa đủ: tiếp tục đổi ở cấp 7.",
+     "cap_so": 8,
+     "su_kien": "Chọn Lõi 3"
+    },
+    {
+     "vong": "4-5",
+     "cap": "8",
+     "vang": "50",
+     "viec": "Lên 8 · thêm tướng 4 vàng / đỡ đòn 2 sao.",
+     "cap_so": 8,
+     "su_kien": "Đấu người (sau băng chuyền 4-4)"
+    },
+    {
+     "vong": "5-1",
+     "cap": "8 → 9",
+     "vang": "50+",
+     "viec": "Lên 9 nếu máu cao.",
+     "cap_so": 9,
+     "su_kien": "Đấu người (sau Chim 4-7)"
+    },
+    {
+     "vong": "5-2+",
+     "cap": "9",
+     "vang": "dồn vàng đổi tướng",
+     "viec": "Hoàn thiện đội bằng tướng 5 vàng / đồ Ánh Sáng.",
+     "cap_so": 9,
+     "su_kien": "Cuối game – Tinh Linh Giao Tranh xen kẽ"
+    }
+   ]
+  }
+ ],
+ "vong": [
+  "1-x",
+  "2-1",
+  "2-3",
+  "2-5",
+  "3-1",
+  "3-2",
+  "3-5",
+  "4-1",
+  "4-2",
+  "4-5",
+  "5-1",
+  "5-2+"
+ ],
+ "chuoi": [
+  {
+   "ten": "Đang THẮNG liên tiếp",
+   "loi_khuyen": "Giữ chuỗi bằng cách lên cấp sớm hơn 1 mốc & mua Tinh Linh giao tranh rẻ. Chưa đổi tướng; dùng vàng thưởng chuỗi để lên cấp."
+  },
+  {
+   "ten": "Đang THUA liên tiếp",
+   "loi_khuyen": "Thua có tính toán: bán tướng lấy vàng, không lên cấp sớm, tích lãi 50. Lưu ý: ngắt chuỗi thua ở Giai đoạn 3 nếu máu < 50."
+  },
+  {
+   "ten": "Thắng/thua xen kẽ",
+   "loi_khuyen": "Tệ nhất cho kinh tế → chọn hẳn 1 hướng: tăng sức mạnh để thắng liên tiếp, hoặc tham vàng. Đừng lửng lơ."
+  }
+ ],
+ "mau": [
+  {
+   "ten": "Trên 70 máu",
+   "loi_khuyen": "Rất an toàn: có thể tham kinh tế thêm 1 mốc, bỏ Tinh Linh giao tranh, chưa đổi tướng trước mốc."
+  },
+  {
+   "ten": "Từ 40 đến 70 máu",
+   "loi_khuyen": "Theo đúng lộ trình chuẩn. Thua 2 trận liên tiếp ở Giai đoạn 4 → đổi tướng cho ổn định."
+  },
+  {
+   "ten": "Dưới 40 máu",
+   "loi_khuyen": "NGUY HIỂM: dồn vàng vào sức mạnh ngay (đổi tướng/lên cấp), mua Tinh Linh giao tranh, xếp vị trí đối phó người mạnh nhất. Mục tiêu: vào top 4."
+  }
+ ]
+}

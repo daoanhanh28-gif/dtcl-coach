@@ -1,0 +1,986 @@
+[
+ {
+  "id": "Gromp",
+  "api": "DA_Gromp18_AP",
+  "ten": "Cóc Thành Tinh",
+  "ten_en": "Gromp",
+  "gia": 2,
+  "toc_he": [
+   "Riftbeast",
+   "Adaptor"
+  ],
+  "ky_nang": "Bong Bóng Ợ Hơi",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_gromp/tft18_gromp_square.png"
+ },
+ {
+  "id": "Murkwolf",
+  "api": "DA_Murkwolf18",
+  "ten": "Sói Hắc Ám",
+  "ten_en": "Murkwolf",
+  "gia": 2,
+  "toc_he": [
+   "Riftbeast",
+   "Slayer"
+  ],
+  "ky_nang": "Vuốt Xé",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_murkwolf/tft18_murkwolf_square.png"
+ },
+ {
+  "id": "Sentry",
+  "api": "DA_18_Sentry",
+  "ten": "Sỏi",
+  "ten_en": "Pebbles",
+  "gia": 1,
+  "toc_he": [
+   "Riftbeast",
+   "Invoker"
+  ],
+  "ky_nang": "Tia Laze Lam",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sentry/tft18_sentry_square.png"
+ },
+ {
+  "id": "Cinderling",
+  "api": "DA_Cinderling18",
+  "ten": "Mầm Non",
+  "ten_en": "Cinderling",
+  "gia": 1,
+  "toc_he": [
+   "Riftbeast",
+   "Hunter"
+  ],
+  "ky_nang": "Lá Sắc Lẹm",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_cinderling/tft18_cinderling_square.png"
+ },
+ {
+  "id": "Scuttlecrab",
+  "api": "DA_Scuttlecrab18",
+  "ten": "Cua Kỳ Cục",
+  "ten_en": "Scuttlecrab",
+  "gia": 2,
+  "toc_he": [
+   "Riftbeast",
+   "Juggernaut"
+  ],
+  "ky_nang": "Bạn Hiểu Mà Đúng Không?",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_scuttlecrab/tft18_scuttlecrab_square.png"
+ },
+ {
+  "id": "Krug",
+  "api": "DA_Krug18",
+  "ten": "Quái Đá Krug",
+  "ten_en": "Krug",
+  "gia": 3,
+  "toc_he": [
+   "Riftbeast",
+   "Brawler"
+  ],
+  "ky_nang": "Sức Mạnh Của Đá",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_krug/tft18_krug_square.png"
+ },
+ {
+  "id": "Sentinel",
+  "api": "DA_Sentinel18",
+  "ten": "Người Đá",
+  "ten_en": "Sentinel",
+  "gia": 4,
+  "toc_he": [
+   "Riftbeast",
+   "Vanguard",
+   "Invoker"
+  ],
+  "ky_nang": "Sóng Xung Kích Lam",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sentinel/tft18_sentinel_square.png"
+ },
+ {
+  "id": "Brambleback",
+  "api": "DA_Brambleback18",
+  "ten": "Bụi Gai Đỏ",
+  "ten_en": "Brambleback",
+  "gia": 4,
+  "toc_he": [
+   "Riftbeast",
+   "Slayer"
+  ],
+  "ky_nang": "Cuồng Nộ Rực Lửa",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_brambleback/tft18_brambleback_square.png"
+ },
+ {
+  "id": "Xayah",
+  "api": "DA_18_Xayah",
+  "ten": "Xayah",
+  "ten_en": "Xayah",
+  "gia": 1,
+  "toc_he": [
+   "Elderwood",
+   "Fae",
+   "Rapidfire"
+  ],
+  "ky_nang": "Bộ Cánh Chết Người",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_xayah/tft18_xayah_square.png"
+ },
+ {
+  "id": "Ornn",
+  "api": "DA_18_Ornn",
+  "ten": "Ornn",
+  "ten_en": "Ornn",
+  "gia": 1,
+  "toc_he": [
+   "Elderwood",
+   "Defender"
+  ],
+  "ky_nang": "Thổi Bễ",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ornn/tft18_ornn_square.png"
+ },
+ {
+  "id": "Nidalee",
+  "api": "DA_Nidalee18_AP",
+  "ten": "Nidalee",
+  "ten_en": "Nidalee",
+  "gia": 4,
+  "toc_he": [
+   "Primal",
+   "Adaptor"
+  ],
+  "ky_nang": "Phóng Lao",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_nidalee/tft18_nidalee_square.png"
+ },
+ {
+  "id": "Hecarim",
+  "api": "DA_18_Hecarim",
+  "ten": "Hecarim",
+  "ten_en": "Hecarim",
+  "gia": 3,
+  "toc_he": [
+   "Elderwood",
+   "Vanguard"
+  ],
+  "ky_nang": "Nhiếp Hồn Trận",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_hecarim/tft18_hecarim_square.png"
+ },
+ {
+  "id": "Ezreal",
+  "api": "DA_18_Ezreal",
+  "ten": "Ezreal",
+  "ten_en": "Ezreal",
+  "gia": 4,
+  "toc_he": [
+   "Elderwood",
+   "Executioner"
+  ],
+  "ky_nang": "Loạn Chiến Rừng Thẳm",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ezreal/tft18_ezreal_square.png"
+ },
+ {
+  "id": "Azir",
+  "api": "DA_18_Azir",
+  "ten": "Azir",
+  "ten_en": "Azir",
+  "gia": 3,
+  "toc_he": [
+   "Blackthorn",
+   "Executioner",
+   "Summoner"
+  ],
+  "ky_nang": "Trỗi Dậy!",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_azir/tft18_azir_square.png"
+ },
+ {
+  "id": "RekSai",
+  "api": "DA_18_RekSai",
+  "ten": "Rek'Sai",
+  "ten_en": "Rek'Sai",
+  "gia": 1,
+  "toc_he": [
+   "Blackthorn",
+   "Brawler"
+  ],
+  "ky_nang": "Nhổ Rễ",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_reksai/tft18_reksai_square.png"
+ },
+ {
+  "id": "Veigar",
+  "api": "DA_18_Veigar",
+  "ten": "Veigar",
+  "ten_en": "Veigar",
+  "gia": 1,
+  "toc_he": [
+   "Blackthorn",
+   "Sprykin",
+   "Spellweaver"
+  ],
+  "ky_nang": "Vụ Nổ Vũ Trụ",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_veigar/tft18_veigar_square.png"
+ },
+ {
+  "id": "Maokai",
+  "api": "DA_18_Maokai",
+  "ten": "Maokai",
+  "ten_en": "Maokai",
+  "gia": 5,
+  "toc_he": [
+   "Maokai_UniqueTrait",
+   "Juggernaut"
+  ],
+  "ky_nang": "Gieo Hạt Giống",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_maokai/tft18_maokai_square.png"
+ },
+ {
+  "id": "Malphite",
+  "api": "DA_18_Malphite",
+  "ten": "Malphite",
+  "ten_en": "Malphite",
+  "gia": 4,
+  "toc_he": [
+   "Blackthorn",
+   "Battlemage"
+  ],
+  "ky_nang": "Vỏ Cây Hóa Đá",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_malphite/tft18_malphite_square.png"
+ },
+ {
+  "id": "Yorick",
+  "api": "DA_18_Yorick",
+  "ten": "Yorick",
+  "ten_en": "Yorick",
+  "gia": 1,
+  "toc_he": [
+   "Blossom",
+   "Juggernaut",
+   "Summoner"
+  ],
+  "ky_nang": "Tử Lễ",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_yorick/tft18_yorick_square.png"
+ },
+ {
+  "id": "Yunara",
+  "api": "DA_18_Yunara",
+  "ten": "Yunara",
+  "ten_en": "Yunara",
+  "gia": 2,
+  "toc_he": [
+   "Blossom",
+   "Executioner"
+  ],
+  "ky_nang": "Kết Linh Thành Châu",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_yunara/tft18_yunara_square.png"
+ },
+ {
+  "id": "Sett",
+  "api": "DA_18_Sett",
+  "ten": "Sett",
+  "ten_en": "Sett",
+  "gia": 4,
+  "toc_he": [
+   "Blossom",
+   "Brawler"
+  ],
+  "ky_nang": "Cuồng Long Quyền",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sett/tft18_sett_square.png"
+ },
+ {
+  "id": "Ahri",
+  "api": "DA_18_Ahri",
+  "ten": "Ahri",
+  "ten_en": "Ahri",
+  "gia": 4,
+  "toc_he": [
+   "Blossom",
+   "Spellweaver"
+  ],
+  "ky_nang": "Tinh Linh Cầu",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ahri/tft18_ahri_square.png"
+ },
+ {
+  "id": "Ashe",
+  "api": "DA_18_Ashe",
+  "ten": "Ashe",
+  "ten_en": "Ashe",
+  "gia": 5,
+  "toc_he": [
+   "Blossom",
+   "Hunter"
+  ],
+  "ky_nang": "Khe Nứt Tâm Linh",
+  "tam_danh": 6,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ashe/tft18_ashe_square.png"
+ },
+ {
+  "id": "Elise",
+  "api": "DA_18_Elise",
+  "ten": "Elise",
+  "ten_en": "Elise",
+  "gia": 2,
+  "toc_he": [
+   "Coven",
+   "Vanguard"
+  ],
+  "ky_nang": "Nữ Hoàng Nhền Nhện",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_elise/tft18_elise_square.png"
+ },
+ {
+  "id": "Caitlyn",
+  "api": "DA_18_Caitlyn",
+  "ten": "Caitlyn",
+  "ten_en": "Caitlyn",
+  "gia": 2,
+  "toc_he": [
+   "Coven",
+   "Hunter"
+  ],
+  "ky_nang": "Thiện Xạ",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_caitlyn/tft18_caitlyn_square.png"
+ },
+ {
+  "id": "Cassiopeia",
+  "api": "DA_18_Cassiopeia",
+  "ten": "Cassiopeia",
+  "ten_en": "Cassiopeia",
+  "gia": 3,
+  "toc_he": [
+   "Coven",
+   "Spellweaver"
+  ],
+  "ky_nang": "Vụ Nổ Độc Hại",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_cassiopeia/tft18_cassiopeia_square.png"
+ },
+ {
+  "id": "Morgana",
+  "api": "DA_18_Morgana",
+  "ten": "Morgana",
+  "ten_en": "Morgana",
+  "gia": 4,
+  "toc_he": [
+   "Coven",
+   "Invoker"
+  ],
+  "ky_nang": "Lời Nguyền Tàn Úa",
+  "tam_danh": 2,
+  "vi_tri": "Giữa",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_morgana/tft18_morgana_square.png"
+ },
+ {
+  "id": "Rakan",
+  "api": "DA_18_Rakan",
+  "ten": "Rakan",
+  "ten_en": "Rakan",
+  "gia": 1,
+  "toc_he": [
+   "Fae",
+   "Juggernaut",
+   "Vanguard"
+  ],
+  "ky_nang": "Điệu Vũ Mê Hồn",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rakan/tft18_rakan_square.png"
+ },
+ {
+  "id": "Lillia",
+  "api": "DA_18_Lillia",
+  "ten": "Lillia",
+  "ten_en": "Lillia",
+  "gia": 4,
+  "toc_he": [
+   "Fae",
+   "Defender"
+  ],
+  "ky_nang": "Khúc Ru Rừng Thẳm",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lillia/tft18_lillia_square.png"
+ },
+ {
+  "id": "Kobuko",
+  "api": "DA_18_Kobuko",
+  "ten": "Kobuko",
+  "ten_en": "Kobuko",
+  "gia": 1,
+  "toc_he": [
+   "Sprykin",
+   "Brawler"
+  ],
+  "ky_nang": "Vũ Điệu Đời Thường",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kobuko/tft18_kobuko_square.png"
+ },
+ {
+  "id": "Teemo",
+  "api": "DA_18_Teemo",
+  "ten": "Teemo",
+  "ten_en": "Teemo",
+  "gia": 2,
+  "toc_he": [
+   "Sprykin",
+   "Invoker"
+  ],
+  "ky_nang": "Nấm Nhỏ Nấm To",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_teemo/tft18_teemo_square.png"
+ },
+ {
+  "id": "Rammus",
+  "api": "DA_18_Rammus",
+  "ten": "Rammus",
+  "ten_en": "Rammus",
+  "gia": 3,
+  "toc_he": [
+   "Sprykin",
+   "Defender"
+  ],
+  "ky_nang": "Thế Thủ",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rammus/tft18_rammus_square.png"
+ },
+ {
+  "id": "Gnar",
+  "api": "DA_18_GnarSmall",
+  "ten": "Gnar",
+  "ten_en": "Gnar",
+  "gia": 5,
+  "toc_he": [
+   "Elderwood",
+   "Sprykin",
+   "Brawler"
+  ],
+  "ky_nang": "Đột Biến Gien",
+  "tam_danh": 2,
+  "vi_tri": "Giữa",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_gnar/tft18_gnar_square.png"
+ },
+ {
+  "id": "Tristana",
+  "api": "DA_18_Tristana",
+  "ten": "Tristana",
+  "ten_en": "Tristana",
+  "gia": 3,
+  "toc_he": [
+   "Fae",
+   "Sprykin",
+   "Hunter"
+  ],
+  "ky_nang": "Bọc Thuốc Súng",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_tristana/tft18_tristana_square.png"
+ },
+ {
+  "id": "Sivir",
+  "api": "DA_18_Sivir",
+  "ten": "Sivir",
+  "ten_en": "Sivir",
+  "gia": 4,
+  "toc_he": [
+   "Primal",
+   "Hunter"
+  ],
+  "ky_nang": "Gươm Boomerang",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sivir/tft18_sivir_square.png"
+ },
+ {
+  "id": "Vi",
+  "api": "DA_Vi18",
+  "ten": "Vi",
+  "ten_en": "Vi",
+  "gia": 3,
+  "toc_he": [
+   "Primal",
+   "Juggernaut"
+  ],
+  "ky_nang": "Nắm Đấm Cuồng Nộ",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_vi/tft18_vi_square.png"
+ },
+ {
+  "id": "Akali",
+  "api": "DA_18_Akali_AD",
+  "ten": "Akali",
+  "ten_en": "Akali",
+  "gia": 1,
+  "toc_he": [
+   "Inferno",
+   "Adaptor",
+   "Slayer"
+  ],
+  "ky_nang": "Phi Đao Song Kích",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_akali/tft18_akali_square.png"
+ },
+ {
+  "id": "Varus",
+  "api": "DA_18_Varus",
+  "ten": "Varus",
+  "ten_en": "Varus",
+  "gia": 1,
+  "toc_he": [
+   "Inferno",
+   "Rapidfire"
+  ],
+  "ky_nang": "Mũi Tên Xuyên Phá",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_varus/tft18_varus_square.png"
+ },
+ {
+  "id": "Amumu",
+  "api": "DA_Amumu18",
+  "ten": "Amumu",
+  "ten_en": "Amumu",
+  "gia": 4,
+  "toc_he": [
+   "Inferno",
+   "Juggernaut"
+  ],
+  "ky_nang": "Giận Dữ",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_amumu/tft18_amumu_square.png"
+ },
+ {
+  "id": "Kennen",
+  "api": "DA_18_Kennen",
+  "ten": "Kennen",
+  "ten_en": "Kennen",
+  "gia": 5,
+  "toc_he": [
+   "Inferno",
+   "Executioner"
+  ],
+  "ky_nang": "Bão Lửa",
+  "tam_danh": 2,
+  "vi_tri": "Giữa",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kennen/tft18_kennen_square.png"
+ },
+ {
+  "id": "Aphelios",
+  "api": "DA_18_Aphelios",
+  "ten": "Aphelios",
+  "ten_en": "Aphelios",
+  "gia": 4,
+  "toc_he": [
+   "Lunar",
+   "Rapidfire"
+  ],
+  "ky_nang": "Xung Kích Ánh Trăng",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_aphelios/tft18_aphelios_square.png"
+ },
+ {
+  "id": "Diana",
+  "api": "DA_18_Diana",
+  "ten": "Diana",
+  "ten_en": "Diana",
+  "gia": 3,
+  "toc_he": [
+   "Lunar",
+   "Slayer",
+   "Vanguard"
+  ],
+  "ky_nang": "Lá Chắn Nhợt Nhạt",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_diana/tft18_diana_square.png"
+ },
+ {
+  "id": "Alune",
+  "api": "DA_18_Alune",
+  "ten": "Alune",
+  "ten_en": "Alune",
+  "gia": 5,
+  "toc_he": [
+   "AluneUniqueTrait",
+   "Lunar",
+   "Spellweaver"
+  ],
+  "ky_nang": "Trăng Mờ",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_alune/hud/tft18_alune_square.png"
+ },
+ {
+  "id": "Leona",
+  "api": "DA_18_Leona",
+  "ten": "Leona",
+  "ten_en": "Leona",
+  "gia": 1,
+  "toc_he": [
+   "Solar",
+   "Defender"
+  ],
+  "ky_nang": "Nện Khiên",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_leona/tft18_leona_square.png"
+ },
+ {
+  "id": "Kayle",
+  "api": "DA_18_Kayle",
+  "ten": "Kayle",
+  "ten_en": "Kayle",
+  "gia": 2,
+  "toc_he": [
+   "Solar",
+   "Rapidfire"
+  ],
+  "ky_nang": "Phán Quyết Mặt Trời",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kayle/tft18_kayle_square.png"
+ },
+ {
+  "id": "Sejuani",
+  "api": "DA_18_Sejuani",
+  "ten": "Sejuani",
+  "ten_en": "Sejuani",
+  "gia": 2,
+  "toc_he": [
+   "Solar",
+   "Juggernaut"
+  ],
+  "ky_nang": "Mặt Trời Thịnh Nộ",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sejuani/tft18_sejuani_square.png"
+ },
+ {
+  "id": "KhaZix",
+  "api": "DA_18_KhaZix",
+  "ten": "Kha'Zix",
+  "ten_en": "Kha'Zix",
+  "gia": 3,
+  "toc_he": [
+   "Rival"
+  ],
+  "ky_nang": "Nếm Mùi Sợ Hãi",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_khazix/tft18_khazix_square.png"
+ },
+ {
+  "id": "Rengar",
+  "api": "DA_18_Rengar",
+  "ten": "Rengar",
+  "ten_en": "Rengar",
+  "gia": 3,
+  "toc_he": [
+   "Rival"
+  ],
+  "ky_nang": "Tàn Ác",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rengar/tft18_rengar_square.png"
+ },
+ {
+  "id": "KogMaw",
+  "api": "DA_KogMaw18_AD",
+  "ten": "Kog'Maw",
+  "ten_en": "Kog'Maw",
+  "gia": 3,
+  "toc_he": [
+   "Caustic",
+   "Adaptor",
+   "Invoker"
+  ],
+  "ky_nang": "Đạn Pháo Oanh Tạc",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kogmaw/tft18_kogmaw_square.png"
+ },
+ {
+  "id": "Zyra",
+  "api": "DA_18_Zyra",
+  "ten": "Zyra",
+  "ten_en": "Zyra",
+  "gia": 4,
+  "toc_he": [
+   "ZyraUniqueTrait",
+   "Summoner"
+  ],
+  "ky_nang": "Sum Sê",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_zyra/tft18_zyra_square.png"
+ },
+ {
+  "id": "Fiddlesticks",
+  "api": "DA_Fiddlesticks18",
+  "ten": "Fiddlesticks",
+  "ten_en": "Fiddlesticks",
+  "gia": 3,
+  "toc_he": [
+   "FloraFatalis",
+   "Defender",
+   "Spellweaver"
+  ],
+  "ky_nang": "Thu Hoạch",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_fiddlesticks/tft18_fiddlesticks_square.png"
+ },
+ {
+  "id": "Soraka",
+  "api": "DA_18_Soraka",
+  "ten": "Soraka",
+  "ten_en": "Soraka",
+  "gia": 4,
+  "toc_he": [
+   "FloraFatalis",
+   "Executioner"
+  ],
+  "ky_nang": "Vẫn Tinh",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_soraka/tft18_soraka_square.png"
+ },
+ {
+  "id": "Taric",
+  "api": "DA_Taric18",
+  "ten": "Taric",
+  "ten_en": "Taric",
+  "gia": 5,
+  "toc_he": [
+   "Emerald",
+   "Vanguard"
+  ],
+  "ky_nang": "Lục Bảo Huy Hoàng",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_taric/tft18_taric_square.png"
+ },
+ {
+  "id": "Ivern",
+  "api": "DA_18_Ivern",
+  "ten": "Ivern",
+  "ten_en": "Ivern",
+  "gia": 5,
+  "toc_he": [
+   "Greenfather"
+  ],
+  "ky_nang": "Hạt Hư Hỏng",
+  "tam_danh": 3,
+  "vi_tri": "Giữa",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ivern/hud/tft18_ivern_square.png"
+ },
+ {
+  "id": "Lux",
+  "api": "DA_Lux18_Base",
+  "ten": "Lux",
+  "ten_en": "Lux",
+  "gia": 5,
+  "toc_he": [
+   "Avatar"
+  ],
+  "ky_nang": "Cầu Vồng Tối Thượng",
+  "tam_danh": 6,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/tft18_lux_square.png"
+ },
+ {
+  "id": "Alistar",
+  "api": "DA_18_Alistar",
+  "ten": "Alistar",
+  "ten_en": "Alistar",
+  "gia": 2,
+  "toc_he": [
+   "Elderwood",
+   "Brawler"
+  ],
+  "ky_nang": "Tiếng Gầm Chiến Thắng",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_alistar/tft18_alistar_square.png"
+ },
+ {
+  "id": "Draven",
+  "api": "DA_Draven18",
+  "ten": "Draven",
+  "ten_en": "Draven",
+  "gia": 5,
+  "toc_he": [
+   "DravenUniqueTrait"
+  ],
+  "ky_nang": "Lốc Xoáy Tử Vong",
+  "tam_danh": 6,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_draven/tft18_draven_square.png"
+ },
+ {
+  "id": "ElderDragon",
+  "api": "DA_18_ElderDragon",
+  "ten": "Rồng Ngàn Tuổi",
+  "ten_en": "Elder Dragon",
+  "gia": 5,
+  "toc_he": [
+   "ApexPredator",
+   "Riftbeast"
+  ],
+  "ky_nang": "Sức Nóng Vô Song",
+  "tam_danh": 2,
+  "vi_tri": "Giữa",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_elderdragon/hud/tft18_elderdragon_square.png"
+ },
+ {
+  "id": "Karma",
+  "api": "DA_Karma18",
+  "ten": "Karma",
+  "ten_en": "Karma",
+  "gia": 1,
+  "toc_he": [
+   "Blossom",
+   "Spellweaver"
+  ],
+  "ky_nang": "Liên Kết Nghiệp Duyên",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_karma/tft18_karma_square.png"
+ },
+ {
+  "id": "LeBlanc",
+  "api": "DA_18_LeBlanc",
+  "ten": "LeBlanc",
+  "ten_en": "LeBlanc",
+  "gia": 2,
+  "toc_he": [
+   "Elderwood",
+   "Spellweaver"
+  ],
+  "ky_nang": "Ảo Ảnh",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_leblanc/tft18_leblanc_square.png"
+ },
+ {
+  "id": "MasterYi",
+  "api": "DA_18_MasterYi_AD",
+  "ten": "Master Yi",
+  "ten_en": "Master Yi",
+  "gia": 3,
+  "toc_he": [
+   "Blossom",
+   "Adaptor"
+  ],
+  "ky_nang": "Võ Thuật Wuju",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_masteryi/tft18_masteryi_square.png"
+ },
+ {
+  "id": "Shen",
+  "api": "DA_18_Shen",
+  "ten": "Shen",
+  "ten_en": "Shen",
+  "gia": 2,
+  "toc_he": [
+   "Inferno",
+   "Defender"
+  ],
+  "ky_nang": "Lá Chắn Kiếm Khí",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_shen/tft18_shen_square.png"
+ },
+ {
+  "id": "Warwick",
+  "api": "DA_18_Warwick",
+  "ten": "Warwick",
+  "ten_en": "Warwick",
+  "gia": 2,
+  "toc_he": [
+   "Blackthorn",
+   "Slayer"
+  ],
+  "ky_nang": "Cắn Xé",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_warwick/tft18_warwick_square.png"
+ },
+ {
+  "id": "Camille",
+  "api": "DA_18_Camille",
+  "ten": "Camille",
+  "ten_en": "Camille",
+  "gia": 1,
+  "toc_he": [
+   "Coven",
+   "Slayer"
+  ],
+  "ky_nang": "Đá Quét Phòng Ngự",
+  "tam_danh": 1,
+  "vi_tri": "Tiền tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_camille/tft18_camille_square.png"
+ },
+ {
+  "id": "CrimsonRaptor",
+  "api": "DA_CrimsonRaptor18",
+  "ten": "Chim Mẹ",
+  "ten_en": "Mama Beak",
+  "gia": 3,
+  "toc_he": [
+   "Riftbeast",
+   "Summoner",
+   "Rapidfire"
+  ],
+  "ky_nang": "Gia Đình Chim Biến Dị",
+  "tam_danh": 4,
+  "vi_tri": "Hậu tuyến",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_raptor/tft18_crimsonraptor_teamplanner_splash.png"
+ }
+]

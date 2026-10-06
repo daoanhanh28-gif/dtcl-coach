@@ -1,0 +1,192 @@
+{
+ "phien_ban_game": "Mùa 18 · bản 18.3b",
+ "ghi_chu": "Luật kinh tế cơ bản giữ ổn định qua nhiều mùa. Tỉ lệ cửa hàng lấy từ SeeMeta (Mùa 18, 06/10/2026). XP lên 8/9/10 theo bản 18.2 (56/64/68) như ghi trong Excel v1.8. Nếu Riot đổi, sửa trong file này.",
+ "lai": {
+  "moi_10_vang": 1,
+  "toi_da": 5,
+  "giai_thich": "Cứ 10 vàng đang giữ cuối vòng cho thêm 1 vàng, tối đa 5 vàng ở mốc 50."
+ },
+ "thu_nhap_co_ban": 5,
+ "chuoi": [
+  {
+   "tu": 2,
+   "den": 2,
+   "vang": 0
+  },
+  {
+   "tu": 3,
+   "den": 4,
+   "vang": 1
+  },
+  {
+   "tu": 5,
+   "den": 5,
+   "vang": 2
+  },
+  {
+   "tu": 6,
+   "den": 99,
+   "vang": 3
+  }
+ ],
+ "thang_pvp": 1,
+ "xp_mua": {
+  "gia": 4,
+  "xp": 4
+ },
+ "xp_tu_dong_moi_vong": 2,
+ "xp_len_cap": {
+  "2": 2,
+  "3": 2,
+  "4": 6,
+  "5": 10,
+  "6": 20,
+  "7": 36,
+  "8": 56,
+  "9": 64,
+  "10": 68
+ },
+ "ti_le_cua_hang": {
+  "1": [
+   100,
+   0,
+   0,
+   0,
+   0
+  ],
+  "2": [
+   100,
+   0,
+   0,
+   0,
+   0
+  ],
+  "3": [
+   75,
+   25,
+   0,
+   0,
+   0
+  ],
+  "4": [
+   55,
+   30,
+   15,
+   0,
+   0
+  ],
+  "5": [
+   45,
+   33,
+   20,
+   2,
+   0
+  ],
+  "6": [
+   30,
+   40,
+   25,
+   5,
+   0
+  ],
+  "7": [
+   19,
+   30,
+   40,
+   10,
+   1
+  ],
+  "8": [
+   15,
+   20,
+   32,
+   30,
+   3
+  ],
+  "9": [
+   10,
+   17,
+   25,
+   33,
+   15
+  ],
+  "10": [
+   5,
+   10,
+   20,
+   40,
+   25
+  ]
+ },
+ "so_ban_moi_tuong": {
+  "1": 30,
+  "2": 25,
+  "3": 18,
+  "4": 10,
+  "5": 9
+ },
+ "so_tuong_moi_bac": {
+  "1": 14,
+  "2": 13,
+  "3": 14,
+  "4": 14,
+  "5": 10
+ },
+ "lich_vong": "Giai đoạn 1: 1-1 → 1-4 đánh quái. Từ giai đoạn 2, mỗi giai đoạn có 7 vòng: x-1, x-2, x-3 đánh người · x-4 vòng đi chợ · x-5, x-6 đánh người · x-7 đánh quái. Chọn lõi ở 2-1, 3-2, 4-2.",
+ "moc_chuan": [
+  {
+   "vong": "2-1",
+   "cap": 4,
+   "viec": "Lên cấp 4 (mua XP). Chọn lõi đầu tiên."
+  },
+  {
+   "vong": "2-5",
+   "cap": 5,
+   "viec": "Lên cấp 5 nếu đang chuỗi thắng hoặc đủ 4 vàng mà vẫn giữ mốc lãi."
+  },
+  {
+   "vong": "3-2",
+   "cap": 6,
+   "viec": "Lên cấp 6, chọn lõi thứ hai. Reroll cấp 5/6 bắt đầu roll chậm."
+  },
+  {
+   "vong": "3-5",
+   "cap": 7,
+   "viec": "Lên cấp 7 nếu chuỗi thắng hoặc máu cao. Reroll cấp 7 bắt đầu roll."
+  },
+  {
+   "vong": "4-1",
+   "cap": 7,
+   "viec": "Đội lên nhanh 8: lên cấp 7–8 ngay."
+  },
+  {
+   "vong": "4-2",
+   "cap": 8,
+   "viec": "Mốc roll quan trọng nhất trận: lên 8 và roll tìm chủ lực 2 sao. Chọn lõi thứ ba."
+  },
+  {
+   "vong": "5-1",
+   "cap": 8,
+   "viec": "Đội lên 9: lên cấp 9 nếu bàn ổn và còn trên 50 vàng."
+  },
+  {
+   "vong": "5-5",
+   "cap": 9,
+   "viec": "Giai đoạn cuối: roll tìm tướng 5 vàng / 3 sao, giữ máu."
+  }
+ ],
+ "all_in": [
+  "Máu dưới 30 mà đội còn yếu: roll hết vàng ngay, giữ máu quan trọng hơn lãi.",
+  "Vòng 4-2 với đội lên nhanh cấp 8: lên 8 và roll tới khi chủ lực 2 sao (thường còn 10–20 vàng).",
+  "Đội reroll: tới cấp mục tiêu thì roll chậm — chỉ tiêu phần vàng trên 50, giữ lãi tối đa.",
+  "Đang chuỗi thua để lấy vàng: chỉ roll khi sắp mất chuỗi hoặc máu xuống dưới 50.",
+  "Không roll ở 2-x / 3-x nếu không có cặp tướng sắp lên 3 sao hoặc máu chưa nguy hiểm."
+ ],
+ "meo": [
+  "Mốc 50 vàng là mốc vàng: giữ 50 để ăn 5 vàng lãi mỗi vòng, chỉ tiêu phần dư.",
+  "Mua XP lẻ (4 vàng) để chạm đúng mốc 10 tiếp theo là sai — tính trước để không mất lãi.",
+  "Chuỗi thắng hay chuỗi thua đều có lời; lưng chừng thắng-thua xen kẽ là tốn nhất.",
+  "Bán tướng dư thừa trên hàng chờ trước khi roll để có thêm vàng.",
+  "Thua 1 trận khi đang chuỗi thua dài vẫn tốt hơn bán đồ/tướng phá đội để thắng 1 trận lẻ."
+ ]
+}

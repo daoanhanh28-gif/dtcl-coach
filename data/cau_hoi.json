@@ -1,0 +1,538 @@
+{
+ "phien_ban_game": "Mùa 18 · bản 18.3b",
+ "cau_hoi": [
+  {
+   "id": "kt01",
+   "nhom": "Kinh tế",
+   "cau_hoi": "Vòng 3-1, bạn có 47 vàng, máu 80, đang chuỗi thua 3. Nên làm gì?",
+   "lua_chon": [
+    "Roll 20 vàng tìm tướng",
+    "Giữ vàng, chờ chạm 50 để ăn lãi tối đa",
+    "Mua XP 2 lần",
+    "Bán bớt tướng để lên 50 ngay rồi roll"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Máu còn cao, đang chuỗi thua có lời: giữ vàng để chạm 50 (5 vàng lãi/vòng) và giữ chuỗi."
+  },
+  {
+   "id": "kt02",
+   "nhom": "Kinh tế",
+   "cau_hoi": "Có 38 vàng. Mua 1 lần XP (4 vàng) xong còn 34. Mất bao nhiêu vàng lãi so với không mua?",
+   "lua_chon": [
+    "0",
+    "1",
+    "2",
+    "4"
+   ],
+   "dap_an": 0,
+   "giai_thich": "38 và 34 đều ở mốc 30–39 → vẫn 3 vàng lãi. Mua XP mà không rơi khỏi mốc 10 thì không mất lãi."
+  },
+  {
+   "id": "kt03",
+   "nhom": "Kinh tế",
+   "cau_hoi": "Có 52 vàng ở vòng 4-1. Tiêu tối đa bao nhiêu mà vẫn giữ 5 vàng lãi?",
+   "lua_chon": [
+    "2 vàng",
+    "10 vàng",
+    "12 vàng",
+    "0 vàng"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Lãi tối đa ở mốc 50. 52 − 2 = 50 → vẫn ăn đủ 5 vàng lãi."
+  },
+  {
+   "id": "kt04",
+   "nhom": "Kinh tế",
+   "cau_hoi": "Chuỗi thắng 5 trận cho thêm bao nhiêu vàng mỗi vòng?",
+   "lua_chon": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Chuỗi 3–4: +1, chuỗi 5: +2, chuỗi 6 trở lên: +3."
+  },
+  {
+   "id": "kt05",
+   "nhom": "Kinh tế",
+   "cau_hoi": "Thu nhập 1 vòng khi có 50 vàng, chuỗi thắng 6 và thắng trận đó?",
+   "lua_chon": [
+    "8",
+    "11",
+    "14",
+    "10"
+   ],
+   "dap_an": 2,
+   "giai_thich": "5 cơ bản + 5 lãi + 3 chuỗi + 1 thắng = 14 vàng."
+  },
+  {
+   "id": "kt06",
+   "nhom": "Kinh tế",
+   "cau_hoi": "Thắng – thua xen kẽ liên tục trong giai đoạn 2–3 có vấn đề gì?",
+   "lua_chon": [
+    "Không sao cả",
+    "Mất vàng chuỗi và vẫn mất máu",
+    "Được nhiều XP hơn",
+    "Được ưu tiên ở vòng đi chợ"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Không có chuỗi nên không có vàng thưởng, mà vẫn mất máu ở các trận thua. Hãy chọn hẳn thắng hoặc hẳn thua."
+  },
+  {
+   "id": "lc01",
+   "nhom": "Roll hay lên cấp",
+   "cau_hoi": "Vòng 4-2, đội lên nhanh cấp 8, đang cấp 7 với 54 vàng, máu 62. Nên làm gì?",
+   "lua_chon": [
+    "Giữ vàng, chờ 5-1",
+    "Lên cấp 8 rồi roll tìm chủ lực 2 sao",
+    "Roll ở cấp 7 hết vàng",
+    "Mua XP lên 9"
+   ],
+   "dap_an": 1,
+   "giai_thich": "4-2 là mốc roll chuẩn của đội lên nhanh 8: lên 8 để có tỉ lệ tướng 4 vàng 30%, rồi roll tới khi chủ lực 2 sao."
+  },
+  {
+   "id": "lc02",
+   "nhom": "Roll hay lên cấp",
+   "cau_hoi": "Đội reroll cấp 6 (tướng 2 vàng), vòng 3-2, 58 vàng, chủ lực mới 2 sao. Nên?",
+   "lua_chon": [
+    "Lên cấp 7 ngay",
+    "Ở cấp 6, roll chậm: chỉ tiêu phần vàng trên 50",
+    "Roll hết vàng",
+    "Không làm gì tới 4-1"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Reroll: tới cấp mục tiêu rồi roll chậm, giữ 50 vàng để vẫn ăn lãi tối đa trong lúc tìm 3 sao."
+  },
+  {
+   "id": "lc03",
+   "nhom": "Roll hay lên cấp",
+   "cau_hoi": "Vòng 3-5, máu 28, đội yếu, có 41 vàng. Nên?",
+   "lua_chon": [
+    "Giữ 40 vàng ăn lãi",
+    "Roll mạnh ngay để giữ máu",
+    "Lên cấp 7",
+    "Bán hết đội để chuỗi thua"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Dưới 30 máu ở giai đoạn 3 là rất nguy hiểm. Giữ máu ưu tiên hơn lãi: roll ổn định đội ngay."
+  },
+  {
+   "id": "lc04",
+   "nhom": "Roll hay lên cấp",
+   "cau_hoi": "Cấp 8, muốn tìm tướng 5 vàng. Cấp nào có tỉ lệ tướng 5 vàng cao gấp 5 lần cấp 8?",
+   "lua_chon": [
+    "Cấp 7",
+    "Cấp 9",
+    "Cấp 10",
+    "Không có"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Cấp 8: 3% tướng 5 vàng; cấp 9: 15%; cấp 10: 25%. Đội cần tướng 5 vàng nên lên 9 rồi mới roll."
+  },
+  {
+   "id": "lc05",
+   "nhom": "Roll hay lên cấp",
+   "cau_hoi": "Đội reroll tướng 3 vàng nên roll ở cấp nào?",
+   "lua_chon": [
+    "Cấp 5",
+    "Cấp 6",
+    "Cấp 7",
+    "Cấp 9"
+   ],
+   "dap_an": 2,
+   "giai_thich": "Theo tỉ lệ cửa hàng Mùa 18, cấp 7 có khoảng 40% tướng 3 vàng — cao nhất trong các cấp. Đó là lý do đội 3 vàng săn 3 sao ở cấp 7."
+  },
+  {
+   "id": "lc06",
+   "nhom": "Roll hay lên cấp",
+   "cau_hoi": "Đội reroll tướng 1 vàng (vd Veigar) nên roll chậm ở cấp nào?",
+   "lua_chon": [
+    "Cấp 4",
+    "Cấp 5",
+    "Cấp 7",
+    "Cấp 8"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Cấp 5 vẫn còn 45% tướng 1 vàng và đủ chỗ đặt đội. Lên cấp cao hơn tỉ lệ tướng 1 vàng giảm mạnh."
+  },
+  {
+   "id": "lc07",
+   "nhom": "Roll hay lên cấp",
+   "cau_hoi": "Vòng 2-1 chuẩn nên làm gì với kinh nghiệm?",
+   "lua_chon": [
+    "Mua XP lên cấp 4",
+    "Giữ vàng không mua",
+    "Roll tìm 2 sao",
+    "Lên luôn cấp 5"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Lên cấp 4 ở 2-1 là nhịp chuẩn: thêm 1 ô tướng để thắng các trận đầu giai đoạn 2."
+  },
+  {
+   "id": "do01",
+   "nhom": "Ghép đồ",
+   "cau_hoi": "Kiếm B.F. + Găng Đấu Tập ra đồ gì?",
+   "lua_chon": [
+    "Vô Cực Kiếm",
+    "Cung Xanh",
+    "Bàn Tay Công Lý",
+    "Kiếm Tử Thần"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Kiếm B.F. + Găng Đấu Tập = Vô Cực Kiếm (Chuẩn Xác: kỹ năng có thể chí mạng)."
+  },
+  {
+   "id": "do02",
+   "nhom": "Ghép đồ",
+   "cau_hoi": "Gậy Quá Khổ + Nước Mắt Nữ Thần ra đồ gì?",
+   "lua_chon": [
+    "Bùa Xanh",
+    "Quyền Trượng Thiên Thần",
+    "Ngọn Giáo Shojin",
+    "Trượng Hư Vô"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Gậy + Nước Mắt = Quyền Trượng Thiên Thần (+20 SMPT mỗi 5 giây) — đồ chính của Zyra."
+  },
+  {
+   "id": "do03",
+   "nhom": "Ghép đồ",
+   "cau_hoi": "Giáp Lưới + Áo Choàng Bạc ra đồ gì?",
+   "lua_chon": [
+    "Vuốt Rồng",
+    "Áo Choàng Gai",
+    "Thú Tượng Thạch Giáp",
+    "Giáp Tâm Linh"
+   ],
+   "dap_an": 2,
+   "giai_thich": "Giáp Lưới + Áo Choàng Bạc = Thú Tượng Thạch Giáp — đồ đỡ đòn phổ biến nhất mùa này."
+  },
+  {
+   "id": "do04",
+   "nhom": "Ghép đồ",
+   "cau_hoi": "Cung Gỗ + Nước Mắt Nữ Thần ra đồ gì?",
+   "lua_chon": [
+    "Trượng Hư Vô",
+    "Ngọn Giáo Shojin",
+    "Cuồng Đao Guinsoo",
+    "Nanh Nashor"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Cung Gỗ + Nước Mắt = Trượng Hư Vô (giảm 30% Kháng Phép mục tiêu)."
+  },
+  {
+   "id": "do05",
+   "nhom": "Ghép đồ",
+   "cau_hoi": "Muốn ghép Ấn Đao Phủ cần gì?",
+   "lua_chon": [
+    "Siêu Xẻng + Găng Đấu Tập",
+    "Chảo Vàng + Găng Đấu Tập",
+    "Chảo Vàng + Kiếm B.F.",
+    "Không ghép được"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Chảo Vàng ghép ra Ấn hệ: Chảo + Găng Đấu Tập = Ấn Đao Phủ. (Siêu Xẻng + Găng = Ấn Nguyên Sinh.)"
+  },
+  {
+   "id": "do06",
+   "nhom": "Ghép đồ",
+   "cau_hoi": "Ấn nào KHÔNG ghép được ở Mùa 18?",
+   "lua_chon": [
+    "Ấn Thần Rừng",
+    "Ấn Dũng Sĩ",
+    "Ấn Tàn Phá",
+    "Ấn Hoa Linh"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Ấn Dũng Sĩ, Vệ Quân, Tiên Hắc Ám, Thực Vật chỉ có từ lõi/phần thưởng, không có công thức."
+  },
+  {
+   "id": "do07",
+   "nhom": "Ghép đồ",
+   "cau_hoi": "Đầu trận chưa rõ đội, có 2 Giáp Lưới? Nên làm gì?",
+   "lua_chon": [
+    "Ghép ngay Áo Choàng Gai cho tướng đỡ đòn",
+    "Giữ đến giai đoạn 4",
+    "Bán",
+    "Đưa cho tướng đánh xa"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Đồ đỡ đòn hợp mọi đội. Ghép sớm giúp thắng chuỗi và giữ máu; giữ thành phần quá lâu là lãng phí."
+  },
+  {
+   "id": "do08",
+   "nhom": "Ghép đồ",
+   "cau_hoi": "Chủ lực phép Azir (đội Triệu Hồi / Đao Phủ) hầu như luôn cầm món nào?",
+   "lua_chon": [
+    "Kiếm Súng Hextech",
+    "Thú Tượng Thạch Giáp",
+    "Vô Cực Kiếm",
+    "Huyết Kiếm"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Cả Excel hướng dẫn lẫn số liệu MetaTFT đều cho Azir cầm Kiếm Súng Hextech + Mũ Rabadon (thêm Quyền Trượng hoặc Cuồng Đao)."
+  },
+  {
+   "id": "do09",
+   "nhom": "Ghép đồ",
+   "cau_hoi": "Đội có 4 tướng Đỡ Đòn mạnh đối diện, chủ lực SMCK nên thêm đồ gì?",
+   "lua_chon": [
+    "Diệt Khổng Lồ",
+    "Bùa Xanh",
+    "Quỷ Thư Morello",
+    "Vuốt Rồng"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Diệt Khổng Lồ cho +15% Khuếch Đại Sát Thương lên tướng Đỡ Đòn."
+  },
+  {
+   "id": "do10",
+   "nhom": "Ghép đồ",
+   "cau_hoi": "Đối thủ hồi máu nhiều (vd đội Thực Vật). Đồ nào giảm hồi máu?",
+   "lua_chon": [
+    "Quỷ Thư Morello / Bùa Đỏ / Áo Choàng Lửa",
+    "Vô Cực Kiếm",
+    "Lời Thề Hộ Vệ",
+    "Găng Đạo Tặc"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Ba đồ này gây Vết Thương Sâu 33% — giảm hồi máu của địch."
+  },
+  {
+   "id": "lo01",
+   "nhom": "Chọn lõi",
+   "cau_hoi": "Vòng 2-1, chưa rõ đội. 3 lõi: Lò Rèn Thần Thoại (S), Ôm Tập Thể I (B), Cầu Hồi Phục I (B). Chọn?",
+   "lua_chon": [
+    "Lò Rèn Thần Thoại",
+    "Ôm Tập Thể I",
+    "Cầu Hồi Phục I",
+    "Đổi lại cả 3"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Lõi trang bị mạnh và linh hoạt, hợp mọi đội — tốt nhất khi chưa chốt đội."
+  },
+  {
+   "id": "lo02",
+   "nhom": "Chọn lõi",
+   "cau_hoi": "Đang đi Veigar reroll cấp 5. Lõi nào hợp nhất?",
+   "lua_chon": [
+    "Hàng Chờ Pandora",
+    "Hướng Đến Hồi Kết",
+    "Thăng Tiến Cuối Trận",
+    "Xúc Xắc Hoành Tráng"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Hàng Chờ Pandora đổi tướng ở hàng chờ thành tướng cùng giá — rất mạnh cho đội reroll."
+  },
+  {
+   "id": "lo03",
+   "nhom": "Chọn lõi",
+   "cau_hoi": "Đội lên nhanh cấp 9 (Sivir · Dũng Sĩ). Lõi nào hợp nhất ở 3-2?",
+   "lua_chon": [
+    "Tăng Trưởng Bùng Nổ",
+    "Hàng Chờ Pandora",
+    "Chờ Đợi Xứng Đáng",
+    "Phân Phối Tướng"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Tăng Trưởng Bùng Nổ cho nhiều XP — giúp lên cấp nhanh, đúng kiểu chơi lên 9."
+  },
+  {
+   "id": "lo04",
+   "nhom": "Chọn lõi",
+   "cau_hoi": "Vòng 4-2, máu 35, đội đã ổn. Nên ưu tiên lõi loại nào?",
+   "lua_chon": [
+    "Lõi kinh tế (nhận vàng sau vài vòng)",
+    "Lõi chiến đấu tăng sức mạnh ngay",
+    "Lõi cho XP chậm",
+    "Lõi cần nhiều vòng mới có tác dụng"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Cuối trận, máu thấp: cần sức mạnh ngay. Lõi kinh tế lúc này thường không kịp phát huy."
+  },
+  {
+   "id": "lo05",
+   "nhom": "Chọn lõi",
+   "cau_hoi": "Lõi tộc/hệ (vd Chiết Xuất Trang Bị của Gai Đen) nên chọn khi nào?",
+   "lua_chon": [
+    "Khi đã có hướng đi đội có tộc đó",
+    "Bất cứ lúc nào vì là lõi Vàng",
+    "Chỉ ở 4-2",
+    "Không bao giờ"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Lõi tộc/hệ rất mạnh khi đúng đội, gần như vô dụng nếu đi đội khác."
+  },
+  {
+   "id": "lo06",
+   "nhom": "Chọn lõi",
+   "cau_hoi": "Được 2 Chảo Vàng và đang đi đội nhiều Đao Phủ. Lõi nào hợp?",
+   "lua_chon": [
+    "Cắm Rễ Phân Tán (nhận Ấn)",
+    "Giáp Tự Chế I",
+    "Tiền Vệ Trung Tâm",
+    "Song Vệ"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Lõi cho Ấn giúp chạm mốc tộc/hệ cao hơn mà không tốn thêm ô tướng."
+  },
+  {
+   "id": "xb01",
+   "nhom": "Xếp bàn",
+   "cau_hoi": "Đối thủ có sát thủ nhảy vào hàng sau. Đặt chủ lực đánh xa ở đâu?",
+   "lua_chon": [
+    "Góc hàng sau, có tướng đỡ đòn chắn phía trước-cạnh",
+    "Giữa hàng trên",
+    "Giữa hàng sau, trống xung quanh",
+    "Hàng 2 sát tướng đỡ đòn"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Sát thủ thường nhảy vào góc đối diện/xa nhất; đặt một tướng chịu đòn ngay cạnh chủ lực để đỡ cú nhảy."
+  },
+  {
+   "id": "xb02",
+   "nhom": "Xếp bàn",
+   "cau_hoi": "Đối thủ dùng đòn diện rộng (lốc xoáy, nổ vùng). Nên xếp thế nào?",
+   "lua_chon": [
+    "Dàn trải, không đứng cụm",
+    "Dồn cả đội vào 1 góc",
+    "Xếp thành 1 hàng ngang",
+    "Để chủ lực hàng đầu"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Đòn diện rộng mạnh khi bạn đứng cụm. Dàn trải để mỗi chiêu chỉ trúng 1–2 tướng."
+  },
+  {
+   "id": "xb03",
+   "nhom": "Xếp bàn",
+   "cau_hoi": "Tướng đỡ đòn chính nên đứng ở đâu?",
+   "lua_chon": [
+    "Hàng trên, đối diện chủ lực địch",
+    "Hàng sau cùng",
+    "Góc dưới",
+    "Không quan trọng"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Tướng đỡ đòn đứng hàng trên để nhận sát thương đầu tiên, bảo vệ chủ lực phía sau."
+  },
+  {
+   "id": "xb04",
+   "nhom": "Xếp bàn",
+   "cau_hoi": "Trước giao tranh nên xem gì ở bàn đối thủ?",
+   "lua_chon": [
+    "Chủ lực của họ đứng góc nào để đặt tướng khống chế/đỡ đòn đối diện",
+    "Linh thú của họ",
+    "Số vàng của họ",
+    "Không cần xem"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Đọc vị trí chủ lực địch để xếp tướng chặn đúng góc — thắng nhiều trận sát nút."
+  },
+  {
+   "id": "tq01",
+   "nhom": "Chiến thuật",
+   "cau_hoi": "Mục tiêu chắc top 4 mỗi ván: ưu tiên quan trọng nhất là?",
+   "lua_chon": [
+    "Giữ máu trên 40 khi vào giai đoạn 5",
+    "Luôn ép top 1",
+    "Luôn đi đội hiếm",
+    "Không bao giờ roll"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Có máu là còn cơ hội. Giữ máu tốt giúp vào top 4 đều; top 1 đến từ chủ lực mạnh và lõi tốt."
+  },
+  {
+   "id": "tq02",
+   "nhom": "Chiến thuật",
+   "cau_hoi": "3 người khác cũng đi đội bạn định chơi. Nên?",
+   "lua_chon": [
+    "Đổi sang đội khác hợp đồ đang có",
+    "Vẫn cố đi",
+    "Roll hết vàng để giành tướng",
+    "Bỏ ván"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Tranh tướng khiến khó lên 2–3 sao. Chuyển hướng sớm sang đội hợp đồ hiện có thường cho kết quả tốt hơn."
+  },
+  {
+   "id": "tq03",
+   "nhom": "Chiến thuật",
+   "cau_hoi": "Đội reroll tướng 3 vàng mà ở 4-1 chủ lực vẫn 2 sao, chưa thấy thêm bản sao. Nên?",
+   "lua_chon": [
+    "Lên cấp 8, chuyển sang đội tướng 4 vàng dùng chung đồ",
+    "Roll đến 0 vàng ở cấp 7",
+    "Bán chủ lực",
+    "Không làm gì"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Nếu tướng đã bị người khác giữ, ép 3 sao rất tốn vàng. Chuyển sang đội cấp 8 cùng đồ để giữ top 4."
+  },
+  {
+   "id": "tq04",
+   "nhom": "Chiến thuật",
+   "cau_hoi": "Vòng đi chợ (x-4), máu thấp nhất bàn. Bạn chọn thế nào?",
+   "lua_chon": [
+    "Chọn đầu tiên — lấy món cần nhất cho chủ lực",
+    "Chọn cuối cùng",
+    "Không được chọn",
+    "Chọn ngẫu nhiên"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Người máu thấp được vào chợ trước. Lấy món hoàn thiện đồ chủ lực hoặc tướng còn thiếu."
+  },
+  {
+   "id": "tq05",
+   "nhom": "Chiến thuật",
+   "cau_hoi": "Gai Đen: ô Gai Đen dùng để làm gì?",
+   "lua_chon": [
+    "Đặt đồng minh để hiến tế trước giao tranh, tăng Máu cho đội",
+    "Tăng vàng",
+    "Tăng XP",
+    "Giảm giáp địch"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Đồng minh trên ô Gai Đen bị hiến tế trước giao tranh, đổi lại cả đội nhận Máu và tướng Gai Đen nhận chỉ số."
+  },
+  {
+   "id": "tq06",
+   "nhom": "Chiến thuật",
+   "cau_hoi": "Khắc Tinh (Kha'Zix, Rengar) kích hoạt khi nào?",
+   "lua_chon": [
+    "Chỉ khi ra sân 1 trong 2 tướng",
+    "Khi có cả hai",
+    "Luôn luôn",
+    "Khi có 3 tướng"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Khắc Tinh chỉ kích hoạt khi chỉ ra sân 1 tướng — trừ khi có lõi Không Đối Thủ."
+  },
+  {
+   "id": "tq07",
+   "nhom": "Chiến thuật",
+   "cau_hoi": "Rồng Ngàn Tuổi chiếm bao nhiêu ô đội hình?",
+   "lua_chon": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ],
+   "dap_an": 1,
+   "giai_thich": "Bá Chủ: Rồng Ngàn Tuổi chiếm 2 ô và cộng 2 mốc Quái Rừng."
+  },
+  {
+   "id": "tq08",
+   "nhom": "Chiến thuật",
+   "cau_hoi": "Mặt Trời mạnh dần theo điều gì?",
+   "lua_chon": [
+    "Số tướng 3 sao khác nhau trên sân",
+    "Số vàng",
+    "Số lõi",
+    "Máu người chơi"
+   ],
+   "dap_an": 0,
+   "giai_thich": "Mặt Trời tăng hiệu ứng theo số tướng 3 sao khác nhau — hợp đội reroll."
+  }
+ ]
+}

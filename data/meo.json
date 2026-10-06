@@ -1,0 +1,18 @@
+{
+ "phien_ban_game": "Mùa 18 · bản 18.3b",
+ "xep_ban": [
+  {"tieu_de": "Né sát thủ", "noi_dung": "Sát thủ (vd Kha'Zix, Rengar) nhảy vào tướng hàng sau xa nhất. Đặt chủ lực ở góc và để 1 tướng chịu đòn ngay cạnh; hoặc đặt chủ lực hàng 3 (không phải hàng cuối) để sát thủ đáp vào mồi."},
+  {"tieu_de": "Né đòn diện rộng", "noi_dung": "Gặp đội nổ vùng (Kennen, Ashe, Ahri…) thì dàn trải, mỗi tướng cách nhau 1 ô. Đừng dồn chủ lực cạnh nhau."},
+  {"tieu_de": "Đỡ đòn đúng chỗ", "noi_dung": "Tướng đỡ đòn mạnh nhất đứng hàng trên, lệch về phía chủ lực địch đang đứng. Tướng đỡ đòn phụ chắn bên còn lại."},
+  {"tieu_de": "Góc đối góc", "noi_dung": "Nếu chủ lực địch đứng góc trái, đặt tướng khống chế/tầm xa của bạn chéo góc để đánh tới sớm hơn."},
+  {"tieu_de": "Mặt Trăng & tướng cạnh nhau", "noi_dung": "Mặt Trăng cho chỉ số cả đồng minh đứng cạnh: xếp chủ lực sát tướng Mặt Trăng."},
+  {"tieu_de": "Ô Gai Đen", "noi_dung": "Gai Đen: đặt tướng rẻ dư thừa lên ô Gai Đen để hiến tế mỗi giao tranh lấy Máu cho đội."},
+  {"tieu_de": "Cây Thần Rừng", "noi_dung": "Đặt Cây Vỏ Đá ở hàng trên làm bia đỡ, Hoa Sinh Mệnh gần chủ lực để hồi máu."}
+ ],
+ "doc_ban_doi_thu": [
+  "Bấm vào bàn từng người trước 4-2: ai đang đi cùng đội với bạn? Nếu 2+ người tranh, cân nhắc đổi hướng.",
+  "Nhìn đồ trên chủ lực địch: nhiều Vết Thương Sâu → đội hồi máu của bạn yếu đi; nhiều đồ SMPT → thêm Kháng Phép cho tướng đỡ đòn.",
+  "Nhìn ai sắp gặp bạn (tên đối thủ hiện ở góc trên) và xếp bàn chống riêng người đó.",
+  "Đếm số tướng 5 vàng trên bàn mọi người — nhiều người cần cùng 1 tướng thì đừng roll đuổi theo tướng đó."
+ ]
+}

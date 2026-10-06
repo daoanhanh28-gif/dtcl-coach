@@ -1,0 +1,851 @@
+{
+ "nguon": "Excel hướng dẫn v1.8 · 06/10/2026",
+ "loai_loi": [
+  {
+   "ten": "💰 Vàng / Kinh tế",
+   "nhan": "Vàng ngay hoặc vàng theo thời gian / lãi lớn hơn.",
+   "vi_du": "Kỷ Nguyên / Kỷ Nguyên+ (S) · Vượt Thời Gian / Định Hướng Tương Lai (S) · Kỳ Vọng Bất Ngờ (S) · Tăng Vốn I / II (A) · 🆕 18.4: lõi mới 'thua trận nhận 2 vàng + 1 lượt đổi miễn phí' (tên Việt chưa có)",
+   "len_cap": "Lên 8 sớm (3-5 hoặc 4-1) → lên 9 ở 5-1 nếu máu trên 50.",
+   "doi_tuong": "KHÔNG đổi tướng trước 4-1. Giữ lãi 50 vàng mỗi vòng; dồn vàng 1 lần lớn ở cấp 8.",
+   "chuoi": "Chuỗi nào cũng được – đừng phá lãi chỉ để giữ chuỗi.",
+   "doi_hinh": [
+    "Draven Dũng Sĩ Thần Rừng (lên 9)",
+    "Hoa Linh Ahri & Ashe (lên 9)",
+    "Quái Rừng thuần (Rồng Ngàn Tuổi)"
+   ],
+   "loi_sau": "3-2: lõi Trang bị hoặc Ấn khớp chủ lực · 4-2: lõi Giao tranh.",
+   "tranh": "Đổi tướng ở Giai đoạn 3 (mất hết lợi thế vàng) · mua Tinh Linh làm tụt mốc lãi 10/20/30/40/50.",
+   "theo_bac": {
+    "Bạc": "Vàng ít (khoảng 8–12) → chỉ cần lên cấp sớm hơn 1 vòng, KHÔNG đủ để đổi sang hướng lên 9.",
+    "Vàng": "Đủ để lên 8 ở 4-1 mà vẫn giữ trên 30 vàng – hướng 'lên 8 nhanh' chuẩn.",
+    "Kim Cương": "Rất nhiều vàng → đi thẳng hướng LÊN 9 + tướng 5 vàng 2 sao (Draven, Rồng Ngàn Tuổi, Ashe, Kennen)."
+   },
+   "theo_vong": {
+    "2-1": "Nhận sớm là mạnh nhất: giữ máu bằng tướng 2 sao rẻ, tích lãi tối đa tới Giai đoạn 4.",
+    "3-2": "Dùng vàng để lên 8 ngay ở 4-1 thay vì 4-2 → có trước người khác 1 vòng đổi tướng.",
+    "4-2": "Tiêu ngay cho lượt dồn vàng ở cấp 8 hoặc lên 9 ở 5-1 – đừng để dành nữa."
+   }
+  },
+  {
+   "ten": "📈 Kinh nghiệm / Lên cấp",
+   "nhan": "Kinh nghiệm miễn phí, lên cấp nhận quà (tướng / vàng).",
+   "vi_du": "Sinh Nhật Đoàn Tụ (S) · Thăng Tiến Cuối Trận (S có điều kiện) · Thăng Cấp. / Quà Sinh Nhật (A)",
+   "len_cap": "Sớm hơn bình thường 1 vòng: cấp 7 ở 3-2, cấp 8 ở 4-1, cấp 9 ở 4-5 / 5-1.",
+   "doi_tuong": "Đổi tướng ở cấp 8 (4-1 / 4-2) tìm tướng 4 vàng 2 sao; ở cấp 9 tìm tướng 5 vàng.",
+   "chuoi": "Cấp cao hơn = bàn mạnh hơn → ưu tiên chuỗi THẮNG.",
+   "doi_hinh": [
+    "Draven Dũng Sĩ Thần Rừng (lên 9)",
+    "Quái Rừng Draven & Rồng (Maokai)",
+    "Dũng Sĩ Ashe (Thần Rừng",
+    "lên 9)"
+   ],
+   "loi_sau": "Lõi vàng (để lên 9) hoặc Ấn / Vương Miện để ra sân thêm tướng.",
+   "tranh": "Chọn đội săn 3 sao tướng 1–2 vàng (Veigar, Warwick) → phí hết kinh nghiệm.",
+   "theo_bac": {
+    "Bạc": "Nhanh hơn ~1 vòng cấp → vẫn chơi lên 8 chuẩn.",
+    "Vàng": "Lên 9 khả thi khi máu cao – chọn đội có tướng 5 vàng.",
+    "Kim Cương": "Lên 9 rất sớm (thậm chí 10) → ép đội nhiều tướng 5 vàng, bỏ đội săn 3 sao."
+   },
+   "theo_vong": {
+    "2-1": "Cấp 5 ở 2-1/2-3, cấp 6 ở 2-5 → giữ chuỗi thắng đầu game.",
+    "3-2": "Cấp 7–8 ở 3-5 / 4-1 rồi đổi tướng tìm 4 vàng 2 sao.",
+    "4-2": "Lên 9 ngay 4-5 / 5-1, đổi tướng tìm tướng 5 vàng."
+   }
+  },
+  {
+   "ten": "🎲 Lượt đổi tướng",
+   "nhan": "Lượt đổi cửa hàng miễn phí.",
+   "vi_du": "Xúc Xắc Hoành Tráng / Xúc Xắc Vô Tận (A) · Tinh Linh 'Số 7 May Mắn' (7 lượt đổi)",
+   "len_cap": "Giữ cấp hợp đội: cấp 6–7 cho đội săn 3 sao, cấp 8 cho đội tướng 4 vàng.",
+   "doi_tuong": "Xài lượt miễn phí NGAY khi có (giữ máu); vàng thật thì đổi chậm phần dư trên 50.",
+   "chuoi": "Chuỗi thắng nhờ lên 2–3 sao sớm.",
+   "doi_hinh": [
+    "Thuật Sư Veigar (săn 3 sao)",
+    "Triệu Hồi Vi / Azir",
+    "Gai Đen Warwick (săn 3 sao)"
+   ],
+   "loi_sau": "Lõi trang bị cho chủ lực 3 sao · lõi giao tranh ở 4-2.",
+   "tranh": "Cất lượt đổi quá lâu; đổi tướng mà không có hướng đội hình rõ.",
+   "theo_bac": {
+    "Bạc": "Vài lượt đổi → dùng để lên 2 sao đội hình Giai đoạn 2.",
+    "Vàng": "Đủ để săn 3 sao tướng 1–2 vàng ở Giai đoạn 3 (Veigar, Warwick, Kayle).",
+    "Kim Cương": "Săn 3 sao tướng 3 vàng (Azir, Vi, Kha'Zix) ngay ở cấp 7."
+   },
+   "theo_vong": {
+    "2-1": "Đi đội săn 3 sao 1–2 vàng: Veigar Thuật Sư / Warwick / Kayle.",
+    "3-2": "Săn 3 sao 3 vàng ở cấp 7: Triệu Hồi Vi/Azir, Kha'Zix.",
+    "4-2": "Dùng ở cấp 8 tìm tướng 4 vàng 2 sao (Soraka, Zyra, Nidalee, Aphelios)."
+   }
+  },
+  {
+   "ten": "🧩 Mảnh trang bị",
+   "nhan": "Mảnh đồ (Kiếm, Cung, Gậy…) ngay hoặc theo thời gian.",
+   "vi_du": "Kho Báu Chôn Giấu (S) · Túi Đồ Siêu Hùng (S) · Túi Đồ Cỡ Đại (A) · Đam Mê Đai Lưng (A)",
+   "len_cap": "Chuẩn: 4 → 5 → 6 → 7 (3-5) → 8 (4-2).",
+   "doi_tuong": "Ghép đồ hoàn chỉnh NGAY cho tướng tạm để đánh mạnh sớm.",
+   "chuoi": "Chuỗi THẮNG – đồ sớm = giữ máu cao.",
+   "doi_hinh": [
+    "Đao Phủ Azir (Thực Vật",
+    "Tinh Nghịch)",
+    "Mặt Trăng Nidalee & Aphelios",
+    "Tiên Phong Alune"
+   ],
+   "loi_sau": "3-2: lõi vàng nếu bàn đã mạnh · 4-2: lõi giao tranh.",
+   "tranh": "Để mảnh trên hàng chờ không ghép; ghép đồ không khớp chủ lực cuối.",
+   "theo_bac": {
+    "Bạc": "1–2 mảnh → ghép đồ cho tướng tạm, giữ chuỗi.",
+    "Vàng": "3–4 mảnh → đủ đồ chủ lực sớm, chơi chuỗi thắng.",
+    "Kim Cương": "Rất nhiều mảnh → full đồ cho CẢ 2 chủ lực + đỡ đòn."
+   },
+   "theo_vong": {
+    "2-1": "Mảnh vật lý (Kiếm/Cung/Găng) → Mặt Trăng Nidalee, Draven; mảnh phép (Gậy/Nước Mắt) → Đao Phủ Azir, Veigar.",
+    "3-2": "Hoàn thiện đồ chủ lực, lên 7 ở 3-5 giữ chuỗi.",
+    "4-2": "Đủ đồ cho đỡ đòn và chủ lực phụ – bàn cờ đạt tối đa."
+   }
+  },
+  {
+   "ten": "⚔ Đồ hoàn chỉnh / Đồ Ánh Sáng",
+   "nhan": "Món đồ hoàn chỉnh hoặc đồ Ánh Sáng chọn sẵn.",
+   "vi_du": "Thợ Rèn Kiếm / Đam Mê Kiếm (S+ có điều kiện) · Đam Mê Gậy / Thợ Rèn Gậy / Trượng Đại Thiên Sứ (A) · Băng Trộm (S – Găng Đạo Tặc)",
+   "len_cap": "Chuẩn lên 8 ở 4-2; đồ mạnh → có thể chơi chuỗi thắng lên 8 ở 4-1.",
+   "doi_tuong": "Chốt chủ lực theo loại đồ: đồ VẬT LÝ hay đồ PHÉP.",
+   "chuoi": "Chuỗi thắng.",
+   "doi_hinh": [
+    "Mặt Trăng Nidalee & Aphelios",
+    "Đao Phủ Azir (Thực Vật",
+    "Tinh Nghịch)",
+    "Thuật Sư Veigar (săn 3 sao)"
+   ],
+   "loi_sau": "Lõi giao tranh cùng loại (Thép Mạ Vàng cho vật lý, Khảm Bảo Thạch cho phép).",
+   "tranh": "Lấy đồ phép rồi đi đội vật lý (và ngược lại).",
+   "theo_bac": {
+    "Bạc": "1 món → đặt ngay cho chủ lực cuối.",
+    "Vàng": "2 món / món Ánh Sáng → đội đó lên 1 bậc sức mạnh.",
+    "Kim Cương": "Nhiều món Ánh Sáng → ép đội dùng đúng loại đồ đó, gần như chắc top 4."
+   },
+   "theo_vong": {
+    "2-1": "Đồ vật lý → Mặt Trăng Nidalee & Aphelios / Draven; đồ phép → Đao Phủ Azir / Veigar.",
+    "3-2": "Đặt lên chủ lực của đội đang đi, đừng đổi hướng.",
+    "4-2": "Tăng sức mạnh tức thì – dồn vàng lên 8/9."
+   }
+  },
+  {
+   "ten": "🔨 Tạo Tác (Ornn)",
+   "nhan": "Đồ Tạo Tác (rất mạnh trên đúng tướng).",
+   "vi_du": "Nồi Nấu Ăn / Lò Rèn Thần Thoại (A)",
+   "len_cap": "Chuẩn lên 8 ở 4-2.",
+   "doi_tuong": "Chọn đội có tướng dùng tốt Tạo Tác nhận được.",
+   "chuoi": "Chuỗi thắng giữa game.",
+   "doi_hinh": [
+    "Thần Rừng Kha'Zix",
+    "Thuật Sư Veigar (săn 3 sao)",
+    "Mặt Trăng Nidalee & Aphelios"
+   ],
+   "loi_sau": "Lõi trang bị / giao tranh cho chủ lực.",
+   "tranh": "Đặt Tạo Tác lên tướng tạm rồi bỏ.",
+   "theo_bac": {
+    "Bạc": "1 Tạo Tác → đặt cho chủ lực.",
+    "Vàng": "Chọn Tạo Tác → Kiếm Tai Ương cho Kha'Zix / Veigar; Đại Bác Hải Tặc cho Aphelios / Nidalee; Lõi Bình Minh cho Soraka / Veigar.",
+    "Kim Cương": "Nhiều Tạo Tác → full đồ chủ lực + phụ, ép đội tương ứng."
+   },
+   "theo_vong": {
+    "2-1": "Tạo Tác chỉ ra đồ sau – vẫn đi đội theo đồ khởi đầu.",
+    "3-2": "Chốt đội theo Tạo Tác (xem LÊN ĐỒ → Tạo Tác).",
+    "4-2": "Đặt ngay cho chủ lực."
+   }
+  },
+  {
+   "ten": "🏳 Ấn / Xẻng / Chảo / Tộc hệ",
+   "nhan": "Ấn tộc/hệ, Xẻng Vàng, Chảo Vàng hoặc cộng tộc.",
+   "vi_du": "Phân Nhánh / Phân Nhánh+ (S – 1 Ấn ngẫu nhiên) · Cắm Rễ Phân Tán (S) · Sơ Đồ Tuyến Sau (A – tướng + Ấn) · lõi tộc: xem bảng XẾP HẠNG LÕI TỘC HỆ bên dưới",
+   "len_cap": "Theo đội hình mà Ấn mở ra (xem trang CHỌN ẤN).",
+   "doi_tuong": "Theo đội được đề xuất ở trang CHỌN ẤN.",
+   "chuoi": "Ấn tăng mốc → bàn mạnh lên ngay → chuỗi thắng.",
+   "doi_hinh": [
+    "Đao Phủ Azir (Thực Vật",
+    "Tinh Nghịch)",
+    "Mặt Trăng Nidalee & Aphelios",
+    "Mặt Trăng Kayle (Mặt Trời)"
+   ],
+   "loi_sau": "Thêm Ấn cùng tộc để vượt mốc tiếp theo; hoặc lõi giao tranh.",
+   "tranh": "Đeo Ấn cho tướng ĐÃ có tộc đó (không cộng gì) · giữ Ấn không mở thêm mốc.",
+   "theo_bac": {
+    "Bạc": "1 Ấn ngẫu nhiên → nhập vào trang CHỌN ẤN để biết đi đội nào.",
+    "Vàng": "Ấn + công cụ đổi đồ → linh hoạt chuyển đội.",
+    "Kim Cương": "Nhiều Ấn / Vương Miện → mở mốc cao (Đao Phủ 4, Mặt Trăng 5, Thần Rừng 7…)."
+   },
+   "theo_vong": {
+    "2-1": "Còn sớm – chọn đội có thể dùng Ấn làm mốc chính.",
+    "3-2": "Ấn quyết định đội: nhập vào trang CHỌN ẤN.",
+    "4-2": "Đeo cho tướng mở ngay mốc cao nhất."
+   }
+  },
+  {
+   "ten": "🧑 Tướng",
+   "nhan": "Tướng (thường 2 sao hoặc giá cao) ngay lập tức.",
+   "vi_du": "Hàng Chờ Pandora / Bài Học Sơ Khai (A) · Sơ Đồ Tuyến Sau (A) · Tinh Linh 'Ba Chúng Tôi', 'Đại Cao Thủ'",
+   "len_cap": "Lên cấp theo tướng nhận được: tướng 4–5 vàng → lên 8 sớm.",
+   "doi_tuong": "Xây đội quanh tướng nhận được nếu là chủ lực của đội mạnh.",
+   "chuoi": "Chuỗi thắng nhờ bàn mạnh sớm.",
+   "doi_hinh": [
+    "Triệu Hồi Vi / Azir",
+    "Đao Phủ Azir (Thực Vật",
+    "Tinh Nghịch)",
+    "Thần Rừng Kha'Zix"
+   ],
+   "loi_sau": "Lõi trang bị cho tướng đó.",
+   "tranh": "Bán tướng 2 sao giá cao chỉ vì 'không hợp' – giữ làm tướng tạm.",
+   "theo_bac": {
+    "Bạc": "Tướng rẻ → giữ chuỗi đầu game.",
+    "Vàng": "Tướng 3–4 vàng 2 sao → có thể làm chủ lực luôn.",
+    "Kim Cương": "Tướng 5 vàng / nhiều tướng → đi đội có tướng đó."
+   },
+   "theo_vong": {
+    "2-1": "Dùng làm tướng tạm giữ máu.",
+    "3-2": "Chọn đội có tướng này là chủ lực / đỡ đòn.",
+    "4-2": "Ráp ngay vào đội cuối."
+   }
+  },
+  {
+   "ten": "🛡 Chỉ số giao tranh",
+   "nhan": "Cả đội mạnh hơn ngay (SMCK, SMPT, Máu, lá chắn…).",
+   "vi_du": "Giữ Vững Hàng Ngũ (S) · Thép Mạ Vàng (S – vật lý) · Khiên Đơn Đấu (S) · Hang Ổ Baron / To Lớn & Mạnh Mẽ (S) · Khảm Bảo Thạch (A – phép) · Linh Hồn Chuộc Tội (A)",
+   "len_cap": "Chuẩn; bàn mạnh → có thể lên 8 sớm ở 4-1.",
+   "doi_tuong": "Đổi tướng ổn định bàn cờ để tận dụng sức mạnh ngay.",
+   "chuoi": "Chuỗi THẮNG – đây là lõi để thắng liên tục.",
+   "doi_hinh": [
+    "Đao Phủ Azir (Thực Vật",
+    "Tinh Nghịch)",
+    "Dũng Sĩ Ashe (Thần Rừng",
+    "lên 9)",
+    "Vệ Quân Cassiopeia"
+   ],
+   "loi_sau": "Lõi vàng nếu đang thắng chuỗi dài; lõi trang bị nếu thiếu đồ.",
+   "tranh": "Chọn lõi giao tranh rồi chơi kiểu thua chuỗi tích vàng (phí lõi).",
+   "theo_bac": {
+    "Bạc": "Tăng nhẹ – lấy khi máu thấp hoặc 3 lõi còn lại tệ.",
+    "Vàng": "Tăng rõ – đủ để giữ chuỗi thắng giữa game.",
+    "Kim Cương": "Tăng rất mạnh – bàn đạt sức mạnh top 1 sớm."
+   },
+   "theo_vong": {
+    "2-1": "Hiếm khi nên lấy ở 2-1 trừ khi rất mạnh (Giữ Vững Hàng Ngũ, Khiên Đơn Đấu).",
+    "3-2": "Tốt khi đang thua / máu dưới 60.",
+    "4-2": "Lựa chọn TỐT NHẤT ở 4-2 cho hầu hết đội."
+   }
+  }
+ ],
+ "theo_mau": [
+  {
+   "ten": "Trên 70 máu",
+   "loi_khuyen": "Có thể THAM: giữ lãi, chấp nhận thua chuỗi để đi đúng kế hoạch của lõi."
+  },
+  {
+   "ten": "40 – 70 máu",
+   "loi_khuyen": "CÂN BẰNG: theo kế hoạch nhưng đừng để tụt dưới 40 trước Giai đoạn 5 – mua Tinh Linh giao tranh 0–2 vàng."
+  },
+  {
+   "ten": "Dưới 40 máu",
+   "loi_khuyen": "Ưu tiên SỨC MẠNH NGAY: dồn vàng ổn định bàn cờ, bỏ kế hoạch kinh tế dài hạn, lên 2 sao chủ lực trước."
+  }
+ ],
+ "loi_toc_he": [
+  {
+   "ten": "Tinh Linh Hoàn Tiền / Tinh Linh Hoàn Tiền+",
+   "toc_he": "Hoa Linh",
+   "suc_manh": "S",
+   "cho": "Hoàn vàng khi mua Tinh Linh",
+   "doi_hinh": "Hoa Linh Ahri & Ashe",
+   "cach_danh": "Mua MỌI Tinh Linh, lên 9 nhanh",
+   "ban_moi": "↗ Hoa Linh 3/4 tăng"
+  },
+  {
+   "ten": "Tiếng Gọi Hoa Linh",
+   "toc_he": "Hoa Linh",
+   "suc_manh": "S",
+   "cho": "Cường hoá tộc Hoa Linh / Tinh Linh",
+   "doi_hinh": "Hoa Linh Ahri & Ashe",
+   "cach_danh": "Ra sân 5 Hoa Linh, lên 9",
+   "ban_moi": "↗ Hoa Linh tăng"
+  },
+  {
+   "ten": "Thực Vật Hấp Thụ",
+   "toc_he": "Thực Vật",
+   "suc_manh": "S (1 người/phòng)",
+   "cho": "Cường hoá tộc Thực Vật",
+   "doi_hinh": "Đao Phủ Azir / Thuật Sư Veigar",
+   "cach_danh": "Đi Đao Phủ Azir – đội tốt nhất VN",
+   "ban_moi": "↘ Đao Phủ giảm nhẹ"
+  },
+  {
+   "ten": "Quái Thú Bên Trong (Nidalee / Sivir)",
+   "toc_he": "Nguyên Sinh",
+   "suc_manh": "S",
+   "cho": "Biến Nidalee hoặc Sivir thành chủ lực siêu mạnh",
+   "doi_hinh": "Mặt Trăng Nidalee / Thợ Săn Sivir",
+   "cach_danh": "Ép tướng được chọn lên 2 sao, dồn đồ",
+   "ban_moi": "↗ Nidalee (Mặt Trăng tăng) · ↘ Sivir (Thợ Săn giảm)"
+  },
+  {
+   "ten": "Phân Nhánh / Phân Nhánh+",
+   "toc_he": "Mọi tộc",
+   "suc_manh": "S",
+   "cho": "1 Ấn ngẫu nhiên (+ công cụ đổi)",
+   "doi_hinh": "Theo Ấn → trang CHỌN ẤN",
+   "cach_danh": "Nhập Ấn vào trang CHỌN ẤN",
+   "ban_moi": "→"
+  },
+  {
+   "ten": "Cắm Rễ Phân Tán",
+   "toc_he": "Thần Rừng / Ấn",
+   "suc_manh": "S",
+   "cho": "Thêm Ấn / tộc",
+   "doi_hinh": "Thần Rừng Kha'Zix / Ezreal",
+   "cach_danh": "Đẩy Thần Rừng lên mốc cao",
+   "ban_moi": "→"
+  },
+  {
+   "ten": "Quái Rừng Omega",
+   "toc_he": "Quái Rừng",
+   "suc_manh": "A → S",
+   "cho": "Cường hoá Quái Rừng Đầu Đàn",
+   "doi_hinh": "Quái Rừng thuần (Rồng Ngàn Tuổi)",
+   "cach_danh": "Ra sân 6–7 Quái Rừng, lên 9",
+   "ban_moi": "↑ 18.4: +15% Máu, +12% Tốc Độ Đánh"
+  },
+  {
+   "ten": "Tín Đồ Tiên Hắc Ám",
+   "toc_he": "Tiên Hắc Ám",
+   "suc_manh": "A (1 người/phòng)",
+   "cho": "Đổi Tinh Chất lấy quà lớn",
+   "doi_hinh": "Tiên Phong Alune / Tiên Hắc Ám",
+   "cach_danh": "Thua đầu game tích Tinh Chất",
+   "ban_moi": "↗ 18.4: nhận Tinh Chất nhiều hơn"
+  },
+  {
+   "ten": "Tà Thuật",
+   "toc_he": "Tiên Hắc Ám",
+   "suc_manh": "⚠ kiểm tra",
+   "cho": "Tinh Chất → SMPT",
+   "doi_hinh": "Tiên Hắc Ám Cassiopeia",
+   "cach_danh": "Bị TẮT ở 18.3b – xem trong game đã bật lại chưa",
+   "ban_moi": "?"
+  },
+  {
+   "ten": "Tôi Thăng Cấp Một Mình",
+   "toc_he": "Khắc Tinh",
+   "suc_manh": "S (có điều kiện)",
+   "cho": "Rengar gánh một mình",
+   "doi_hinh": "Thích Ứng Rengar",
+   "cach_danh": "Săn Rengar 3 sao",
+   "ban_moi": "↘ Yi giảm nhẹ"
+  },
+  {
+   "ten": "Không Đối Thủ",
+   "toc_he": "Khắc Tinh",
+   "suc_manh": "Mở khoá",
+   "cho": "Ra sân cả Kha'Zix + Rengar",
+   "doi_hinh": "Thần Rừng Kha'Zix",
+   "cach_danh": "Thêm Rengar làm chủ lực phụ",
+   "ban_moi": "→"
+  },
+  {
+   "ten": "Sơ Đồ Tuyến Sau",
+   "toc_he": "Tướng + Ấn",
+   "suc_manh": "A",
+   "cho": "Tướng 3 vàng hàng sau + Ấn của nó",
+   "doi_hinh": "Linh hoạt",
+   "cach_danh": "Xây đội quanh tướng nhận được",
+   "ban_moi": "→"
+  }
+ ],
+ "top1_nguyen_tac": [
+  {
+   "tieu_de": "Thứ tự ưu tiên",
+   "noi_dung": "Lõi ĐỊNH HÌNH (ép đội hình) > lõi KINH TẾ > lõi chỉ số đơn thuần. Lõi định hình cho trần sức mạnh cao hơn hẳn."
+  },
+  {
+   "tieu_de": "Lấy lõi định hình ở 2-1",
+   "noi_dung": "Nhận được thì ÉP luôn đội đó, kể cả khi chưa có tướng/đồ phù hợp – cả ván sau đó phục vụ lõi này."
+  },
+  {
+   "tieu_de": "Đừng lấy 2 lõi định hình khác hướng",
+   "noi_dung": "Ví dụ đã lấy Tà Thuật thì ở 3-2 chọn lõi kinh tế/trang bị hỗ trợ, không lấy lõi ép sang tộc khác."
+  },
+  {
+   "tieu_de": "Lõi độc quyền",
+   "noi_dung": "Tà Thuật, Tín Đồ Tiên Hắc Ám, Thực Vật Hấp Thụ chỉ 1 người/phòng được chọn → không bị tranh tướng, rất đáng ép."
+  },
+  {
+   "tieu_de": "Không có lõi định hình",
+   "noi_dung": "Lấy nhóm kinh tế ở 2-1, chơi linh hoạt, tới 3-2 mới chốt đội theo đồ đang có – vẫn top 4 đều."
+  },
+  {
+   "tieu_de": "Máu thấp (< 40)",
+   "noi_dung": "Bỏ qua lõi kinh tế, chọn lõi giao tranh/trang bị dùng được NGAY để cầm máu, giữ top 4 trước đã."
+  },
+  {
+   "tieu_de": "Mốc 4-2",
+   "noi_dung": "Chỉ chọn lõi tăng sức mạnh ngay (giao tranh, Ấn, Tạo Tác). Lõi kinh tế lúc này gần như vô nghĩa trừ khi đang lên 9."
+  }
+ ],
+ "top1": [
+  {
+   "ten": "Tà Thuật",
+   "uu_tien": "⛔ ĐANG BỊ TẮT",
+   "vong": "—",
+   "doi_hinh": "Chưa chơi được ở bản 18.3b",
+   "lam_gi": "Riot đã TẠM TẮT lõi này ở bản vá 18.3b (24/09) vì lỗi → hiện không xuất hiện khi chọn lõi. Khi Riot bật lại (dự kiến bản 18.4), đây vẫn là lõi ép mạnh nhất: chốt đội Cassiopeia Tiên Hắc Ám, tích Tinh Chất rồi đổi ở mốc lớn.",
+   "ky_vong": "Tạm thời chuyển sang Tín Đồ Tiên Hắc Ám hoặc đội khác"
+  },
+  {
+   "ten": "Tín Đồ Tiên Hắc Ám",
+   "uu_tien": "BẮT BUỘC ÉP",
+   "vong": "2-1 / 3-2",
+   "doi_hinh": "Cassiopeia Tiên Hắc Ám / Ahri & Morgana",
+   "lam_gi": "Lõi Tiên Hắc Ám duy nhất còn dùng được ở 18.3b. Nhặt Cassiopeia ở băng chuyền đầu, ra sân 3 Tiên Hắc Ám càng sớm càng tốt. Thua trận người chơi vẫn cho nhiều Tinh Chất → đầu game không cần cố thắng. Lên 8 khi còn trên 30 vàng rồi đổi tướng cho tới khi Cassiopeia + đỡ đòn 2 sao.",
+   "ky_vong": "Top 4 chắc, top 1 khi có thêm Tạo Tác cho Cassiopeia (chỉ 1 người/phòng nên không bị tranh)"
+  },
+  {
+   "ten": "Thực Vật Hấp Thụ",
+   "uu_tien": "BẮT BUỘC ÉP",
+   "vong": "2-1 / 3-2",
+   "doi_hinh": "Veigar Thực Vật Hấp Thụ (Tinh Nghịch)",
+   "lam_gi": "Chốt đội Veigar ngay. Giữ cấp 5, mua mọi bản Veigar, đổi tướng từ từ phần vàng trên 50 tới khi Veigar 3 sao. Ưu tiên Găng Bảo Thạch + Bùa Xanh; có Tạo Tác Lõi Bình Minh hay Kiếm Tai Ương thì mạnh hơn nữa.",
+   "ky_vong": "Top 1 nếu Veigar 3 sao trước 4-2 – đội đang LÊN ở 18.3b"
+  },
+  {
+   "ten": "Vương Miện Hắc Hóa",
+   "uu_tien": "BẮT BUỘC ÉP",
+   "vong": "2-1 (Kim Cương)",
+   "doi_hinh": "Kayle Mặt Trời / mọi đội săn 3 sao",
+   "lam_gi": "Được thêm ô đội hình → ra sân nhiều tướng 3 sao hơn. Đi hướng săn 3 sao. Chấp nhận mất máu giai đoạn đầu, dồn vàng đổi tướng đúng mốc; về sau bàn cờ đông tướng sẽ áp đảo.",
+   "ky_vong": "Top 1 – nhưng dễ tụt máu nếu hit chậm"
+  },
+  {
+   "ten": "Không Đối Thủ",
+   "uu_tien": "BẮT BUỘC ÉP",
+   "vong": "2-1 / 3-2",
+   "doi_hinh": "Kha'Zix & Rengar Khắc Tinh",
+   "lam_gi": "⚠ 18.3b giảm sát thương Kha'Zix nên đội hạ nhiệt, nhưng lõi này vẫn rất mạnh. Cho phép ra sân CẢ Kha'Zix và Rengar. Mua cả hai từ 2-1, ghép Áo Choàng Bóng Tối sớm để sống sót, ưu tiên hạ gục liên tục cho Kha'Zix tiến hoá (mốc 8 / 30 / 60).",
+   "ky_vong": "Top 2 khi cả hai lên 3 sao"
+  },
+  {
+   "ten": "Tôi Thăng Cấp Một Mình",
+   "uu_tien": "NÊN LẤY",
+   "vong": "3-2 / 4-2",
+   "doi_hinh": "Rengar gánh (Tristana & Rengar)",
+   "lam_gi": "Dồn toàn bộ đồ vật lý cho Rengar, đội còn lại chỉ cần đỡ đòn. Đổi tướng từ từ ở cấp 7 tới khi Rengar 3 sao, sau đó lên 8 thêm đỡ đòn 4 vàng.",
+   "ky_vong": "Top 4 (18.3b: nhóm đội này đang yếu đi)"
+  },
+  {
+   "ten": "Quái Rừng Omega",
+   "uu_tien": "BẮT BUỘC ÉP",
+   "vong": "3-2 / 4-2",
+   "doi_hinh": "Mầm Non Quái Rừng / Rồng Ngàn Tuổi",
+   "lam_gi": "Đi thuần Quái Rừng. Đổi tướng ở cấp 7 tìm 3 sao Mầm Non/Sỏi/Quái Đá Krug; đặt Dấu Ấn Đầu Đàn lên đỡ đòn 3 sao. Đủ 7 Quái Rừng thì cả đội tăng chỉ số liên tục trong trận.",
+   "ky_vong": "Top 1 khi đủ 7 Quái Rừng + 2 tướng 3 sao"
+  },
+  {
+   "ten": "Tiếng Gọi Hoa Linh",
+   "uu_tien": "NÊN LẤY (18.3 giảm)",
+   "vong": "2-1 / 3-2",
+   "doi_hinh": "Ashe Hoa Linh Lên 9 / Ahri Hoa Linh",
+   "lam_gi": "Giữ 3 Hoa Linh trên sân từ Giai đoạn 2 để Tinh Linh được nâng cấp. Mua Tinh Linh kinh tế, tham vàng, lên 8 rồi 9 sớm. Đồ ưu tiên: Ngọn Giáo Shojin + Găng Bảo Thạch.",
+   "ky_vong": "Top 4 – bản 18.3 cắt sức mạnh Tinh Linh nên không còn chắc top 1 như trước"
+  },
+  {
+   "ten": "Tinh Linh Hoàn Tiền",
+   "uu_tien": "TỐT (18.3 giảm)",
+   "vong": "2-1 / 3-2",
+   "doi_hinh": "Ashe / Ahri Hoa Linh",
+   "lam_gi": "Mua Tinh Linh được hoàn vàng → mua gần như mọi Tinh Linh kinh tế mà không tụt mốc lãi, lên 9 trước cả phòng.",
+   "ky_vong": "Top 4; chỉ mạnh khi đi kèm Tiếng Gọi Hoa Linh"
+  },
+  {
+   "ten": "Thăng Tiến Cuối Trận",
+   "uu_tien": "BẮT BUỘC ÉP (nếu định lên 9)",
+   "vong": "2-1 / 3-2",
+   "doi_hinh": "Draven Lên 9 / Ashe Hoa Linh Lên 9",
+   "lam_gi": "Điều kiện gần như bắt buộc để lên cấp 9 nhanh. Tham kinh tế tối đa, không đổi tướng ở cấp 8, giữ trên 50 vàng, lên 9 ở 5-1 rồi mới dồn vàng tìm tướng 5 vàng.",
+   "ky_vong": "Top 1 nếu giữ được máu trên 50 tới Giai đoạn 5"
+  },
+  {
+   "ten": "Quái Thú Bên Trong",
+   "uu_tien": "NÊN LẤY",
+   "vong": "3-2 / 4-2",
+   "doi_hinh": "Sivir & Nidalee Nguyên Sinh",
+   "lam_gi": "Tăng thẳng sức mạnh tộc Nguyên Sinh. Chọn Phúc Lành HỔ; dồn đồ vật lý cho Sivir/Nidalee; lên 8 ở 4-2 và đổi tướng tìm 2 sao.",
+   "ky_vong": "Top 2 – Sivir & Nidalee đang là nhóm mạnh nhất 18.3b"
+  },
+  {
+   "ten": "Ấn Thuật Sĩ (lõi cho Ấn)",
+   "uu_tien": "BẮT BUỘC ÉP",
+   "vong": "2-1 / 3-2 / 4-2",
+   "doi_hinh": "Ahri & Morgana Thuật Sĩ",
+   "lam_gi": "Ấn Thuật Sĩ đặt lên Ahri đẩy đội lên nhóm mạnh nhất (tăng 2 bậc). Đi thẳng đội Ahri & Morgana, gom đồ phép, lên 8 ở 4-2 và đổi tướng tìm Ahri/Morgana 2 sao.",
+   "ky_vong": "Top 1 khi Ahri có Ấn + Găng Bảo Thạch"
+  },
+  {
+   "ten": "Thợ Rèn Kiếm / Đam Mê Kiếm",
+   "uu_tien": "NÊN LẤY",
+   "vong": "2-1 / 3-2",
+   "doi_hinh": "Nidalee & Aphelios / Sivir & Nidalee",
+   "lam_gi": "Cho rất nhiều Kiếm BF → chốt hướng đội vật lý (đang mạnh nhất bản này). Ghép sớm Vô Cực Kiếm + Kiếm Tử Thần cho chủ lực, phần dư dồn cho chủ lực phụ. Lên 8 ở 4-1/4-2 và đổi tướng.",
+   "ky_vong": "Top 2 – tăng 2 bậc sức mạnh cho đội vật lý"
+  },
+  {
+   "ten": "Đam Mê Gậy / Trượng Đại Thiên Sứ / Khiên Đơn Đấu",
+   "uu_tien": "NÊN LẤY",
+   "vong": "2-1 / 3-2",
+   "doi_hinh": "Đao Phủ Azir – Soraka & Zyra (Thực Vật)",
+   "lam_gi": "Nhiều Gậy Quá Khổ → đi đội phép. Soraka nhận Găng Bảo Thạch + Nanh Nashor, Zyra nhận Trượng Hư Vô (18.3 được buff); Malphite gom đồ thủ.",
+   "ky_vong": "Top 2 khi có Ấn Đao Phủ"
+  },
+  {
+   "ten": "Giữ Vững Hàng Ngũ / Khảm Bảo Thạch / Linh Hồn Chuộc Tội",
+   "uu_tien": "NÊN LẤY (18.3 buff)",
+   "vong": "3-2 / 4-2",
+   "doi_hinh": "Đội đã chốt hướng, cần mạnh ngay",
+   "lam_gi": "Bản 18.3 tăng sức mạnh nhóm lõi giao tranh: Giữ Vững Hàng Ngũ (SMCK 9% → 11%), Khảm Bảo Thạch (chí mạng 10% → 15%), Linh Hồn Chuộc Tội (hồi máu 7.5% → 9%). Ở mốc 3-2 và 4-2, chọn nhóm này thay vì cố lấy thêm lõi kinh tế. (Ân Huệ Thách Đấu cũng được buff nhưng đang bị tắt ở 18.3b.)",
+   "ky_vong": "Top 4 chắc hơn – giữ máu tốt ở Giai đoạn 4"
+  },
+  {
+   "ten": "Bài Học Sơ Khai / Hàng Chờ Pandora",
+   "uu_tien": "NÊN LẤY",
+   "vong": "2-1",
+   "doi_hinh": "Akali Mặt Trời (săn 3 sao 1 vàng)",
+   "lam_gi": "Chốt hướng săn 3 sao tướng 1 vàng: giữ cấp 4–5, mua mọi bản Akali/Camille, dồn vàng đổi tướng ở 3-1. (Tinh Linh Chuột Nhắt Lan Tràn bị xoá ở 18.4.)",
+   "ky_vong": "Top 4 – 18.3b giảm Camille nên đội này yếu hơn trước"
+  },
+  {
+   "ten": "Nồi Nấu Ăn / Lò Rèn Thần Thoại",
+   "uu_tien": "NÊN LẤY",
+   "vong": "3-2 / 4-2",
+   "doi_hinh": "Bất kỳ đội có chủ lực rõ ràng",
+   "lam_gi": "Cho Tạo Tác – mạnh hơn hẳn đồ thường. Ưu tiên: Kiếm Tai Ương (Kha'Zix, Akali, Veigar), Đại Bác Hải Tặc (Aphelios/Nidalee), Lõi Bình Minh (Veigar/Yunara), Đá Hắc Hóa (Morgana/Cassiopeia).",
+   "ky_vong": "Top 1 khi Tạo Tác khớp chủ lực (có thể tăng tới 3 bậc)"
+  },
+  {
+   "ten": "Sinh Nhật Đoàn Tụ / Kỷ Nguyên+ / Khởi Động Nhanh / Kỳ Vọng Bất Ngờ / Vượt Thời Gian / Định Hướng Tương Lai",
+   "uu_tien": "NÊN LẤY (nhóm kinh tế)",
+   "vong": "2-1",
+   "doi_hinh": "Chưa chốt – mở đường lên 8/9 nhanh",
+   "lam_gi": "Nhóm lõi kinh tế mạnh nhất phiên bản. Lấy ở 2-1 rồi CHƠI LINH HOẠT: giữ chuỗi, tham vàng, tới 3-2 mới chốt đội theo đồ và lõi thứ hai. Đây là cách an toàn nhất để top 4 đều.",
+   "ky_vong": "Top 4 rất ổn định, top 1 khi ghép với 1 lõi định hình ở 3-2"
+  },
+  {
+   "ten": "Băng Trộm / Kho Báu Chôn Giấu / Túi Đồ Siêu Hùng / Túi Đồ Cỡ Đại",
+   "uu_tien": "NÊN LẤY (nhóm trang bị)",
+   "vong": "2-1 / 3-2",
+   "doi_hinh": "Đội cần đủ 3 món cho 2 chủ lực",
+   "lam_gi": "Cho nhiều mảnh đồ → chọn đội hình cần nhiều đồ (Nidalee & Aphelios, Ahri & Morgana). Ghép đồ sớm để giữ chuỗi thắng, đừng giữ mảnh chờ đồ hoàn hảo.",
+   "ky_vong": "Top 4 chắc; top 1 khi đồ khớp chủ lực chính"
+  }
+ ],
+ "quy_tac_moc": [
+  {
+   "moc": "2-1 (Lõi 1)",
+   "quy_tac": "Ưu tiên KINH TẾ hoặc TRANG BỊ. Chưa chốt đội hình → tránh lõi tộc hẹp. Máu cao + đầu game đẹp → lõi kinh tế dài hạn."
+  },
+  {
+   "moc": "3-2 (Lõi 2)",
+   "quy_tac": "Đã có hướng đội hình → chọn lõi tộc/Ấn/đồ khớp chủ lực. Đang thua liên tục, máu < 50 → lõi giao tranh mạnh ngay."
+  },
+  {
+   "moc": "4-2 (Lõi 3)",
+   "quy_tac": "Chọn thứ tăng sức mạnh bàn cờ NGAY (giao tranh, Ấn, đồ Ánh Sáng). Lõi kinh tế lúc này chỉ khi đang lên 9 nhanh và máu cao."
+  },
+  {
+   "moc": "Đổi lõi",
+   "quy_tac": "3 lựa chọn đều kém: dùng nút đổi cho ô tệ nhất; giữ lại lõi hạng S đã thấy."
+  },
+  {
+   "moc": "Lõi độc quyền",
+   "quy_tac": "Thực Vật Hấp Thụ, Tà Thuật, Tín Đồ Tiên Hắc Ám chỉ 1 người/phòng (18.2) → nếu được chọn thì rất đáng lấy vì không bị tranh."
+  }
+ ],
+ "loi_manh": [
+  {
+   "ten": "Sinh Nhật Đoàn Tụ",
+   "loai": "Kinh tế",
+   "hang": "S",
+   "hop_voi": "Mọi đội hình, nhất là lên 8/9 nhanh",
+   "ghi_chu": "Một trong những lõi mạnh nhất"
+  },
+  {
+   "ten": "Kỷ Nguyên / Kỷ Nguyên+",
+   "loai": "Kinh tế",
+   "hang": "S",
+   "hop_voi": "Lên 8/9 nhanh",
+   "ghi_chu": "Lõi mạnh nhất nhóm kinh tế"
+  },
+  {
+   "ten": "Khởi Động Nhanh",
+   "loai": "Kinh tế",
+   "hang": "S",
+   "hop_voi": "Muốn chuỗi thắng sớm",
+   "ghi_chu": "Tăng nhịp độ đầu trận"
+  },
+  {
+   "ten": "Túi Đồ Siêu Hùng",
+   "loai": "Kinh tế / Trang bị",
+   "hang": "S",
+   "hop_voi": "Mọi đội hình; Tiên Hắc Ám, Tristana",
+   "ghi_chu": "Túi mảnh đồ + tài nguyên"
+  },
+  {
+   "ten": "Kỳ Vọng Bất Ngờ",
+   "loai": "Kinh tế",
+   "hang": "S",
+   "hop_voi": "Linh hoạt, lên 8 nhanh",
+   "ghi_chu": "Được đánh giá rất mạnh"
+  },
+  {
+   "ten": "Thăng Tiến Cuối Trận",
+   "loai": "Kinh tế",
+   "hang": "S (có điều kiện)",
+   "hop_voi": "Draven lên 9, Ashe Hoa Linh lên 9",
+   "ghi_chu": "Tăng 2 bậc sức mạnh cho đội lên 9 nhanh"
+  },
+  {
+   "ten": "Thăng Cấp. / Quà Sinh Nhật",
+   "loai": "Kinh tế (kinh nghiệm)",
+   "hang": "A",
+   "hop_voi": "Rồng Ngàn Tuổi / Draven lên 9",
+   "ghi_chu": "Lên cấp nhận thêm tướng"
+  },
+  {
+   "ten": "Xúc Xắc Hoành Tráng / Xúc Xắc Vô Tận",
+   "loai": "Kinh tế (lượt đổi)",
+   "hang": "A",
+   "hop_voi": "Sivir & Nidalee, Ahri & Morgana",
+   "ghi_chu": "Nhiều lượt đổi tướng để tìm tướng 4 vàng"
+  },
+  {
+   "ten": "Tăng Vốn I / II",
+   "loai": "Kinh tế",
+   "hang": "A",
+   "hop_voi": "Caitlyn, đội ít cần đồ",
+   "ghi_chu": "Tích vàng"
+  },
+  {
+   "ten": "Vượt Thời Gian / Định Hướng Tương Lai",
+   "loai": "Kinh tế",
+   "hang": "S",
+   "hop_voi": "Lên 8/9 nhanh",
+   "ghi_chu": "Được đánh giá rất mạnh"
+  },
+  {
+   "ten": "Băng Trộm",
+   "loai": "Trang bị",
+   "hang": "S",
+   "hop_voi": "Mọi đội hình",
+   "ghi_chu": "Nhận Găng Đạo Tặc"
+  },
+  {
+   "ten": "Đam Mê Đai Lưng",
+   "loai": "Trang bị",
+   "hang": "A",
+   "hop_voi": "Đội đỡ đòn nhiều Máu",
+   "ghi_chu": "Nhận Đai Khổng Lồ"
+  },
+  {
+   "ten": "Kho Báu Chôn Giấu",
+   "loai": "Trang bị",
+   "hang": "S",
+   "hop_voi": "Mọi đội hình",
+   "ghi_chu": "Nhận mảnh đồ theo thời gian"
+  },
+  {
+   "ten": "Túi Đồ Cỡ Đại",
+   "loai": "Trang bị",
+   "hang": "A",
+   "hop_voi": "Mọi đội hình",
+   "ghi_chu": "Mảnh đồ + vàng + đồ đổi"
+  },
+  {
+   "ten": "Khiên Đơn Đấu",
+   "loai": "Trang bị",
+   "hang": "S",
+   "hop_voi": "Soraka & Zyra, đỡ đòn chính",
+   "ghi_chu": "Được nhiều trang đánh giá cao"
+  },
+  {
+   "ten": "Thợ Rèn Kiếm / Đam Mê Kiếm",
+   "loai": "Trang bị (vật lý)",
+   "hang": "S+ (có điều kiện)",
+   "hop_voi": "Nidalee & Aphelios, Sivir & Nidalee",
+   "ghi_chu": "Tăng 2 bậc sức mạnh cho đội vật lý"
+  },
+  {
+   "ten": "Đam Mê Gậy / Trượng Đại Thiên Sứ / Thợ Rèn Gậy",
+   "loai": "Trang bị (phép)",
+   "hang": "A",
+   "hop_voi": "Soraka & Zyra, chủ lực phép",
+   "ghi_chu": "Hợp đội phép"
+  },
+  {
+   "ten": "Nồi Nấu Ăn / Lò Rèn Thần Thoại",
+   "loai": "Trang bị (Tạo Tác)",
+   "hang": "A",
+   "hop_voi": "Master Yi & Kog'Maw, Veigar",
+   "ghi_chu": "Tạo Tác cho chủ lực"
+  },
+  {
+   "ten": "Thép Mạ Vàng",
+   "loai": "Giao tranh",
+   "hang": "S",
+   "hop_voi": "Đội vật lý; Nidalee & Aphelios",
+   "ghi_chu": "Tăng sát thương"
+  },
+  {
+   "ten": "Tiếng Gọi Hoa Linh",
+   "loai": "Tộc Hoa Linh",
+   "hang": "S",
+   "hop_voi": "Ahri Hoa Linh / Ashe lên 9",
+   "ghi_chu": "Một trong những lõi mạnh nhất"
+  },
+  {
+   "ten": "Tinh Linh Hoàn Tiền / Tinh Linh Hoàn Tiền+",
+   "loai": "Tộc Hoa Linh / Tinh Linh",
+   "hang": "S (tốt nhất)",
+   "hop_voi": "Ahri Hoa Linh",
+   "ghi_chu": "Hoàn vàng khi mua Tinh Linh – lõi tốt nhất cho Hoa Linh"
+  },
+  {
+   "ten": "Thực Vật Hấp Thụ",
+   "loai": "Tộc Thực Vật",
+   "hang": "S (có điều kiện)",
+   "hop_voi": "Veigar săn 3 sao, Cassiopeia Vệ Quân",
+   "ghi_chu": "Chỉ 1 người/phòng (18.2)"
+  },
+  {
+   "ten": "Tà Thuật",
+   "loai": "Tộc Tiên Hắc Ám",
+   "hang": "⛔ TẠM TẮT",
+   "hop_voi": "—",
+   "ghi_chu": "⛔ 18.3b: Riot TẮT lõi này do lỗi – sẽ bật lại ở bản sau"
+  },
+  {
+   "ten": "Tín Đồ Tiên Hắc Ám",
+   "loai": "Tộc Tiên Hắc Ám",
+   "hang": "S (có điều kiện)",
+   "hop_voi": "Đội Tiên Hắc Ám (Cassiopeia / Morgana)",
+   "ghi_chu": "Vẫn dùng được; chỉ 1 người/phòng"
+  },
+  {
+   "ten": "Cắm Rễ Phân Tán / Phân Nhánh",
+   "loai": "Tộc / Ấn",
+   "hang": "S",
+   "hop_voi": "Aphelios Thần Rừng, Tristana & Rengar",
+   "ghi_chu": "Cho thêm Ấn / tộc"
+  },
+  {
+   "ten": "Không Đối Thủ",
+   "loai": "Tộc Khắc Tinh",
+   "hang": "Mở khoá",
+   "hop_voi": "Kha'Zix + Rengar cùng sân",
+   "ghi_chu": "Cho phép ra sân cả 2 tướng Khắc Tinh"
+  },
+  {
+   "ten": "Tôi Thăng Cấp Một Mình",
+   "loai": "Tộc Khắc Tinh",
+   "hang": "S (có điều kiện)",
+   "hop_voi": "Rengar săn 3 sao",
+   "ghi_chu": "Rengar gánh một mình"
+  },
+  {
+   "ten": "U.R.F.",
+   "loai": "Giao tranh",
+   "hang": "A",
+   "hop_voi": "Tristana & Rengar",
+   "ghi_chu": "Tăng tốc cho đội săn 3 sao tướng 3 vàng"
+  },
+  {
+   "ten": "Hàng Chờ Pandora / Bài Học Sơ Khai",
+   "loai": "Kinh tế / Săn 3 sao",
+   "hang": "A",
+   "hop_voi": "Akali Mặt Trời (săn 3 sao 1 vàng)",
+   "ghi_chu": "Hỗ trợ săn 3 sao"
+  },
+  {
+   "ten": "Quái Thú Bên Trong",
+   "loai": "Tộc Nguyên Sinh",
+   "hang": "A",
+   "hop_voi": "Nidalee Thuật Sĩ, Malphite Nguyên Sinh",
+   "ghi_chu": "Tăng bậc đội Nguyên Sinh"
+  },
+  {
+   "ten": "Quái Rừng Omega",
+   "loai": "Tộc Quái Rừng",
+   "hang": "A",
+   "hop_voi": "Quái Rừng săn 3 sao / nhịp độ",
+   "ghi_chu": "Tăng sức mạnh đội thuần Quái Rừng"
+  },
+  {
+   "ten": "Giữ Vững Hàng Ngũ",
+   "loai": "Giao tranh",
+   "hang": "S",
+   "hop_voi": "Mọi đội có hàng trước rõ ràng",
+   "ghi_chu": "✅ 18.3 tăng sức mạnh (SMCK 9% → 11%)"
+  },
+  {
+   "ten": "Khảm Bảo Thạch",
+   "loai": "Giao tranh",
+   "hang": "A",
+   "hop_voi": "Đội phép (Ahri, Soraka, Cassiopeia)",
+   "ghi_chu": "✅ 18.3 tăng Tỉ Lệ Chí Mạng (10% → 15%)"
+  },
+  {
+   "ten": "Linh Hồn Chuộc Tội",
+   "loai": "Giao tranh",
+   "hang": "A",
+   "hop_voi": "Đội cần trụ lâu",
+   "ghi_chu": "✅ 18.3 tăng hồi máu (7.5% → 9%)"
+  },
+  {
+   "ten": "Ân Huệ Thách Đấu",
+   "loai": "Giao tranh",
+   "hang": "⛔ TẠM TẮT",
+   "hop_voi": "—",
+   "ghi_chu": "⛔ 18.3b: bị tắt do lỗi"
+  },
+  {
+   "ten": "Bảo Hộ Vô Tận / Nhân Bản",
+   "loai": "Giao tranh",
+   "hang": "⛔ TẠM TẮT",
+   "hop_voi": "—",
+   "ghi_chu": "⛔ 18.3b: bị tắt do lỗi"
+  },
+  {
+   "ten": "Hang Ổ Baron / To Lớn & Mạnh Mẽ",
+   "loai": "Giao tranh",
+   "hang": "S",
+   "hop_voi": "Cassiopeia Vệ Quân",
+   "ghi_chu": "Tăng sức mạnh đội trụ lâu"
+  },
+  {
+   "ten": "Vương Miện Hắc Hóa",
+   "loai": "Giao tranh / Đội hình",
+   "hang": "S (có điều kiện)",
+   "hop_voi": "Kayle Mặt Trời (săn 3 sao)",
+   "ghi_chu": "Đẩy đội Kayle lên hạng S"
+  },
+  {
+   "ten": "Sơ Đồ Tuyến Sau",
+   "loai": "Tướng + Ấn",
+   "hang": "A",
+   "hop_voi": "Linh hoạt",
+   "ghi_chu": "Nhận tướng 3 vàng không phải đỡ đòn + Ấn tương ứng"
+  },
+  {
+   "ten": "Ấn (Thuật Sĩ / Đao Phủ / Tiên Linh / Thợ Săn / Nguyên Sinh)",
+   "loai": "Ấn",
+   "hang": "S (có điều kiện)",
+   "hop_voi": "Ahri & Morgana, Soraka & Zyra, Sivir",
+   "ghi_chu": "Ấn Thuật Sĩ đẩy Ahri & Morgana lên S+"
+  }
+ ],
+ "ghi_chu_top1": "Cách đọc: BẮT BUỘC ÉP = nhận được thì bỏ mọi kế hoạch khác, chơi đúng đội hình ghi trong bảng. NÊN LẤY = rất mạnh nhưng vẫn linh hoạt được. Tên lõi theo bản tiếng Việt của game; một số lõi mới chưa có hình riêng nên dùng biểu tượng tộc/hệ viền vàng. Điều kiện tăng bậc tổng hợp từ TFT Flow, TFT Academy, BunnyMuffins – cập nhật 06/10/2026 theo bản vá 18.3b.",
+ "quy_tac_chung": "Quy tắc chung: 2-1 ưu tiên lõi Vàng / Mảnh đồ (linh hoạt) · 3-2 chọn lõi khớp đội đang đi (Ấn, Đồ, Tộc) · 4-2 ưu tiên lõi Chỉ số giao tranh. Máu thấp luôn ưu tiên sức mạnh ngay. Tên lõi theo bản tiếng Việt của game; lõi mới 18.4 chưa có tên Việt chính thức nên mô tả theo hiệu ứng."
+}

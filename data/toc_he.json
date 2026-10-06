@@ -1,0 +1,625 @@
+[
+ {
+  "id": "Blackthorn",
+  "ten": "Gai Đen",
+  "loai": "Tộc",
+  "moc": [
+   2,
+   4,
+   6
+  ],
+  "mo_ta": "Hiến tế đồng minh đặt trên ô Gai Đen trước giao tranh để tăng Máu cho cả đội; tướng Gai Đen nhận thêm chỉ số theo vai trò, sao và giá của vật tế.",
+  "tuong": [
+   "Azir",
+   "RekSai",
+   "Veigar",
+   "Malphite",
+   "Warwick"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_oldgod.png"
+ },
+ {
+  "id": "Blossom",
+  "ten": "Hoa Linh",
+  "loai": "Tộc",
+  "moc": [
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "mo_ta": "Mua Tinh Linh trong cửa hàng; sau mỗi giao tranh Tinh Linh mạnh lên. Tướng Hoa Linh nhận thêm SMCK, SMPT và Máu. Mốc cao: Tinh Linh xuất hiện mọi lượt, hoàn vàng, mua 2 Tinh Linh/vòng.",
+  "tuong": [
+   "Yorick",
+   "Yunara",
+   "Sett",
+   "Ahri",
+   "Ashe",
+   "Karma",
+   "MasterYi"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_blossom.png"
+ },
+ {
+  "id": "Coven",
+  "ten": "Tiên Hắc Ám",
+  "loai": "Tộc",
+  "moc": [
+   3,
+   4,
+   5,
+   7
+  ],
+  "mo_ta": "Tích Tinh Hoa khi hạ gục và khi thua. Từ một mốc Tinh Hoa có thể đổi lấy phần thưởng hoặc tiếp tục tích — đội chơi thua chuỗi để lấy thưởng lớn.",
+  "tuong": [
+   "Elise",
+   "Caitlyn",
+   "Cassiopeia",
+   "Morgana",
+   "Camille"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_coven.png"
+ },
+ {
+  "id": "Elderwood",
+  "ten": "Thần Rừng",
+  "loai": "Tộc",
+  "moc": [
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "mo_ta": "Nhận cây Thần Rừng đặt trên bàn: Cây Vỏ Đá (đỡ đòn), Hoa Sinh Mệnh, Hộ Vệ Rừng. Mốc 7/9/11 cây lên 2–3 sao.",
+  "tuong": [
+   "Xayah",
+   "Ornn",
+   "Hecarim",
+   "Ezreal",
+   "Gnar",
+   "Alistar",
+   "LeBlanc"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_elderwood.png"
+ },
+ {
+  "id": "Fae",
+  "ten": "Tiên Linh",
+  "loai": "Tộc",
+  "moc": [
+   2,
+   4
+  ],
+  "mo_ta": "Sát thương, hồi máu, lá chắn của đội hút Pix. Mỗi Pix tăng SMCK/SMPT cho tướng Tiên Linh và hồi máu khi thấp máu; đủ 7 Pix sẽ ra Pix Hoàng Kim cho vàng.",
+  "tuong": [
+   "Xayah",
+   "Rakan",
+   "Lillia",
+   "Tristana"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_fae.png"
+ },
+ {
+  "id": "Inferno",
+  "ten": "Hỏa Ngục",
+  "loai": "Tộc",
+  "moc": [
+   2,
+   3,
+   5,
+   7
+  ],
+  "mo_ta": "Tướng Hỏa Ngục gây Thiêu Đốt + Vết Thương Sâu. Mốc 3: sau giao tranh vài ô cửa hàng bốc cháy, hiện tướng cao hơn 1 bậc.",
+  "tuong": [
+   "Akali",
+   "Varus",
+   "Amumu",
+   "Kennen",
+   "Shen"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_inferno.png"
+ },
+ {
+  "id": "Lunar",
+  "ten": "Mặt Trăng",
+  "loai": "Tộc",
+  "moc": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "mo_ta": "Tướng Mặt Trăng và đồng minh đứng cạnh nhận Tốc Độ Đánh và SMPT; tướng Mặt Trăng nhận nhiều hơn.",
+  "tuong": [
+   "Aphelios",
+   "Diana",
+   "Alune"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_lunar.png"
+ },
+ {
+  "id": "Primal",
+  "ten": "Nguyên Sinh",
+  "loai": "Tộc",
+  "moc": [
+   2,
+   4
+  ],
+  "mo_ta": "Chọn 1 trong 4 Phước Lành Nguyên Sinh; mốc 4 mạnh hơn.",
+  "tuong": [
+   "Nidalee",
+   "Sivir",
+   "Vi"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_primal.png"
+ },
+ {
+  "id": "Riftbeast",
+  "ten": "Quái Rừng",
+  "loai": "Tộc",
+  "moc": [
+   3,
+   5,
+   7,
+   10
+  ],
+  "mo_ta": "Chọn Quái Rừng Đầu Đàn nhận bùa độc nhất. Cửa hàng định kỳ tràn Quái Rừng; Quái Rừng lớn dần trong giao tranh. Mốc 10: +1 số tướng.",
+  "tuong": [
+   "Gromp",
+   "Murkwolf",
+   "Sentry",
+   "Cinderling",
+   "Scuttlecrab",
+   "Krug",
+   "Sentinel",
+   "Brambleback",
+   "ElderDragon",
+   "CrimsonRaptor"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_riftbeast.png"
+ },
+ {
+  "id": "Solar",
+  "ten": "Mặt Trời",
+  "loai": "Tộc",
+  "moc": [
+   3
+  ],
+  "mo_ta": "Cả đội nhận lá chắn và sát thương phép cộng thêm; mạnh dần theo số tướng 3 sao khác nhau trên sân.",
+  "tuong": [
+   "Leona",
+   "Kayle",
+   "Sejuani"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_solar.png"
+ },
+ {
+  "id": "Sprykin",
+  "ten": "Tinh Nghịch",
+  "loai": "Tộc",
+  "moc": [
+   3,
+   5,
+   7
+  ],
+  "mo_ta": "Nhận Lông Xù Khổng Lồ (LXKL); thả 1 tướng Tinh Nghịch lên làm Kỵ Sĩ. Mốc cao: kỹ năng LXKL áp dụng lên các tướng Tinh Nghịch.",
+  "tuong": [
+   "Veigar",
+   "Kobuko",
+   "Teemo",
+   "Rammus",
+   "Gnar",
+   "Tristana"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_sprykin.png"
+ },
+ {
+  "id": "Adaptor",
+  "ten": "Thích Ứng",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   3,
+   4
+  ],
+  "mo_ta": "Kỹ năng đổi theo SMCK hay SMPT cao hơn; nhận thêm chỉ số đó.",
+  "tuong": [
+   "Gromp",
+   "Nidalee",
+   "Akali",
+   "KogMaw",
+   "MasterYi"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_adaptor.png"
+ },
+ {
+  "id": "Brawler",
+  "ten": "Đấu Sĩ",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   4,
+   6
+  ],
+  "mo_ta": "Cả đội thêm Máu tối đa, tướng Đấu Sĩ nhận nhiều hơn.",
+  "tuong": [
+   "Krug",
+   "RekSai",
+   "Sett",
+   "Kobuko",
+   "Gnar",
+   "Alistar"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_brawler.png"
+ },
+ {
+  "id": "Defender",
+  "ten": "Vệ Quân",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   4,
+   6
+  ],
+  "mo_ta": "Cả đội thêm Giáp và Kháng Phép, tướng Vệ Quân nhận nhiều hơn.",
+  "tuong": [
+   "Ornn",
+   "Lillia",
+   "Rammus",
+   "Leona",
+   "Fiddlesticks",
+   "Shen"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_defender.png"
+ },
+ {
+  "id": "Executioner",
+  "ten": "Đao Phủ",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   3,
+   4
+  ],
+  "mo_ta": "Tướng Đao Phủ nhận Chuẩn Xác (kỹ năng chí mạng được) và Tỉ Lệ Chí Mạng; mốc cao gây chảy máu sát thương chuẩn.",
+  "tuong": [
+   "Ezreal",
+   "Azir",
+   "Yunara",
+   "Kennen",
+   "Soraka"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_executioner.png"
+ },
+ {
+  "id": "Hunter",
+  "ten": "Thợ Săn",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "mo_ta": "Tướng Thợ Săn nhận SMCK; giữ một mục tiêu đủ lâu thì nhận thêm Khuếch Đại Sát Thương.",
+  "tuong": [
+   "Cinderling",
+   "Ashe",
+   "Caitlyn",
+   "Tristana",
+   "Sivir"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_hunter.png"
+ },
+ {
+  "id": "Invoker",
+  "ten": "Thuật Sĩ",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "mo_ta": "Cả đội tăng Hồi Năng Lượng, tướng Thuật Sĩ nhận nhiều hơn.",
+  "tuong": [
+   "Sentry",
+   "Sentinel",
+   "Morgana",
+   "Teemo",
+   "KogMaw"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_invoker.png"
+ },
+ {
+  "id": "Juggernaut",
+  "ten": "Dũng Sĩ",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   4,
+   6
+  ],
+  "mo_ta": "Cả đội nhận Chống Chịu (giảm sát thương), tướng Dũng Sĩ nhận nhiều hơn.",
+  "tuong": [
+   "Scuttlecrab",
+   "Maokai",
+   "Yorick",
+   "Rakan",
+   "Vi",
+   "Amumu",
+   "Sejuani"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_juggernaut.png"
+ },
+ {
+  "id": "Rapidfire",
+  "ten": "Liên Kích",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "mo_ta": "Cả đội nhận Tốc Độ Đánh; tướng Liên Kích cộng dồn thêm Tốc Độ Đánh mỗi đòn đánh.",
+  "tuong": [
+   "Xayah",
+   "Varus",
+   "Aphelios",
+   "Kayle",
+   "CrimsonRaptor"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_rapidfire.png"
+ },
+ {
+  "id": "Slayer",
+  "ten": "Tàn Phá",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   4,
+   6
+  ],
+  "mo_ta": "Tướng Tàn Phá nhận Hút Máu Toàn Phần và sát thương cộng thêm, gấp đôi lên kẻ địch thấp máu.",
+  "tuong": [
+   "Murkwolf",
+   "Brambleback",
+   "Akali",
+   "Diana",
+   "Warwick",
+   "Camille"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_ravager.png"
+ },
+ {
+  "id": "Spellweaver",
+  "ten": "Thuật Sư",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   4,
+   6
+  ],
+  "mo_ta": "Cả đội nhận SMPT; tướng Thuật Sư nhận nhiều hơn và cộng dồn SMPT mỗi lần tung chiêu.",
+  "tuong": [
+   "Veigar",
+   "Ahri",
+   "Cassiopeia",
+   "Alune",
+   "Fiddlesticks",
+   "Karma",
+   "LeBlanc"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_spellweaver.png"
+ },
+ {
+  "id": "Summoner",
+  "ten": "Triệu Hồi",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   3
+  ],
+  "mo_ta": "Cường hóa đơn vị triệu hồi: Yorick (Máu), Azir (Sát thương), Chim Mẹ (Sát thương), Zyra (cây đánh thêm).",
+  "tuong": [
+   "Azir",
+   "Yorick",
+   "Zyra",
+   "CrimsonRaptor"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_summoner.png"
+ },
+ {
+  "id": "Vanguard",
+  "ten": "Tiên Phong",
+  "loai": "Hệ",
+  "moc": [
+   2,
+   4,
+   6
+  ],
+  "mo_ta": "Đầu giao tranh và khi xuống thấp máu, tướng Tiên Phong nhận Lá Chắn theo Máu tối đa.",
+  "tuong": [
+   "Sentinel",
+   "Hecarim",
+   "Elise",
+   "Rakan",
+   "Diana",
+   "Taric"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_vanguard.png"
+ },
+ {
+  "id": "Caustic",
+  "ten": "Ăn Mòn",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Sát thương của Kog'Maw giảm Giáp và Kháng Phép kẻ địch.",
+  "tuong": [
+   "KogMaw"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_caustic.png"
+ },
+ {
+  "id": "FloraFatalis",
+  "ten": "Thực Vật",
+  "loai": "Tộc",
+  "moc": [
+   1,
+   2
+  ],
+  "mo_ta": "Tướng Thực Vật thu hoạch khi tham gia hạ gục: nhận Năng Lượng và hồi máu cho đồng minh yếu nhất.",
+  "tuong": [
+   "Fiddlesticks",
+   "Soraka"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_florafatalis.png"
+ },
+ {
+  "id": "Rival",
+  "ten": "Khắc Tinh",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Kha'Zix và Rengar: chỉ kích hoạt khi ra sân 1 trong 2. Tích điểm hạ gục để tiến hóa Kha'Zix / cường hóa Rengar.",
+  "tuong": [
+   "KhaZix",
+   "Rengar"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_rival.png"
+ },
+ {
+  "id": "Battlemage",
+  "ten": "Cự Thạch",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Malphite tăng Giáp và Kháng Phép theo số kẻ địch đang nhắm vào mình.",
+  "tuong": [
+   "Malphite"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_monolith.png"
+ },
+ {
+  "id": "Maokai_UniqueTrait",
+  "ten": "Cổ Thụ",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Mỗi kẻ địch chết gần Maokai, Maokai nhận Máu tối đa vĩnh viễn.",
+  "tuong": [
+   "Maokai"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_oldgrowth.png"
+ },
+ {
+  "id": "Greenfather",
+  "ten": "Thụ Thần",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Ivern gieo hạt để nuôi ô trên bàn, ô đó tăng hiệu ứng cho tướng đứng trên.",
+  "tuong": [
+   "Ivern"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_greenfather.png"
+ },
+ {
+  "id": "AluneUniqueTrait",
+  "ten": "Hòa Hợp",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Alune đổi pha trăng mỗi lần tung chiêu: lúc cho cả đội Chống Chịu, lúc cho Khuếch Đại Sát Thương.",
+  "tuong": [
+   "Alune"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_attuned.png"
+ },
+ {
+  "id": "ZyraUniqueTrait",
+  "ten": "Vườn Gai",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Cả đội nhận Chống Chịu, tăng thêm khi đủ cây của Zyra còn sống.",
+  "tuong": [
+   "Zyra"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_zyraorigin.png"
+ },
+ {
+  "id": "Emerald",
+  "ten": "Lục Bảo",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Kéo 1 đồng minh vào Taric để ghép đôi, đồng minh nhận hiệu ứng từ kỹ năng Taric.",
+  "tuong": [
+   "Taric"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_emeraldaspect.png"
+ },
+ {
+  "id": "DravenUniqueTrait",
+  "ten": "Săn Thưởng",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Chọn nhiệm vụ; Draven hoàn thành nhiệm vụ để nhận thưởng rồi chọn nhiệm vụ mới.",
+  "tuong": [
+   "Draven"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_bountyseeker.png"
+ },
+ {
+  "id": "ApexPredator",
+  "ten": "Bá Chủ",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Rồng Ngàn Tuổi chiếm 2 ô đội hình và cộng 2 mốc Quái Rừng.",
+  "tuong": [
+   "ElderDragon"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_apexpredator.png"
+ },
+ {
+  "id": "Avatar",
+  "ten": "Thế Thần",
+  "loai": "Độc nhất",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Lux mang theo một tộc/hệ được chọn; tộc/hệ đó tính gấp đôi.",
+  "tuong": [
+   "Lux"
+  ],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_avatar.png"
+ },
+ {
+  "id": "Eclipse",
+  "ten": "Thiên Thực",
+  "loai": "Đặc biệt",
+  "moc": [
+   1
+  ],
+  "mo_ta": "Sau vài giây, tướng Thiên Thực hạ gục kẻ địch thấp máu nhất, lặp lại định kỳ (kết hợp Mặt Trời + Mặt Trăng).",
+  "tuong": [],
+  "anh": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_eclipse.png"
+ }
+]
