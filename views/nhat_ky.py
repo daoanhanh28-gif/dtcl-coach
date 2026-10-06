@@ -16,8 +16,7 @@ comp_names = [c["ten"] for c in engine.comps()] + [KHAC]
 aug_names = sorted(a["ten"] for a in d["loi"])
 item_names = sorted(i["ten"] for i in d["trang_bi"]["hoan_chinh"]) + sorted(e["ten"] for e in d["trang_bi"]["an"])
 
-st.session_state.setdefault("nk_form", 0)
-with st.form(f"nk_{st.session_state.nk_form}", border=True):
+with st.form("nk", border=True, clear_on_submit=True):
     c1, c2 = st.columns([2, 1])
     comp = c1.selectbox("Đội hình đã chơi", comp_names)
     place = c2.selectbox("Hạng về", list(range(1, 9)), index=3)
@@ -41,7 +40,6 @@ if ok:
                                    "ban_game": d["meta"]["phien_ban"]})
         if saved:
             st.success(f"Đã lưu: {name} · hạng {place}.")
-            st.session_state.nk_form += 1
         else:
             st.error("Chưa lưu được vào Google Sheets — kiểm tra SHEETS_WEBAPP_URL / SHEETS_TOKEN trong Secrets.")
 
