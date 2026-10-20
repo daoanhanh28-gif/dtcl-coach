@@ -1,8 +1,8 @@
-# ĐTCL Coach · v1.2 · 2026-10-20
+# ĐTCL Coach · v1.3 · 2026-10-20
 
 Web trợ lý Đấu Trường Chân Lý (Teamfight Tactics) cho máy chủ Việt Nam — Mùa 18 *Đại Ngàn Kỳ Bí*.
-Hai bộ dữ liệu chọn ở thanh bên: **18.5 (mới, mặc định)** — số liệu 18.4b + thay đổi 18.5 — và **18.3b (cũ)**.
-Mở thêm tab với link `?ban=18.3b` để vừa đánh vừa so bản cũ.
+Ba bộ dữ liệu chọn ở thanh bên: **18.4b (đang chạy, mặc định)**, **18.5 (xem trước, ra 21/10)** — số liệu 18.4b + thay đổi 18.5 —
+và **18.3b (cũ)**. Mở thêm tab với link `?ban=18.5` hoặc `?ban=18.3b` để xem song song.
 Chạy trên Streamlit Community Cloud (miễn phí), nhật ký lưu Google Sheets, AI giải thích bằng Gemini (gói miễn phí).
 
 > Hướng dẫn giúp vào top đều hơn, **không đảm bảo** top 1 mọi ván. Không liên kết chính thức với Riot Games.
@@ -11,6 +11,7 @@ Chạy trên Streamlit Community Cloud (miễn phí), nhật ký lưu Google She
 
 | Trang | Làm gì |
 |---|---|
+| Cẩm nang Thách Đấu | Top đội mạnh / mạnh ít người chơi / dễ vào top ít điều kiện (OP.GG VN), đánh tempo như Thách Đấu (mốc lên cấp thật từ MetaTFT), lõi top 1 & cách xử lý, cặp lõi mạnh, bùa (Tinh Linh) theo giai đoạn |
 | Đội hình meta | 19 đội S/A/B/C (file Excel v1.8), số liệu VN (OP.GG 18.4b) · Trung · Hàn, **form theo vòng** (cấp 4 → hoàn chỉnh, vị trí đứng thật), thống kê MetaTFT |
 | Trợ lý ván đấu | 3 bước: tình hình → **bấm hình** tướng / mảnh đồ / Ấn → **4 dòng kết luận** (đội nên đi, lên cấp hay đổi tướng, ghép gì, lõi nào) + thẻ “vì sao”, form theo vòng; thẻ **Ấn → đội hình** (ai đeo Ấn, mốc tộc/hệ ở cấp 8 & 9, thay tướng nào để lên mốc cao hơn, ai cầm Ấn đầu trận) và **Lõi → cách đánh** |
 | Phân tích bản cập nhật | Tăng / giảm bản mới có hình; đội nên chơi, được lợi, mạnh nhất, dễ top 1, dễ top 4, mạnh mà ít người chơi (spam), dễ chơi, nên tránh |
@@ -51,6 +52,10 @@ streamlit run app.py          # mã đăng nhập mặc định: dtcl2026
 ```
 
 ## Lịch sử phiên bản
+
+- **v1.3 · 2026-10-20** — Bộ dữ liệu **18.4b** (bản đang chạy, mặc định): thay đổi 18.4 + 18.4b, OP.GG VN 32 đội (196.456 ván),
+  thống kê Ấn tactics.tools. Trang mới **Cẩm nang Thách Đấu**. Trợ lý → Ấn: tối ưu lại, xếp đội quanh chủ lực meta
+  (đội đủ mẫu MetaTFT, mốc tộc của chủ lực nặng gấp 3, người cầm Ấn theo thống kê), mỗi chủ lực 1 đội, có gợi ý đổi tướng.
 
 - **v1.2 · 2026-10-20** — Cập nhật lên bản 18.5: thống kê MetaTFT 18.4b (60 cụm đội, form theo vòng, đồ từng tướng, bảng lõi),
   số liệu máy chủ VN OP.GG 18.4b (28 đội, 171.120 ván), danh sách tăng/giảm 18.5 (tướng, tộc hệ, lõi, trang bị, Tinh Linh,

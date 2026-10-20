@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.2 (2026-10-20) — bộ não tính toán (luật viết trong code, không dùng AI)
+# ĐTCL Coach v1.3 (2026-10-20) — bộ não tính toán (luật viết trong code, không dùng AI)
 """
 Mọi phép tính của web nằm ở đây, không phụ thuộc Streamlit → kiểm thử dễ.
 Nguồn nội dung chính: file Excel hướng dẫn v1.8 của anh Peach (data/hd_*.json).
@@ -26,6 +26,7 @@ from core import config
 
 FILES = ("tuong", "toc_he", "trang_bi", "loi", "metatft_doi_hinh", "kinh_te", "cau_hoi", "meo", "meta",
          "hd_doi_hinh", "hd_an", "hd_loi", "hd_nhip", "hd_kien_thuc", "metatft_chi_tiet", "anh_phu", "ban_cap_nhat")
+FILES_TUY_CHON = ("vn_opgg", "an_thong_ke", "cam_nang")   # bộ dữ liệu cũ có thể không có → {}
 
 # tên gọi khác trong Excel / GGMeo → tên trong dữ liệu game
 ITEM_ALIAS = {"Kiếm BF": "Kiếm B.F.", "Xẻng Vàng": "Siêu Xẻng", "Gậy": "Gậy Quá Khổ", "Nước Mắt": "Nước Mắt Nữ Thần",
@@ -56,6 +57,11 @@ def _data(bo: str) -> dict:
 
 def _build_data(bo: str) -> dict:
     d = {n: copy.deepcopy(config.load_json(f"{n}.json", bo)) for n in FILES}
+    for n in FILES_TUY_CHON:
+        try:
+            d[n] = copy.deepcopy(config.load_json(f"{n}.json", bo))
+        except FileNotFoundError:
+            d[n] = {}
     d["champ"] = {c["id"]: c for c in d["tuong"]}
     d["champ_by_name"] = {norm(c["ten"]): c["id"] for c in d["tuong"]}
     d["trait"] = {t["id"]: t for t in d["toc_he"]}

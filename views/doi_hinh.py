@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.2 (2026-10-20) — trang Đội hình meta (Excel v1.8 + số liệu VN/Trung/Hàn + MetaTFT)
+# ĐTCL Coach v1.3 (2026-10-20) — trang Đội hình meta (Excel v1.8 + số liệu VN/Trung/Hàn + MetaTFT)
 import pandas as pd
 import streamlit as st
 

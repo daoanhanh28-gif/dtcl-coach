@@ -851,7 +851,7 @@
  ],
  "may_chu": {
   "vn": {
-   "tieu_de": "★ MÁY CHỦ VIỆT NAM (VN) – OP.GG, bản 18.4b, 171.120 ván / 24 giờ (20/10) – ĐỌC BẢNG NÀY TRƯỚC",
+   "tieu_de": "★ MÁY CHỦ VIỆT NAM (VN) – OP.GG, bản 18.4b, 196.456 ván / 24 giờ (20/10) – ĐỌC BẢNG NÀY TRƯỚC",
    "cot": [
     "#",
     "Đội hình",
@@ -866,37 +866,37 @@
      1,
      "Quái Rừng Maokai",
      "OP",
-     "3.30",
-     "69,4%",
-     "6,29%",
+     "3.31",
+     "69,3%",
+     "6,31%",
      "Amumu, Người Đá, Rồng Ngàn Tuổi, Ivern, Kennen, Maokai, Draven, Taric"
     ],
     [
      2,
      "Đao Phủ Azir",
      "S",
-     "2.82",
-     "83,4%",
-     "1,82%",
+     "2.78",
+     "84,3%",
+     "1,90%",
      "Veigar, Teemo, Azir, Rammus, Fiddlesticks, Soraka, Zyra, Kennen"
     ],
     [
      3,
-     "Thần Rừng Kha'Zix",
-     "S",
-     "2.83",
-     "84,0%",
-     "0,57%",
-     "Ornn, Diana, Hecarim, Kha'Zix, Fiddlesticks, Aphelios, Ezreal, Soraka"
-    ],
-    [
-     4,
      "Mặt Trời Yunara",
      "S",
      "2.84",
-     "85,5%",
-     "0,91%",
+     "85,1%",
+     "0,92%",
      "Leona, Yorick, Karma, Kayle, LeBlanc, Sejuani, Yunara, Azir"
+    ],
+    [
+     4,
+     "Thần Rừng Kha'Zix",
+     "S",
+     "2.84",
+     "83,7%",
+     "0,58%",
+     "Ornn, Diana, Hecarim, Kha'Zix, Fiddlesticks, Aphelios, Ezreal, Soraka"
     ],
     [
      5,
@@ -904,51 +904,51 @@
      "S",
      "3.43",
      "69,0%",
-     "0,75%",
+     "0,84%",
      "Elise, Cassiopeia, Diana, Morgana, Người Đá, Alune, Rồng Ngàn Tuổi, Taric"
     ],
     [
      6,
      "Thần Rừng Draven",
      "S",
-     "3.56",
-     "65,9%",
-     "1,26%",
+     "3.59",
+     "65,3%",
+     "1,33%",
      "Alistar, Ezreal, Amumu, Gnar, Ivern, Kennen, Maokai, Draven, Taric"
     ],
     [
      7,
      "Liên Kích Kayle",
      "A",
-     "2.90",
-     "82,4%",
-     "0,31%",
+     "2.94",
+     "81,4%",
+     "0,32%",
      "Leona, Varus, Kayle, Sejuani, Shen, Diana, Aphelios, Amumu"
     ],
     [
      8,
-     "Thuật Sư Veigar",
+     "Thích Ứng Rengar",
      "A",
-     "3.10",
-     "77,2%",
-     "0,45%",
-     "Ornn, Rek'Sai, Veigar, Alistar, LeBlanc, Cassiopeia, Fiddlesticks, Ahri, Alune"
+     "3.07",
+     "79,6%",
+     "0,12%",
+     "Yorick, Master Yi, Rengar, Kog'Maw, Quái Đá Krug, Vi, Sett, Nidalee"
     ],
     [
      9,
-     "Thích Ứng Rengar",
+     "Thuật Sư Veigar",
      "A",
-     "3.14",
-     "79,0%",
-     "0,12%",
-     "Yorick, Master Yi, Rengar, Kog'Maw, Quái Đá Krug, Vi, Sett, Nidalee"
+     "3.16",
+     "77,3%",
+     "0,59%",
+     "Ornn, Rek'Sai, Veigar, Alistar, LeBlanc, Cassiopeia, Fiddlesticks, Ahri, Alune"
     ],
     [
      10,
      "Quái Rừng Rồng Ngàn Tuổi",
      "A",
-     "3.24",
-     "75,3%",
+     "3.22",
+     "76,2%",
      "0,46%",
      "Sỏi, Sói Hắc Ám, Quái Đá Krug, Bụi Gai Đỏ, Người Đá, Rồng Ngàn Tuổi, Gnar, Taric"
     ],
@@ -956,166 +956,202 @@
      11,
      "Thần Rừng Teemo",
      "A",
-     "3.46",
-     "77,5%",
+     "3.48",
+     "76,7%",
      "0,16%",
      "Kobuko, Veigar, Alistar, LeBlanc, Teemo, Hecarim, Morgana, Người Đá"
     ],
     [
      12,
-     "Triệu Hồi Vi",
+     "Hỏa Ngục Akali",
      "B",
-     "3.55",
-     "70,6%",
-     "0,08%",
-     "Rek'Sai, Yorick, Yunara, Azir, Kha'Zix, Vi, Sett, Zyra"
+     "2.98",
+     "86,1%",
+     "0,07%",
+     "Akali, Camille, Leona, Ornn, Varus, Kayle, Sejuani, Amumu"
     ],
     [
      13,
-     "Dũng Sĩ Zyra (cấp 9, Ashe)",
+     "Dũng Sĩ Zyra (cấp 8, Ashe)",
      "B",
-     "3.57",
-     "67,3%",
+     "3.53",
+     "67,5%",
      "0,08%",
      "Yorick, Sejuani, Cua Kỳ Cục, Vi, Sivir, Zyra, Amumu, Ashe, Maokai"
     ],
     [
      14,
-     "Tiên Phong Morgana",
+     "Triệu Hồi Vi",
+     "B",
+     "3.58",
+     "70,3%",
+     "0,07%",
+     "Rek'Sai, Yorick, Yunara, Azir, Kha'Zix, Vi, Sett, Zyra"
+    ],
+    [
+     15,
+     "Quái Rừng Ashe",
+     "B",
+     "3.59",
+     "70,8%",
+     "0,07%",
+     "Vi, Sivir, Người Đá, Ashe, Rồng Ngàn Tuổi, Ivern, Maokai, Taric"
+    ],
+    [
+     16,
+     "Dũng Sĩ Ashe (cấp 8, Rồng Ngàn Tuổi)",
      "B",
      "3.61",
-     "67,5%",
+     "68,2%",
+     "0,07%",
+     "Cua Kỳ Cục, Vi, Sivir, Amumu, Ashe, Rồng Ngàn Tuổi, Kennen, Maokai"
+    ],
+    [
+     17,
+     "Tiên Phong Morgana",
+     "B",
+     "3.66",
+     "67,2%",
      "0,12%",
      "Diana, Hecarim, Fiddlesticks, Lillia, Morgana, Người Đá, Alune, Ivern, Taric"
     ],
     [
-     15,
-     "Gai Đen Warwick",
-     "B",
-     "3.72",
-     "71,6%",
-     "0,10%",
-     "Rek'Sai, Warwick, Sói Hắc Ám, Azir, Diana, Quái Đá Krug, Malphite, Bụi Gai Đỏ"
-    ],
-    [
-     16,
+     18,
      "Dũng Sĩ Ashe",
      "B",
-     "3.75",
-     "66,5%",
+     "3.72",
+     "67,3%",
      "0,13%",
      "Rakan, Vi, Sivir, Amumu, Ashe, Ivern, Kennen, Maokai, Taric"
     ],
     [
-     17,
+     19,
      "Vệ Quân Cassiopeia",
      "B",
-     "3.80",
-     "67,4%",
-     "0,17%",
+     "3.76",
+     "69,3%",
+     "0,18%",
      "Leona, Ornn, Shen, Cassiopeia, Rammus, Fiddlesticks, Lillia, Soraka"
     ],
     [
-     18,
-     "Quái Rừng Sỏi",
+     20,
+     "Gai Đen Warwick",
      "B",
-     "3.95",
-     "63,9%",
+     "3.79",
+     "70,5%",
+     "0,10%",
+     "Rek'Sai, Warwick, Sói Hắc Ám, Azir, Diana, Quái Đá Krug, Malphite, Bụi Gai Đỏ"
+    ],
+    [
+     21,
+     "Quái Rừng Sỏi & Cóc",
+     "B",
+     "3.93",
+     "64,9%",
      "0,53%",
      "Sỏi, Cóc Thành Tinh, Sói Hắc Ám, Cua Kỳ Cục, Kog'Maw, Quái Đá Krug, Bụi Gai Đỏ, Người Đá"
     ],
     [
-     19,
+     22,
      "Mặt Trăng Nidalee",
      "D",
-     "4.31",
-     "55,4%",
-     "4,15%",
+     "4.29",
+     "56,1%",
+     "4,25%",
      "Varus, Diana, Kog'Maw, Vi, Aphelios, Amumu, Nidalee, Người Đá"
     ],
     [
-     20,
-     "Thần Rừng Aphelios",
+     23,
+     "Hoa Linh Ahri (Thuật Sĩ)",
      "D",
-     "4.40",
-     "54,7%",
-     "0,43%",
-     "Ornn, Xayah, Alistar, LeBlanc, Hecarim, Aphelios, Ezreal, Lillia"
+     "4.54",
+     "48,9%",
+     "1,60%",
+     "Sỏi, Karma, Quái Đá Krug, Ahri, Morgana, Sett, Người Đá, Taric"
     ],
     [
-     21,
+     24,
      "Đao Phủ Ezreal",
      "D",
-     "4.60",
-     "49,5%",
+     "4.62",
+     "49,1%",
      "0,77%",
      "Ornn, Alistar, Yunara, Fiddlesticks, Ahri, Ezreal, Sett, Soraka"
     ],
     [
-     22,
-     "Hoa Linh Ahri (Thuật Sĩ)",
+     25,
+     "Thần Rừng Aphelios",
      "D",
-     "4.62",
-     "47,4%",
-     "1,50%",
-     "Sỏi, Karma, Quái Đá Krug, Ahri, Morgana, Sett, Người Đá, Taric"
+     "4.69",
+     "48,2%",
+     "0,65%",
+     "Ornn, Xayah, Alistar, LeBlanc, Hecarim, Aphelios, Ezreal, Lillia"
     ],
     [
-     23,
-     "Hoa Linh Ahri (Zyra)",
-     "D",
-     "4.80",
-     "43,6%",
-     "0,18%",
-     "Yorick, Shen, Fiddlesticks, Ahri, Sett, Zyra, Amumu, Gnar"
-    ],
-    [
-     24,
+     26,
      "Tiên Phong Aphelios",
      "D",
-     "4.81",
-     "49,1%",
+     "4.72",
+     "50,3%",
      "0,12%",
      "Diana, Hecarim, Chim Mẹ, Aphelios, Zyra, Bụi Gai Đỏ, Người Đá, Taric"
     ],
     [
-     25,
+     27,
+     "Hoa Linh Ahri (Zyra)",
+     "D",
+     "4.74",
+     "44,9%",
+     "0,18%",
+     "Yorick, Shen, Fiddlesticks, Ahri, Sett, Zyra, Amumu, Gnar"
+    ],
+    [
+     28,
      "Đao Phủ Malphite",
      "D",
-     "5.06",
-     "37,4%",
-     "0,43%",
+     "4.85",
+     "42,4%",
+     "0,50%",
      "Yorick, Azir, Fiddlesticks, Malphite, Soraka, Zyra, Amumu, Kennen"
     ],
     [
-     26,
+     29,
+     "Dũng Sĩ Zyra (Nidalee)",
+     "D",
+     "4.94",
+     "41,1%",
+     "0,68%",
+     "Rakan, Yorick, Sejuani, Cua Kỳ Cục, Vi, Zyra, Amumu, Nidalee"
+    ],
+    [
+     30,
+     "Liên Kích Brambleback",
+     "D",
+     "5.03",
+     "42,2%",
+     "0,08%",
+     "Rakan, Varus, Xayah, Chim Mẹ, Aphelios, Amumu, Bụi Gai Đỏ, Người Đá"
+    ],
+    [
+     31,
      "Quái Rừng Malphite",
      "D",
-     "5.09",
-     "37,0%",
+     "5.13",
+     "35,0%",
      "0,26%",
      "Rek'Sai, Mầm Non, Kog'Maw, Quái Đá Krug, Malphite, Sivir, Nidalee, Người Đá"
     ],
     [
-     27,
-     "Dũng Sĩ Zyra (Nidalee)",
-     "D",
-     "5.20",
-     "35,3%",
-     "0,62%",
-     "Rakan, Yorick, Sejuani, Cua Kỳ Cục, Vi, Zyra, Amumu, Nidalee"
-    ],
-    [
-     28,
+     32,
      "Tiên Hắc Ám Elise",
      "D",
-     "5.25",
-     "33,6%",
-     "0,08%",
+     "5.27",
+     "33,3%",
+     "0,09%",
      "Camille, Caitlyn, Elise, Cassiopeia, Diana, Hecarim, Morgana, Người Đá"
     ]
    ],
-   "goi_y": "Nguồn: OP.GG lọc riêng MÁY CHỦ VIỆT NAM (VN), bản 18.4b, 171.120 ván trong 24 giờ (cập nhật 20/10/2026). Đây là số liệu sát với phòng bạn đánh nhất.\nGỢI Ý NHANH (20/10/2026): (1) Mạnh nhất và đủ người chơi: Đao Phủ Azir 2.82 / top 4 83,4% (1,82% người chơi) · Thần Rừng Kha'Zix 2.83 / top 4 84,0% (0,57% người chơi) · Mặt Trời Yunara 2.84 / top 4 85,5% (0,91% người chơi). (2) Mạnh mà ít người chơi (mẫu nhỏ, dao động): Thích Ứng Rengar 3.14 / top 4 79,0% (0,12% người chơi). (3) Tránh — đông người mà hạng thấp: Mặt Trăng Nidalee 4.31 / top 4 55,4% (4,15% người chơi) · Hoa Linh Ahri (Thuật Sĩ) 4.62 / top 4 47,4% (1,50% người chơi) · Đao Phủ Ezreal 4.60 / top 4 49,5% (0,77% người chơi) · Dũng Sĩ Zyra (Nidalee) 5.20 / top 4 35,3% (0,62% người chơi). Xem trang “Phân tích bản cập nhật” để biết đội nào được lợi ở 18.5."
+   "goi_y": "Nguồn: OP.GG lọc riêng MÁY CHỦ VIỆT NAM (VN), bản 18.4b, 196.456 ván trong 24 giờ (cập nhật 20/10/2026). Đây là số liệu sát với phòng bạn đánh nhất.\nGỢI Ý NHANH (20/10/2026): (1) Mạnh nhất và đủ người chơi: Đao Phủ Azir 2.78 / top 4 84,3% (1,90% người chơi) · Mặt Trời Yunara 2.84 / top 4 85,1% (0,92% người chơi) · Thần Rừng Kha'Zix 2.84 / top 4 83,7% (0,58% người chơi). (2) Mạnh mà ít người chơi (mẫu nhỏ, dao động): Hỏa Ngục Akali 2.98 / top 4 86,1% (0,07% người chơi) · Thích Ứng Rengar 3.07 / top 4 79,6% (0,12% người chơi). (3) Tránh — đông người mà hạng thấp: Hoa Linh Ahri (Thuật Sĩ) 4.54 / top 4 48,9% (1,60% người chơi) · Đao Phủ Ezreal 4.62 / top 4 49,1% (0,77% người chơi) · Dũng Sĩ Zyra (Nidalee) 4.94 / top 4 41,1% (0,68% người chơi) · Thần Rừng Aphelios 4.69 / top 4 48,2% (0,65% người chơi). Xem trang “Phân tích bản cập nhật” để biết đội nào được lợi ở 18.5."
   },
   "trung": {
    "cot": [
@@ -1337,7 +1373,7 @@
     "y_nghia": "→ Nhánh bị tranh NHIỀU NHẤT VN, 18.4 lại giảm Maokai → hạn chế."
    }
   ],
-  "ghi_chu": "⚠ Bảng Việt Nam: OP.GG · máy chủ VN · bản 18.4b (171.120 ván / 24 giờ, 20/10/2026). Bảng Hàn / Trung Quốc, phần so sánh và “cách build từng bước” vẫn là bản 18.3b (file Excel v1.8) — chỉ để xem xu hướng. ⚠ Cỡ mẫu: đội có tỉ lệ chơi dưới 0,3% chỉ dựa trên vài trăm ván → số liệu dao động mạnh, đừng coi là chắc chắn.",
+  "ghi_chu": "⚠ Bảng Việt Nam: OP.GG · máy chủ VN · bản 18.4b (196.456 ván / 24 giờ, 20/10/2026). Bảng Hàn / Trung Quốc, phần so sánh và “cách build từng bước” vẫn là bản 18.3b (file Excel v1.8) — chỉ để xem xu hướng. ⚠ Cỡ mẫu: đội có tỉ lệ chơi dưới 0,3% chỉ dựa trên vài trăm ván → số liệu dao động mạnh, đừng coi là chắc chắn.",
   "cach_build": [
    {
     "ten": "Triệu Hồi Azir / Vi",

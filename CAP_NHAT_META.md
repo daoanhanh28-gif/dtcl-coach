@@ -1,4 +1,4 @@
-# ĐTCL Coach · v1.2 · 2026-10-20 — Quy trình “cập nhật meta”
+# ĐTCL Coach · v1.3 · 2026-10-20 — Quy trình “cập nhật meta”
 
 Khi Riot ra bản mới (khoảng 2 tuần / lần), anh Peach chỉ cần nhắn Claude: **“cập nhật meta”**.
 Claude làm theo các bước dưới. Mọi dữ liệu nằm trong `data/*.json` — không cần sửa code.
@@ -27,6 +27,9 @@ Claude làm theo các bước dưới. Mọi dữ liệu nằm trong `data/*.jso
 - Bản mới: ghi danh sách tăng / giảm vào `data/ban_cap_nhat.json` (trang Phân tích bản cập nhật tự xếp đội theo đó).
 - Số liệu máy chủ VN: OP.GG `https://op.gg/tft/meta-trends/comps?region=vn` (mở bằng Chrome, đọc mảng `decks` trong trang)
   → `tools/raw/vn_opgg.tsv`. Ghi `phien_ban`, `moc` (mốc tộc/hệ bị đổi) và `muc` (0,5 = chỉnh nhỏ) trong `data/ban_cap_nhat.json`.
+- Thống kê Ấn (ai cầm tốt, tactics.tools) → `tools/raw/tactics_tools_<bản>.txt`; bùa (MetaTFT Wisp Tier List + tên Việt
+  Community Dragon) → `tools/raw/tinh_linh_<bản>.txt`; chạy `python tools/build_cam_nang.py` (nội dung tempo / lõi top 1 / cặp lõi
+  viết tay trong file đó — xem lại mỗi bản).
 - Chạy `python tools/cap_nhat_ban.py` (sửa `BO`, `VN_BAN`, `VN_NGAY`, `VN_SO_VAN` ở đầu file) → bảng VN, xu hướng bản mới
   cho 19 đội, mục “Có gì mới”. Không cần làm lại file Excel nếu chỉ đổi số liệu.
 - **Không bịa** tỉ lệ thắng / hạng trung bình. Không lấy được số thì ghi rõ “chưa có số liệu”.

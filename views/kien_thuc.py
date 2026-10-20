@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.2 (2026-10-20) — trang Kiến thức & tra cứu (tộc hệ, tướng, lộ trình Thách Đấu, từ điển, nguồn)
+# ĐTCL Coach v1.3 (2026-10-20) — trang Kiến thức & tra cứu (tộc hệ, tướng, lộ trình Thách Đấu, từ điển, nguồn)
 import streamlit as st
 
 from core import engine, ui

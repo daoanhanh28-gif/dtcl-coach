@@ -1,0 +1,6755 @@
+[
+ {
+  "id": "c426000",
+  "ten": "Rengar Vệ Quân",
+  "hang": "S",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Cassiopeia",
+   "Lillia",
+   "Ornn",
+   "Rammus",
+   "Rengar",
+   "Shen",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Rengar",
+    "do": [
+     "Emblem_Defender",
+     "GuinsoosRageblade",
+     "TitansResolve"
+    ]
+   },
+   {
+    "tuong": "Cassiopeia",
+    "do": [
+     "ArchangelsStaff",
+     "BlueBuff",
+     "HextechGunblade"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Fiddlesticks",
+    "do": [
+     "Crownguard",
+     "IonicSpark",
+     "SunfireCape"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 3
+   },
+   {
+    "id": "Rival",
+    "ten": "Khắc Tinh",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Defender"
+  ],
+  "so_lieu": {
+   "so_tran": 31153,
+   "hang_tb": 4.08,
+   "top4": 58.0,
+   "top1": 14.3,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Rengar và Cassiopeia. Ghép sớm đồ cho Rengar và Cassiopeia.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Rengar và Cassiopeia lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Fiddlesticks lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Rengar 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_RivalsAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus"
+  ]
+ },
+ {
+  "id": "c426027",
+  "ten": "Ahri Tiên Phong",
+  "hang": "S",
+  "kieu": "fast9",
+  "kieu_ten": "Lên nhanh cấp 9",
+  "cap_muc_tieu": 9,
+  "tuong": [
+   "Alune",
+   "Cassiopeia",
+   "Diana",
+   "ElderDragon",
+   "Elise",
+   "Morgana",
+   "Sentinel",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Alune",
+    "do": [
+     "JeweledGauntlet",
+     "NashorsTooth",
+     "SpearOfShojin"
+    ]
+   },
+   {
+    "tuong": "Morgana",
+    "do": [
+     "Morellonomicon",
+     "RabadonsDeathcap",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sentinel",
+    "do": [
+     "GargoyleStoneplate",
+     "ProtectorsVow",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "ApexPredator",
+    "ten": "Bá Chủ",
+    "cap_do": 1
+   },
+   {
+    "id": "Coven",
+    "ten": "Tiên Hắc Ám",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 2
+   },
+   {
+    "id": "AluneUniqueTrait",
+    "ten": "Hòa Hợp",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 119708,
+   "hang_tb": 4.09,
+   "top4": 56.4,
+   "top1": 20.9,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có để giữ máu, tích vàng lên mốc 50. Gom đồ cho Alune và Morgana.",
+   "giua": "Lên cấp 7 ở 3-2, cấp 8 ở 4-1 hoặc 4-2, chỉ roll vừa đủ để giữ máu.",
+   "cuoi": "Lên cấp 9 ở 5-1/5-2 rồi roll tìm tướng 5 vàng (Alune và Morgana). Người Đá đứng trước chịu đòn.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6–7",
+    "4-1: cấp 8",
+    "5-1 hoặc 5-2: cấp 9, roll tìm tướng 5 vàng"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_CovenTraitAugment_LootToAP",
+   "DA_18_CovenTraitAugment",
+   "DA_18_LunarTraitAugment",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_ExplosiveGrowth",
+   "DA_LateGameSpecialist",
+   "DA_LateGameScaling",
+   "DA_LevelUp"
+  ]
+ },
+ {
+  "id": "c426003",
+  "ten": "Azir Tinh Nghịch",
+  "hang": "S",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Azir",
+   "Rammus",
+   "Soraka",
+   "Teemo",
+   "Veigar",
+   "Zyra",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Azir",
+    "do": [
+     "GuinsoosRageblade",
+     "HextechGunblade",
+     "RabadonsDeathcap"
+    ]
+   },
+   {
+    "tuong": "Zyra",
+    "do": [
+     "Morellonomicon",
+     "SpearOfShojin",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Rammus",
+    "do": [
+     "Crownguard",
+     "GargoyleStoneplate",
+     "GargoyleStoneplate"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blackthorn",
+    "ten": "Gai Đen",
+    "cap_do": 1
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Sprykin",
+    "ten": "Tinh Nghịch",
+    "cap_do": 1
+   },
+   {
+    "id": "Summoner",
+    "ten": "Triệu Hồi",
+    "cap_do": 1
+   },
+   {
+    "id": "ZyraUniqueTrait",
+    "ten": "Vườn Gai",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 2
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 482208,
+   "hang_tb": 4.11,
+   "top4": 57.3,
+   "top1": 15.3,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Azir và Zyra. Ghép sớm đồ cho Azir và Zyra.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Azir và Zyra lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Rammus lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Azir 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_BlackthornTraitAugment",
+   "DA_18_SprykinAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue"
+  ]
+ },
+ {
+  "id": "c426007",
+  "ten": "Sỏi Quái Rừng",
+  "hang": "S",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 5",
+  "cap_muc_tieu": 5,
+  "tuong": [
+   "ElderDragon",
+   "Gnar",
+   "Sentry",
+   "Brambleback",
+   "Krug",
+   "Murkwolf",
+   "Sentinel",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Sentry",
+    "do": [
+     "BlueBuff",
+     "JeweledGauntlet",
+     "RabadonsDeathcap"
+    ]
+   },
+   {
+    "tuong": "ElderDragon",
+    "do": [
+     "InfinityEdge",
+     "LastWhisper",
+     "StrikersFlail"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Krug",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "ApexPredator",
+    "ten": "Bá Chủ",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 3
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 606454,
+   "hang_tb": 4.14,
+   "top4": 57.0,
+   "top1": 13.8,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Sỏi và Rồng Ngàn Tuổi. Ghép sớm đồ cho Sỏi và Rồng Ngàn Tuổi.",
+   "giua": "Lên cấp 5 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Sỏi và Rồng Ngàn Tuổi lên 3 sao — đây là tướng 1 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 6–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Quái Đá Krug lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-1 → 3-2: roll chậm ở cấp 5",
+    "3-2: tiếp tục roll, chưa lên cấp",
+    "Khi Sỏi 3 sao: lên cấp 6",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_RiftbeastTraitAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait",
+   "DA_CalculatedLoss",
+   "DA_Staffsmith"
+  ]
+ },
+ {
+  "id": "c426002",
+  "ten": "Aphelios Thần Rừng",
+  "hang": "S",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Alistar",
+   "Aphelios",
+   "Ezreal",
+   "Gnar",
+   "Hecarim",
+   "LeBlanc",
+   "Lillia",
+   "Ornn",
+   "Xayah"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Aphelios",
+    "do": [
+     "Emblem_Elderwood",
+     "GuinsoosRageblade",
+     "KrakensFury"
+    ]
+   },
+   {
+    "tuong": "Ezreal",
+    "do": [
+     "Deathblade",
+     "InfinityEdge",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Lillia",
+    "do": [
+     "Emblem_Elderwood",
+     "Evenshroud",
+     "SunfireCape"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 3
+   },
+   {
+    "id": "Fae",
+    "ten": "Tiên Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Elderwood"
+  ],
+  "so_lieu": {
+   "so_tran": 149183,
+   "hang_tb": 4.19,
+   "top4": 55.2,
+   "top1": 15.1,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Aphelios và Ezreal ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Aphelios và Ezreal 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_FaeTraitAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild"
+  ]
+ },
+ {
+  "id": "c426004",
+  "ten": "Aphelios & Nidalee Mặt Trăng",
+  "hang": "S",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Aphelios",
+   "Diana",
+   "Varus",
+   "Amumu",
+   "KogMaw",
+   "Nidalee",
+   "Sentinel",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Nidalee",
+    "do": [
+     "InfinityEdge",
+     "SpearOfShojin",
+     "SteraksGage"
+    ]
+   },
+   {
+    "tuong": "Aphelios",
+    "do": [
+     "Deathblade",
+     "GuinsoosRageblade",
+     "KrakensFury"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Amumu",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Adaptor",
+    "ten": "Thích Ứng",
+    "cap_do": 1
+   },
+   {
+    "id": "Caustic",
+    "ten": "Ăn Mòn",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 1
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 404883,
+   "hang_tb": 4.22,
+   "top4": 57.5,
+   "top1": 8.4,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Nidalee và Aphelios ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Nidalee và Aphelios 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_LunarTraitAugment",
+   "DA_18_PrimalAugment_Nidalee",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild",
+   "DA_TradeSector",
+   "DA_Swordsmith"
+  ]
+ },
+ {
+  "id": "c426006",
+  "ten": "Teemo Tinh Nghịch",
+  "hang": "S",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 6",
+  "cap_muc_tieu": 6,
+  "tuong": [
+   "Alistar",
+   "Hecarim",
+   "Kobuko",
+   "LeBlanc",
+   "Morgana",
+   "Teemo",
+   "Veigar",
+   "Sentinel"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Teemo",
+    "do": [
+     "BlueBuff",
+     "JeweledGauntlet",
+     "RabadonsDeathcap"
+    ]
+   },
+   {
+    "tuong": "LeBlanc",
+    "do": [
+     "JeweledGauntlet",
+     "SpearOfShojin",
+     "StrikersFlail"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Alistar",
+    "do": [
+     "GargoyleStoneplate",
+     "GargoyleStoneplate",
+     "SpiritVisage"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 2
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Sprykin",
+    "ten": "Tinh Nghịch",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 62053,
+   "hang_tb": 4.24,
+   "top4": 57.2,
+   "top1": 6.8,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Teemo và LeBlanc. Ghép sớm đồ cho Teemo và LeBlanc.",
+   "giua": "Lên cấp 6 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Teemo và LeBlanc lên 3 sao — đây là tướng 2 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 7–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Alistar lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 6, bắt đầu roll chậm",
+    "Khi Teemo 3 sao: lên cấp 7",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_SprykinAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait",
+   "DA_CalculatedLoss"
+  ]
+ },
+ {
+  "id": "c426008",
+  "ten": "Morgana Tiên Phong",
+  "hang": "S",
+  "kieu": "fast9",
+  "kieu_ten": "Lên nhanh cấp 9",
+  "cap_muc_tieu": 9,
+  "tuong": [
+   "Alune",
+   "Diana",
+   "Hecarim",
+   "Ivern",
+   "Lillia",
+   "Morgana",
+   "Fiddlesticks",
+   "Sentinel",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Morgana",
+    "do": [
+     "HextechGunblade",
+     "RedBuff",
+     "VoidStaff"
+    ]
+   },
+   {
+    "tuong": "Alune",
+    "do": [
+     "ArchangelsStaff",
+     "ArchangelsStaff",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Taric",
+    "do": [
+     "DragonsClaw",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Greenfather",
+    "ten": "Thụ Thần",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 2
+   },
+   {
+    "id": "AluneUniqueTrait",
+    "ten": "Hòa Hợp",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 111358,
+   "hang_tb": 4.29,
+   "top4": 52.4,
+   "top1": 18.7,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có để giữ máu, tích vàng lên mốc 50. Gom đồ cho Morgana và Alune.",
+   "giua": "Lên cấp 7 ở 3-2, cấp 8 ở 4-1 hoặc 4-2, chỉ roll vừa đủ để giữ máu.",
+   "cuoi": "Lên cấp 9 ở 5-1/5-2 rồi roll tìm tướng 5 vàng (Morgana và Alune). Taric đứng trước chịu đòn.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6–7",
+    "4-1: cấp 8",
+    "5-1 hoặc 5-2: cấp 9, roll tìm tướng 5 vàng"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_LunarTraitAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_ExplosiveGrowth",
+   "DA_LateGameSpecialist",
+   "DA_LateGameScaling",
+   "DA_LevelUp",
+   "DA_GildedSteel"
+  ]
+ },
+ {
+  "id": "c426021",
+  "ten": "Kayle Liên Kích",
+  "hang": "S",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 6",
+  "cap_muc_tieu": 6,
+  "tuong": [
+   "Aphelios",
+   "Diana",
+   "Kayle",
+   "Leona",
+   "Sejuani",
+   "Shen",
+   "Varus",
+   "Amumu"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Kayle",
+    "do": [
+     "GuinsoosRageblade",
+     "JeweledGauntlet",
+     "RabadonsDeathcap"
+    ]
+   },
+   {
+    "tuong": "Varus",
+    "do": [
+     "Deathblade",
+     "InfinityEdge",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sejuani",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 2
+   },
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 1
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 2
+   },
+   {
+    "id": "Solar",
+    "ten": "Mặt Trời",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 222187,
+   "hang_tb": 4.29,
+   "top4": 54.1,
+   "top1": 13.6,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Kayle và Varus. Ghép sớm đồ cho Kayle và Varus.",
+   "giua": "Lên cấp 6 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Kayle và Varus lên 3 sao — đây là tướng 2 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 7–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Sejuani lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 6, bắt đầu roll chậm",
+    "Khi Kayle 3 sao: lên cấp 7",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_LunarTraitAugment",
+   "DA_18_SolarTraitAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait",
+   "DA_CalculatedLoss"
+  ]
+ },
+ {
+  "id": "c426001",
+  "ten": "Aphelios Liên Kích",
+  "hang": "A",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Aphelios",
+   "Rakan",
+   "Varus",
+   "Xayah",
+   "Amumu",
+   "Brambleback",
+   "CrimsonRaptor",
+   "Sentinel"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Brambleback",
+    "do": [
+     "Emblem_Rapidfire",
+     "EdgeOfNight",
+     "Quicksilver"
+    ]
+   },
+   {
+    "tuong": "Aphelios",
+    "do": [
+     "InfinityEdge",
+     "KrakensFury",
+     "StrikersFlail"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Amumu",
+    "do": [
+     "DragonsClaw",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Fae",
+    "ten": "Tiên Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 4
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Rapidfire"
+  ],
+  "so_lieu": {
+   "so_tran": 36636,
+   "hang_tb": 4.34,
+   "top4": 54.5,
+   "top1": 8.8,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Bụi Gai Đỏ và Aphelios ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Bụi Gai Đỏ và Aphelios 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_FaeTraitAugment",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild"
+  ]
+ },
+ {
+  "id": "c426012",
+  "ten": "Kha'Zix Thần Rừng",
+  "hang": "A",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Diana",
+   "Ezreal",
+   "Hecarim",
+   "KhaZix",
+   "Ornn",
+   "Soraka",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "KhaZix",
+    "do": [
+     "HandOfJustice",
+     "NashorsTooth",
+     "RabadonsDeathcap"
+    ]
+   },
+   {
+    "tuong": "Ezreal",
+    "do": [
+     "Deathblade",
+     "RedBuff",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Hecarim",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 1
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 1
+   },
+   {
+    "id": "Rival",
+    "ten": "Khắc Tinh",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 2
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 230340,
+   "hang_tb": 4.34,
+   "top4": 53.3,
+   "top1": 13.1,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Kha'Zix và Ezreal. Ghép sớm đồ cho Kha'Zix và Ezreal.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Kha'Zix và Ezreal lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Hecarim lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Kha'Zix 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_RivalsAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue"
+  ]
+ },
+ {
+  "id": "c426022",
+  "ten": "Rengar Hoa Linh",
+  "hang": "A",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "MasterYi",
+   "Rengar",
+   "Sett",
+   "Yorick",
+   "Krug",
+   "Nidalee",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Rengar",
+    "do": [
+     "EdgeOfNight",
+     "GuinsoosRageblade",
+     "TitansResolve"
+    ]
+   },
+   {
+    "tuong": "MasterYi",
+    "do": [
+     "Emblem_Brawler",
+     "EdgeOfNight",
+     "Quicksilver"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Vi",
+    "do": [
+     "Evenshroud",
+     "GargoyleStoneplate",
+     "SunfireCape"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Adaptor",
+    "ten": "Thích Ứng",
+    "cap_do": 1
+   },
+   {
+    "id": "Blossom",
+    "ten": "Hoa Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Rival",
+    "ten": "Khắc Tinh",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Brawler"
+  ],
+  "so_lieu": {
+   "so_tran": 79931,
+   "hang_tb": 4.34,
+   "top4": 53.3,
+   "top1": 11.5,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Rengar và Master Yi. Ghép sớm đồ cho Rengar và Master Yi.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Rengar và Master Yi lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Vi lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Rengar 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_BlossomTraitAugment",
+   "DA_18_ResidualMagicPlus",
+   "DA_18_RivalsAugment",
+   "DA_18_PrimalAugment_Nidalee",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays"
+  ]
+ },
+ {
+  "id": "c426009",
+  "ten": "Morgana Thuật Sĩ",
+  "hang": "A",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Alune",
+   "Diana",
+   "Hecarim",
+   "Morgana",
+   "Sentry",
+   "Brambleback",
+   "KogMaw",
+   "Sentinel",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Morgana",
+    "do": [
+     "HextechGunblade",
+     "Morellonomicon",
+     "VoidStaff"
+    ]
+   },
+   {
+    "tuong": "Brambleback",
+    "do": [
+     "EdgeOfNight",
+     "HandOfJustice",
+     "Quicksilver"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sentinel",
+    "do": [
+     "Crownguard",
+     "GargoyleStoneplate",
+     "ProtectorsVow"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Caustic",
+    "ten": "Ăn Mòn",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 3
+   },
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 1
+   },
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 2
+   },
+   {
+    "id": "AluneUniqueTrait",
+    "ten": "Hòa Hợp",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 39901,
+   "hang_tb": 4.37,
+   "top4": 51.9,
+   "top1": 12.7,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Morgana và Bụi Gai Đỏ ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Morgana và Bụi Gai Đỏ 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_LunarTraitAugment",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild",
+   "DA_TradeSector",
+   "DA_Staffsmith"
+  ]
+ },
+ {
+  "id": "c426013",
+  "ten": "Teemo Thuật Sĩ",
+  "hang": "A",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 6",
+  "cap_muc_tieu": 6,
+  "tuong": [
+   "Morgana",
+   "Rammus",
+   "Sentry",
+   "Teemo",
+   "Veigar",
+   "Fiddlesticks",
+   "Krug",
+   "Sentinel"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Teemo",
+    "do": [
+     "HextechGunblade",
+     "JeweledGauntlet",
+     "RabadonsDeathcap"
+    ]
+   },
+   {
+    "tuong": "Morgana",
+    "do": [
+     "JeweledGauntlet",
+     "Morellonomicon",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Rammus",
+    "do": [
+     "GargoyleStoneplate",
+     "SunfireCape",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 3
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Sprykin",
+    "ten": "Tinh Nghịch",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 20329,
+   "hang_tb": 4.38,
+   "top4": 54.2,
+   "top1": 7.3,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Teemo và Morgana. Ghép sớm đồ cho Teemo và Morgana.",
+   "giua": "Lên cấp 6 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Teemo và Morgana lên 3 sao — đây là tướng 2 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 7–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Rammus lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 6, bắt đầu roll chậm",
+    "Khi Teemo 3 sao: lên cấp 7",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_SprykinAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue"
+  ]
+ },
+ {
+  "id": "c426014",
+  "ten": "Veigar Thuật Sư",
+  "hang": "A",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 5",
+  "cap_muc_tieu": 5,
+  "tuong": [
+   "Alistar",
+   "Cassiopeia",
+   "LeBlanc",
+   "Ornn",
+   "RekSai",
+   "Veigar",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "LeBlanc",
+    "do": [
+     "BlueBuff",
+     "Morellonomicon",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Alistar",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   },
+   {
+    "tuong": "Ornn",
+    "do": [
+     "Crownguard",
+     "GargoyleStoneplate",
+     "SpiritVisage"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blackthorn",
+    "ten": "Gai Đen",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 2
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 250739,
+   "hang_tb": 4.38,
+   "top4": 52.4,
+   "top1": 13.3,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua LeBlanc. Ghép sớm đồ cho LeBlanc.",
+   "giua": "Lên cấp 5 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi LeBlanc lên 3 sao — đây là tướng 1 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 6–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Alistar và Ornn lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-1 → 3-2: roll chậm ở cấp 5",
+    "3-2: tiếp tục roll, chưa lên cấp",
+    "Khi LeBlanc 3 sao: lên cấp 6",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_BlackthornTraitAugment",
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue"
+  ]
+ },
+ {
+  "id": "c426011",
+  "ten": "Ezreal & Draven Thần Rừng",
+  "hang": "A",
+  "kieu": "fast9",
+  "kieu_ten": "Lên nhanh cấp 9",
+  "cap_muc_tieu": 9,
+  "tuong": [
+   "Alistar",
+   "Ezreal",
+   "Gnar",
+   "Ivern",
+   "Kennen",
+   "Maokai",
+   "Amumu",
+   "Draven",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Draven",
+    "do": [
+     "Deathblade",
+     "GuinsoosRageblade",
+     "KrakensFury"
+    ]
+   },
+   {
+    "tuong": "Ezreal",
+    "do": [
+     "Deathblade",
+     "LastWhisper",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Maokai",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 1
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 1
+   },
+   {
+    "id": "Greenfather",
+    "ten": "Thụ Thần",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Maokai_UniqueTrait",
+    "ten": "Cổ Thụ",
+    "cap_do": 1
+   },
+   {
+    "id": "DravenUniqueTrait",
+    "ten": "Săn Thưởng",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 329182,
+   "hang_tb": 4.41,
+   "top4": 49.7,
+   "top1": 18.6,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có để giữ máu, tích vàng lên mốc 50. Gom đồ cho Draven và Ezreal.",
+   "giua": "Lên cấp 7 ở 3-2, cấp 8 ở 4-1 hoặc 4-2, chỉ roll vừa đủ để giữ máu.",
+   "cuoi": "Lên cấp 9 ở 5-1/5-2 rồi roll tìm tướng 5 vàng (Draven và Ezreal). Maokai đứng trước chịu đòn.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6–7",
+    "4-1: cấp 8",
+    "5-1 hoặc 5-2: cấp 9, roll tìm tướng 5 vàng"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_ElderwoodTraitAugment",
+   "DA_ExplosiveGrowth",
+   "DA_LateGameSpecialist",
+   "DA_LateGameScaling",
+   "DA_LevelUp",
+   "DA_GildedSteel",
+   "DA_Swordsmith",
+   "DA_SwordOverflow"
+  ]
+ },
+ {
+  "id": "c426037",
+  "ten": "Bụi Gai Đỏ Tàn Phá",
+  "hang": "A",
+  "kieu": "standard",
+  "kieu_ten": "Chuẩn (cấp 8 ở 4-2)",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Camille",
+   "Diana",
+   "Elise",
+   "Hecarim",
+   "Warwick",
+   "Brambleback",
+   "Murkwolf",
+   "Sentinel"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Elise",
+    "do": [
+     "Emblem_Slayer",
+     "GuinsoosRageblade",
+     "TitansResolve"
+    ]
+   },
+   {
+    "tuong": "Brambleback",
+    "do": [
+     "LastWhisper",
+     "Quicksilver",
+     "SteraksGage"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sentinel",
+    "do": [
+     "GargoyleStoneplate",
+     "GargoyleStoneplate",
+     "SpiritVisage"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 3
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 2
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Slayer"
+  ],
+  "so_lieu": {
+   "so_tran": 18254,
+   "hang_tb": 4.41,
+   "top4": 52.9,
+   "top1": 6.7,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Đánh chuỗi thắng hoặc chuỗi thua rõ ràng; gom đồ cho Elise và Bụi Gai Đỏ.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 4-1, roll vừa đủ giữ máu.",
+   "cuoi": "Cấp 8 ở 4-2 rồi roll tìm Elise và Bụi Gai Đỏ 2 sao và tướng 4 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7",
+    "4-2: cấp 8, roll mạnh"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_RiftbeastTraitAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_EpicRolldown",
+   "DA_ExplosiveGrowth",
+   "DA_TradeSector",
+   "DA_Swordsmith",
+   "DA_SwordOverflow"
+  ]
+ },
+ {
+  "id": "c426023",
+  "ten": "Warwick Tàn Phá",
+  "hang": "A",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 6",
+  "cap_muc_tieu": 6,
+  "tuong": [
+   "Azir",
+   "Diana",
+   "Malphite",
+   "RekSai",
+   "Warwick",
+   "Brambleback",
+   "Krug",
+   "Murkwolf"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Warwick",
+    "do": [
+     "SpearOfShojin",
+     "SteraksGage",
+     "TitansResolve"
+    ]
+   },
+   {
+    "tuong": "Murkwolf",
+    "do": [
+     "EdgeOfNight",
+     "HandOfJustice",
+     "Quicksilver"
+    ]
+   },
+   {
+    "tuong": "Brambleback",
+    "do": [
+     "Bloodthirster",
+     "EdgeOfNight",
+     "InfinityEdge"
+    ]
+   }
+  ],
+  "do_don": [],
+  "toc_he": [
+   {
+    "id": "Battlemage",
+    "ten": "Cự Thạch",
+    "cap_do": 1
+   },
+   {
+    "id": "Blackthorn",
+    "ten": "Gai Đen",
+    "cap_do": 2
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 2
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 58501,
+   "hang_tb": 4.43,
+   "top4": 52.9,
+   "top1": 6.7,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Warwick và Sói Hắc Ám. Ghép sớm đồ cho Warwick và Sói Hắc Ám.",
+   "giua": "Lên cấp 6 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Warwick và Sói Hắc Ám lên 3 sao — đây là tướng 2 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 7–8, thêm tướng 4 vàng hợp tộc/hệ, nâng tướng đỡ đòn lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 6, bắt đầu roll chậm",
+    "Khi Warwick 3 sao: lên cấp 7",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_BlackthornTraitAugment",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait",
+   "DA_CalculatedLoss"
+  ]
+ },
+ {
+  "id": "c426005",
+  "ten": "Sett Đao Phủ",
+  "hang": "A",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Ahri",
+   "Alistar",
+   "Ezreal",
+   "Ornn",
+   "Sett",
+   "Soraka",
+   "Yunara",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Ezreal",
+    "do": [
+     "Deathblade",
+     "InfinityEdge",
+     "SpearOfShojin"
+    ]
+   },
+   {
+    "tuong": "Ahri",
+    "do": [
+     "Emblem_Executioner",
+     "BlueBuff",
+     "RabadonsDeathcap"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sett",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blossom",
+    "ten": "Hoa Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 1
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 2
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 2
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Executioner"
+  ],
+  "so_lieu": {
+   "so_tran": 84026,
+   "hang_tb": 4.44,
+   "top4": 52.3,
+   "top1": 8.9,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Ezreal và Ahri ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Ezreal và Ahri 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_BlossomTraitAugment",
+   "DA_18_ResidualMagicPlus",
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_ExplosiveGrowth"
+  ]
+ },
+ {
+  "id": "c426010",
+  "ten": "Ahri Thuật Sĩ",
+  "hang": "A",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Ahri",
+   "Morgana",
+   "Sentry",
+   "Sett",
+   "Karma",
+   "Krug",
+   "Sentinel",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Ahri",
+    "do": [
+     "Emblem_Invoker",
+     "JeweledGauntlet",
+     "StrikersFlail"
+    ]
+   },
+   {
+    "tuong": "Morgana",
+    "do": [
+     "Morellonomicon",
+     "RabadonsDeathcap",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sett",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blossom",
+    "ten": "Hoa Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 2
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Invoker"
+  ],
+  "so_lieu": {
+   "so_tran": 257552,
+   "hang_tb": 4.45,
+   "top4": 51.4,
+   "top1": 10.9,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Ahri và Morgana ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Ahri và Morgana 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_BlossomTraitAugment",
+   "DA_18_ResidualMagicPlus",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp"
+  ]
+ },
+ {
+  "id": "c426029",
+  "ten": "Master Yi Thích Ứng",
+  "hang": "A",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "MasterYi",
+   "Sett",
+   "Yorick",
+   "KogMaw",
+   "Krug",
+   "Nidalee",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "MasterYi",
+    "do": [
+     "Emblem_Brawler",
+     "EdgeOfNight",
+     "GuinsoosRageblade"
+    ]
+   },
+   {
+    "tuong": "KogMaw",
+    "do": [
+     "InfinityEdge",
+     "RedBuff",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Vi",
+    "do": [
+     "Emblem_Brawler",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Adaptor",
+    "ten": "Thích Ứng",
+    "cap_do": 2
+   },
+   {
+    "id": "Blossom",
+    "ten": "Hoa Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Caustic",
+    "ten": "Ăn Mòn",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Brawler"
+  ],
+  "so_lieu": {
+   "so_tran": 43868,
+   "hang_tb": 4.45,
+   "top4": 52.2,
+   "top1": 7.3,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Master Yi và Kog'Maw. Ghép sớm đồ cho Master Yi và Kog'Maw.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Master Yi và Kog'Maw lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Vi lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Master Yi 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_BlossomTraitAugment",
+   "DA_18_ResidualMagicPlus",
+   "DA_18_PrimalAugment_Nidalee",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus"
+  ]
+ },
+ {
+  "id": "c426030",
+  "ten": "Amumu Dũng Sĩ",
+  "hang": "A",
+  "kieu": "fast9",
+  "kieu_ten": "Lên nhanh cấp 9",
+  "cap_muc_tieu": 9,
+  "tuong": [
+   "ElderDragon",
+   "Ivern",
+   "Kennen",
+   "Maokai",
+   "Amumu",
+   "Draven",
+   "Sentinel",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Draven",
+    "do": [
+     "Deathblade",
+     "GuinsoosRageblade",
+     "KrakensFury"
+    ]
+   },
+   {
+    "tuong": "ElderDragon",
+    "do": [
+     "InfinityEdge",
+     "LastWhisper",
+     "StrikersFlail"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Maokai",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "ApexPredator",
+    "ten": "Bá Chủ",
+    "cap_do": 1
+   },
+   {
+    "id": "Greenfather",
+    "ten": "Thụ Thần",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Maokai_UniqueTrait",
+    "ten": "Cổ Thụ",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "DravenUniqueTrait",
+    "ten": "Săn Thưởng",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 708597,
+   "hang_tb": 4.5,
+   "top4": 48.9,
+   "top1": 19.0,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có để giữ máu, tích vàng lên mốc 50. Gom đồ cho Draven và Rồng Ngàn Tuổi.",
+   "giua": "Lên cấp 7 ở 3-2, cấp 8 ở 4-1 hoặc 4-2, chỉ roll vừa đủ để giữ máu.",
+   "cuoi": "Lên cấp 9 ở 5-1/5-2 rồi roll tìm tướng 5 vàng (Draven và Rồng Ngàn Tuổi). Maokai đứng trước chịu đòn.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6–7",
+    "4-1: cấp 8",
+    "5-1 hoặc 5-2: cấp 9, roll tìm tướng 5 vàng"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_RiftbeastTraitAugment",
+   "DA_ExplosiveGrowth",
+   "DA_LateGameSpecialist",
+   "DA_LateGameScaling",
+   "DA_LevelUp",
+   "DA_GildedSteel",
+   "DA_Swordsmith",
+   "DA_SwordOverflow"
+  ]
+ },
+ {
+  "id": "c426016",
+  "ten": "Malphite Thợ Săn",
+  "hang": "B",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Malphite",
+   "RekSai",
+   "Sivir",
+   "Cinderling",
+   "KogMaw",
+   "Krug",
+   "Nidalee",
+   "Sentinel"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Sivir",
+    "do": [
+     "InfinityEdge",
+     "RedBuff",
+     "StrikersFlail"
+    ]
+   },
+   {
+    "tuong": "Nidalee",
+    "do": [
+     "HandOfJustice",
+     "InfinityEdge",
+     "SteraksGage"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Malphite",
+    "do": [
+     "Crownguard",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Adaptor",
+    "ten": "Thích Ứng",
+    "cap_do": 1
+   },
+   {
+    "id": "Battlemage",
+    "ten": "Cự Thạch",
+    "cap_do": 1
+   },
+   {
+    "id": "Blackthorn",
+    "ten": "Gai Đen",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Caustic",
+    "ten": "Ăn Mòn",
+    "cap_do": 1
+   },
+   {
+    "id": "Hunter",
+    "ten": "Thợ Săn",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 43373,
+   "hang_tb": 4.55,
+   "top4": 50.1,
+   "top1": 8.0,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Sivir và Nidalee ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Sivir và Nidalee 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_BlackthornTraitAugment",
+   "DA_18_PrimalAugment_Nidalee",
+   "DA_18_PrimalAugment_Sivir",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild"
+  ]
+ },
+ {
+  "id": "c426017",
+  "ten": "Aphelios Tiên Phong",
+  "hang": "B",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Aphelios",
+   "Diana",
+   "Hecarim",
+   "Zyra",
+   "Brambleback",
+   "CrimsonRaptor",
+   "Sentinel",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Brambleback",
+    "do": [
+     "EdgeOfNight",
+     "SteraksGage",
+     "TitansResolve"
+    ]
+   },
+   {
+    "tuong": "CrimsonRaptor",
+    "do": [
+     "GuinsoosRageblade",
+     "InfinityEdge",
+     "KrakensFury"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sentinel",
+    "do": [
+     "Evenshroud",
+     "ProtectorsVow",
+     "SpiritVisage"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 1
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 1
+   },
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 1
+   },
+   {
+    "id": "Summoner",
+    "ten": "Triệu Hồi",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 2
+   },
+   {
+    "id": "ZyraUniqueTrait",
+    "ten": "Vườn Gai",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 50434,
+   "hang_tb": 4.55,
+   "top4": 50.0,
+   "top1": 7.8,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Bụi Gai Đỏ và Chim Mẹ ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Bụi Gai Đỏ và Chim Mẹ 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_LunarTraitAugment",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild",
+   "DA_TradeSector",
+   "DA_Swordsmith"
+  ]
+ },
+ {
+  "id": "c426036",
+  "ten": "Ezreal & Alistar Thần Rừng",
+  "hang": "B",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Alistar",
+   "Ezreal",
+   "Gnar",
+   "Hecarim",
+   "Kennen",
+   "LeBlanc",
+   "Ornn",
+   "Soraka",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Ezreal",
+    "do": [
+     "Deathblade",
+     "InfinityEdge",
+     "SpearOfShojin"
+    ]
+   },
+   {
+    "tuong": "Gnar",
+    "do": [
+     "Bloodthirster",
+     "SteraksGage",
+     "TitansResolve"
+    ]
+   },
+   {
+    "tuong": "Soraka",
+    "do": [
+     "Emblem_Elderwood",
+     "ArchangelsStaff",
+     "NashorsTooth"
+    ]
+   }
+  ],
+  "do_don": [],
+  "toc_he": [
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 3
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 2
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 2
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Elderwood"
+  ],
+  "so_lieu": {
+   "so_tran": 211830,
+   "hang_tb": 4.56,
+   "top4": 48.0,
+   "top1": 12.9,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Ezreal và Gnar ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Ezreal và Gnar 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp"
+  ]
+ },
+ {
+  "id": "c426018",
+  "ten": "Cassiopeia Vệ Quân",
+  "hang": "B",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Cassiopeia",
+   "Leona",
+   "Lillia",
+   "Ornn",
+   "Rammus",
+   "Shen",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Cassiopeia",
+    "do": [
+     "ArchangelsStaff",
+     "ArchangelsStaff",
+     "HextechGunblade"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Fiddlesticks",
+    "do": [
+     "IonicSpark",
+     "SpiritVisage",
+     "SunfireCape"
+    ]
+   },
+   {
+    "tuong": "Rammus",
+    "do": [
+     "BrambleVest",
+     "GargoyleStoneplate",
+     "SpiritVisage"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 3
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 117612,
+   "hang_tb": 4.57,
+   "top4": 49.1,
+   "top1": 7.5,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Cassiopeia. Ghép sớm đồ cho Cassiopeia.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Cassiopeia lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Fiddlesticks và Rammus lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Cassiopeia 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait",
+   "DA_CalculatedLoss"
+  ]
+ },
+ {
+  "id": "c426020",
+  "ten": "Zyra Hoa Linh",
+  "hang": "B",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Ahri",
+   "Sett",
+   "Shen",
+   "Yorick",
+   "Zyra",
+   "Amumu",
+   "Fiddlesticks",
+   "Krug"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Zyra",
+    "do": [
+     "Morellonomicon",
+     "SpearOfShojin",
+     "VoidStaff"
+    ]
+   },
+   {
+    "tuong": "Ahri",
+    "do": [
+     "JeweledGauntlet",
+     "NashorsTooth",
+     "StrikersFlail"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sett",
+    "do": [
+     "GargoyleStoneplate",
+     "SteraksGage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blossom",
+    "ten": "Hoa Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Summoner",
+    "ten": "Triệu Hồi",
+    "cap_do": 1
+   },
+   {
+    "id": "ZyraUniqueTrait",
+    "ten": "Vườn Gai",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 49013,
+   "hang_tb": 4.57,
+   "top4": 49.2,
+   "top1": 9.4,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Zyra và Ahri ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Zyra và Ahri 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_BlossomTraitAugment",
+   "DA_18_ResidualMagicPlus",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild"
+  ]
+ },
+ {
+  "id": "c426035",
+  "ten": "Yunara Hoa Linh",
+  "hang": "B",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 5",
+  "cap_muc_tieu": 5,
+  "tuong": [
+   "Kayle",
+   "LeBlanc",
+   "Leona",
+   "Sejuani",
+   "Yorick",
+   "Yunara",
+   "Karma"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Karma",
+    "do": [
+     "BlueBuff",
+     "JeweledGauntlet",
+     "RabadonsDeathcap"
+    ]
+   },
+   {
+    "tuong": "Yunara",
+    "do": [
+     "Deathblade",
+     "LastWhisper",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sejuani",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blossom",
+    "ten": "Hoa Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Solar",
+    "ten": "Mặt Trời",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 264142,
+   "hang_tb": 4.57,
+   "top4": 49.6,
+   "top1": 12.1,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Karma và Yunara. Ghép sớm đồ cho Karma và Yunara.",
+   "giua": "Lên cấp 5 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Karma và Yunara lên 3 sao — đây là tướng 1 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 6–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Sejuani lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-1 → 3-2: roll chậm ở cấp 5",
+    "3-2: tiếp tục roll, chưa lên cấp",
+    "Khi Karma 3 sao: lên cấp 6",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_BlossomTraitAugment",
+   "DA_18_ResidualMagicPlus",
+   "DA_18_SolarTraitAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait"
+  ]
+ },
+ {
+  "id": "c426015",
+  "ten": "Zyra & Nidalee Dũng Sĩ",
+  "hang": "B",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Rakan",
+   "Sejuani",
+   "Yorick",
+   "Zyra",
+   "Amumu",
+   "Nidalee",
+   "Scuttlecrab",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Zyra",
+    "do": [
+     "ArchangelsStaff",
+     "ArchangelsStaff",
+     "HextechGunblade"
+    ]
+   },
+   {
+    "tuong": "Nidalee",
+    "do": [
+     "GuinsoosRageblade",
+     "HextechGunblade",
+     "JeweledGauntlet"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Amumu",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Summoner",
+    "ten": "Triệu Hồi",
+    "cap_do": 1
+   },
+   {
+    "id": "ZyraUniqueTrait",
+    "ten": "Vườn Gai",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 3
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 64124,
+   "hang_tb": 4.6,
+   "top4": 47.9,
+   "top1": 9.3,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Zyra và Nidalee ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Zyra và Nidalee 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_PrimalAugment_Nidalee",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild",
+   "DA_TradeSector",
+   "DA_Staffsmith",
+   "DA_SeraphimsStaff"
+  ]
+ },
+ {
+  "id": "c426028",
+  "ten": "Malphite Đao Phủ",
+  "hang": "B",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Azir",
+   "Kennen",
+   "Malphite",
+   "Soraka",
+   "Yorick",
+   "Zyra",
+   "Amumu",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Azir",
+    "do": [
+     "GuinsoosRageblade",
+     "HextechGunblade",
+     "RabadonsDeathcap"
+    ]
+   },
+   {
+    "tuong": "Zyra",
+    "do": [
+     "Emblem_Blackthorn",
+     "Emblem_Executioner",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Malphite",
+    "do": [
+     "Crownguard",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Battlemage",
+    "ten": "Cự Thạch",
+    "cap_do": 1
+   },
+   {
+    "id": "Blackthorn",
+    "ten": "Gai Đen",
+    "cap_do": 1
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 2
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Summoner",
+    "ten": "Triệu Hồi",
+    "cap_do": 2
+   },
+   {
+    "id": "ZyraUniqueTrait",
+    "ten": "Vườn Gai",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 2
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Blackthorn",
+   "Emblem_Executioner"
+  ],
+  "so_lieu": {
+   "so_tran": 144906,
+   "hang_tb": 4.61,
+   "top4": 48.4,
+   "top1": 8.6,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Azir và Zyra ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Azir và Zyra 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_BlackthornTraitAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp"
+  ]
+ },
+ {
+  "id": "c426034",
+  "ten": "Azir Đao Phủ",
+  "hang": "B",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Azir",
+   "KhaZix",
+   "RekSai",
+   "Sett",
+   "Yorick",
+   "Yunara",
+   "Zyra",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Azir",
+    "do": [
+     "GuinsoosRageblade",
+     "HextechGunblade",
+     "RabadonsDeathcap"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sett",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "SteadfastHeart"
+    ]
+   },
+   {
+    "tuong": "Vi",
+    "do": [
+     "Emblem_Brawler",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blackthorn",
+    "ten": "Gai Đen",
+    "cap_do": 1
+   },
+   {
+    "id": "Blossom",
+    "ten": "Hoa Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 2
+   },
+   {
+    "id": "Rival",
+    "ten": "Khắc Tinh",
+    "cap_do": 1
+   },
+   {
+    "id": "Summoner",
+    "ten": "Triệu Hồi",
+    "cap_do": 2
+   },
+   {
+    "id": "ZyraUniqueTrait",
+    "ten": "Vườn Gai",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Brawler"
+  ],
+  "so_lieu": {
+   "so_tran": 30950,
+   "hang_tb": 4.61,
+   "top4": 48.6,
+   "top1": 8.7,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Azir. Ghép sớm đồ cho Azir.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Azir lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Sett và Vi lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Azir 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_BlackthornTraitAugment",
+   "DA_18_BlossomTraitAugment",
+   "DA_18_ResidualMagicPlus",
+   "DA_18_RivalsAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays"
+  ]
+ },
+ {
+  "id": "c426024",
+  "ten": "Rengar Thần Rừng",
+  "hang": "B",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Aphelios",
+   "Diana",
+   "Ezreal",
+   "Hecarim",
+   "KhaZix",
+   "LeBlanc",
+   "Rengar"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Rengar",
+    "do": [
+     "EdgeOfNight",
+     "GuinsoosRageblade",
+     "TitansResolve"
+    ]
+   },
+   {
+    "tuong": "KhaZix",
+    "do": [
+     "HandOfJustice",
+     "JeweledGauntlet",
+     "StrikersFlail"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Hecarim",
+    "do": [
+     "Evenshroud",
+     "SpiritVisage",
+     "SunfireCape"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 1
+   },
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 1
+   },
+   {
+    "id": "Rival",
+    "ten": "Khắc Tinh",
+    "cap_do": 3
+   },
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 67360,
+   "hang_tb": 4.62,
+   "top4": 48.0,
+   "top1": 9.8,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Rengar và Kha'Zix. Ghép sớm đồ cho Rengar và Kha'Zix.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Rengar và Kha'Zix lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Hecarim lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Rengar 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_LunarTraitAugment",
+   "DA_18_RivalsAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait"
+  ]
+ },
+ {
+  "id": "c426053",
+  "ten": "Aphelios Mặt Trăng",
+  "hang": "B",
+  "kieu": "fast9",
+  "kieu_ten": "Lên nhanh cấp 9",
+  "cap_muc_tieu": 9,
+  "tuong": [
+   "Alune",
+   "Aphelios",
+   "Diana",
+   "Kayle",
+   "Leona",
+   "Maokai",
+   "Sejuani",
+   "Fiddlesticks",
+   "Taric",
+   "Sentinel"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Aphelios",
+    "do": [
+     "InfinityEdge",
+     "KrakensFury",
+     "LastWhisper"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Maokai",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   },
+   {
+    "tuong": "Sentinel",
+    "do": [
+     "AdaptiveHelm",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Eclipse",
+    "ten": "Thiên Thực",
+    "cap_do": 1
+   },
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 2
+   },
+   {
+    "id": "Maokai_UniqueTrait",
+    "ten": "Cổ Thụ",
+    "cap_do": 1
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 1
+   },
+   {
+    "id": "Solar",
+    "ten": "Mặt Trời",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "AluneUniqueTrait",
+    "ten": "Hòa Hợp",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 63219,
+   "hang_tb": 4.65,
+   "top4": 47.1,
+   "top1": 11.2,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có để giữ máu, tích vàng lên mốc 50. Gom đồ cho Aphelios.",
+   "giua": "Lên cấp 7 ở 3-2, cấp 8 ở 4-1 hoặc 4-2, chỉ roll vừa đủ để giữ máu.",
+   "cuoi": "Lên cấp 9 ở 5-1/5-2 rồi roll tìm tướng 5 vàng (Aphelios). Maokai và Người Đá đứng trước chịu đòn.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6–7",
+    "4-1: cấp 8",
+    "5-1 hoặc 5-2: cấp 9, roll tìm tướng 5 vàng"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_LunarTraitAugment",
+   "DA_18_SolarTraitAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_ExplosiveGrowth",
+   "DA_LateGameSpecialist",
+   "DA_LateGameScaling",
+   "DA_LevelUp"
+  ]
+ },
+ {
+  "id": "c426026",
+  "ten": "Lillia Thần Rừng",
+  "hang": "B",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Alistar",
+   "Alune",
+   "Aphelios",
+   "Diana",
+   "Gnar",
+   "Hecarim",
+   "Lillia",
+   "Ornn",
+   "Xayah"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Aphelios",
+    "do": [
+     "Deathblade",
+     "InfinityEdge",
+     "LastWhisper"
+    ]
+   },
+   {
+    "tuong": "Alune",
+    "do": [
+     "ArchangelsStaff",
+     "SpearOfShojin",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Lillia",
+    "do": [
+     "Evenshroud",
+     "ProtectorsVow",
+     "ProtectorsVow"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 2
+   },
+   {
+    "id": "Fae",
+    "ten": "Tiên Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 2
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "AluneUniqueTrait",
+    "ten": "Hòa Hợp",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 33448,
+   "hang_tb": 4.67,
+   "top4": 46.6,
+   "top1": 10.2,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Aphelios và Alune ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Aphelios và Alune 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_FaeTraitAugment",
+   "DA_18_LunarTraitAugment",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild",
+   "DA_TradeSector"
+  ]
+ },
+ {
+  "id": "c426040",
+  "ten": "Sivir Dũng Sĩ",
+  "hang": "B",
+  "kieu": "fast9",
+  "kieu_ten": "Lên nhanh cấp 9",
+  "cap_muc_tieu": 9,
+  "tuong": [
+   "Ashe",
+   "Ivern",
+   "Kennen",
+   "Maokai",
+   "Rakan",
+   "Sivir",
+   "Amumu",
+   "Taric",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Ashe",
+    "do": [
+     "LastWhisper",
+     "RedBuff",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Maokai",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   },
+   {
+    "tuong": "Amumu",
+    "do": [
+     "Evenshroud",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Greenfather",
+    "ten": "Thụ Thần",
+    "cap_do": 1
+   },
+   {
+    "id": "Hunter",
+    "ten": "Thợ Săn",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Maokai_UniqueTrait",
+    "ten": "Cổ Thụ",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 2
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 158769,
+   "hang_tb": 4.68,
+   "top4": 45.5,
+   "top1": 12.2,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có để giữ máu, tích vàng lên mốc 50. Gom đồ cho Ashe.",
+   "giua": "Lên cấp 7 ở 3-2, cấp 8 ở 4-1 hoặc 4-2, chỉ roll vừa đủ để giữ máu.",
+   "cuoi": "Lên cấp 9 ở 5-1/5-2 rồi roll tìm tướng 5 vàng (Ashe). Maokai và Amumu đứng trước chịu đòn.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6–7",
+    "4-1: cấp 8",
+    "5-1 hoặc 5-2: cấp 9, roll tìm tướng 5 vàng"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_PrimalAugment_Sivir",
+   "DA_ExplosiveGrowth",
+   "DA_LateGameSpecialist",
+   "DA_LateGameScaling",
+   "DA_LevelUp",
+   "DA_GildedSteel",
+   "DA_Swordsmith",
+   "DA_SwordOverflow"
+  ]
+ },
+ {
+  "id": "c426019",
+  "ten": "Yunara Gai Đen",
+  "hang": "B",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 6",
+  "cap_muc_tieu": 6,
+  "tuong": [
+   "Alistar",
+   "Azir",
+   "Ezreal",
+   "RekSai",
+   "Warwick",
+   "Yunara",
+   "Murkwolf"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Yunara",
+    "do": [
+     "Emblem_Blackthorn",
+     "LastWhisper",
+     "SpearOfShojin"
+    ]
+   },
+   {
+    "tuong": "Warwick",
+    "do": [
+     "Emblem_Executioner",
+     "SpearOfShojin",
+     "SteraksGage"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Alistar",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blackthorn",
+    "ten": "Gai Đen",
+    "cap_do": 2
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 2
+   },
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Blackthorn",
+   "Emblem_Executioner"
+  ],
+  "so_lieu": {
+   "so_tran": 20043,
+   "hang_tb": 4.69,
+   "top4": 47.6,
+   "top1": 9.0,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Yunara và Warwick. Ghép sớm đồ cho Yunara và Warwick.",
+   "giua": "Lên cấp 6 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Yunara và Warwick lên 3 sao — đây là tướng 2 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 7–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Alistar lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 6, bắt đầu roll chậm",
+    "Khi Yunara 3 sao: lên cấp 7",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_BlackthornTraitAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait"
+  ]
+ },
+ {
+  "id": "c426025",
+  "ten": "Akali Hỏa Ngục",
+  "hang": "B",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 5",
+  "cap_muc_tieu": 5,
+  "tuong": [
+   "Akali",
+   "Camille",
+   "Kayle",
+   "Leona",
+   "Ornn",
+   "Sejuani",
+   "Varus"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Akali",
+    "do": [
+     "EdgeOfNight",
+     "HandOfJustice",
+     "InfinityEdge"
+    ]
+   },
+   {
+    "tuong": "Varus",
+    "do": [
+     "InfinityEdge",
+     "LastWhisper",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Ornn",
+    "do": [
+     "Crownguard",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 1
+   },
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 1
+   },
+   {
+    "id": "Solar",
+    "ten": "Mặt Trời",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 91167,
+   "hang_tb": 4.69,
+   "top4": 47.6,
+   "top1": 8.1,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Akali và Varus. Ghép sớm đồ cho Akali và Varus.",
+   "giua": "Lên cấp 5 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Akali và Varus lên 3 sao — đây là tướng 1 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 6–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Ornn lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-1 → 3-2: roll chậm ở cấp 5",
+    "3-2: tiếp tục roll, chưa lên cấp",
+    "Khi Akali 3 sao: lên cấp 6",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_SolarTraitAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait",
+   "DA_CalculatedLoss",
+   "DA_Swordsmith"
+  ]
+ },
+ {
+  "id": "c426032",
+  "ten": "Zyra & Sejuani Dũng Sĩ",
+  "hang": "B",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Ashe",
+   "Maokai",
+   "Sejuani",
+   "Sivir",
+   "Yorick",
+   "Zyra",
+   "Amumu",
+   "Scuttlecrab",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Zyra",
+    "do": [
+     "ArchangelsStaff",
+     "ArchangelsStaff",
+     "HextechGunblade"
+    ]
+   },
+   {
+    "tuong": "Sivir",
+    "do": [
+     "GiantSlayer",
+     "InfinityEdge",
+     "RedBuff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Maokai",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Hunter",
+    "ten": "Thợ Săn",
+    "cap_do": 1
+   },
+   {
+    "id": "Maokai_UniqueTrait",
+    "ten": "Cổ Thụ",
+    "cap_do": 1
+   },
+   {
+    "id": "Summoner",
+    "ten": "Triệu Hồi",
+    "cap_do": 1
+   },
+   {
+    "id": "ZyraUniqueTrait",
+    "ten": "Vườn Gai",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 3
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 90673,
+   "hang_tb": 4.7,
+   "top4": 45.8,
+   "top1": 10.2,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Zyra và Sivir ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Zyra và Sivir 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_PrimalAugment_Sivir",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild",
+   "DA_TradeSector",
+   "DA_Staffsmith",
+   "DA_SeraphimsStaff"
+  ]
+ },
+ {
+  "id": "c426033",
+  "ten": "Hecarim Tiên Phong",
+  "hang": "B",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Aphelios",
+   "Diana",
+   "Hecarim",
+   "Rengar",
+   "Brambleback",
+   "CrimsonRaptor",
+   "Sentinel",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "CrimsonRaptor",
+    "do": [
+     "GuinsoosRageblade",
+     "KrakensFury",
+     "LastWhisper"
+    ]
+   },
+   {
+    "tuong": "Rengar",
+    "do": [
+     "Emblem_Slayer",
+     "EdgeOfNight",
+     "GuinsoosRageblade"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Hecarim",
+    "do": [
+     "ProtectorsVow",
+     "SpiritVisage",
+     "SunfireCape"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 1
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 1
+   },
+   {
+    "id": "Rival",
+    "ten": "Khắc Tinh",
+    "cap_do": 1
+   },
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 2
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Slayer"
+  ],
+  "so_lieu": {
+   "so_tran": 15255,
+   "hang_tb": 4.73,
+   "top4": 45.7,
+   "top1": 10.4,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Chim Mẹ và Rengar. Ghép sớm đồ cho Chim Mẹ và Rengar.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Chim Mẹ và Rengar lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Hecarim lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Chim Mẹ 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_LunarTraitAugment",
+   "DA_18_RivalsAugment",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus"
+  ]
+ },
+ {
+  "id": "c426038",
+  "ten": "Ahri Hoa Linh",
+  "hang": "B",
+  "kieu": "fast9",
+  "kieu_ten": "Lên nhanh cấp 9",
+  "cap_muc_tieu": 9,
+  "tuong": [
+   "Ahri",
+   "Ashe",
+   "Gnar",
+   "MasterYi",
+   "Sett",
+   "Sivir",
+   "Yorick",
+   "Karma",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Ashe",
+    "do": [
+     "LastWhisper",
+     "RedBuff",
+     "SpearOfShojin"
+    ]
+   },
+   {
+    "tuong": "Ahri",
+    "do": [
+     "JeweledGauntlet",
+     "NashorsTooth",
+     "StrikersFlail"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sett",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blossom",
+    "ten": "Hoa Linh",
+    "cap_do": 3
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Hunter",
+    "ten": "Thợ Săn",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 151065,
+   "hang_tb": 4.73,
+   "top4": 44.8,
+   "top1": 10.4,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có để giữ máu, tích vàng lên mốc 50. Gom đồ cho Ashe và Ahri.",
+   "giua": "Lên cấp 7 ở 3-2, cấp 8 ở 4-1 hoặc 4-2, chỉ roll vừa đủ để giữ máu.",
+   "cuoi": "Lên cấp 9 ở 5-1/5-2 rồi roll tìm tướng 5 vàng (Ashe và Ahri). Sett đứng trước chịu đòn.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6–7",
+    "4-1: cấp 8",
+    "5-1 hoặc 5-2: cấp 9, roll tìm tướng 5 vàng"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_BlossomTraitAugment",
+   "DA_18_ResidualMagicPlus",
+   "DA_18_PrimalAugment_Sivir",
+   "DA_ExplosiveGrowth",
+   "DA_LateGameSpecialist",
+   "DA_LateGameScaling",
+   "DA_LevelUp",
+   "DA_GildedSteel"
+  ]
+ },
+ {
+  "id": "c426031",
+  "ten": "Kayle Thần Rừng",
+  "hang": "B",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 6",
+  "cap_muc_tieu": 6,
+  "tuong": [
+   "Hecarim",
+   "Kayle",
+   "Leona",
+   "Ornn",
+   "Rakan",
+   "Sejuani",
+   "Xayah"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Xayah",
+    "do": [
+     "GiantSlayer",
+     "InfinityEdge",
+     "KrakensFury"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Ornn",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   },
+   {
+    "tuong": "Sejuani",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 1
+   },
+   {
+    "id": "Fae",
+    "ten": "Tiên Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 1
+   },
+   {
+    "id": "Solar",
+    "ten": "Mặt Trời",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 137481,
+   "hang_tb": 4.74,
+   "top4": 46.0,
+   "top1": 11.4,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Xayah. Ghép sớm đồ cho Xayah.",
+   "giua": "Lên cấp 6 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Xayah lên 3 sao — đây là tướng 2 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 7–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Ornn và Sejuani lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 6, bắt đầu roll chậm",
+    "Khi Xayah 3 sao: lên cấp 7",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_FaeTraitAugment",
+   "DA_18_SolarTraitAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait"
+  ]
+ },
+ {
+  "id": "c426046",
+  "ten": "Sett Hoa Linh",
+  "hang": "C",
+  "kieu": "fast9",
+  "kieu_ten": "Lên nhanh cấp 9",
+  "cap_muc_tieu": 9,
+  "tuong": [
+   "Ashe",
+   "ElderDragon",
+   "Gnar",
+   "Kennen",
+   "Sett",
+   "Yorick",
+   "Amumu",
+   "Cinderling",
+   "Sivir"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Ashe",
+    "do": [
+     "LastWhisper",
+     "RedBuff",
+     "SpearOfShojin"
+    ]
+   },
+   {
+    "tuong": "Sivir",
+    "do": [
+     "GiantSlayer",
+     "InfinityEdge",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sett",
+    "do": [
+     "Emblem_Juggernaut",
+     "GargoyleStoneplate",
+     "SpiritVisage"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "ApexPredator",
+    "ten": "Bá Chủ",
+    "cap_do": 1
+   },
+   {
+    "id": "Blossom",
+    "ten": "Hoa Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Hunter",
+    "ten": "Thợ Săn",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Juggernaut"
+  ],
+  "so_lieu": {
+   "so_tran": 29786,
+   "hang_tb": 4.79,
+   "top4": 44.5,
+   "top1": 9.5,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có để giữ máu, tích vàng lên mốc 50. Gom đồ cho Ashe và Sivir.",
+   "giua": "Lên cấp 7 ở 3-2, cấp 8 ở 4-1 hoặc 4-2, chỉ roll vừa đủ để giữ máu.",
+   "cuoi": "Lên cấp 9 ở 5-1/5-2 rồi roll tìm tướng 5 vàng (Ashe và Sivir). Sett đứng trước chịu đòn.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6–7",
+    "4-1: cấp 8",
+    "5-1 hoặc 5-2: cấp 9, roll tìm tướng 5 vàng"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_BlossomTraitAugment",
+   "DA_18_ResidualMagicPlus",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_ExplosiveGrowth",
+   "DA_LateGameSpecialist",
+   "DA_LateGameScaling"
+  ]
+ },
+ {
+  "id": "c426041",
+  "ten": "Nidalee Thuật Sĩ",
+  "hang": "C",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Morgana",
+   "Sentry",
+   "KogMaw",
+   "Nidalee",
+   "Scuttlecrab",
+   "Sentinel",
+   "Taric",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Morgana",
+    "do": [
+     "JeweledGauntlet",
+     "Morellonomicon",
+     "VoidStaff"
+    ]
+   },
+   {
+    "tuong": "Nidalee",
+    "do": [
+     "ArchangelsStaff",
+     "GuinsoosRageblade",
+     "RabadonsDeathcap"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sentinel",
+    "do": [
+     "Crownguard",
+     "ProtectorsVow",
+     "SpiritVisage"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Adaptor",
+    "ten": "Thích Ứng",
+    "cap_do": 1
+   },
+   {
+    "id": "Caustic",
+    "ten": "Ăn Mòn",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 3
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 24560,
+   "hang_tb": 4.81,
+   "top4": 44.9,
+   "top1": 6.4,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Morgana và Nidalee ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Morgana và Nidalee 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_PrimalAugment_Nidalee",
+   "DA_18_RiftbeastTraitAugment",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild",
+   "DA_TradeSector",
+   "DA_Staffsmith"
+  ]
+ },
+ {
+  "id": "c426048",
+  "ten": "Tristana Tiên Linh",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Kobuko",
+   "Lillia",
+   "Rakan",
+   "Rammus",
+   "Sivir",
+   "Tristana",
+   "Xayah",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Tristana",
+    "do": [
+     "GiantSlayer",
+     "GuinsoosRageblade",
+     "HextechGunblade"
+    ]
+   },
+   {
+    "tuong": "Sivir",
+    "do": [
+     "Emblem_Fae",
+     "LastWhisper",
+     "RedBuff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Rammus",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Fae",
+    "ten": "Tiên Linh",
+    "cap_do": 2
+   },
+   {
+    "id": "Hunter",
+    "ten": "Thợ Săn",
+    "cap_do": 1
+   },
+   {
+    "id": "Sprykin",
+    "ten": "Tinh Nghịch",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Fae"
+  ],
+  "so_lieu": {
+   "so_tran": 60017,
+   "hang_tb": 4.82,
+   "top4": 44.0,
+   "top1": 8.6,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Tristana và Sivir. Ghép sớm đồ cho Tristana và Sivir.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Tristana và Sivir lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Rammus lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Tristana 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_FaeTraitAugment",
+   "DA_18_SprykinAugment",
+   "DA_18_PrimalAugment_Sivir",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus"
+  ]
+ },
+ {
+  "id": "c426051",
+  "ten": "Cóc Thành Tinh Quái Rừng",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 6",
+  "cap_muc_tieu": 6,
+  "tuong": [
+   "Sentry",
+   "Brambleback",
+   "Gromp",
+   "KogMaw",
+   "Krug",
+   "Murkwolf",
+   "Scuttlecrab",
+   "Sentinel"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Sentry",
+    "do": [
+     "ArchangelsStaff",
+     "ArchangelsStaff",
+     "ArchangelsStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Krug",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   },
+   {
+    "tuong": "Scuttlecrab",
+    "do": [
+     "Emblem_Brawler",
+     "GargoyleStoneplate",
+     "GargoyleStoneplate"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Adaptor",
+    "ten": "Thích Ứng",
+    "cap_do": 1
+   },
+   {
+    "id": "Caustic",
+    "ten": "Ăn Mòn",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 2
+   },
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 1
+   },
+   {
+    "id": "Riftbeast",
+    "ten": "Quái Rừng",
+    "cap_do": 3
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Brawler"
+  ],
+  "so_lieu": {
+   "so_tran": 54365,
+   "hang_tb": 4.85,
+   "top4": 44.3,
+   "top1": 6.5,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Sỏi. Ghép sớm đồ cho Sỏi.",
+   "giua": "Lên cấp 6 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Sỏi lên 3 sao — đây là tướng 2 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 7–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Quái Đá Krug và Cua Kỳ Cục lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 6, bắt đầu roll chậm",
+    "Khi Sỏi 3 sao: lên cấp 7",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_RiftbeastTraitAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait"
+  ]
+ },
+ {
+  "id": "c426044",
+  "ten": "Veigar Tinh Nghịch",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 5",
+  "cap_muc_tieu": 5,
+  "tuong": [
+   "Gnar",
+   "Kobuko",
+   "Rammus",
+   "RekSai",
+   "Sett",
+   "Teemo",
+   "Veigar",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Teemo",
+    "do": [
+     "BlueBuff",
+     "Morellonomicon",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Rammus",
+    "do": [
+     "GargoyleStoneplate",
+     "GargoyleStoneplate",
+     "SpiritVisage"
+    ]
+   },
+   {
+    "tuong": "RekSai",
+    "do": [
+     "DragonsClaw",
+     "GargoyleStoneplate",
+     "SpiritVisage"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blackthorn",
+    "ten": "Gai Đen",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 2
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Sprykin",
+    "ten": "Tinh Nghịch",
+    "cap_do": 2
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 57396,
+   "hang_tb": 4.93,
+   "top4": 42.3,
+   "top1": 4.6,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Teemo. Ghép sớm đồ cho Teemo.",
+   "giua": "Lên cấp 5 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Teemo lên 3 sao — đây là tướng 1 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 6–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Rammus và Rek'Sai lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-1 → 3-2: roll chậm ở cấp 5",
+    "3-2: tiếp tục roll, chưa lên cấp",
+    "Khi Teemo 3 sao: lên cấp 6",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_BlackthornTraitAugment",
+   "DA_18_SprykinAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue"
+  ]
+ },
+ {
+  "id": "c426045",
+  "ten": "Nidalee Dũng Sĩ",
+  "hang": "C",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Lillia",
+   "Rakan",
+   "Shen",
+   "Sivir",
+   "Amumu",
+   "KogMaw",
+   "Nidalee",
+   "Sentinel",
+   "Ashe"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Ashe",
+    "do": [
+     "Emblem_Inferno",
+     "RedBuff",
+     "SpearOfShojin"
+    ]
+   },
+   {
+    "tuong": "Sivir",
+    "do": [
+     "GiantSlayer",
+     "RedBuff",
+     "SpearOfShojin"
+    ]
+   },
+   {
+    "tuong": "Nidalee",
+    "do": [
+     "Emblem_Hunter",
+     "Bloodthirster",
+     "SteraksGage"
+    ]
+   }
+  ],
+  "do_don": [],
+  "toc_he": [
+   {
+    "id": "Adaptor",
+    "ten": "Thích Ứng",
+    "cap_do": 1
+   },
+   {
+    "id": "Caustic",
+    "ten": "Ăn Mòn",
+    "cap_do": 1
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Fae",
+    "ten": "Tiên Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Hunter",
+   "Emblem_Inferno"
+  ],
+  "so_lieu": {
+   "so_tran": 28058,
+   "hang_tb": 4.93,
+   "top4": 41.8,
+   "top1": 6.2,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Ashe và Sivir ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Ashe và Sivir 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_FaeTraitAugment",
+   "DA_18_PrimalAugment_Nidalee",
+   "DA_18_PrimalAugment_Sivir",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp"
+  ]
+ },
+ {
+  "id": "c426039",
+  "ten": "Caitlyn Dũng Sĩ",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 6",
+  "cap_muc_tieu": 6,
+  "tuong": [
+   "Caitlyn",
+   "Rakan",
+   "Sejuani",
+   "Sivir",
+   "Yorick",
+   "Amumu",
+   "Scuttlecrab",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Caitlyn",
+    "do": [
+     "GuinsoosRageblade",
+     "HextechGunblade",
+     "KrakensFury"
+    ]
+   },
+   {
+    "tuong": "Sivir",
+    "do": [
+     "InfinityEdge",
+     "LastWhisper",
+     "RedBuff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Scuttlecrab",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Hunter",
+    "ten": "Thợ Săn",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 3
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 42948,
+   "hang_tb": 4.96,
+   "top4": 41.7,
+   "top1": 5.9,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Caitlyn và Sivir. Ghép sớm đồ cho Caitlyn và Sivir.",
+   "giua": "Lên cấp 6 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Caitlyn và Sivir lên 3 sao — đây là tướng 2 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 7–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Cua Kỳ Cục lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 6, bắt đầu roll chậm",
+    "Khi Caitlyn 3 sao: lên cấp 7",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_PrimalAugment_Sivir",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait",
+   "DA_CalculatedLoss",
+   "DA_Swordsmith"
+  ]
+ },
+ {
+  "id": "c426043",
+  "ten": "Azir Dũng Sĩ",
+  "hang": "C",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Azir",
+   "Rakan",
+   "Sejuani",
+   "Yorick",
+   "Zyra",
+   "Amumu",
+   "Scuttlecrab",
+   "Vi",
+   "Maokai"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Azir",
+    "do": [
+     "GuinsoosRageblade",
+     "JeweledGauntlet",
+     "RabadonsDeathcap"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Maokai",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   },
+   {
+    "tuong": "Amumu",
+    "do": [
+     "BrambleVest",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Summoner",
+    "ten": "Triệu Hồi",
+    "cap_do": 2
+   },
+   {
+    "id": "ZyraUniqueTrait",
+    "ten": "Vườn Gai",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 3
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 31248,
+   "hang_tb": 4.96,
+   "top4": 41.2,
+   "top1": 6.3,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Azir ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Azir 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild",
+   "DA_TradeSector",
+   "DA_Staffsmith",
+   "DA_SeraphimsStaff",
+   "DA_DeadlierCaps"
+  ]
+ },
+ {
+  "id": "c426052",
+  "ten": "Ahri Thuật Sư",
+  "hang": "C",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Ahri",
+   "Alune",
+   "Cassiopeia",
+   "Gnar",
+   "Lillia",
+   "Sett",
+   "Fiddlesticks",
+   "Karma"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Ahri",
+    "do": [
+     "JeweledGauntlet",
+     "SpearOfShojin",
+     "StrikersFlail"
+    ]
+   },
+   {
+    "tuong": "Lillia",
+    "do": [
+     "Emblem_Spellweaver",
+     "Crownguard",
+     "ProtectorsVow"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Sett",
+    "do": [
+     "GargoyleStoneplate",
+     "GargoyleStoneplate",
+     "SteadfastHeart"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Blossom",
+    "ten": "Hoa Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 3
+   },
+   {
+    "id": "AluneUniqueTrait",
+    "ten": "Hòa Hợp",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Spellweaver"
+  ],
+  "so_lieu": {
+   "so_tran": 31493,
+   "hang_tb": 4.99,
+   "top4": 40.8,
+   "top1": 7.2,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Ahri và Lillia ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Ahri và Lillia 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_BlossomTraitAugment",
+   "DA_18_ResidualMagicPlus",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown"
+  ]
+ },
+ {
+  "id": "c426049",
+  "ten": "Veigar Gai Đen",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 5",
+  "cap_muc_tieu": 5,
+  "tuong": [
+   "Azir",
+   "Kobuko",
+   "Malphite",
+   "Rammus",
+   "RekSai",
+   "Soraka",
+   "Veigar",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Veigar",
+    "do": [
+     "BlueBuff",
+     "HextechGunblade",
+     "JeweledGauntlet"
+    ]
+   },
+   {
+    "tuong": "Azir",
+    "do": [
+     "GiantSlayer",
+     "GuinsoosRageblade",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "RekSai",
+    "do": [
+     "DragonsClaw",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Battlemage",
+    "ten": "Cự Thạch",
+    "cap_do": 1
+   },
+   {
+    "id": "Blackthorn",
+    "ten": "Gai Đen",
+    "cap_do": 2
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Sprykin",
+    "ten": "Tinh Nghịch",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 2
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 24667,
+   "hang_tb": 5.01,
+   "top4": 41.0,
+   "top1": 7.3,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Veigar và Azir. Ghép sớm đồ cho Veigar và Azir.",
+   "giua": "Lên cấp 5 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Veigar và Azir lên 3 sao — đây là tướng 1 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 6–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Rek'Sai lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-1 → 3-2: roll chậm ở cấp 5",
+    "3-2: tiếp tục roll, chưa lên cấp",
+    "Khi Veigar 3 sao: lên cấp 6",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_BlackthornTraitAugment",
+   "DA_18_SprykinAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue"
+  ]
+ },
+ {
+  "id": "c426042",
+  "ten": "Rengar Tiên Linh",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Lillia",
+   "Rakan",
+   "Rammus",
+   "Rengar",
+   "Sivir",
+   "Tristana",
+   "Vi"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Tristana",
+    "do": [
+     "Deathblade",
+     "GiantSlayer",
+     "GuinsoosRageblade"
+    ]
+   },
+   {
+    "tuong": "Rengar",
+    "do": [
+     "Emblem_Fae",
+     "Emblem_Hunter",
+     "Quicksilver"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Rammus",
+    "do": [
+     "DragonsClaw",
+     "GargoyleStoneplate",
+     "SpiritVisage"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Fae",
+    "ten": "Tiên Linh",
+    "cap_do": 2
+   },
+   {
+    "id": "Hunter",
+    "ten": "Thợ Săn",
+    "cap_do": 1
+   },
+   {
+    "id": "Rival",
+    "ten": "Khắc Tinh",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Primal",
+    "ten": "Nguyên Sinh",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Fae",
+   "Emblem_Hunter"
+  ],
+  "so_lieu": {
+   "so_tran": 38299,
+   "hang_tb": 5.02,
+   "top4": 39.9,
+   "top1": 11.7,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Tristana và Rengar. Ghép sớm đồ cho Tristana và Rengar.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Tristana và Rengar lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Rammus lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Tristana 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_FaeTraitAugment",
+   "DA_18_RivalsAugment",
+   "DA_18_PrimalAugment_Sivir",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus"
+  ]
+ },
+ {
+  "id": "c426047",
+  "ten": "Tristana Tinh Nghịch",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Kobuko",
+   "Lillia",
+   "Morgana",
+   "Rammus",
+   "Teemo",
+   "Tristana",
+   "Veigar",
+   "Sentinel"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Tristana",
+    "do": [
+     "Deathblade",
+     "GuinsoosRageblade",
+     "LastWhisper"
+    ]
+   },
+   {
+    "tuong": "Teemo",
+    "do": [
+     "JeweledGauntlet",
+     "NashorsTooth",
+     "NashorsTooth"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Rammus",
+    "do": [
+     "Emblem_Brawler",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Fae",
+    "ten": "Tiên Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 2
+   },
+   {
+    "id": "Sprykin",
+    "ten": "Tinh Nghịch",
+    "cap_do": 2
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Brawler"
+  ],
+  "so_lieu": {
+   "so_tran": 32335,
+   "hang_tb": 5.05,
+   "top4": 39.7,
+   "top1": 3.9,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Tristana và Teemo. Ghép sớm đồ cho Tristana và Teemo.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Tristana và Teemo lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Rammus lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Tristana 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_FaeTraitAugment",
+   "DA_18_SprykinAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue"
+  ]
+ },
+ {
+  "id": "c426050",
+  "ten": "Soraka Đao Phủ",
+  "hang": "C",
+  "kieu": "fast8",
+  "kieu_ten": "Lên nhanh cấp 8",
+  "cap_muc_tieu": 8,
+  "tuong": [
+   "Ezreal",
+   "Hecarim",
+   "Kennen",
+   "Ornn",
+   "Rakan",
+   "Soraka",
+   "Amumu",
+   "Fiddlesticks"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Ezreal",
+    "do": [
+     "Deathblade",
+     "SpearOfShojin",
+     "StrikersFlail"
+    ]
+   },
+   {
+    "tuong": "Soraka",
+    "do": [
+     "HextechGunblade",
+     "NashorsTooth",
+     "RabadonsDeathcap"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Amumu",
+    "do": [
+     "GargoyleStoneplate",
+     "GargoyleStoneplate",
+     "GargoyleStoneplate"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 1
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 2
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 2
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 23469,
+   "hang_tb": 5.05,
+   "top4": 39.3,
+   "top1": 6.6,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có, gom đồ cho Ezreal và Soraka ngay từ đầu.",
+   "giua": "Cấp 6 ở 3-2, cấp 7 ở 3-5 hoặc 4-1, giữ vàng gần 50.",
+   "cuoi": "Lên cấp 8 ở 4-1/4-2 rồi roll mạnh tìm Ezreal và Soraka 2 sao. Đủ mạnh thì lên 9 ở 5-1 thêm tướng 5 vàng.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6",
+    "4-1: cấp 7–8",
+    "4-2: cấp 8, all-in roll tìm chủ lực 2 sao"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_ExplosiveGrowth",
+   "DA_EpicRolldown",
+   "DA_LevelUp",
+   "DA_MaxBuild",
+   "DA_TradeSector"
+  ]
+ },
+ {
+  "id": "c426056",
+  "ten": "Azir Gai Đen",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Alistar",
+   "Azir",
+   "Ezreal",
+   "LeBlanc",
+   "Malphite",
+   "RekSai",
+   "Soraka",
+   "Veigar",
+   "KhaZix",
+   "Lux"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "KhaZix",
+    "do": [
+     "Emblem_Blackthorn",
+     "HandOfJustice",
+     "RabadonsDeathcap"
+    ]
+   },
+   {
+    "tuong": "Lux",
+    "do": [
+     "RedBuff",
+     "SpearOfShojin",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Malphite",
+    "do": [
+     "Crownguard",
+     "GargoyleStoneplate",
+     "SpiritVisage"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Battlemage",
+    "ten": "Cự Thạch",
+    "cap_do": 1
+   },
+   {
+    "id": "Blackthorn",
+    "ten": "Gai Đen",
+    "cap_do": 2
+   },
+   {
+    "id": "Brawler",
+    "ten": "Đấu Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 1
+   },
+   {
+    "id": "Executioner",
+    "ten": "Đao Phủ",
+    "cap_do": 2
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Blackthorn"
+  ],
+  "so_lieu": {
+   "so_tran": 34572,
+   "hang_tb": 5.19,
+   "top4": 37.2,
+   "top1": 6.6,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Kha'Zix và Lux. Ghép sớm đồ cho Kha'Zix và Lux.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Kha'Zix và Lux lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Malphite lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Kha'Zix 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_BlackthornTraitAugment",
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays"
+  ]
+ },
+ {
+  "id": "c426055",
+  "ten": "Amumu Hỏa Ngục",
+  "hang": "C",
+  "kieu": "fast9",
+  "kieu_ten": "Lên nhanh cấp 9",
+  "cap_muc_tieu": 9,
+  "tuong": [
+   "Alune",
+   "Aphelios",
+   "Diana",
+   "Kayle",
+   "Leona",
+   "Sejuani",
+   "Shen",
+   "Amumu",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Aphelios",
+    "do": [
+     "GiantSlayer",
+     "GuinsoosRageblade",
+     "KrakensFury"
+    ]
+   },
+   {
+    "tuong": "Alune",
+    "do": [
+     "BlueBuff",
+     "JeweledGauntlet",
+     "SpearOfShojin"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Amumu",
+    "do": [
+     "Crownguard",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Eclipse",
+    "ten": "Thiên Thực",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 2
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 1
+   },
+   {
+    "id": "Solar",
+    "ten": "Mặt Trời",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "AluneUniqueTrait",
+    "ten": "Hòa Hợp",
+    "cap_do": 1
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 32761,
+   "hang_tb": 5.21,
+   "top4": 37.2,
+   "top1": 6.9,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Chơi đội mạnh nhất đang có để giữ máu, tích vàng lên mốc 50. Gom đồ cho Aphelios và Alune.",
+   "giua": "Lên cấp 7 ở 3-2, cấp 8 ở 4-1 hoặc 4-2, chỉ roll vừa đủ để giữ máu.",
+   "cuoi": "Lên cấp 9 ở 5-1/5-2 rồi roll tìm tướng 5 vàng (Aphelios và Alune). Amumu đứng trước chịu đòn.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5: cấp 5",
+    "3-2: cấp 6–7",
+    "4-1: cấp 8",
+    "5-1 hoặc 5-2: cấp 9, roll tìm tướng 5 vàng"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_LunarTraitAugment",
+   "DA_18_SolarTraitAugment",
+   "DA_ExplosiveGrowth",
+   "DA_LateGameSpecialist",
+   "DA_LateGameScaling",
+   "DA_LevelUp",
+   "DA_GildedSteel",
+   "DA_Staffsmith"
+  ]
+ },
+ {
+  "id": "c426054",
+  "ten": "Elise Tiên Hắc Ám",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 6",
+  "cap_muc_tieu": 6,
+  "tuong": [
+   "Cassiopeia",
+   "Diana",
+   "Elise",
+   "Hecarim",
+   "Morgana",
+   "Rakan",
+   "Sentinel",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Elise",
+    "do": [
+     "GargoyleStoneplate",
+     "GuinsoosRageblade",
+     "TitansResolve"
+    ]
+   },
+   {
+    "tuong": "Cassiopeia",
+    "do": [
+     "ArchangelsStaff",
+     "HextechGunblade",
+     "SpearOfShojin"
+    ]
+   },
+   {
+    "tuong": "Morgana",
+    "do": [
+     "AdaptiveHelm",
+     "Morellonomicon",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [],
+  "toc_he": [
+   {
+    "id": "Coven",
+    "ten": "Tiên Hắc Ám",
+    "cap_do": 1
+   },
+   {
+    "id": "Invoker",
+    "ten": "Thuật Sĩ",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 3
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 380306,
+   "hang_tb": 5.25,
+   "top4": 35.1,
+   "top1": 11.2,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Elise và Cassiopeia. Ghép sớm đồ cho Elise và Cassiopeia.",
+   "giua": "Lên cấp 6 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Elise và Cassiopeia lên 3 sao — đây là tướng 2 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 7–8, thêm tướng 4 vàng hợp tộc/hệ, nâng tướng đỡ đòn lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 6, bắt đầu roll chậm",
+    "Khi Elise 3 sao: lên cấp 7",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_CovenTraitAugment_LootToAP",
+   "DA_18_CovenTraitAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait",
+   "DA_CalculatedLoss"
+  ]
+ },
+ {
+  "id": "c426057",
+  "ten": "Kha'Zix Đao Phủ",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 7",
+  "cap_muc_tieu": 7,
+  "tuong": [
+   "Akali",
+   "Alune",
+   "Diana",
+   "KhaZix",
+   "Lillia",
+   "Rakan",
+   "Amumu",
+   "Fiddlesticks",
+   "Aphelios"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "KhaZix",
+    "do": [
+     "HandOfJustice",
+     "HandOfJustice",
+     "RabadonsDeathcap"
+    ]
+   },
+   {
+    "tuong": "Aphelios",
+    "do": [
+     "GiantSlayer",
+     "GuinsoosRageblade",
+     "KrakensFury"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Fiddlesticks",
+    "do": [
+     "GargoyleStoneplate",
+     "GargoyleStoneplate",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Fae",
+    "ten": "Tiên Linh",
+    "cap_do": 1
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Lunar",
+    "ten": "Mặt Trăng",
+    "cap_do": 1
+   },
+   {
+    "id": "Rival",
+    "ten": "Khắc Tinh",
+    "cap_do": 1
+   },
+   {
+    "id": "Slayer",
+    "ten": "Tàn Phá",
+    "cap_do": 1
+   },
+   {
+    "id": "Spellweaver",
+    "ten": "Thuật Sư",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "AluneUniqueTrait",
+    "ten": "Hòa Hợp",
+    "cap_do": 1
+   },
+   {
+    "id": "FloraFatalis",
+    "ten": "Thực Vật",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 10644,
+   "hang_tb": 5.67,
+   "top4": 29.2,
+   "top1": 4.3,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Kha'Zix và Aphelios. Ghép sớm đồ cho Kha'Zix và Aphelios.",
+   "giua": "Lên cấp 7 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Kha'Zix và Aphelios lên 3 sao — đây là tướng 3 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 8–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Fiddlesticks lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 7, bắt đầu roll chậm",
+    "Khi Kha'Zix 3 sao: lên cấp 8",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_FaeTraitAugment",
+   "DA_18_LunarTraitAugment",
+   "DA_18_RivalsAugment",
+   "DA_18_FloraFatalisAugmentPlus",
+   "DA_18_FloraFatalisAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus"
+  ]
+ },
+ {
+  "id": "c426058",
+  "ten": "Xayah Tiên Linh",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 5",
+  "cap_muc_tieu": 5,
+  "tuong": [
+   "Hecarim",
+   "Lillia",
+   "Ornn",
+   "Rakan",
+   "Tristana",
+   "Varus",
+   "Xayah",
+   "Amumu"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Varus",
+    "do": [
+     "InfinityEdge",
+     "LastWhisper",
+     "SpearOfShojin"
+    ]
+   },
+   {
+    "tuong": "Xayah",
+    "do": [
+     "GuinsoosRageblade",
+     "KrakensFury",
+     "KrakensFury"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Ornn",
+    "do": [
+     "GargoyleStoneplate",
+     "SpiritVisage",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Defender",
+    "ten": "Vệ Quân",
+    "cap_do": 1
+   },
+   {
+    "id": "Elderwood",
+    "ten": "Thần Rừng",
+    "cap_do": 1
+   },
+   {
+    "id": "Fae",
+    "ten": "Tiên Linh",
+    "cap_do": 2
+   },
+   {
+    "id": "Inferno",
+    "ten": "Hỏa Ngục",
+    "cap_do": 1
+   },
+   {
+    "id": "Rapidfire",
+    "ten": "Liên Kích",
+    "cap_do": 1
+   },
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 1
+   },
+   {
+    "id": "Juggernaut",
+    "ten": "Dũng Sĩ",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [],
+  "so_lieu": {
+   "so_tran": 24047,
+   "hang_tb": 5.82,
+   "top4": 27.2,
+   "top1": 3.9,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Varus và Xayah. Ghép sớm đồ cho Varus và Xayah.",
+   "giua": "Lên cấp 5 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Varus và Xayah lên 3 sao — đây là tướng 1 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 6–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Ornn lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-1 → 3-2: roll chậm ở cấp 5",
+    "3-2: tiếp tục roll, chưa lên cấp",
+    "Khi Varus 3 sao: lên cấp 6",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_18_ElderwoodTraitAugment",
+   "DA_18_FaeTraitAugment",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait",
+   "DA_CalculatedLoss"
+  ]
+ },
+ {
+  "id": "c426059",
+  "ten": "Elise Tiên Phong",
+  "hang": "C",
+  "kieu": "reroll",
+  "kieu_ten": "Reroll cấp 6",
+  "cap_muc_tieu": 6,
+  "tuong": [
+   "Cassiopeia",
+   "Diana",
+   "Elise",
+   "Hecarim",
+   "Rakan",
+   "Sentinel",
+   "Taric"
+  ],
+  "chu_luc": [
+   {
+    "tuong": "Elise",
+    "do": [
+     "Emblem_Slayer",
+     "GuinsoosRageblade",
+     "TitansResolve"
+    ]
+   },
+   {
+    "tuong": "Cassiopeia",
+    "do": [
+     "HextechGunblade",
+     "SpearOfShojin",
+     "VoidStaff"
+    ]
+   }
+  ],
+  "do_don": [
+   {
+    "tuong": "Hecarim",
+    "do": [
+     "SpiritVisage",
+     "SunfireCape",
+     "WarmogsArmor"
+    ]
+   }
+  ],
+  "toc_he": [
+   {
+    "id": "Vanguard",
+    "ten": "Tiên Phong",
+    "cap_do": 3
+   },
+   {
+    "id": "Emerald",
+    "ten": "Lục Bảo",
+    "cap_do": 1
+   }
+  ],
+  "an_nen_ghep": [
+   "Emblem_Slayer"
+  ],
+  "so_lieu": {
+   "so_tran": 32247,
+   "hang_tb": 6.06,
+   "top4": 21.9,
+   "top1": 2.9,
+   "nguon": "MetaTFT",
+   "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.4b"
+  },
+  "cach_choi": {
+   "dau": "Giữ máu bằng tướng mạnh nhất đang có, ưu tiên mua Elise và Cassiopeia. Ghép sớm đồ cho Elise và Cassiopeia.",
+   "giua": "Lên cấp 6 rồi roll chậm (giữ trên 50 vàng, chỉ tiêu phần lãi) tới khi Elise và Cassiopeia lên 3 sao — đây là tướng 2 vàng.",
+   "cuoi": "Xong 3 sao thì lên cấp 7–8, thêm tướng 4 vàng hợp tộc/hệ, nâng Hecarim lên 2 sao.",
+   "moc": [
+    "2-1: cấp 4",
+    "2-5 hoặc 3-1: cấp 5",
+    "3-2: cấp 6, bắt đầu roll chậm",
+    "Khi Elise 3 sao: lên cấp 7",
+    "4-2 → 5-1: cấp 8"
+   ]
+  },
+  "loi_hop": [
+   "DA_SpreadingRoots",
+   "DA_18_BranchingOut",
+   "DA_PandorasBench",
+   "DA_RollingForDays",
+   "DA_ChampDeliveryPlus",
+   "DA_PatienceIsAVirtue",
+   "DA_WorththeWait",
+   "DA_CalculatedLoss"
+  ]
+ }
+]

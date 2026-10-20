@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.2 (2026-10-20) — cấu hình trung tâm
+# ĐTCL Coach v1.3 (2026-10-20) — cấu hình trung tâm
 """Đọc cấu hình từ st.secrets (Streamlit Cloud) hoặc biến môi trường (chạy local/test)."""
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from functools import lru_cache, wraps
 from pathlib import Path
 
 APP_NAME = "ĐTCL Coach"
-VERSION = "v1.2"
+VERSION = "v1.3"
 VERSION_DATE = "2026-10-20"
 VERSION_LABEL = f"{VERSION} · {VERSION_DATE}"
 
@@ -20,10 +20,11 @@ LOCAL_LOG_DIR = DATA_DIR / "_logs"
 # Bộ dữ liệu theo bản vá: bản mới nằm thẳng trong data/, bản cũ giữ trong data/ban/<bản>/ để xem song song.
 # Thêm bản: chép data/*.json hiện tại vào data/ban/<bản cũ>/ rồi thêm một dòng ở đây (xem CAP_NHAT_META.md).
 BO_DU_LIEU = {
-    "18.5": (DATA_DIR, "Bản 18.5 · mới (số liệu 18.4b + thay đổi 18.5)"),
+    "18.4b": (DATA_DIR / "ban" / "18.4b", "Bản 18.4b · đang chạy (đánh hôm nay)"),
+    "18.5": (DATA_DIR, "Bản 18.5 · xem trước (ra 21/10)"),
     "18.3b": (DATA_DIR / "ban" / "18.3b", "Bản 18.3b · cũ (file Excel v1.8)"),
 }
-BO_MAC_DINH = "18.5"
+BO_MAC_DINH = "18.4b"   # bản đang chạy trên máy chủ VN; khi 18.5 lên VN và có số liệu thì đổi thành "18.5"
 
 
 def get(key: str, default=None):
@@ -52,18 +53,33 @@ def voi_bo(bo: str):
         _BO_EP = cu
 
 
+_ST = None   # (get_script_run_ctx, streamlit) — nhập một lần; False nếu không có Streamlit (công cụ, kiểm thử)
+
+
+def _streamlit():
+    global _ST
+    if _ST is None:
+        try:
+            import streamlit as st
+            from streamlit.runtime.scriptrunner import get_script_run_ctx
+
+            _ST = (get_script_run_ctx, st)
+        except Exception:
+            _ST = False
+    return _ST
+
+
 def active_version() -> str:
-    """Bộ dữ liệu đang xem — mỗi tab trình duyệt (mỗi phiên Streamlit) chọn riêng, mặc định bản mới."""
+    """Bộ dữ liệu đang xem — mỗi tab trình duyệt (mỗi phiên Streamlit) chọn riêng, mặc định bản đang chạy."""
     if _BO_EP:
         return _BO_EP
+    s = _streamlit()
+    if not s:
+        return BO_MAC_DINH
     try:
-        from streamlit.runtime.scriptrunner import get_script_run_ctx
-
-        if get_script_run_ctx() is None:
+        if s[0]() is None:
             return BO_MAC_DINH
-        import streamlit as st
-
-        v = st.session_state.get("bo")
+        v = s[1].session_state.get("bo")
         return v if v in BO_DU_LIEU else BO_MAC_DINH
     except Exception:
         return BO_MAC_DINH

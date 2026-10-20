@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.2 (2026-10-20) — trang Luyện tập (10 câu tình huống ngẫu nhiên, chấm điểm, giải thích)
+# ĐTCL Coach v1.3 (2026-10-20) — trang Luyện tập (10 câu tình huống ngẫu nhiên, chấm điểm, giải thích)
 import random
 
 import streamlit as st

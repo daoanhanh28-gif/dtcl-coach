@@ -1,0 +1,842 @@
+{
+ "nguon": "tactics.tools · Kim Cương+ · bản 18.4b · 4.490.384 đội hình (20/10/2026)",
+ "giai_thich": "chenh = hạng TB của tướng khi cầm Ấn đó trừ hạng TB chung của tướng; âm là tốt hơn.",
+ "an": {
+  "Emblem_Juggernaut": {
+   "so_doi": 120588,
+   "hang_tb": 4.28,
+   "top4": 53.71,
+   "top1": 14.11,
+   "nguoi_cam": [
+    {
+     "tuong": "Malphite",
+     "chenh": -0.1
+    },
+    {
+     "tuong": "Kennen",
+     "chenh": -0.06
+    }
+   ]
+  },
+  "Emblem_Rapidfire": {
+   "so_doi": 137444,
+   "hang_tb": 4.22,
+   "top4": 55.97,
+   "top1": 12.12,
+   "nguoi_cam": [
+    {
+     "tuong": "Brambleback",
+     "chenh": -0.08
+    }
+   ]
+  },
+  "Emblem_Coven": {
+   "so_doi": 40174,
+   "hang_tb": 5.12,
+   "top4": 38.53,
+   "top1": 11.26,
+   "nguoi_cam": []
+  },
+  "Emblem_Blackthorn": {
+   "so_doi": 141441,
+   "hang_tb": 4.44,
+   "top4": 51.18,
+   "top1": 13.66,
+   "nguoi_cam": [
+    {
+     "tuong": "Yunara",
+     "chenh": -0.21
+    },
+    {
+     "tuong": "Zyra",
+     "chenh": -0.06
+    },
+    {
+     "tuong": "KhaZix",
+     "chenh": 0.0
+    }
+   ]
+  },
+  "Emblem_Elderwood": {
+   "so_doi": 190187,
+   "hang_tb": 4.27,
+   "top4": 53.6,
+   "top1": 16.0,
+   "nguoi_cam": [
+    {
+     "tuong": "Aphelios",
+     "chenh": -0.14
+    },
+    {
+     "tuong": "Lillia",
+     "chenh": -0.12
+    },
+    {
+     "tuong": "Soraka",
+     "chenh": 0.02
+    }
+   ]
+  },
+  "Emblem_Primal": {
+   "so_doi": 81304,
+   "hang_tb": 4.51,
+   "top4": 49.98,
+   "top1": 11.06,
+   "nguoi_cam": [
+    {
+     "tuong": "Tristana",
+     "chenh": -0.08
+    },
+    {
+     "tuong": "Ashe",
+     "chenh": 0.01
+    }
+   ]
+  },
+  "Emblem_FloraFatalisAugment": {
+   "so_doi": 42836,
+   "hang_tb": 4.55,
+   "top4": 49.08,
+   "top1": 11.48,
+   "nguoi_cam": [
+    {
+     "tuong": "Veigar",
+     "chenh": -0.14
+    }
+   ]
+  },
+  "Emblem_Spellweaver": {
+   "so_doi": 135988,
+   "hang_tb": 4.31,
+   "top4": 53.21,
+   "top1": 14.63,
+   "nguoi_cam": []
+  },
+  "Emblem_Slayer": {
+   "so_doi": 116672,
+   "hang_tb": 4.32,
+   "top4": 54.3,
+   "top1": 11.66,
+   "nguoi_cam": [
+    {
+     "tuong": "Elise",
+     "chenh": -0.2
+    },
+    {
+     "tuong": "Nidalee",
+     "chenh": -0.15
+    },
+    {
+     "tuong": "Rengar",
+     "chenh": -0.14
+    }
+   ]
+  },
+  "Emblem_Invoker": {
+   "so_doi": 213930,
+   "hang_tb": 4.34,
+   "top4": 53.12,
+   "top1": 13.64,
+   "nguoi_cam": [
+    {
+     "tuong": "Ahri",
+     "chenh": -0.14
+    },
+    {
+     "tuong": "Gromp",
+     "chenh": -0.08
+    },
+    {
+     "tuong": "Lux",
+     "chenh": 0.02
+    }
+   ]
+  },
+  "Emblem_Inferno": {
+   "so_doi": 148596,
+   "hang_tb": 4.44,
+   "top4": 50.07,
+   "top1": 14.51,
+   "nguoi_cam": [
+    {
+     "tuong": "Ashe",
+     "chenh": -0.06
+    },
+    {
+     "tuong": "Draven",
+     "chenh": -0.05
+    },
+    {
+     "tuong": "Sivir",
+     "chenh": 0.0
+    }
+   ]
+  },
+  "Emblem_Hunter": {
+   "so_doi": 114782,
+   "hang_tb": 4.55,
+   "top4": 48.98,
+   "top1": 11.62,
+   "nguoi_cam": [
+    {
+     "tuong": "ElderDragon",
+     "chenh": -0.08
+    },
+    {
+     "tuong": "Rengar",
+     "chenh": -0.07
+    },
+    {
+     "tuong": "Nidalee",
+     "chenh": -0.05
+    }
+   ]
+  },
+  "Emblem_Defender": {
+   "so_doi": 112147,
+   "hang_tb": 4.26,
+   "top4": 54.17,
+   "top1": 13.99,
+   "nguoi_cam": [
+    {
+     "tuong": "Rengar",
+     "chenh": -0.29
+    }
+   ]
+  },
+  "Emblem_Brawler": {
+   "so_doi": 148104,
+   "hang_tb": 4.15,
+   "top4": 56.34,
+   "top1": 14.15,
+   "nguoi_cam": [
+    {
+     "tuong": "MasterYi",
+     "chenh": -0.22
+    },
+    {
+     "tuong": "Rengar",
+     "chenh": -0.14
+    }
+   ]
+  },
+  "Emblem_Vanguard": {
+   "so_doi": 138928,
+   "hang_tb": 4.21,
+   "top4": 55.23,
+   "top1": 14.91,
+   "nguoi_cam": [
+    {
+     "tuong": "Lillia",
+     "chenh": -0.04
+    },
+    {
+     "tuong": "Sett",
+     "chenh": 0.03
+    }
+   ]
+  },
+  "Emblem_Blossom": {
+   "so_doi": 96333,
+   "hang_tb": 4.52,
+   "top4": 49.33,
+   "top1": 12.59,
+   "nguoi_cam": [
+    {
+     "tuong": "Sivir",
+     "chenh": 0.02
+    },
+    {
+     "tuong": "Morgana",
+     "chenh": 0.04
+    }
+   ]
+  },
+  "Emblem_Executioner": {
+   "so_doi": 278765,
+   "hang_tb": 4.25,
+   "top4": 54.45,
+   "top1": 15.5,
+   "nguoi_cam": [
+    {
+     "tuong": "Warwick",
+     "chenh": -0.37
+    },
+    {
+     "tuong": "Karma",
+     "chenh": -0.29
+    },
+    {
+     "tuong": "Draven",
+     "chenh": -0.18
+    }
+   ]
+  },
+  "Emblem_Sprykin": {
+   "so_doi": 67127,
+   "hang_tb": 4.68,
+   "top4": 46.37,
+   "top1": 11.08,
+   "nguoi_cam": [
+    {
+     "tuong": "Rengar",
+     "chenh": 0.0
+    }
+   ]
+  },
+  "Emblem_Lunar": {
+   "so_doi": 169984,
+   "hang_tb": 4.26,
+   "top4": 54.63,
+   "top1": 14.16,
+   "nguoi_cam": [
+    {
+     "tuong": "Varus",
+     "chenh": -0.25
+    },
+    {
+     "tuong": "Kayle",
+     "chenh": -0.07
+    }
+   ]
+  },
+  "Emblem_FloraFatalis": {
+   "so_doi": 90847,
+   "hang_tb": 4.34,
+   "top4": 52.74,
+   "top1": 13.43,
+   "nguoi_cam": []
+  },
+  "Emblem_Fae": {
+   "so_doi": 83968,
+   "hang_tb": 4.64,
+   "top4": 47.15,
+   "top1": 13.51,
+   "nguoi_cam": [
+    {
+     "tuong": "Rengar",
+     "chenh": -0.08
+    },
+    {
+     "tuong": "Sivir",
+     "chenh": -0.04
+    }
+   ]
+  }
+ },
+ "tuong": {
+  "Caitlyn": {
+   "so_doi": 73973,
+   "hang_tb": 5.82,
+   "top4": 27.4,
+   "top1": 5.81
+  },
+  "Cinderling": {
+   "so_doi": 291196,
+   "hang_tb": 4.47,
+   "top4": 51.12,
+   "top1": 9.94
+  },
+  "Veigar": {
+   "so_doi": 599347,
+   "hang_tb": 4.35,
+   "top4": 52.67,
+   "top1": 13.59
+  },
+  "Rakan": {
+   "so_doi": 509702,
+   "hang_tb": 4.93,
+   "top4": 42.06,
+   "top1": 9.94
+  },
+  "Krug": {
+   "so_doi": 827380,
+   "hang_tb": 4.39,
+   "top4": 52.48,
+   "top1": 10.83
+  },
+  "Sivir": {
+   "so_doi": 377446,
+   "hang_tb": 4.73,
+   "top4": 45.21,
+   "top1": 10.51
+  },
+  "Warwick": {
+   "so_doi": 77782,
+   "hang_tb": 4.64,
+   "top4": 48.77,
+   "top1": 8.83
+  },
+  "Gromp": {
+   "so_doi": 167784,
+   "hang_tb": 4.38,
+   "top4": 53.01,
+   "top1": 10.73
+  },
+  "Nidalee": {
+   "so_doi": 581227,
+   "hang_tb": 4.44,
+   "top4": 52.64,
+   "top1": 7.72
+  },
+  "ElderDragon": {
+   "so_doi": 616869,
+   "hang_tb": 4.04,
+   "top4": 57.01,
+   "top1": 21.17
+  },
+  "KhaZix": {
+   "so_doi": 262358,
+   "hang_tb": 4.38,
+   "top4": 52.6,
+   "top1": 13.25
+  },
+  "Aphelios": {
+   "so_doi": 804792,
+   "hang_tb": 4.3,
+   "top4": 54.95,
+   "top1": 10.81
+  },
+  "MasterYi": {
+   "so_doi": 108474,
+   "hang_tb": 4.62,
+   "top4": 48.14,
+   "top1": 10.35
+  },
+  "Fiddlesticks": {
+   "so_doi": 1204787,
+   "hang_tb": 4.44,
+   "top4": 51.08,
+   "top1": 12.43
+  },
+  "Gnar": {
+   "so_doi": 765570,
+   "hang_tb": 3.84,
+   "top4": 61.78,
+   "top1": 19.65
+  },
+  "Draven": {
+   "so_doi": 530339,
+   "hang_tb": 4.22,
+   "top4": 52.59,
+   "top1": 22.47
+  },
+  "Sentry": {
+   "so_doi": 666605,
+   "hang_tb": 4.34,
+   "top4": 53.55,
+   "top1": 11.38
+  },
+  "Hecarim": {
+   "so_doi": 821014,
+   "hang_tb": 4.59,
+   "top4": 48.19,
+   "top1": 12.57
+  },
+  "KogMaw": {
+   "so_doi": 618070,
+   "hang_tb": 4.38,
+   "top4": 53.99,
+   "top1": 8.49
+  },
+  "Rammus": {
+   "so_doi": 456784,
+   "hang_tb": 4.44,
+   "top4": 50.95,
+   "top1": 12.46
+  },
+  "Alistar": {
+   "so_doi": 753754,
+   "hang_tb": 4.48,
+   "top4": 49.77,
+   "top1": 14.11
+  },
+  "Camille": {
+   "so_doi": 128844,
+   "hang_tb": 5.3,
+   "top4": 36.9,
+   "top1": 7.55
+  },
+  "Diana": {
+   "so_doi": 1204202,
+   "hang_tb": 4.47,
+   "top4": 51.13,
+   "top1": 11.38
+  },
+  "Sett": {
+   "so_doi": 694159,
+   "hang_tb": 4.49,
+   "top4": 50.61,
+   "top1": 10.39
+  },
+  "Ezreal": {
+   "so_doi": 800804,
+   "hang_tb": 4.34,
+   "top4": 52.37,
+   "top1": 14.92
+  },
+  "Kobuko": {
+   "so_doi": 105428,
+   "hang_tb": 4.8,
+   "top4": 45.02,
+   "top1": 8.52
+  },
+  "Ivern": {
+   "so_doi": 869137,
+   "hang_tb": 3.97,
+   "top4": 58.26,
+   "top1": 22.12
+  },
+  "Malphite": {
+   "so_doi": 329072,
+   "hang_tb": 4.63,
+   "top4": 48.01,
+   "top1": 9.52
+  },
+  "Alune": {
+   "so_doi": 597803,
+   "hang_tb": 3.68,
+   "top4": 65.26,
+   "top1": 21.25
+  },
+  "Elise": {
+   "so_doi": 269640,
+   "hang_tb": 5.06,
+   "top4": 39.6,
+   "top1": 12.91
+  },
+  "Kayle": {
+   "so_doi": 351037,
+   "hang_tb": 4.42,
+   "top4": 51.98,
+   "top1": 12.1
+  },
+  "Akali": {
+   "so_doi": 127854,
+   "hang_tb": 4.83,
+   "top4": 45.02,
+   "top1": 8.62
+  },
+  "Ahri": {
+   "so_doi": 609213,
+   "hang_tb": 4.44,
+   "top4": 51.44,
+   "top1": 11.56
+  },
+  "Kennen": {
+   "so_doi": 939484,
+   "hang_tb": 4.03,
+   "top4": 57.58,
+   "top1": 20.16
+  },
+  "Shen": {
+   "so_doi": 275937,
+   "hang_tb": 4.71,
+   "top4": 46.2,
+   "top1": 10.51
+  },
+  "Amumu": {
+   "so_doi": 1538398,
+   "hang_tb": 4.41,
+   "top4": 51.35,
+   "top1": 13.79
+  },
+  "CrimsonRaptor": {
+   "so_doi": 200789,
+   "hang_tb": 4.53,
+   "top4": 50.27,
+   "top1": 9.61
+  },
+  "RekSai": {
+   "so_doi": 381390,
+   "hang_tb": 4.49,
+   "top4": 50.35,
+   "top1": 12.04
+  },
+  "Teemo": {
+   "so_doi": 320930,
+   "hang_tb": 4.35,
+   "top4": 52.96,
+   "top1": 12.78
+  },
+  "Soraka": {
+   "so_doi": 816185,
+   "hang_tb": 4.28,
+   "top4": 54.31,
+   "top1": 13.28
+  },
+  "Varus": {
+   "so_doi": 540545,
+   "hang_tb": 4.46,
+   "top4": 52.43,
+   "top1": 8.07
+  },
+  "Karma": {
+   "so_doi": 442316,
+   "hang_tb": 4.68,
+   "top4": 47.06,
+   "top1": 10.03
+  },
+  "Vi": {
+   "so_doi": 900278,
+   "hang_tb": 4.66,
+   "top4": 47.67,
+   "top1": 8.6
+  },
+  "Sejuani": {
+   "so_doi": 506804,
+   "hang_tb": 4.64,
+   "top4": 47.79,
+   "top1": 10.83
+  },
+  "Taric": {
+   "so_doi": 1149130,
+   "hang_tb": 3.97,
+   "top4": 58.86,
+   "top1": 20.69
+  },
+  "Zyra": {
+   "so_doi": 667965,
+   "hang_tb": 4.41,
+   "top4": 51.78,
+   "top1": 12.02
+  },
+  "Brambleback": {
+   "so_doi": 467984,
+   "hang_tb": 4.22,
+   "top4": 55.86,
+   "top1": 11.42
+  },
+  "LeBlanc": {
+   "so_doi": 592796,
+   "hang_tb": 4.48,
+   "top4": 50.14,
+   "top1": 13.44
+  },
+  "Murkwolf": {
+   "so_doi": 362125,
+   "hang_tb": 4.35,
+   "top4": 53.39,
+   "top1": 11.05
+  },
+  "Ornn": {
+   "so_doi": 881234,
+   "hang_tb": 4.45,
+   "top4": 50.92,
+   "top1": 12.79
+  },
+  "Tristana": {
+   "so_doi": 116218,
+   "hang_tb": 5.07,
+   "top4": 39.21,
+   "top1": 8.69
+  },
+  "Azir": {
+   "so_doi": 644958,
+   "hang_tb": 4.42,
+   "top4": 51.77,
+   "top1": 12.15
+  },
+  "Leona": {
+   "so_doi": 420918,
+   "hang_tb": 4.55,
+   "top4": 49.62,
+   "top1": 11.23
+  },
+  "Yunara": {
+   "so_doi": 314074,
+   "hang_tb": 4.68,
+   "top4": 47.48,
+   "top1": 10.36
+  },
+  "Ashe": {
+   "so_doi": 377734,
+   "hang_tb": 4.2,
+   "top4": 55.23,
+   "top1": 16.0
+  },
+  "Scuttlecrab": {
+   "so_doi": 557798,
+   "hang_tb": 4.6,
+   "top4": 48.33,
+   "top1": 9.88
+  },
+  "Lillia": {
+   "so_doi": 412741,
+   "hang_tb": 4.58,
+   "top4": 48.15,
+   "top1": 12.16
+  },
+  "Xayah": {
+   "so_doi": 324515,
+   "hang_tb": 4.65,
+   "top4": 47.3,
+   "top1": 11.82
+  },
+  "Morgana": {
+   "so_doi": 640679,
+   "hang_tb": 4.51,
+   "top4": 49.95,
+   "top1": 13.32
+  },
+  "Cassiopeia": {
+   "so_doi": 444411,
+   "hang_tb": 4.58,
+   "top4": 48.3,
+   "top1": 13.78
+  },
+  "Maokai": {
+   "so_doi": 868716,
+   "hang_tb": 4.22,
+   "top4": 53.45,
+   "top1": 19.58
+  },
+  "Rengar": {
+   "so_doi": 154526,
+   "hang_tb": 4.58,
+   "top4": 48.54,
+   "top1": 11.88
+  },
+  "Yorick": {
+   "so_doi": 695942,
+   "hang_tb": 4.7,
+   "top4": 46.51,
+   "top1": 10.02
+  },
+  "Sentinel": {
+   "so_doi": 1887200,
+   "hang_tb": 4.32,
+   "top4": 53.44,
+   "top1": 13.61
+  }
+ },
+ "toc_he_moc": {
+  "Elderwood": {
+   "1": 4.39,
+   "2": 4.77,
+   "3": 4.37,
+   "4": 2.69,
+   "5": 1.07
+  },
+  "Slayer": {
+   "1": 4.33,
+   "2": 4.23,
+   "3": 4.08
+  },
+  "Hunter": {
+   "1": 4.66,
+   "2": 4.54,
+   "3": 4.15,
+   "4": 3.89
+  },
+  "Juggernaut": {
+   "1": 4.4,
+   "2": 4.91,
+   "3": 4.46
+  },
+  "Summoner": {
+   "1": 4.38,
+   "2": 4.45
+  },
+  "Sprykin": {
+   "1": 4.28,
+   "2": 4.51,
+   "3": 4.26
+  },
+  "Blackthorn": {
+   "1": 4.49,
+   "2": 4.18,
+   "3": 3.76
+  },
+  "Vanguard": {
+   "1": 4.3,
+   "2": 4.47,
+   "3": 3.61
+  },
+  "Blossom": {
+   "1": 4.53,
+   "2": 4.22,
+   "3": 4.63,
+   "4": 3.8,
+   "5": 1.33
+  },
+  "Rapidfire": {
+   "1": 4.42,
+   "2": 4.03,
+   "3": 4.1,
+   "4": 4.04
+  },
+  "Inferno": {
+   "1": 4.26,
+   "2": 4.31,
+   "3": 4.17,
+   "4": 3.71
+  },
+  "Defender": {
+   "1": 4.41,
+   "2": 4.71,
+   "3": 4.34
+  },
+  "Riftbeast": {
+   "1": 4.29,
+   "2": 6.29,
+   "3": 4.27,
+   "4": 2.26
+  },
+  "Brawler": {
+   "1": 4.23,
+   "2": 3.82,
+   "3": 4.0
+  },
+  "Invoker": {
+   "1": 4.29,
+   "2": 4.4,
+   "3": 4.33,
+   "4": 3.9
+  },
+  "Primal": {
+   "1": 4.5,
+   "2": 4.14
+  },
+  "Lunar": {
+   "1": 4.34,
+   "2": 3.81,
+   "3": 3.42,
+   "4": 3.1
+  },
+  "Adaptor": {
+   "1": 4.4,
+   "2": 4.07,
+   "3": 3.55
+  },
+  "Spellweaver": {
+   "1": 4.35,
+   "2": 4.13,
+   "3": 3.42
+  },
+  "Executioner": {
+   "1": 4.71,
+   "2": 4.13,
+   "3": 3.62
+  },
+  "Fae": {
+   "1": 4.7,
+   "2": 4.69
+  },
+  "Coven": {
+   "1": 4.69,
+   "2": 5.81,
+   "3": 5.24,
+   "4": 5.57
+  },
+  "FloraFatalis": {
+   "1": 4.69,
+   "2": 4.25
+  },
+  "Rival": {
+   "1": 4.4,
+   "2": 5.04,
+   "3": 4.79
+  }
+ }
+}

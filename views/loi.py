@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.2 (2026-10-20) — trang Lõi nâng cấp
+# ĐTCL Coach v1.3 (2026-10-20) — trang Lõi nâng cấp
 import streamlit as st
 
 from core import engine, ui

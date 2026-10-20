@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.2 (2026-10-20) — form theo vòng, tối ưu mốc tộc/hệ với Ấn, phân tích bản cập nhật (luật trong code)
+# ĐTCL Coach v1.3 (2026-10-20) — form theo vòng, tối ưu mốc tộc/hệ với Ấn, phân tích bản cập nhật (luật trong code)
 """
   - form theo vòng:        stage_boards(comp, emblems)   — đội phổ biến nhất ở cấp 4/5/6/7 (MetaTFT) → đội hoàn chỉnh
   - xếp vị trí thật:       place(units, cum)             — ô đứng phổ biến nhất của từng tướng (MetaTFT)

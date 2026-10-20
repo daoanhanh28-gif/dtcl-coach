@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.2 (2026-10-20) — kiểm thử giao diện bằng Streamlit AppTest (offline, lưu CSV cục bộ)
+# ĐTCL Coach v1.3 (2026-10-20) — kiểm thử giao diện bằng Streamlit AppTest (offline, lưu CSV cục bộ)
 import os
 import shutil
 import sys
@@ -16,7 +16,7 @@ from streamlit.testing.v1 import AppTest  # noqa: E402
 
 from core import config  # noqa: E402
 
-PAGES = ["views/doi_hinh.py", "views/tro_ly.py", "views/phan_tich.py", "views/loi.py", "views/trang_bi.py", "views/ban_co.py",
+PAGES = ["views/cam_nang.py", "views/doi_hinh.py", "views/tro_ly.py", "views/phan_tich.py", "views/loi.py", "views/trang_bi.py", "views/ban_co.py",
          "views/kinh_te.py", "views/luyen_tap.py", "views/nhat_ky.py", "views/kien_thuc.py"]
 
 
@@ -222,12 +222,13 @@ def test_kien_thuc_search():
     _ok(at)
 
 
-@pytest.mark.parametrize("path", ["views/doi_hinh.py", "views/tro_ly.py", "views/phan_tich.py", "views/loi.py",
-                                  "views/trang_bi.py", "views/kien_thuc.py"])
-def test_old_data_set_pages_render(path):
-    """Bộ dữ liệu cũ 18.3b vẫn mở được từng trang."""
+@pytest.mark.parametrize("bo", ["18.3b", "18.5"])
+@pytest.mark.parametrize("path", ["views/cam_nang.py", "views/doi_hinh.py", "views/tro_ly.py", "views/phan_tich.py",
+                                  "views/loi.py", "views/trang_bi.py", "views/kien_thuc.py"])
+def test_other_data_set_pages_render(path, bo):
+    """Bộ dữ liệu khác (18.3b cũ, 18.5 xem trước) vẫn mở được từng trang."""
     at = _page(path)
-    at.session_state["bo"] = "18.3b"
+    at.session_state["bo"] = bo
     at.run()
     _ok(at)
 
@@ -241,4 +242,23 @@ def test_app_switch_data_set():
     at.selectbox(key="bo").set_value("18.3b").run()
     _ok(at)
     assert at.session_state["bo"] == "18.3b"
-    assert any("bản CŨ" in w.value for w in at.warning)
+    assert any("18.3b · cũ" in w.value for w in at.warning)
+
+
+def test_tro_ly_flex_emblem():
+    at = _page("views/tro_ly.py").run()
+    at.selectbox(key="an_1").set_value("Ấn Đao Phủ").run()
+    _ok(at)
+    md = " ".join(m.value for m in at.markdown)
+    assert "xoay quanh chủ lực meta" in md and "Zyra" in md
+    at.toggle(key="an_excel").set_value(True).run()
+    _ok(at)
+
+
+def test_cam_nang_tabs():
+    at = _page("views/cam_nang.py").run()
+    _ok(at)
+    md = " ".join(m.value for m in at.markdown)
+    assert "Top đội hình mạnh nhất" in md and "10 nguyên tắc tempo" in md and "Cặp lõi mạnh" in md
+    at.radio(key="cn_gd").set_value("Giai đoạn 4 (4-1 → 4-7)").run()
+    _ok(at)

@@ -1,0 +1,86 @@
+S ¦ Risky ¦ Abandon Ship ¦ Rời Tàu ¦ 0 ¦ 3-1→3-4 ¦ Bán toàn bộ bàn đấu và hàng chờ, nhận 6 vàng và 8 lượt đổi (chỉ hiện trong 2 giây đầu vòng chuẩn bị).
+S ¦ Combat ¦ Aftershock ¦ Dư Chấn ¦ 2 ¦ 4-2→10-1 ¦ Sau 8 giây, làm choáng tất cả kẻ địch trong 1.5 giây.
+S ¦ Shop ¦ All Ones ¦ Chỉ 1 Vàng ¦ ¦ 2-1→2-7 ¦ Làm mới cửa hàng với toàn tướng 1 vàng.
+S ¦ Shop ¦ Animate Shop ¦ Cửa Hàng Động ¦ 8 ¦ 4-2→5-7 ¦ Trong 18 giây, cửa hàng tự làm mới miễn phí mỗi 2 giây.
+S ¦ Combat ¦ Bark Armor ¦ Giáp Vỏ Cây ¦ 0 ¦ 2-1→2-7 ¦ Các tướng nhận 150 lá chắn trong 10 giây.
+S ¦ Combat ¦ Barrier ¦ Lá Chắn ¦ 3 ¦ 5-1→10-1 ¦ Đồng minh nhận 1250 Lá Chắn, giảm dần trong 6 giây.
+S ¦ GoldXP ¦ Barter ¦ Mặc Cả ¦ 2 ¦ 3-5→5-7 ¦ Tướng tiếp theo bán trong vòng này cho 200% vàng.
+S ¦ Combat ¦ Blaze ¦ Bỏng ¦ 3 ¦ 5-1→10-1 ¦ Lửa lan khắp bàn đấu, gây sát thương chuẩn lên kẻ địch.
+S ¦ Item ¦ Blood and Iron ¦ Máu và Sắt ¦ 3 ¦ 3-1→4-1 ¦ Sau 20 lần tướng tử trận, nhận 1 gói trang bị thành phần.
+S ¦ GoldXP ¦ Blood Money ¦ Tài Lộc Từ Máu ¦ 2 ¦ 3-1→4-7 ¦ Nhận 1 vàng cho mỗi tướng bạn hạ gục.
+S ¦ Misc ¦ Knick-Knack Jar ¦ Hũ Đồ Lỉnh Kỉnh ¦ ¦ 2-1→2-7 ¦ Nhận 1 vật phẩm tăng vĩnh viễn SMCK hoặc Tốc Độ Đánh.
+S ¦ Misc ¦ Thingamajig Jar ¦ Hũ Đồ Vặt Vãnh ¦ ¦ 2-1→2-7 ¦ Nhận 1 vật phẩm tăng vĩnh viễn SMPT hoặc Hồi Năng Lượng.
+S ¦ Misc ¦ Doodad Bag ¦ Túi Bảo Bối ¦ ¦ 3-1→4-1 ¦ Nhận 2 vật phẩm tăng vĩnh viễn Giáp & Kháng Phép hoặc Máu.
+S ¦ Misc ¦ Doodad Jar ¦ Hũ Bảo Bối ¦ ¦ 2-1→2-7 ¦ Nhận 1 vật phẩm tăng vĩnh viễn Giáp & Kháng Phép hoặc Máu.
+S ¦ Combat ¦ Bulwark ¦ Chiến Lũy ¦ 3 ¦ 4-2→10-1 ¦ Tướng Đỡ Đòn nhận lá chắn 20% Máu Tối Đa khi còn dưới 50% Máu.
+S ¦ Combat ¦ Bunch-o'-Belts ¦ Mưa Đai Lưng ¦ 1 ¦ 3-5→4-7 ¦ Đồng minh nhận 7 Đai Khổng Lồ tạm thời.
+S ¦ Misc ¦ Greater Chaos ¦ Hỗn Loạn Lớn ¦ 4 ¦ 5-1→10-1 ¦ Thi triển 2 Tinh Linh ngẫu nhiên.
+S ¦ GoldXP ¦ Coin Flip ¦ Tung Đồng Xu ¦ 0 ¦ 2-1→2-7 ¦ Tung đồng xu, nhận 1 vàng nếu ra mặt ngửa (miễn phí).
+S ¦ Combat ¦ Combust ¦ Bốc Cháy ¦ 3 ¦ 5-1→10-1 ¦ Tướng phát nổ khi bị hạ gục, gây sát thương phép bằng 15% Máu Tối Đa.
+S ¦ GoldXP ¦ Die Roll ¦ Đổ Xúc Xắc ¦ 2 ¦ 3-1→4-1 ¦ Đổ xúc xắc 6 mặt, nhận số vàng bằng kết quả.
+S ¦ Combat ¦ Found Friend ¦ Tìm Được Bạn Nè ¦ 0 ¦ 2-1→2-7 ¦ Nhận tạm thời 1 Hình Nhân mang Đai Khổng Lồ.
+S ¦ Misc ¦ Early Fix ¦ Sửa Lỗi Sớm ¦ 0 ¦ 2-1→2-7 ¦ Nhận 1 Búa Rèn Trang Bị.
+S ¦ GoldXP ¦ Experienced ¦ Lên Kinh Nghiệm ¦ 1 ¦ 2-1→2-7 ¦ Nhận 2 XP.
+S ¦ Combat ¦ Fellowship ¦ Tình Bằng Hữu ¦ 3 ¦ 5-1→10-1 ¦ Tướng nhận Lá Chắn 4% Máu Tối Đa và 4% Khuếch Đại Sát Thương cho mỗi đồng minh liền kề.
+S ¦ Misc ¦ Forest Mage ¦ Pháp Sư Rừng Già ¦ 1 ¦ 3-5→10-1 ¦ Lấp đầy cửa hàng bằng Tinh Linh, được mua 1 cái.
+S ¦ Shop ¦ Freeroller ¦ Quay Miễn Phí ¦ 2 ¦ 2-1→4-1 ¦ Nhận 2 lượt đổi.
+S ¦ GoldXP ¦ Grow Up ¦ Phát Triển ¦ 7 ¦ 3-1→4-7 ¦ Nhận 10 XP.
+S ¦ Combat ¦ Hand Of Baron ¦ Baron Chi Viện ¦ 6 ¦ 5-1→10-1 ¦ Cả đội nhận Bùa Baron, tăng chỉ số.
+S ¦ Champion ¦ Heated Rivalry ¦ Kình Địch Nảy Lửa ¦ 3 ¦ 2-1→2-7 ¦ Nhận 1 Rengar hoặc 1 Kha'Zix có sẵn 3 điểm hạ gục.
+S ¦ Combat ¦ Heroic Sacrifice ¦ Hy Sinh Anh Dũng ¦ 5 ¦ 4-2→5-7 ¦ 3 tướng mạnh nhất nhận SỨC MẠNH ANH HÙNG, đồng minh khác bị hiến tế.
+S ¦ Item ¦ Idle Craftsman ¦ Thợ Thủ Công Nhàn Rỗi ¦ 4 ¦ 3-1→4-1 ¦ 1 trang bị thành phần trên hàng chờ biến thành trang bị hoàn chỉnh ghép từ nó.
+S ¦ Combat ¦ Infliction ¦ Trừng Trị ¦ 4 ¦ 5-1→10-1 ¦ Làm Chậm, Thiêu Đốt, Cào Xé và Phân Tách kẻ địch trong 8 giây.
+S ¦ Combat ¦ Killer's Regret ¦ Ác Giả Ác Báo ¦ 1 ¦ 5-1→10-1 ¦ 3 tướng đầu tiên bị hạ gục làm choáng kẻ hạ gục trong 1.5 giây.
+S ¦ Champion ¦ Lost Travelers ¦ Lữ Khách Lạc Lối ¦ 3 ¦ 2-1→2-7 ¦ Nhận các tướng ngẫu nhiên có tổng giá 3 vàng.
+S ¦ Champion ¦ Mitosis ¦ Nguyên Phân ¦ 1 ¦ 2-1→2-7 ¦ Nhận 1 Máy Sao Chép Tướng Tí Hon.
+S ¦ Misc ¦ Potioncraft ¦ Chế Tạo Thuốc ¦ 2 ¦ 5-1→10-1 ¦ Nhận 3 Bình Thuốc tạm thời có thể trang bị.
+S ¦ Champion ¦ Propagate ¦ Nhân Giống ¦ 2 ¦ 2-1→4-1 ¦ Nhận 1 bản sao của tướng đồng minh đầu tiên bị hiến tế.
+S ¦ Champion ¦ Apprentice ¦ Tập Sự ¦ ¦ 2-1→2-7 ¦ Nhận 1 tướng 1 vàng 2 sao ngẫu nhiên.
+S ¦ Champion ¦ Forest Guide ¦ Dẫn Lối Rừng Già ¦ 6 ¦ 2-1→2-7 ¦ Nhận 1 tướng 4 vàng ngẫu nhiên.
+S ¦ Champion ¦ Journeyman ¦ Lính Lành Nghề ¦ ¦ 2-1→3-4 ¦ Nhận 1 tướng 2 vàng 2 sao ngẫu nhiên.
+S ¦ Champion ¦ Smurfing ¦ Smurf ¦ ¦ 3-5→4-1 ¦ Nhận 1 tướng 5 vàng ngẫu nhiên.
+S ¦ Shop ¦ Refreshing Light ¦ Ánh Sáng Tươi Mới ¦ ¦ 3-5→4-7 ¦ 1 lượt đổi miễn phí cho mỗi cấp sao của mỗi tướng Mặt Trời khác nhau.
+S ¦ Combat ¦ Solitude's Cloak ¦ Áo Choàng Cô Độc ¦ 2 ¦ 5-1→10-1 ¦ Tướng không có đồng minh liền kề nhận 10% Máu Tối Đa và 10% Khuếch Đại Sát Thương.
+S ¦ Combat ¦ Supercritical ¦ Siêu Chí Mạng ¦ 2 ¦ 4-2→10-1 ¦ Đồng minh có Chuẩn Xác (Đao Phủ) nhận thêm Sát Thương Chí Mạng.
+S ¦ Combat ¦ Tremors ¦ Động Đất ¦ 3 ¦ 5-1→10-1 ¦ Mỗi 8 giây, làm choáng kẻ địch trong 1 giây.
+S ¦ GoldXP ¦ Truce ¦ Hưu Chiến ¦ 0 ¦ 2-1→2-7 ¦ Nhận vàng, đối thủ cũng nhận vàng.
+A ¦ GoldXP ¦ Beggar's Wisp ¦ Tinh Linh Nghèo Khó ¦ 0 ¦ 2-1→10-1 ¦ Không có Tinh Linh lượt này, nhận 3 vàng.
+A ¦ Misc ¦ Knick-Knack Bag ¦ Bị Đồ Lỉnh Kỉnh ¦ ¦ 3-1→4-1 ¦ Nhận 2 vật phẩm tăng vĩnh viễn SMCK hoặc Tốc Độ Đánh.
+A ¦ Misc ¦ Knick-Knack Sack ¦ Túi Đồ Lỉnh Kỉnh ¦ ¦ 5-1→10-1 ¦ Nhận 3 vật phẩm tăng vĩnh viễn SMCK hoặc Tốc Độ Đánh.
+A ¦ Misc ¦ Thingamajig Bag ¦ Gói Đồ Vặt Vãnh ¦ ¦ 3-1→4-1 ¦ Nhận 2 vật phẩm tăng vĩnh viễn SMPT hoặc Hồi Năng Lượng.
+A ¦ Misc ¦ Thingamajig Sack ¦ Túi Đồ Linh Tinh ¦ ¦ 5-1→10-1 ¦ Nhận 3 vật phẩm tăng vĩnh viễn SMPT hoặc Hồi Năng Lượng.
+A ¦ Misc ¦ Doodad Sack ¦ Bao Bảo Bối ¦ ¦ 5-1→10-1 ¦ Nhận 3 vật phẩm tăng vĩnh viễn Giáp & Kháng Phép hoặc Máu.
+A ¦ Combat ¦ Booster Shot ¦ Cơ Hội Tăng Cường ¦ 6 ¦ 5-1→10-1 ¦ Tối đa 2 tướng 1 sao tạm thời được nâng sao trong giao tranh.
+A ¦ GoldXP ¦ Bronze Spoon ¦ Thìa Đồng ¦ 3 ¦ 2-1→4-1 ¦ Nhận 4 XP.
+A ¦ Misc ¦ Lesser Chaos ¦ Hỗn Loạn Nhỏ ¦ 1 ¦ 2-1→3-4 ¦ Thi triển 1 Tinh Linh ngẫu nhiên.
+A ¦ Item ¦ Curio Cart ¦ Xe Đồ Lạ ¦ 0 ¦ 3-1→4-7 ¦ Mở cửa hàng trang bị, giá 0–15 vàng.
+A ¦ Risky ¦ Cutpurse ¦ Móc Túi ¦ 2 ¦ 3-5→4-7 ¦ Mỗi 5 giây, tướng có 20% rơi ra 1 vàng.
+A ¦ Combat ¦ Diversified ¦ Đa Dạng Hóa ¦ 3 ¦ 4-2→5-7 ¦ Cả đội +30 Máu cho mỗi tộc/hệ (không độc nhất) đang kích hoạt.
+A ¦ Combat ¦ Downpour ¦ Mưa Như Trút ¦ 2 ¦ 5-1→10-1 ¦ Cả đội +2 Hồi Năng Lượng.
+A ¦ Combat ¦ Returning Friend ¦ Bạn Cũ Quay Về ¦ 0 ¦ 4-2→5-7 ¦ Nhận tạm thời 1 Hình Nhân mang 2 Đai Khổng Lồ (mới ở 18.4).
+A ¦ Combat ¦ Training Yard ¦ Sân Huấn Luyện ¦ 3 ¦ 4-2→5-7 ¦ Nhận 2 Hình Nhân, mỗi cái mang 1 trang bị đỡ đòn ngẫu nhiên.
+A ¦ Risky ¦ Flip Frenzy ¦ Tung Xu Liên Hoàn ¦ 1 ¦ 3-1→4-1 ¦ Tung xu tới khi ra mặt ngửa, mỗi lần ngửa +1 vàng.
+A ¦ Champion ¦ Forest Twins ¦ Song Sinh Rừng Già ¦ 4 ¦ 2-1→2-7 ¦ Nhận 2 bản sao của 1 tướng 2 vàng bạn chưa có.
+A ¦ Combat ¦ Giant Growth ¦ Tăng Trưởng Khổng Lồ ¦ 4 ¦ 5-1→10-1 ¦ Tướng nhiều Máu nhất lớn lên, +800 Máu.
+A ¦ Risky ¦ Golden Road ¦ Con Đường Vàng ¦ 2 ¦ 2-1→3-4 ¦ Sau giao tranh người chơi, nhận vàng theo số trận đã thắng.
+A ¦ Combat ¦ Hugify ¦ Khổng Lồ Hóa ¦ 1 ¦ 3-1→4-1 ¦ Tướng nhiều Máu nhất lớn lên, +350 Máu.
+A ¦ Combat ¦ Lightning Storm ¦ Bão Sét ¦ 3 ¦ 5-1→10-1 ¦ Mỗi giây gây sát thương chuẩn 5% Máu Tối Đa lên 1 kẻ địch.
+A ¦ Combat ¦ Lightning Strike ¦ Sét Đánh ¦ 1 ¦ 4-2→5-7 ¦ Gây sát thương chuẩn 10% Máu Tối Đa lên tất cả kẻ địch.
+A ¦ Combat ¦ Living Soil ¦ Đất Hiện Thế ¦ ¦ 4-2→5-7 ¦ Mỗi 4 giây, rễ cây làm choáng 1 kẻ địch trong 1 giây.
+A ¦ Misc ¦ Minor Blood Ritual ¦ Nghi Lễ Máu Nhỏ ¦ 3 ¦ 2-1→3-4 ¦ Mất máu người chơi, nhận 1 Máy Sao Chép Tướng Cỡ Nhỏ.
+A ¦ Item ¦ Peddler ¦ Gánh Hàng Rong ¦ 0 ¦ 4-2→5-7 ¦ Mở cửa hàng trang bị ngẫu nhiên, giá 0–14 vàng.
+A ¦ Combat ¦ Petrified Dummy ¦ Bù Nhìn Hóa Đá ¦ 2 ¦ 3-1→4-7 ¦ Tướng đầu tiên bị hạ biến thành hình nhân 900 Máu.
+A ¦ Combat ¦ Petrify Shields ¦ Khiên Hóa Đá ¦ 1 ¦ 4-2→10-1 ¦ Làm chậm kẻ địch 10% và giảm 20% lá chắn của chúng trong 10 giây.
+A ¦ GoldXP ¦ Pocket Change ¦ Tiền Lẻ ¦ 1 ¦ 3-1→4-1 ¦ Tướng 1 sao rơi 1 vàng khi bị hạ gục.
+A ¦ Risky ¦ Minor Polymorph ¦ Biến Hóa Cỡ Nhỏ ¦ 0 ¦ 2-1→3-4 ¦ 1 tướng 1 vàng ngẫu nhiên của bạn vĩnh viễn thành tướng 2 vàng.
+A ¦ Champion ¦ Big Guns ¦ Súng Cỡ Lớn ¦ ¦ 4-2→4-7 ¦ Nhận 2 tướng 4 vàng 1 sao ngẫu nhiên.
+A ¦ Champion ¦ Three Me ¦ Ba Chúng Tôi ¦ 10 ¦ 3-1→4-1 ¦ Nhận 1 tướng 3 vàng 2 sao ngẫu nhiên.
+A ¦ Shop ¦ Middle Path ¦ Chơi Đường Giữa ¦ ¦ 3-5→4-7 ¦ Làm mới cửa hàng với toàn tướng 3 vàng 2 sao.
+A ¦ Shop ¦ Starting Town ¦ Thị Trấn Khởi Động ¦ ¦ 2-1→3-4 ¦ Làm mới cửa hàng với toàn tướng 1 vàng 2 sao.
+A ¦ Combat ¦ Resistant ¦ Chống Chịu ¦ 2 ¦ 4-2→10-1 ¦ Tướng Đỡ Đòn giảm 10 sát thương mỗi lần nhận sát thương.
+A ¦ Shop ¦ Roly-Polys ¦ Càng Đông Càng Vui ¦ 3 ¦ 3-1→4-1 ¦ Mỗi đồng minh còn sống sau 18 giây cho 1 lượt đổi.
+A ¦ Misc ¦ Salvager ¦ Máy Tái Chế ¦ 0 ¦ 4-2→5-7 ¦ Trang bị trên tướng chuyển về hàng chờ bị phân tách thành thành phần.
+A ¦ Misc ¦ Sinister Deal ¦ Giao Kèo Hắc Ám ¦ 0 ¦ 2-1→3-4 ¦ Mất máu người chơi, nhận vàng.
+A ¦ Combat ¦ Stand Alone ¦ Đứng Một Mình ¦ 2 ¦ 3-5→10-1 ¦ Tướng đứng một mình một hàng nhận 15% Máu và 15% Khuếch Đại Sát Thương.
+A ¦ Shop ¦ Starfall ¦ Vẫn Tinh ¦ 1 ¦ 3-1→4-1 ¦ 6 lần đổi đầu tiên trong vòng, tướng rẻ nhất trong cửa hàng thành 2 sao.
+A ¦ Combat ¦ Treetop Archers ¦ Cung Thủ Ngọn Cây ¦ 3 ¦ 5-1→10-1 ¦ Cung thủ bắn từ tán cây, 500 sát thương vật lý mỗi 3 giây.

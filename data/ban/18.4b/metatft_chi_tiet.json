@@ -1,0 +1,11042 @@
+{
+ "nguon": "MetaTFT (Bạch Kim+, 3 ngày, bản 18.4b) — đội hình giữa trận & đồ hay dùng",
+ "cum": {
+  "426000": {
+   "cap": [
+    [
+     "2-6",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "6-1",
+     8
+    ],
+    [
+     "7-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Cassiopeia": [
+     3,
+     6
+    ],
+    "Rammus": [
+     0,
+     5
+    ],
+    "Fiddlesticks": [
+     0,
+     4
+    ],
+    "Rengar": [
+     0,
+     0
+    ],
+    "Shen": [
+     0,
+     1
+    ],
+    "Lillia": [
+     0,
+     2
+    ],
+    "Ornn": [
+     0,
+     3
+    ],
+    "Leona": [
+     0,
+     2
+    ],
+    "Soraka": [
+     3,
+     0
+    ],
+    "Ivern": [
+     3,
+     0
+    ],
+    "Tristana": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Leona",
+       "Ornn",
+       "Rengar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.42,
+      "so_tran": 145
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Ornn",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 3.94,
+      "so_tran": 135
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Ornn",
+       "Rengar",
+       "Shen",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.05,
+      "so_tran": 142
+     },
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Ornn",
+       "Rammus",
+       "Rengar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.19,
+      "so_tran": 129
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Leona",
+       "Ornn",
+       "Rammus",
+       "Rengar",
+       "Shen",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.58,
+      "so_tran": 429
+     },
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Ornn",
+       "Rammus",
+       "Rengar",
+       "Shen",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.66,
+      "so_tran": 276
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Lillia",
+       "Ornn",
+       "Rammus",
+       "Rengar",
+       "Shen",
+       "Soraka",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.56,
+      "so_tran": 405
+     },
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Lillia",
+       "Ornn",
+       "Rammus",
+       "Rengar",
+       "Shen",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.61,
+      "so_tran": 20778
+     }
+    ]
+   }
+  },
+  "426001": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Aphelios": [
+     3,
+     0
+    ],
+    "CrimsonRaptor": [
+     3,
+     1
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Brambleback": [
+     2,
+     0
+    ],
+    "Varus": [
+     3,
+     6
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Xayah": [
+     3,
+     2
+    ],
+    "Diana": [
+     1,
+     2
+    ],
+    "Rakan": [
+     1,
+     3
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "KogMaw": [
+     3,
+     1
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Akali",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.94,
+      "so_tran": 117
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Xayah",
+       "Yorick",
+       "CrimsonRaptor"
+      ],
+      "hang_tb": 4.24,
+      "so_tran": 152
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 3.54,
+      "so_tran": 63
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Varus",
+       "Xayah",
+       "CrimsonRaptor",
+       "Vi"
+      ],
+      "hang_tb": 4.0,
+      "so_tran": 80
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Hecarim",
+       "Rakan",
+       "Varus",
+       "Xayah",
+       "Yorick",
+       "CrimsonRaptor"
+      ],
+      "hang_tb": 3.81,
+      "so_tran": 48
+     },
+     {
+      "tuong": [
+       "Kayle",
+       "Rakan",
+       "Varus",
+       "Xayah",
+       "Yorick",
+       "CrimsonRaptor"
+      ],
+      "hang_tb": 4.4,
+      "so_tran": 45
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Aphelios",
+       "Diana",
+       "Rakan",
+       "Varus",
+       "Xayah",
+       "CrimsonRaptor",
+       "Vi"
+      ],
+      "hang_tb": 3.0,
+      "so_tran": 20
+     },
+     {
+      "tuong": [
+       "Aphelios",
+       "Diana",
+       "Rakan",
+       "Varus",
+       "Xayah",
+       "Amumu",
+       "CrimsonRaptor"
+      ],
+      "hang_tb": 3.05,
+      "so_tran": 21
+     }
+    ]
+   }
+  },
+  "426002": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-5",
+     9
+    ],
+    [
+     "7-2",
+     10
+    ]
+   ],
+   "vi_tri": {
+    "Aphelios": [
+     3,
+     0
+    ],
+    "Hecarim": [
+     0,
+     3
+    ],
+    "Ezreal": [
+     3,
+     1
+    ],
+    "Xayah": [
+     3,
+     6
+    ],
+    "Alistar": [
+     0,
+     2
+    ],
+    "Lillia": [
+     0,
+     3
+    ],
+    "Gnar": [
+     1,
+     3
+    ],
+    "Ornn": [
+     0,
+     1
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.69,
+      "so_tran": 475
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "Xayah"
+      ],
+      "hang_tb": 4.0,
+      "so_tran": 615
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.54,
+      "so_tran": 445
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.65,
+      "so_tran": 573
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "Aphelios",
+       "Hecarim",
+       "LeBlanc",
+       "Ornn",
+       "Xayah"
+      ],
+      "hang_tb": 3.7,
+      "so_tran": 385
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.83,
+      "so_tran": 447
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alistar",
+       "Aphelios",
+       "Ezreal",
+       "Hecarim",
+       "LeBlanc",
+       "Ornn",
+       "Xayah"
+      ],
+      "hang_tb": 3.57,
+      "so_tran": 248
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "LeBlanc",
+       "Lillia",
+       "Ornn",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.83,
+      "so_tran": 318
+     }
+    ]
+   }
+  },
+  "426003": {
+   "cap": [
+    [
+     "2-6",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "6-1",
+     8
+    ],
+    [
+     "7-2",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Rammus": [
+     0,
+     3
+    ],
+    "Teemo": [
+     2,
+     3
+    ],
+    "Azir": [
+     3,
+     0
+    ],
+    "Veigar": [
+     3,
+     6
+    ],
+    "Fiddlesticks": [
+     2,
+     4
+    ],
+    "Zyra": [
+     3,
+     2
+    ],
+    "Soraka": [
+     3,
+     4
+    ],
+    "Yunara": [
+     3,
+     4
+    ],
+    "Kennen": [
+     2,
+     2
+    ],
+    "Ezreal": [
+     3,
+     4
+    ],
+    "Yorick": [
+     2,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Azir",
+       "Rammus",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 3.7,
+      "so_tran": 2096
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Kobuko",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 3.73,
+      "so_tran": 2163
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Azir",
+       "Rammus",
+       "Teemo",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.62,
+      "so_tran": 3924
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Rammus",
+       "Teemo",
+       "Veigar",
+       "Yorick"
+      ],
+      "hang_tb": 3.7,
+      "so_tran": 1033
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Azir",
+       "Rammus",
+       "Soraka",
+       "Teemo",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.54,
+      "so_tran": 1676
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Rammus",
+       "Teemo",
+       "Veigar",
+       "Yorick",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.59,
+      "so_tran": 2795
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Azir",
+       "Rammus",
+       "Soraka",
+       "Teemo",
+       "Veigar",
+       "Zyra",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.59,
+      "so_tran": 150926
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Ezreal",
+       "Rammus",
+       "Teemo",
+       "Veigar",
+       "Zyra",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.81,
+      "so_tran": 7705
+     }
+    ]
+   }
+  },
+  "426004": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Aphelios": [
+     3,
+     0
+    ],
+    "KogMaw": [
+     3,
+     1
+    ],
+    "Varus": [
+     3,
+     6
+    ],
+    "Nidalee": [
+     2,
+     0
+    ],
+    "Diana": [
+     1,
+     3
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Vi": [
+     1,
+     2
+    ],
+    "Shen": [
+     0,
+     3
+    ],
+    "Alune": [
+     3,
+     5
+    ],
+    "Xayah": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 3.9,
+      "so_tran": 1494
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 4.03,
+      "so_tran": 1135
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 3.88,
+      "so_tran": 648
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Ornn",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 4.05,
+      "so_tran": 565
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Hecarim",
+       "Ornn",
+       "Rakan",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.4,
+      "so_tran": 373
+     },
+     {
+      "tuong": [
+       "Akali",
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.42,
+      "so_tran": 304
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Akali",
+       "Aphelios",
+       "Diana",
+       "Shen",
+       "Varus",
+       "Nidalee",
+       "Vi"
+      ],
+      "hang_tb": 3.2,
+      "so_tran": 196
+     },
+     {
+      "tuong": [
+       "Aphelios",
+       "Diana",
+       "Varus",
+       "Amumu",
+       "Nidalee",
+       "Sentinel",
+       "Vi"
+      ],
+      "hang_tb": 3.39,
+      "so_tran": 178
+     }
+    ]
+   }
+  },
+  "426005": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sett": [
+     0,
+     3
+    ],
+    "Ezreal": [
+     3,
+     6
+    ],
+    "Soraka": [
+     3,
+     0
+    ],
+    "Ahri": [
+     3,
+     3
+    ],
+    "Yunara": [
+     3,
+     5
+    ],
+    "Fiddlesticks": [
+     0,
+     3
+    ],
+    "Alistar": [
+     0,
+     2
+    ],
+    "Ornn": [
+     0,
+     1
+    ],
+    "Gnar": [
+     1,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "Karma"
+      ],
+      "hang_tb": 4.12,
+      "so_tran": 257
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 4.35,
+      "so_tran": 262
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 3.92,
+      "so_tran": 144
+     },
+     {
+      "tuong": [
+       "Ornn",
+       "Yorick",
+       "Yunara",
+       "Fiddlesticks",
+       "Karma"
+      ],
+      "hang_tb": 4.05,
+      "so_tran": 166
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "Ornn",
+       "Yorick",
+       "Yunara",
+       "Fiddlesticks",
+       "Karma"
+      ],
+      "hang_tb": 3.72,
+      "so_tran": 75
+     },
+     {
+      "tuong": [
+       "Ornn",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Fiddlesticks",
+       "Karma"
+      ],
+      "hang_tb": 4.05,
+      "so_tran": 76
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alistar",
+       "Ezreal",
+       "Ornn",
+       "Yorick",
+       "Yunara",
+       "Fiddlesticks",
+       "Karma"
+      ],
+      "hang_tb": 3.68,
+      "so_tran": 106
+     },
+     {
+      "tuong": [
+       "Ahri",
+       "Alistar",
+       "Ezreal",
+       "Ornn",
+       "Sett",
+       "Yunara",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.96,
+      "so_tran": 92
+     }
+    ]
+   }
+  },
+  "426006": {
+   "cap": [
+    [
+     "2-2",
+     4
+    ],
+    [
+     "3-1",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-5",
+     7
+    ],
+    [
+     "5-3",
+     8
+    ],
+    [
+     "6-5",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Teemo": [
+     3,
+     0
+    ],
+    "Alistar": [
+     0,
+     3
+    ],
+    "LeBlanc": [
+     3,
+     1
+    ],
+    "Veigar": [
+     3,
+     6
+    ],
+    "Kobuko": [
+     2,
+     1
+    ],
+    "Hecarim": [
+     2,
+     3
+    ],
+    "Morgana": [
+     1,
+     2
+    ],
+    "Sentinel": [
+     2,
+     4
+    ],
+    "KogMaw": [
+     3,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Kobuko",
+       "LeBlanc",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 4.13,
+      "so_tran": 954
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Kobuko",
+       "LeBlanc",
+       "Teemo"
+      ],
+      "hang_tb": 4.22,
+      "so_tran": 646
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "Kobuko",
+       "LeBlanc",
+       "Teemo"
+      ],
+      "hang_tb": 3.99,
+      "so_tran": 337
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Kobuko",
+       "Sentry",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 4.12,
+      "so_tran": 278
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "Kobuko",
+       "LeBlanc",
+       "Teemo",
+       "Veigar",
+       "Sentinel"
+      ],
+      "hang_tb": 4.14,
+      "so_tran": 1579
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "Kobuko",
+       "LeBlanc",
+       "Teemo",
+       "Sentinel"
+      ],
+      "hang_tb": 4.21,
+      "so_tran": 430
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "Kobuko",
+       "LeBlanc",
+       "Teemo",
+       "Veigar",
+       "KogMaw"
+      ],
+      "hang_tb": 3.97,
+      "so_tran": 1470
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "Kobuko",
+       "LeBlanc",
+       "Morgana",
+       "Teemo",
+       "Veigar",
+       "Sentinel"
+      ],
+      "hang_tb": 3.97,
+      "so_tran": 193
+     }
+    ]
+   }
+  },
+  "426007": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-1",
+     7
+    ],
+    [
+     "4-5",
+     8
+    ],
+    [
+     "5-6",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Krug": [
+     0,
+     3
+    ],
+    "Sentry": [
+     3,
+     0
+    ],
+    "Cinderling": [
+     3,
+     1
+    ],
+    "Scuttlecrab": [
+     0,
+     3
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Brambleback": [
+     2,
+     6
+    ],
+    "Murkwolf": [
+     2,
+     1
+    ],
+    "Gromp": [
+     3,
+     2
+    ],
+    "ElderDragon": [
+     2,
+     3
+    ],
+    "Gnar": [
+     1,
+     3
+    ],
+    "CrimsonRaptor": [
+     3,
+     6
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Sentry",
+       "Yorick",
+       "Cinderling",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.11,
+      "so_tran": 6465
+     },
+     {
+      "tuong": [
+       "Sejuani",
+       "Sentry",
+       "Cinderling",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.14,
+      "so_tran": 2056
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Sentry",
+       "Cinderling",
+       "Gromp",
+       "Krug",
+       "Murkwolf"
+      ],
+      "hang_tb": 4.0,
+      "so_tran": 5702
+     },
+     {
+      "tuong": [
+       "Sentry",
+       "Cinderling",
+       "Gromp",
+       "Krug",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.01,
+      "so_tran": 13640
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Sentry",
+       "Cinderling",
+       "Krug",
+       "Murkwolf",
+       "Scuttlecrab",
+       "Sentinel"
+      ],
+      "hang_tb": 4.02,
+      "so_tran": 4090
+     },
+     {
+      "tuong": [
+       "Sentry",
+       "Brambleback",
+       "Cinderling",
+       "Krug",
+       "Murkwolf",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.16,
+      "so_tran": 5673
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Sentry",
+       "Brambleback",
+       "Gromp",
+       "Krug",
+       "Murkwolf",
+       "Scuttlecrab",
+       "Sentinel"
+      ],
+      "hang_tb": 3.68,
+      "so_tran": 13265
+     },
+     {
+      "tuong": [
+       "Sentry",
+       "Cinderling",
+       "Gromp",
+       "Krug",
+       "Murkwolf",
+       "Scuttlecrab",
+       "Sentinel"
+      ],
+      "hang_tb": 3.76,
+      "so_tran": 28133
+     }
+    ]
+   }
+  },
+  "426008": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-5",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Alune": [
+     3,
+     0
+    ],
+    "Diana": [
+     1,
+     3
+    ],
+    "Morgana": [
+     1,
+     2
+    ],
+    "Taric": [
+     0,
+     4
+    ],
+    "Cassiopeia": [
+     3,
+     0
+    ],
+    "Lillia": [
+     0,
+     2
+    ],
+    "Hecarim": [
+     0,
+     4
+    ],
+    "Ivern": [
+     3,
+     0
+    ],
+    "Elise": [
+     0,
+     3
+    ],
+    "Fiddlesticks": [
+     1,
+     4
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 3.55,
+      "so_tran": 497
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 3.67,
+      "so_tran": 2013
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 3.5,
+      "so_tran": 956
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 3.71,
+      "so_tran": 194
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Morgana"
+      ],
+      "hang_tb": 3.35,
+      "so_tran": 334
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Hecarim"
+      ],
+      "hang_tb": 3.61,
+      "so_tran": 322
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Morgana",
+       "Sentinel"
+      ],
+      "hang_tb": 2.89,
+      "so_tran": 186
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.51,
+      "so_tran": 288
+     }
+    ]
+   }
+  },
+  "426009": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-5",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Diana": [
+     1,
+     3
+    ],
+    "Morgana": [
+     1,
+     2
+    ],
+    "Sentry": [
+     3,
+     6
+    ],
+    "Hecarim": [
+     0,
+     4
+    ],
+    "Alune": [
+     3,
+     0
+    ],
+    "Brambleback": [
+     2,
+     6
+    ],
+    "KogMaw": [
+     3,
+     0
+    ],
+    "Elise": [
+     0,
+     3
+    ],
+    "Cassiopeia": [
+     3,
+     0
+    ],
+    "Taric": [
+     0,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 3.99,
+      "so_tran": 447
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 4.32,
+      "so_tran": 136
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 4.07,
+      "so_tran": 217
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 4.18,
+      "so_tran": 65
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Murkwolf"
+      ],
+      "hang_tb": 2.87,
+      "so_tran": 46
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "Brambleback",
+       "Murkwolf",
+       "Sentinel"
+      ],
+      "hang_tb": 3.84,
+      "so_tran": 45
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "Morgana",
+       "Brambleback",
+       "Murkwolf",
+       "Sentinel"
+      ],
+      "hang_tb": 3.21,
+      "so_tran": 47
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "Rakan"
+      ],
+      "hang_tb": 4.31,
+      "so_tran": 52
+     }
+    ]
+   }
+  },
+  "426010": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sett": [
+     0,
+     3
+    ],
+    "Ahri": [
+     3,
+     2
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Morgana": [
+     2,
+     3
+    ],
+    "Karma": [
+     3,
+     0
+    ],
+    "Sentry": [
+     3,
+     6
+    ],
+    "Krug": [
+     0,
+     2
+    ],
+    "Taric": [
+     1,
+     3
+    ],
+    "Ashe": [
+     3,
+     0
+    ],
+    "Alune": [
+     3,
+     0
+    ],
+    "KogMaw": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 3.8,
+      "so_tran": 3682
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Caitlyn",
+       "Camille",
+       "Elise"
+      ],
+      "hang_tb": 3.99,
+      "so_tran": 755
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Karma"
+      ],
+      "hang_tb": 4.01,
+      "so_tran": 658
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.09,
+      "so_tran": 963
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Rakan",
+       "Karma"
+      ],
+      "hang_tb": 3.78,
+      "so_tran": 371
+     },
+     {
+      "tuong": [
+       "Hecarim",
+       "LeBlanc",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.97,
+      "so_tran": 200
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Ahri",
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Morgana",
+       "Sentinel"
+      ],
+      "hang_tb": 3.09,
+      "so_tran": 95
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Morgana",
+       "Sentry"
+      ],
+      "hang_tb": 3.12,
+      "so_tran": 93
+     }
+    ]
+   }
+  },
+  "426011": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-5",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-1",
+     9
+    ],
+    [
+     "7-1",
+     10
+    ]
+   ],
+   "vi_tri": {
+    "Draven": [
+     3,
+     0
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Ezreal": [
+     3,
+     0
+    ],
+    "Amumu": [
+     0,
+     4
+    ],
+    "Gnar": [
+     1,
+     3
+    ],
+    "Alistar": [
+     0,
+     2
+    ],
+    "Kennen": [
+     1,
+     2
+    ],
+    "Ivern": [
+     3,
+     0
+    ],
+    "Taric": [
+     0,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 3.86,
+      "so_tran": 430
+     },
+     {
+      "tuong": [
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.33,
+      "so_tran": 652
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.87,
+      "so_tran": 700
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.2,
+      "so_tran": 1572
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "LeBlanc",
+       "Ornn",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.02,
+      "so_tran": 427
+     },
+     {
+      "tuong": [
+       "Akali",
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.4,
+      "so_tran": 325
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alistar",
+       "Ezreal",
+       "Hecarim",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.83,
+      "so_tran": 135
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Alistar",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah",
+       "Krug"
+      ],
+      "hang_tb": 4.12,
+      "so_tran": 118
+     }
+    ]
+   }
+  },
+  "426012": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "6-1",
+     8
+    ],
+    [
+     "7-2",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "KhaZix": [
+     0,
+     1
+    ],
+    "Hecarim": [
+     0,
+     2
+    ],
+    "Diana": [
+     1,
+     1
+    ],
+    "Ezreal": [
+     3,
+     0
+    ],
+    "Fiddlesticks": [
+     2,
+     2
+    ],
+    "Soraka": [
+     3,
+     0
+    ],
+    "Ornn": [
+     3,
+     6
+    ],
+    "Aphelios": [
+     3,
+     1
+    ],
+    "Azir": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "KhaZix"
+      ],
+      "hang_tb": 3.28,
+      "so_tran": 1023
+     },
+     {
+      "tuong": [
+       "Hecarim",
+       "KhaZix",
+       "LeBlanc",
+       "Ornn"
+      ],
+      "hang_tb": 3.68,
+      "so_tran": 949
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "KhaZix"
+      ],
+      "hang_tb": 3.01,
+      "so_tran": 1558
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Hecarim",
+       "KhaZix",
+       "Ornn",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.51,
+      "so_tran": 764
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Azir",
+       "Diana",
+       "Hecarim",
+       "KhaZix",
+       "Ornn",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.56,
+      "so_tran": 478
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Hecarim",
+       "KhaZix",
+       "LeBlanc",
+       "Ornn",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.72,
+      "so_tran": 2594
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Diana",
+       "Ezreal",
+       "Hecarim",
+       "KhaZix",
+       "Ornn",
+       "Soraka",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.44,
+      "so_tran": 85454
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Diana",
+       "Ezreal",
+       "Hecarim",
+       "KhaZix",
+       "Ornn",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.52,
+      "so_tran": 12062
+     }
+    ]
+   }
+  },
+  "426013": {
+   "cap": [
+    [
+     "1-4",
+     3
+    ],
+    [
+     "2-2",
+     4
+    ],
+    [
+     "2-6",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-2",
+     7
+    ],
+    [
+     "5-2",
+     8
+    ],
+    [
+     "6-2",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Teemo": [
+     3,
+     0
+    ],
+    "Rammus": [
+     0,
+     3
+    ],
+    "Sentry": [
+     3,
+     1
+    ],
+    "Morgana": [
+     1,
+     2
+    ],
+    "Veigar": [
+     3,
+     2
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Krug": [
+     0,
+     4
+    ],
+    "Fiddlesticks": [
+     2,
+     3
+    ],
+    "KogMaw": [
+     3,
+     1
+    ],
+    "Kobuko": [
+     0,
+     3
+    ],
+    "Gnar": [
+     1,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Rammus",
+       "Sentry",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 3.36,
+      "so_tran": 50
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Kobuko",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 3.54,
+      "so_tran": 79
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Alistar",
+       "Kobuko",
+       "Sentry",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 2.76,
+      "so_tran": 50
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Kobuko",
+       "LeBlanc",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 3.63,
+      "so_tran": 46
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Rammus",
+       "Sentry",
+       "Teemo",
+       "Veigar",
+       "Fiddlesticks",
+       "KogMaw"
+      ],
+      "hang_tb": 3.8,
+      "so_tran": 162
+     },
+     {
+      "tuong": [
+       "Morgana",
+       "Rammus",
+       "Teemo",
+       "Veigar",
+       "Fiddlesticks",
+       "Sentinel"
+      ],
+      "hang_tb": 4.27,
+      "so_tran": 67
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Morgana",
+       "Rammus",
+       "Sentry",
+       "Teemo",
+       "Veigar",
+       "Fiddlesticks",
+       "KogMaw"
+      ],
+      "hang_tb": 3.47,
+      "so_tran": 118
+     },
+     {
+      "tuong": [
+       "Morgana",
+       "Rammus",
+       "Teemo",
+       "Veigar",
+       "Fiddlesticks",
+       "Krug",
+       "Sentinel"
+      ],
+      "hang_tb": 3.84,
+      "so_tran": 88
+     }
+    ]
+   }
+  },
+  "426014": {
+   "cap": [
+    [
+     "2-3",
+     4
+    ],
+    [
+     "3-2",
+     5
+    ],
+    [
+     "4-1",
+     6
+    ],
+    [
+     "4-6",
+     7
+    ],
+    [
+     "5-6",
+     8
+    ],
+    [
+     "7-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Veigar": [
+     3,
+     0
+    ],
+    "Ornn": [
+     0,
+     3
+    ],
+    "LeBlanc": [
+     3,
+     1
+    ],
+    "Fiddlesticks": [
+     2,
+     4
+    ],
+    "Cassiopeia": [
+     2,
+     3
+    ],
+    "RekSai": [
+     2,
+     2
+    ],
+    "Alistar": [
+     0,
+     3
+    ],
+    "Ahri": [
+     2,
+     3
+    ],
+    "Alune": [
+     3,
+     6
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "Veigar"
+      ],
+      "hang_tb": 4.02,
+      "so_tran": 22242
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 4.03,
+      "so_tran": 6120
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 4.29,
+      "so_tran": 101693
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 4.39,
+      "so_tran": 751
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Leona",
+       "Ornn",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 4.02,
+      "so_tran": 2342
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Cassiopeia",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.07,
+      "so_tran": 1734
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 2.61,
+      "so_tran": 1532
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Cassiopeia",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.55,
+      "so_tran": 84904
+     }
+    ]
+   }
+  },
+  "426015": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Zyra": [
+     3,
+     6
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Nidalee": [
+     3,
+     0
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Yorick": [
+     0,
+     1
+    ],
+    "Scuttlecrab": [
+     0,
+     2
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Sejuani": [
+     0,
+     1
+    ],
+    "Rakan": [
+     0,
+     1
+    ],
+    "Ivern": [
+     3,
+     0
+    ],
+    "Azir": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 3.88,
+      "so_tran": 179
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Veigar",
+       "Yorick",
+       "Karma"
+      ],
+      "hang_tb": 3.89,
+      "so_tran": 151
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "LeBlanc",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.08,
+      "so_tran": 139
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Sejuani",
+       "Teemo",
+       "Yorick",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.41,
+      "so_tran": 102
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Rakan",
+       "Sejuani",
+       "Yorick",
+       "Zyra",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.38,
+      "so_tran": 90
+     },
+     {
+      "tuong": [
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.95,
+      "so_tran": 101
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Rakan",
+       "Sejuani",
+       "Yorick",
+       "Zyra",
+       "Amumu",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.45,
+      "so_tran": 104
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Rakan",
+       "Sejuani",
+       "Yorick",
+       "Zyra",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.47,
+      "so_tran": 119
+     }
+    ]
+   }
+  },
+  "426016": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Malphite": [
+     0,
+     3
+    ],
+    "Sivir": [
+     3,
+     0
+    ],
+    "Krug": [
+     2,
+     3
+    ],
+    "Nidalee": [
+     2,
+     0
+    ],
+    "KogMaw": [
+     3,
+     1
+    ],
+    "Cinderling": [
+     3,
+     6
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "RekSai": [
+     2,
+     6
+    ],
+    "Ashe": [
+     3,
+     6
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Scuttlecrab": [
+     0,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 3.73,
+      "so_tran": 120
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 4.47,
+      "so_tran": 90
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Akali",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.95,
+      "so_tran": 38
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 4.46,
+      "so_tran": 56
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "RekSai",
+       "Sivir",
+       "Cinderling",
+       "Krug",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.42,
+      "so_tran": 19
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Cinderling"
+      ],
+      "hang_tb": 4.5,
+      "so_tran": 16
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Malphite",
+       "RekSai",
+       "Sivir",
+       "Cinderling",
+       "KogMaw",
+       "Krug",
+       "Vi"
+      ],
+      "hang_tb": 3.93,
+      "so_tran": 15
+     },
+     {
+      "tuong": [
+       "Malphite",
+       "RekSai",
+       "Sivir",
+       "Cinderling",
+       "Gromp",
+       "Krug",
+       "Nidalee"
+      ],
+      "hang_tb": 4.0,
+      "so_tran": 13
+     }
+    ]
+   }
+  },
+  "426017": {
+   "cap": [
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Aphelios": [
+     3,
+     0
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Diana": [
+     1,
+     2
+    ],
+    "CrimsonRaptor": [
+     3,
+     1
+    ],
+    "Brambleback": [
+     2,
+     0
+    ],
+    "Hecarim": [
+     0,
+     3
+    ],
+    "Zyra": [
+     3,
+     6
+    ],
+    "Taric": [
+     1,
+     2
+    ],
+    "Rakan": [
+     1,
+     3
+    ],
+    "Varus": [
+     3,
+     6
+    ],
+    "Elise": [
+     0,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Rakan",
+       "Varus",
+       "Xayah",
+       "Yorick"
+      ],
+      "hang_tb": 3.89,
+      "so_tran": 91
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.26,
+      "so_tran": 99
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Rengar"
+      ],
+      "hang_tb": 3.76,
+      "so_tran": 34
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 4.05,
+      "so_tran": 57
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Morgana",
+       "Rakan"
+      ],
+      "hang_tb": 4.19,
+      "so_tran": 16
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Hecarim"
+      ],
+      "hang_tb": 4.43,
+      "so_tran": 14
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Aphelios",
+       "Diana",
+       "Hecarim",
+       "Rengar",
+       "Brambleback",
+       "CrimsonRaptor",
+       "Sentinel"
+      ],
+      "hang_tb": 3.0,
+      "so_tran": 16
+     },
+     {
+      "tuong": [
+       "Aphelios",
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Morgana"
+      ],
+      "hang_tb": 3.0,
+      "so_tran": 13
+     }
+    ]
+   }
+  },
+  "426018": {
+   "cap": [
+    [
+     "3-1",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-1",
+     7
+    ],
+    [
+     "5-6",
+     8
+    ],
+    [
+     "7-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Cassiopeia": [
+     3,
+     6
+    ],
+    "Rammus": [
+     0,
+     3
+    ],
+    "Fiddlesticks": [
+     0,
+     4
+    ],
+    "Ornn": [
+     0,
+     1
+    ],
+    "Shen": [
+     0,
+     1
+    ],
+    "Leona": [
+     0,
+     1
+    ],
+    "Lillia": [
+     0,
+     0
+    ],
+    "Soraka": [
+     3,
+     5
+    ],
+    "LeBlanc": [
+     3,
+     1
+    ],
+    "Ivern": [
+     3,
+     0
+    ],
+    "Alune": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Cassiopeia",
+       "LeBlanc",
+       "Leona",
+       "Ornn"
+      ],
+      "hang_tb": 4.11,
+      "so_tran": 193
+     },
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Leona",
+       "Ornn",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.19,
+      "so_tran": 295
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Leona",
+       "Ornn",
+       "Rammus",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.82,
+      "so_tran": 477
+     },
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Leona",
+       "Ornn",
+       "Shen",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.96,
+      "so_tran": 552
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Cassiopeia",
+       "LeBlanc",
+       "Leona",
+       "Ornn",
+       "Rammus",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.84,
+      "so_tran": 148
+     },
+     {
+      "tuong": [
+       "Cassiopeia",
+       "LeBlanc",
+       "Leona",
+       "Ornn",
+       "Rammus",
+       "Shen"
+      ],
+      "hang_tb": 4.0,
+      "so_tran": 287
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Ivern",
+       "Leona",
+       "Ornn",
+       "Rammus",
+       "Shen",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.99,
+      "so_tran": 379
+     },
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Leona",
+       "Lillia",
+       "Ornn",
+       "Rammus",
+       "Shen",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.19,
+      "so_tran": 22821
+     }
+    ]
+   }
+  },
+  "426019": {
+   "cap": [
+    [
+     "2-3",
+     4
+    ],
+    [
+     "3-1",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "5-1",
+     7
+    ],
+    [
+     "6-1",
+     8
+    ]
+   ],
+   "vi_tri": {
+    "Murkwolf": [
+     2,
+     3
+    ],
+    "Alistar": [
+     0,
+     3
+    ],
+    "Yunara": [
+     3,
+     0
+    ],
+    "Warwick": [
+     2,
+     0
+    ],
+    "Azir": [
+     3,
+     2
+    ],
+    "RekSai": [
+     2,
+     4
+    ],
+    "Malphite": [
+     0,
+     3
+    ],
+    "Ezreal": [
+     3,
+     2
+    ],
+    "Veigar": [
+     3,
+     6
+    ],
+    "Sett": [
+     0,
+     3
+    ],
+    "Soraka": [
+     3,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Alistar",
+       "RekSai",
+       "Warwick",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.84,
+      "so_tran": 129
+     },
+     {
+      "tuong": [
+       "RekSai",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.09,
+      "so_tran": 191
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "RekSai",
+       "Veigar",
+       "Warwick",
+       "Yunara",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.88,
+      "so_tran": 68
+     },
+     {
+      "tuong": [
+       "Azir",
+       "RekSai",
+       "Warwick",
+       "Yunara",
+       "Murkwolf"
+      ],
+      "hang_tb": 4.1,
+      "so_tran": 115
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "Azir",
+       "Ezreal",
+       "RekSai",
+       "Warwick",
+       "Yunara",
+       "Murkwolf"
+      ],
+      "hang_tb": 4.06,
+      "so_tran": 253
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "RekSai",
+       "Veigar",
+       "Warwick",
+       "Yunara",
+       "Murkwolf"
+      ],
+      "hang_tb": 4.12,
+      "so_tran": 316
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alistar",
+       "Azir",
+       "Kennen",
+       "RekSai",
+       "Warwick",
+       "Yunara",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.24,
+      "so_tran": 252
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Azir",
+       "RekSai",
+       "Soraka",
+       "Warwick",
+       "Yunara",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.34,
+      "so_tran": 543
+     }
+    ]
+   }
+  },
+  "426020": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sett": [
+     0,
+     3
+    ],
+    "Zyra": [
+     3,
+     0
+    ],
+    "Ahri": [
+     3,
+     3
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Yorick": [
+     0,
+     2
+    ],
+    "Fiddlesticks": [
+     0,
+     2
+    ],
+    "Gnar": [
+     1,
+     3
+    ],
+    "Shen": [
+     0,
+     1
+    ],
+    "Lillia": [
+     0,
+     0
+    ],
+    "Krug": [
+     0,
+     5
+    ],
+    "Rakan": [
+     0,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.04,
+      "so_tran": 178
+     },
+     {
+      "tuong": [
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.49,
+      "so_tran": 144
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "LeBlanc",
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.22,
+      "so_tran": 99
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.26,
+      "so_tran": 122
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Hecarim",
+       "LeBlanc",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.76,
+      "so_tran": 37
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.8,
+      "so_tran": 25
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Ahri",
+       "Aphelios",
+       "Sett",
+       "Yorick",
+       "CrimsonRaptor",
+       "Krug",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 2.6,
+      "so_tran": 15
+     },
+     {
+      "tuong": [
+       "Shen",
+       "Yorick",
+       "Yunara",
+       "Zyra",
+       "Amumu",
+       "Fiddlesticks",
+       "Karma"
+      ],
+      "hang_tb": 3.59,
+      "so_tran": 29
+     }
+    ]
+   }
+  },
+  "426021": {
+   "cap": [
+    [
+     "3-1",
+     5
+    ],
+    [
+     "3-5",
+     6
+    ],
+    [
+     "4-6",
+     7
+    ],
+    [
+     "5-6",
+     8
+    ],
+    [
+     "7-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Kayle": [
+     3,
+     0
+    ],
+    "Sejuani": [
+     0,
+     3
+    ],
+    "Varus": [
+     3,
+     0
+    ],
+    "Diana": [
+     1,
+     2
+    ],
+    "Shen": [
+     0,
+     3
+    ],
+    "Leona": [
+     0,
+     3
+    ],
+    "Aphelios": [
+     3,
+     1
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Alune": [
+     3,
+     1
+    ],
+    "Ornn": [
+     0,
+     3
+    ],
+    "Rakan": [
+     1,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 4.03,
+      "so_tran": 5434
+     },
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Varus"
+      ],
+      "hang_tb": 4.12,
+      "so_tran": 4512
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 4.22,
+      "so_tran": 17849
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Kayle",
+       "Leona",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 4.32,
+      "so_tran": 631
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Aphelios",
+       "Diana",
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen"
+      ],
+      "hang_tb": 3.96,
+      "so_tran": 1984
+     },
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus",
+       "Amumu"
+      ],
+      "hang_tb": 3.98,
+      "so_tran": 8847
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Aphelios",
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus",
+       "Amumu"
+      ],
+      "hang_tb": 3.17,
+      "so_tran": 2897
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Kayle",
+       "Leona",
+       "Rakan",
+       "Sejuani",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 3.24,
+      "so_tran": 636
+     }
+    ]
+   }
+  },
+  "426022": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-5",
+     7
+    ],
+    [
+     "6-1",
+     8
+    ],
+    [
+     "7-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Vi": [
+     0,
+     5
+    ],
+    "MasterYi": [
+     2,
+     6
+    ],
+    "Nidalee": [
+     3,
+     6
+    ],
+    "Rengar": [
+     2,
+     5
+    ],
+    "KogMaw": [
+     3,
+     0
+    ],
+    "Krug": [
+     0,
+     1
+    ],
+    "Sett": [
+     0,
+     3
+    ],
+    "Yorick": [
+     0,
+     2
+    ],
+    "Karma": [
+     3,
+     0
+    ],
+    "Yunara": [
+     3,
+     0
+    ],
+    "Alistar": [
+     0,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "MasterYi",
+       "Rengar",
+       "Yorick",
+       "Karma"
+      ],
+      "hang_tb": 4.07,
+      "so_tran": 651
+     },
+     {
+      "tuong": [
+       "MasterYi",
+       "Rakan",
+       "Yorick",
+       "Karma"
+      ],
+      "hang_tb": 4.12,
+      "so_tran": 325
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "MasterYi",
+       "Rengar",
+       "Yorick",
+       "Yunara",
+       "Vi"
+      ],
+      "hang_tb": 3.75,
+      "so_tran": 250
+     },
+     {
+      "tuong": [
+       "MasterYi",
+       "Rengar",
+       "Yorick",
+       "Karma",
+       "Vi"
+      ],
+      "hang_tb": 3.76,
+      "so_tran": 636
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "MasterYi",
+       "Rengar",
+       "Yorick",
+       "Yunara",
+       "KogMaw",
+       "Vi"
+      ],
+      "hang_tb": 3.47,
+      "so_tran": 182
+     },
+     {
+      "tuong": [
+       "MasterYi",
+       "Rengar",
+       "Yorick",
+       "Yunara",
+       "Krug",
+       "Vi"
+      ],
+      "hang_tb": 3.84,
+      "so_tran": 209
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "MasterYi",
+       "Rengar",
+       "Sett",
+       "Yorick",
+       "KogMaw",
+       "Nidalee",
+       "Vi"
+      ],
+      "hang_tb": 3.55,
+      "so_tran": 4752
+     },
+     {
+      "tuong": [
+       "MasterYi",
+       "Rengar",
+       "Sett",
+       "Yorick",
+       "Krug",
+       "Nidalee",
+       "Vi"
+      ],
+      "hang_tb": 3.7,
+      "so_tran": 20845
+     }
+    ]
+   }
+  },
+  "426023": {
+   "cap": [
+    [
+     "2-2",
+     4
+    ],
+    [
+     "2-6",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-5",
+     7
+    ],
+    [
+     "5-3",
+     8
+    ],
+    [
+     "6-6",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Malphite": [
+     0,
+     3
+    ],
+    "Murkwolf": [
+     2,
+     3
+    ],
+    "Krug": [
+     2,
+     3
+    ],
+    "Azir": [
+     3,
+     0
+    ],
+    "Warwick": [
+     3,
+     0
+    ],
+    "RekSai": [
+     0,
+     3
+    ],
+    "Diana": [
+     2,
+     4
+    ],
+    "Brambleback": [
+     2,
+     2
+    ],
+    "Elise": [
+     0,
+     3
+    ],
+    "Camille": [
+     2,
+     3
+    ],
+    "Akali": [
+     2,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "RekSai",
+       "Warwick",
+       "Krug",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.91,
+      "so_tran": 339
+     },
+     {
+      "tuong": [
+       "Camille",
+       "RekSai",
+       "Warwick",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.94,
+      "so_tran": 237
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Warwick"
+      ],
+      "hang_tb": 3.55,
+      "so_tran": 128
+     },
+     {
+      "tuong": [
+       "Diana",
+       "RekSai",
+       "Warwick",
+       "Krug",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.93,
+      "so_tran": 135
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Diana",
+       "RekSai",
+       "Warwick",
+       "Brambleback",
+       "Krug",
+       "Murkwolf"
+      ],
+      "hang_tb": 4.13,
+      "so_tran": 2672
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Diana",
+       "RekSai",
+       "Warwick",
+       "Krug",
+       "Murkwolf"
+      ],
+      "hang_tb": 4.15,
+      "so_tran": 978
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Diana",
+       "Elise",
+       "RekSai",
+       "Warwick",
+       "Brambleback",
+       "Krug",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.63,
+      "so_tran": 953
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Malphite",
+       "RekSai",
+       "Warwick",
+       "Brambleback",
+       "Krug",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.81,
+      "so_tran": 1539
+     }
+    ]
+   }
+  },
+  "426024": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "6-1",
+     8
+    ],
+    [
+     "7-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Hecarim": [
+     0,
+     3
+    ],
+    "KhaZix": [
+     0,
+     1
+    ],
+    "LeBlanc": [
+     3,
+     6
+    ],
+    "Rengar": [
+     2,
+     1
+    ],
+    "Aphelios": [
+     3,
+     0
+    ],
+    "Diana": [
+     1,
+     2
+    ],
+    "Ezreal": [
+     3,
+     0
+    ],
+    "Soraka": [
+     3,
+     0
+    ],
+    "Azir": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "KhaZix",
+       "Ornn",
+       "Rengar",
+       "Shen"
+      ],
+      "hang_tb": 4.44,
+      "so_tran": 134
+     },
+     {
+      "tuong": [
+       "KhaZix",
+       "Kobuko",
+       "RekSai",
+       "Rengar"
+      ],
+      "hang_tb": 4.46,
+      "so_tran": 220
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "KhaZix",
+       "LeBlanc",
+       "Rengar"
+      ],
+      "hang_tb": 4.09,
+      "so_tran": 101
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Hecarim",
+       "KhaZix",
+       "LeBlanc",
+       "Rengar"
+      ],
+      "hang_tb": 4.14,
+      "so_tran": 175
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Diana",
+       "Ezreal",
+       "Hecarim",
+       "KhaZix",
+       "LeBlanc",
+       "Rengar"
+      ],
+      "hang_tb": 4.19,
+      "so_tran": 103
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Hecarim",
+       "KhaZix",
+       "LeBlanc",
+       "Rengar",
+       "Xayah"
+      ],
+      "hang_tb": 4.2,
+      "so_tran": 103
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Aphelios",
+       "Diana",
+       "Ezreal",
+       "Hecarim",
+       "KhaZix",
+       "Rengar",
+       "Xayah"
+      ],
+      "hang_tb": 4.02,
+      "so_tran": 388
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Ezreal",
+       "Hecarim",
+       "KhaZix",
+       "LeBlanc",
+       "Rengar",
+       "Soraka"
+      ],
+      "hang_tb": 4.17,
+      "so_tran": 838
+     }
+    ]
+   }
+  },
+  "426025": {
+   "cap": [
+    [
+     "2-3",
+     4
+    ],
+    [
+     "3-2",
+     5
+    ],
+    [
+     "4-2",
+     6
+    ],
+    [
+     "5-1",
+     7
+    ],
+    [
+     "6-1",
+     8
+    ],
+    [
+     "7-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Varus": [
+     3,
+     0
+    ],
+    "Ornn": [
+     0,
+     3
+    ],
+    "Camille": [
+     2,
+     1
+    ],
+    "Akali": [
+     2,
+     0
+    ],
+    "Kayle": [
+     3,
+     6
+    ],
+    "Leona": [
+     2,
+     3
+    ],
+    "Sejuani": [
+     2,
+     6
+    ],
+    "KogMaw": [
+     3,
+     1
+    ],
+    "Shen": [
+     0,
+     3
+    ],
+    "Amumu": [
+     2,
+     4
+    ],
+    "Rakan": [
+     0,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Leona",
+       "Ornn"
+      ],
+      "hang_tb": 4.2,
+      "so_tran": 13371
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Ornn",
+       "Shen"
+      ],
+      "hang_tb": 4.32,
+      "so_tran": 763
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Leona",
+       "Ornn",
+       "Varus"
+      ],
+      "hang_tb": 4.49,
+      "so_tran": 52979
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Leona",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 4.64,
+      "so_tran": 762
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Kayle",
+       "Leona",
+       "Ornn",
+       "Sejuani",
+       "Varus"
+      ],
+      "hang_tb": 3.94,
+      "so_tran": 1296
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Kayle",
+       "Leona",
+       "Ornn",
+       "Varus"
+      ],
+      "hang_tb": 4.48,
+      "so_tran": 13413
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Kayle",
+       "Leona",
+       "Ornn",
+       "Sejuani",
+       "Varus"
+      ],
+      "hang_tb": 3.62,
+      "so_tran": 35231
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 3.81,
+      "so_tran": 830
+     }
+    ]
+   }
+  },
+  "426026": {
+   "cap": [
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-3",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Aphelios": [
+     3,
+     0
+    ],
+    "Lillia": [
+     0,
+     3
+    ],
+    "Diana": [
+     1,
+     2
+    ],
+    "Xayah": [
+     3,
+     1
+    ],
+    "Kayle": [
+     3,
+     1
+    ],
+    "Hecarim": [
+     0,
+     3
+    ],
+    "Alune": [
+     3,
+     1
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Ornn": [
+     0,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Akali",
+       "Leona",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 4.27,
+      "so_tran": 48
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Ornn",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 5.1,
+      "so_tran": 59
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.88,
+      "so_tran": 56
+     },
+     {
+      "tuong": [
+       "Hecarim",
+       "Ornn",
+       "Rakan",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.37,
+      "so_tran": 30
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "Aphelios",
+       "Hecarim",
+       "LeBlanc",
+       "Ornn",
+       "Xayah"
+      ],
+      "hang_tb": 3.96,
+      "so_tran": 27
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "LeBlanc",
+       "Ornn",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.11,
+      "so_tran": 37
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "LeBlanc",
+       "Lillia",
+       "Ornn",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.07,
+      "so_tran": 27
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "LeBlanc",
+       "Ornn",
+       "Rakan",
+       "Xayah",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.1,
+      "so_tran": 20
+     }
+    ]
+   }
+  },
+  "426027": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-1",
+     9
+    ],
+    [
+     "7-2",
+     10
+    ]
+   ],
+   "vi_tri": {
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Cassiopeia": [
+     3,
+     0
+    ],
+    "Morgana": [
+     1,
+     2
+    ],
+    "Alune": [
+     3,
+     0
+    ],
+    "Diana": [
+     1,
+     3
+    ],
+    "Elise": [
+     0,
+     3
+    ],
+    "Taric": [
+     0,
+     2
+    ],
+    "Ahri": [
+     3,
+     0
+    ],
+    "ElderDragon": [
+     1,
+     3
+    ],
+    "Caitlyn": [
+     3,
+     1
+    ],
+    "Hecarim": [
+     0,
+     4
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 3.74,
+      "so_tran": 2341
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 4.05,
+      "so_tran": 1259
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 3.77,
+      "so_tran": 1424
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 3.86,
+      "so_tran": 1123
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "LeBlanc"
+      ],
+      "hang_tb": 3.5,
+      "so_tran": 299
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Morgana"
+      ],
+      "hang_tb": 3.56,
+      "so_tran": 427
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Morgana",
+       "Sentinel"
+      ],
+      "hang_tb": 3.49,
+      "so_tran": 348
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "Sentinel"
+      ],
+      "hang_tb": 3.55,
+      "so_tran": 336
+     }
+    ]
+   }
+  },
+  "426028": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Malphite": [
+     0,
+     3
+    ],
+    "Fiddlesticks": [
+     2,
+     3
+    ],
+    "Azir": [
+     3,
+     6
+    ],
+    "Zyra": [
+     3,
+     0
+    ],
+    "Soraka": [
+     3,
+     0
+    ],
+    "Yorick": [
+     2,
+     3
+    ],
+    "Amumu": [
+     2,
+     4
+    ],
+    "Kennen": [
+     2,
+     4
+    ],
+    "Ezreal": [
+     3,
+     4
+    ],
+    "Veigar": [
+     2,
+     3
+    ],
+    "Ahri": [
+     2,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 4.15,
+      "so_tran": 580
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.15,
+      "so_tran": 314
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Azir",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.26,
+      "so_tran": 452
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.31,
+      "so_tran": 243
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Azir",
+       "Kobuko",
+       "RekSai",
+       "Teemo",
+       "Veigar",
+       "Yorick"
+      ],
+      "hang_tb": 3.81,
+      "so_tran": 68
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Fiddlesticks",
+       "Karma"
+      ],
+      "hang_tb": 4.37,
+      "so_tran": 137
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Azir",
+       "Rammus",
+       "Teemo",
+       "Veigar",
+       "Yunara",
+       "Zyra",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.26,
+      "so_tran": 72
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Rammus",
+       "Teemo",
+       "Veigar",
+       "Yorick",
+       "Yunara",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.72,
+      "so_tran": 68
+     }
+    ]
+   }
+  },
+  "426029": {
+   "cap": [
+    [
+     "2-6",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "6-1",
+     8
+    ]
+   ],
+   "vi_tri": {
+    "KogMaw": [
+     3,
+     0
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "MasterYi": [
+     2,
+     6
+    ],
+    "Krug": [
+     0,
+     3
+    ],
+    "Sett": [
+     0,
+     3
+    ],
+    "Nidalee": [
+     3,
+     0
+    ],
+    "Yorick": [
+     0,
+     2
+    ],
+    "Alistar": [
+     0,
+     4
+    ],
+    "Gnar": [
+     1,
+     3
+    ],
+    "Karma": [
+     3,
+     0
+    ],
+    "RekSai": [
+     0,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "MasterYi",
+       "Rakan",
+       "Yorick",
+       "Karma"
+      ],
+      "hang_tb": 3.38,
+      "so_tran": 148
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "MasterYi",
+       "Yorick",
+       "Karma"
+      ],
+      "hang_tb": 3.7,
+      "so_tran": 92
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "MasterYi",
+       "Yorick",
+       "Karma",
+       "KogMaw",
+       "Krug"
+      ],
+      "hang_tb": 2.9,
+      "so_tran": 41
+     },
+     {
+      "tuong": [
+       "MasterYi",
+       "Yorick",
+       "Karma",
+       "KogMaw",
+       "Vi"
+      ],
+      "hang_tb": 2.99,
+      "so_tran": 90
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "MasterYi",
+       "RekSai",
+       "Yorick",
+       "Karma",
+       "KogMaw",
+       "Vi"
+      ],
+      "hang_tb": 2.18,
+      "so_tran": 33
+     },
+     {
+      "tuong": [
+       "MasterYi",
+       "Yorick",
+       "Yunara",
+       "KogMaw",
+       "Krug",
+       "Vi"
+      ],
+      "hang_tb": 3.12,
+      "so_tran": 75
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Gnar",
+       "MasterYi",
+       "Sett",
+       "Yorick",
+       "KogMaw",
+       "Krug",
+       "Vi"
+      ],
+      "hang_tb": 3.64,
+      "so_tran": 486
+     },
+     {
+      "tuong": [
+       "MasterYi",
+       "Sett",
+       "Yorick",
+       "KogMaw",
+       "Krug",
+       "Nidalee",
+       "Vi"
+      ],
+      "hang_tb": 3.66,
+      "so_tran": 8119
+     }
+    ]
+   }
+  },
+  "426030": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-5",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-1",
+     9
+    ],
+    [
+     "7-1",
+     10
+    ]
+   ],
+   "vi_tri": {
+    "Draven": [
+     3,
+     0
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Ivern": [
+     3,
+     0
+    ],
+    "Amumu": [
+     0,
+     4
+    ],
+    "Kennen": [
+     1,
+     3
+    ],
+    "Taric": [
+     0,
+     2
+    ],
+    "ElderDragon": [
+     1,
+     2
+    ],
+    "Ashe": [
+     3,
+     0
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Aphelios": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 3.95,
+      "so_tran": 1183
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 4.07,
+      "so_tran": 1418
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 3.72,
+      "so_tran": 746
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.08,
+      "so_tran": 598
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "LeBlanc",
+       "Ornn",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.14,
+      "so_tran": 250
+     },
+     {
+      "tuong": [
+       "Hecarim",
+       "Ornn",
+       "Rakan",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.51,
+      "so_tran": 384
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Sentry",
+       "Brambleback",
+       "Cinderling",
+       "Krug",
+       "Murkwolf",
+       "Scuttlecrab",
+       "Sentinel"
+      ],
+      "hang_tb": 3.56,
+      "so_tran": 225
+     },
+     {
+      "tuong": [
+       "Sentry",
+       "Cinderling",
+       "Gromp",
+       "Krug",
+       "Murkwolf",
+       "Scuttlecrab",
+       "Sentinel"
+      ],
+      "hang_tb": 3.89,
+      "so_tran": 380
+     }
+    ]
+   }
+  },
+  "426031": {
+   "cap": [
+    [
+     "3-2",
+     5
+    ],
+    [
+     "4-1",
+     6
+    ],
+    [
+     "5-1",
+     7
+    ],
+    [
+     "6-1",
+     8
+    ],
+    [
+     "7-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Ornn": [
+     0,
+     3
+    ],
+    "Kayle": [
+     3,
+     0
+    ],
+    "Xayah": [
+     3,
+     0
+    ],
+    "Sejuani": [
+     0,
+     3
+    ],
+    "Leona": [
+     0,
+     2
+    ],
+    "Rakan": [
+     0,
+     3
+    ],
+    "LeBlanc": [
+     3,
+     2
+    ],
+    "Hecarim": [
+     2,
+     4
+    ],
+    "Varus": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "LeBlanc",
+       "Leona",
+       "Ornn",
+       "Xayah"
+      ],
+      "hang_tb": 4.47,
+      "so_tran": 2070
+     },
+     {
+      "tuong": [
+       "Kayle",
+       "Ornn",
+       "Rakan",
+       "Xayah"
+      ],
+      "hang_tb": 4.6,
+      "so_tran": 716
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Kayle",
+       "LeBlanc",
+       "Leona",
+       "Ornn",
+       "Xayah"
+      ],
+      "hang_tb": 4.7,
+      "so_tran": 2948
+     },
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Rakan",
+       "Sejuani",
+       "Xayah"
+      ],
+      "hang_tb": 4.8,
+      "so_tran": 1500
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Kayle",
+       "LeBlanc",
+       "Leona",
+       "Ornn",
+       "Rakan",
+       "Sejuani",
+       "Xayah"
+      ],
+      "hang_tb": 3.21,
+      "so_tran": 508
+     },
+     {
+      "tuong": [
+       "Hecarim",
+       "Kayle",
+       "Leona",
+       "Ornn",
+       "Rakan",
+       "Sejuani",
+       "Xayah"
+      ],
+      "hang_tb": 3.77,
+      "so_tran": 369
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Aphelios",
+       "Kayle",
+       "Leona",
+       "Ornn",
+       "Rakan",
+       "Sejuani",
+       "Xayah"
+      ],
+      "hang_tb": 3.1,
+      "so_tran": 181
+     },
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Ornn",
+       "Rakan",
+       "Sejuani",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.44,
+      "so_tran": 317
+     }
+    ]
+   }
+  },
+  "426032": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-5",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Zyra": [
+     3,
+     6
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Sivir": [
+     3,
+     0
+    ],
+    "Yorick": [
+     0,
+     1
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Scuttlecrab": [
+     0,
+     1
+    ],
+    "Sejuani": [
+     0,
+     1
+    ],
+    "Rakan": [
+     0,
+     2
+    ],
+    "Ashe": [
+     3,
+     0
+    ],
+    "Ivern": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.24,
+      "so_tran": 566
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 4.24,
+      "so_tran": 141
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Vi"
+      ],
+      "hang_tb": 3.72,
+      "so_tran": 118
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Sejuani",
+       "Yorick",
+       "Karma",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 3.77,
+      "so_tran": 106
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.92,
+      "so_tran": 164
+     },
+     {
+      "tuong": [
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 4.12,
+      "so_tran": 138
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Sejuani",
+       "Sivir",
+       "Yorick",
+       "Zyra",
+       "Amumu",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.61,
+      "so_tran": 44
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 4.21,
+      "so_tran": 111
+     }
+    ]
+   }
+  },
+  "426033": {
+   "cap": [
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "5-5",
+     8
+    ],
+    [
+     "6-6",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "CrimsonRaptor": [
+     3,
+     0
+    ],
+    "Aphelios": [
+     3,
+     1
+    ],
+    "Hecarim": [
+     0,
+     3
+    ],
+    "Diana": [
+     1,
+     2
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Rengar": [
+     0,
+     0
+    ],
+    "Brambleback": [
+     2,
+     1
+    ],
+    "Krug": [
+     0,
+     4
+    ],
+    "Murkwolf": [
+     2,
+     1
+    ],
+    "Yorick": [
+     0,
+     2
+    ],
+    "Xayah": [
+     3,
+     1
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Hecarim",
+       "Rakan",
+       "Rengar",
+       "Yorick"
+      ],
+      "hang_tb": 2.94,
+      "so_tran": 16
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Rengar",
+       "Xayah",
+       "Yorick"
+      ],
+      "hang_tb": 3.42,
+      "so_tran": 12
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Rengar"
+      ],
+      "hang_tb": 2.0,
+      "so_tran": 11
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Rengar",
+       "Yorick",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.56,
+      "so_tran": 9
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Akali",
+       "Diana",
+       "Hecarim",
+       "Rengar",
+       "CrimsonRaptor",
+       "Murkwolf"
+      ],
+      "hang_tb": 1.0,
+      "so_tran": 11
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Rammus",
+       "Rengar",
+       "Shen",
+       "Varus",
+       "CrimsonRaptor"
+      ],
+      "hang_tb": 3.63,
+      "so_tran": 8
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Aphelios",
+       "Diana",
+       "Hecarim",
+       "Rengar",
+       "Brambleback",
+       "CrimsonRaptor",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.64,
+      "so_tran": 170
+     },
+     {
+      "tuong": [
+       "Aphelios",
+       "Diana",
+       "Hecarim",
+       "Rengar",
+       "Brambleback",
+       "CrimsonRaptor",
+       "Sentinel"
+      ],
+      "hang_tb": 3.91,
+      "so_tran": 601
+     }
+    ]
+   }
+  },
+  "426034": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "5-2",
+     8
+    ],
+    [
+     "7-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Azir": [
+     3,
+     0
+    ],
+    "KhaZix": [
+     2,
+     3
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Yunara": [
+     3,
+     1
+    ],
+    "Sett": [
+     0,
+     3
+    ],
+    "Yorick": [
+     2,
+     3
+    ],
+    "RekSai": [
+     2,
+     4
+    ],
+    "Zyra": [
+     3,
+     1
+    ],
+    "Ahri": [
+     2,
+     3
+    ],
+    "Soraka": [
+     2,
+     3
+    ],
+    "Krug": [
+     0,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "KhaZix",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.0,
+      "so_tran": 43
+     },
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "RekSai",
+       "Yorick"
+      ],
+      "hang_tb": 4.58,
+      "so_tran": 71
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Azir",
+       "RekSai",
+       "Yorick",
+       "Yunara",
+       "Vi"
+      ],
+      "hang_tb": 3.69,
+      "so_tran": 39
+     },
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "RekSai",
+       "Yorick",
+       "Yunara"
+      ],
+      "hang_tb": 3.85,
+      "so_tran": 86
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "RekSai",
+       "Yorick",
+       "Yunara",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 3.16,
+      "so_tran": 31
+     },
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "RekSai",
+       "Sett",
+       "Yorick",
+       "Yunara"
+      ],
+      "hang_tb": 3.52,
+      "so_tran": 50
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "RekSai",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Vi"
+      ],
+      "hang_tb": 4.02,
+      "so_tran": 200
+     },
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "RekSai",
+       "Yorick",
+       "CrimsonRaptor",
+       "Krug",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.08,
+      "so_tran": 448
+     }
+    ]
+   }
+  },
+  "426035": {
+   "cap": [
+    [
+     "3-1",
+     5
+    ],
+    [
+     "4-1",
+     6
+    ],
+    [
+     "5-1",
+     7
+    ],
+    [
+     "6-1",
+     8
+    ],
+    [
+     "7-2",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sejuani": [
+     0,
+     3
+    ],
+    "Karma": [
+     3,
+     0
+    ],
+    "LeBlanc": [
+     3,
+     1
+    ],
+    "Yorick": [
+     0,
+     3
+    ],
+    "Yunara": [
+     3,
+     1
+    ],
+    "Kayle": [
+     3,
+     6
+    ],
+    "Leona": [
+     1,
+     3
+    ],
+    "Azir": [
+     3,
+     6
+    ],
+    "Fiddlesticks": [
+     0,
+     3
+    ],
+    "Ornn": [
+     0,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "LeBlanc",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.28,
+      "so_tran": 11345
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Sejuani",
+       "Yorick",
+       "Karma"
+      ],
+      "hang_tb": 4.3,
+      "so_tran": 4464
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Azir",
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.48,
+      "so_tran": 1384
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.52,
+      "so_tran": 44351
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Kayle",
+       "LeBlanc",
+       "Leona",
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.65,
+      "so_tran": 3235
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.43,
+      "so_tran": 1545
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Azir",
+       "Kayle",
+       "LeBlanc",
+       "Leona",
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 2.8,
+      "so_tran": 1930
+     },
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Fiddlesticks",
+       "Karma"
+      ],
+      "hang_tb": 3.35,
+      "so_tran": 3115
+     }
+    ]
+   }
+  },
+  "426036": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-3",
+     9
+    ],
+    [
+     "7-1",
+     10
+    ]
+   ],
+   "vi_tri": {
+    "Hecarim": [
+     0,
+     3
+    ],
+    "Ezreal": [
+     3,
+     0
+    ],
+    "Alistar": [
+     0,
+     2
+    ],
+    "Soraka": [
+     3,
+     0
+    ],
+    "Ornn": [
+     0,
+     1
+    ],
+    "Gnar": [
+     1,
+     3
+    ],
+    "LeBlanc": [
+     3,
+     0
+    ],
+    "Xayah": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "LeBlanc",
+       "Leona",
+       "Ornn",
+       "Xayah"
+      ],
+      "hang_tb": 4.14,
+      "so_tran": 311
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Xayah"
+      ],
+      "hang_tb": 4.23,
+      "so_tran": 197
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.26,
+      "so_tran": 161
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.8,
+      "so_tran": 197
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.71,
+      "so_tran": 119
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "LeBlanc",
+       "Ornn",
+       "Rakan",
+       "Xayah"
+      ],
+      "hang_tb": 4.41,
+      "so_tran": 226
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alistar",
+       "Ezreal",
+       "Hecarim",
+       "LeBlanc",
+       "Ornn",
+       "Xayah",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.21,
+      "so_tran": 196
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Hecarim",
+       "LeBlanc",
+       "Ornn",
+       "Varus",
+       "Xayah",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.17,
+      "so_tran": 171
+     }
+    ]
+   }
+  },
+  "426037": {
+   "cap": [
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-6",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-1",
+     7
+    ],
+    [
+     "5-1",
+     8
+    ],
+    [
+     "6-6",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Elise": [
+     0,
+     3
+    ],
+    "Diana": [
+     0,
+     2
+    ],
+    "Murkwolf": [
+     0,
+     0
+    ],
+    "Brambleback": [
+     2,
+     0
+    ],
+    "Warwick": [
+     0,
+     2
+    ],
+    "Malphite": [
+     0,
+     3
+    ],
+    "Hecarim": [
+     0,
+     1
+    ],
+    "Camille": [
+     0,
+     5
+    ],
+    "Aphelios": [
+     3,
+     0
+    ],
+    "Akali": [
+     2,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Akali",
+       "Diana",
+       "Elise",
+       "Warwick"
+      ],
+      "hang_tb": 3.83,
+      "so_tran": 12
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 3.92,
+      "so_tran": 49
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Diana",
+       "Elise",
+       "Murkwolf"
+      ],
+      "hang_tb": 2.8,
+      "so_tran": 15
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Diana",
+       "Elise",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.55,
+      "so_tran": 29
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "Warwick",
+       "Murkwolf",
+       "Sentinel"
+      ],
+      "hang_tb": 3.21,
+      "so_tran": 43
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Elise",
+       "KhaZix",
+       "Warwick",
+       "Brambleback",
+       "Murkwolf"
+      ],
+      "hang_tb": 3.73,
+      "so_tran": 26
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Camille",
+       "Diana",
+       "Rengar",
+       "Warwick",
+       "Brambleback",
+       "Murkwolf",
+       "Sentinel"
+      ],
+      "hang_tb": 3.24,
+      "so_tran": 34
+     },
+     {
+      "tuong": [
+       "Camille",
+       "Diana",
+       "Elise",
+       "Warwick",
+       "Brambleback",
+       "Murkwolf",
+       "Sentinel"
+      ],
+      "hang_tb": 3.61,
+      "so_tran": 236
+     }
+    ]
+   }
+  },
+  "426038": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-2",
+     9
+    ],
+    [
+     "7-1",
+     10
+    ]
+   ],
+   "vi_tri": {
+    "Sett": [
+     0,
+     3
+    ],
+    "Ashe": [
+     3,
+     0
+    ],
+    "Ahri": [
+     3,
+     0
+    ],
+    "Karma": [
+     3,
+     1
+    ],
+    "Yorick": [
+     0,
+     2
+    ],
+    "Yunara": [
+     3,
+     2
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Gnar": [
+     1,
+     3
+    ],
+    "Sivir": [
+     3,
+     0
+    ],
+    "Amumu": [
+     0,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Rakan",
+       "Veigar",
+       "Yorick",
+       "Karma"
+      ],
+      "hang_tb": 3.98,
+      "so_tran": 110
+     },
+     {
+      "tuong": [
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.48,
+      "so_tran": 121
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "LeBlanc",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.63,
+      "so_tran": 120
+     },
+     {
+      "tuong": [
+       "MasterYi",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.78,
+      "so_tran": 147
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Azir",
+       "MasterYi",
+       "Sett",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.11,
+      "so_tran": 27
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "MasterYi",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Vi"
+      ],
+      "hang_tb": 3.96,
+      "so_tran": 25
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Ahri",
+       "Azir",
+       "MasterYi",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Vi"
+      ],
+      "hang_tb": 3.68,
+      "so_tran": 25
+     },
+     {
+      "tuong": [
+       "MasterYi",
+       "Sett",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Krug",
+       "Vi"
+      ],
+      "hang_tb": 4.0,
+      "so_tran": 22
+     }
+    ]
+   }
+  },
+  "426039": {
+   "cap": [
+    [
+     "2-3",
+     4
+    ],
+    [
+     "3-1",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-3",
+     7
+    ],
+    [
+     "5-3",
+     8
+    ],
+    [
+     "6-5",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Caitlyn": [
+     3,
+     6
+    ],
+    "Scuttlecrab": [
+     0,
+     3
+    ],
+    "Sivir": [
+     3,
+     5
+    ],
+    "Sejuani": [
+     0,
+     3
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Rakan": [
+     0,
+     2
+    ],
+    "Tristana": [
+     3,
+     1
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Ashe": [
+     3,
+     0
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Yorick": [
+     0,
+     1
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Sejuani",
+       "Cinderling",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.18,
+      "so_tran": 164
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Rakan",
+       "Yorick",
+       "Cinderling"
+      ],
+      "hang_tb": 4.32,
+      "so_tran": 167
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 4.36,
+      "so_tran": 236
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Elise",
+       "Rakan",
+       "Yorick"
+      ],
+      "hang_tb": 4.51,
+      "so_tran": 133
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Sejuani",
+       "Sivir",
+       "Amumu",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 4.5,
+      "so_tran": 562
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Rakan",
+       "Sejuani",
+       "Sivir",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 4.65,
+      "so_tran": 2409
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Sejuani",
+       "Sivir",
+       "Yorick",
+       "Amumu",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.92,
+      "so_tran": 157
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Rakan",
+       "Sejuani",
+       "Sivir",
+       "Tristana",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.98,
+      "so_tran": 1782
+     }
+    ]
+   }
+  },
+  "426040": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Ashe": [
+     3,
+     0
+    ],
+    "Sivir": [
+     3,
+     0
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Vi": [
+     0,
+     2
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Kennen": [
+     1,
+     3
+    ],
+    "Rakan": [
+     0,
+     1
+    ],
+    "Shen": [
+     0,
+     2
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Varus": [
+     3,
+     0
+    ],
+    "Ivern": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 3.71,
+      "so_tran": 200
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.36,
+      "so_tran": 443
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 3.37,
+      "so_tran": 92
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.48,
+      "so_tran": 190
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Akali",
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 3.83,
+      "so_tran": 46
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Vi"
+      ],
+      "hang_tb": 4.18,
+      "so_tran": 61
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Morgana",
+       "Sivir",
+       "Vi"
+      ],
+      "hang_tb": 3.33,
+      "so_tran": 33
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Sivir",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.71,
+      "so_tran": 28
+     }
+    ]
+   }
+  },
+  "426041": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sentinel": [
+     0,
+     3
+    ],
+    "KogMaw": [
+     3,
+     1
+    ],
+    "Nidalee": [
+     3,
+     0
+    ],
+    "Sivir": [
+     3,
+     0
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Morgana": [
+     1,
+     2
+    ],
+    "Scuttlecrab": [
+     0,
+     2
+    ],
+    "Cinderling": [
+     3,
+     0
+    ],
+    "Sentry": [
+     3,
+     6
+    ],
+    "Hecarim": [
+     0,
+     1
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Akali",
+       "Caitlyn",
+       "Camille",
+       "Elise"
+      ],
+      "hang_tb": 4.53,
+      "so_tran": 32
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.71,
+      "so_tran": 52
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Diana",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 2.68,
+      "so_tran": 19
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Caitlyn",
+       "Camille",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 2.83,
+      "so_tran": 12
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Akali",
+       "LeBlanc",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Brambleback"
+      ],
+      "hang_tb": 3.0,
+      "so_tran": 8
+     },
+     {
+      "tuong": [
+       "Gromp",
+       "KogMaw",
+       "Nidalee",
+       "Scuttlecrab",
+       "Sentinel",
+       "Vi"
+      ],
+      "hang_tb": 4.04,
+      "so_tran": 23
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Akali",
+       "KhaZix",
+       "Morgana",
+       "Amumu",
+       "KogMaw",
+       "Nidalee",
+       "Vi"
+      ],
+      "hang_tb": 1.0,
+      "so_tran": 11
+     },
+     {
+      "tuong": [
+       "Sentry",
+       "Teemo",
+       "KogMaw",
+       "Nidalee",
+       "Scuttlecrab",
+       "Sentinel",
+       "Vi"
+      ],
+      "hang_tb": 1.15,
+      "so_tran": 13
+     }
+    ]
+   }
+  },
+  "426042": {
+   "cap": [
+    [
+     "2-6",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "5-5",
+     8
+    ],
+    [
+     "6-3",
+     9
+    ],
+    [
+     "7-2",
+     10
+    ]
+   ],
+   "vi_tri": {
+    "Tristana": [
+     3,
+     0
+    ],
+    "Rammus": [
+     0,
+     3
+    ],
+    "Rengar": [
+     2,
+     6
+    ],
+    "Sivir": [
+     3,
+     1
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Rakan": [
+     0,
+     2
+    ],
+    "Lillia": [
+     0,
+     3
+    ],
+    "Xayah": [
+     3,
+     1
+    ],
+    "Kobuko": [
+     2,
+     2
+    ],
+    "Gnar": [
+     1,
+     3
+    ],
+    "Ashe": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Rakan",
+       "Rengar",
+       "Tristana",
+       "Yorick"
+      ],
+      "hang_tb": 3.92,
+      "so_tran": 51
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Rengar",
+       "Xayah",
+       "Yorick"
+      ],
+      "hang_tb": 4.33,
+      "so_tran": 69
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Rakan",
+       "Rengar",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.71,
+      "so_tran": 51
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Rammus",
+       "Rengar",
+       "Tristana",
+       "Xayah"
+      ],
+      "hang_tb": 3.97,
+      "so_tran": 62
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Rakan",
+       "Rammus",
+       "Rengar",
+       "Tristana",
+       "Xayah",
+       "Vi"
+      ],
+      "hang_tb": 4.4,
+      "so_tran": 134
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "Rakan",
+       "Rammus",
+       "Rengar",
+       "Tristana",
+       "Xayah"
+      ],
+      "hang_tb": 4.94,
+      "so_tran": 112
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Lillia",
+       "Rakan",
+       "Rammus",
+       "Rengar",
+       "Sivir",
+       "Tristana",
+       "Vi"
+      ],
+      "hang_tb": 3.92,
+      "so_tran": 3976
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Rammus",
+       "Rengar",
+       "Sivir",
+       "Tristana",
+       "Xayah",
+       "Vi"
+      ],
+      "hang_tb": 4.69,
+      "so_tran": 796
+     }
+    ]
+   }
+  },
+  "426043": {
+   "cap": [
+    [
+     "1-4",
+     3
+    ],
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Azir": [
+     3,
+     0
+    ],
+    "Zyra": [
+     3,
+     0
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Yorick": [
+     0,
+     1
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Soraka": [
+     2,
+     3
+    ],
+    "Rakan": [
+     0,
+     2
+    ],
+    "Kennen": [
+     1,
+     3
+    ],
+    "Malphite": [
+     0,
+     3
+    ],
+    "Scuttlecrab": [
+     0,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.38,
+      "so_tran": 24
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.5,
+      "so_tran": 28
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Azir",
+       "Sejuani",
+       "Yorick",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 2.93,
+      "so_tran": 15
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Rakan",
+       "Yorick",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 4.63,
+      "so_tran": 24
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Azir",
+       "Sejuani",
+       "Yorick",
+       "Yunara",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.0,
+      "so_tran": 18
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Rakan",
+       "Sejuani",
+       "Yorick",
+       "Scuttlecrab",
+       "Vi"
+      ],
+      "hang_tb": 3.74,
+      "so_tran": 27
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Azir",
+       "Diana",
+       "Hecarim",
+       "KhaZix",
+       "Yorick",
+       "Zyra",
+       "Amumu"
+      ],
+      "hang_tb": 3.0,
+      "so_tran": 12
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Rammus",
+       "Soraka",
+       "Teemo",
+       "Veigar",
+       "Zyra",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.63,
+      "so_tran": 27
+     }
+    ]
+   }
+  },
+  "426044": {
+   "cap": [
+    [
+     "1-4",
+     3
+    ],
+    [
+     "2-3",
+     4
+    ],
+    [
+     "3-1",
+     5
+    ],
+    [
+     "4-1",
+     6
+    ],
+    [
+     "4-3",
+     7
+    ],
+    [
+     "5-2",
+     8
+    ],
+    [
+     "6-3",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Veigar": [
+     3,
+     0
+    ],
+    "RekSai": [
+     0,
+     3
+    ],
+    "Kobuko": [
+     2,
+     3
+    ],
+    "Teemo": [
+     3,
+     1
+    ],
+    "Rammus": [
+     0,
+     3
+    ],
+    "Fiddlesticks": [
+     2,
+     2
+    ],
+    "Tristana": [
+     3,
+     6
+    ],
+    "LeBlanc": [
+     3,
+     1
+    ],
+    "Ornn": [
+     0,
+     3
+    ],
+    "Gnar": [
+     1,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Kobuko",
+       "Rammus",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 4.7,
+      "so_tran": 172
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "RekSai",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.74,
+      "so_tran": 72
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Kobuko",
+       "LeBlanc",
+       "RekSai",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 4.81,
+      "so_tran": 183
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "LeBlanc",
+       "Rammus",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 5.1,
+      "so_tran": 70
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Kobuko",
+       "LeBlanc",
+       "Rammus",
+       "RekSai",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 4.73,
+      "so_tran": 45
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "Rammus",
+       "RekSai",
+       "Teemo",
+       "Tristana",
+       "Veigar"
+      ],
+      "hang_tb": 4.76,
+      "so_tran": 59
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Kobuko",
+       "LeBlanc",
+       "Rammus",
+       "RekSai",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.84,
+      "so_tran": 31
+     },
+     {
+      "tuong": [
+       "Gnar",
+       "Kobuko",
+       "Rammus",
+       "RekSai",
+       "Teemo",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.23,
+      "so_tran": 134
+     }
+    ]
+   }
+  },
+  "426045": {
+   "cap": [
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sivir": [
+     3,
+     0
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Nidalee": [
+     2,
+     0
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Ashe": [
+     3,
+     0
+    ],
+    "KogMaw": [
+     3,
+     1
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Shen": [
+     0,
+     3
+    ],
+    "Lillia": [
+     0,
+     3
+    ],
+    "Varus": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 3.88,
+      "so_tran": 24
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 4.46,
+      "so_tran": 28
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Alistar",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.07,
+      "so_tran": 14
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Vi"
+      ],
+      "hang_tb": 4.54,
+      "so_tran": 13
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Akali",
+       "Shen",
+       "Varus",
+       "Amumu",
+       "Nidalee",
+       "Vi"
+      ],
+      "hang_tb": 3.44,
+      "so_tran": 9
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Shen",
+       "Varus",
+       "Yorick",
+       "Nidalee",
+       "Vi"
+      ],
+      "hang_tb": 4.0,
+      "so_tran": 7
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Ashe",
+       "Rengar",
+       "Sivir",
+       "Amumu",
+       "KogMaw",
+       "Nidalee",
+       "Vi"
+      ],
+      "hang_tb": 3.0,
+      "so_tran": 7
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Rakan",
+       "Sivir",
+       "Vi"
+      ],
+      "hang_tb": 3.71,
+      "so_tran": 7
+     }
+    ]
+   }
+  },
+  "426046": {
+   "cap": [
+    [
+     "1-4",
+     3
+    ],
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-5",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sett": [
+     0,
+     3
+    ],
+    "Ashe": [
+     3,
+     0
+    ],
+    "Sivir": [
+     3,
+     0
+    ],
+    "Vi": [
+     0,
+     2
+    ],
+    "Gnar": [
+     1,
+     3
+    ],
+    "Yorick": [
+     0,
+     2
+    ],
+    "Ahri": [
+     3,
+     2
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Krug": [
+     0,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Yorick",
+       "Yunara",
+       "Karma",
+       "Vi"
+      ],
+      "hang_tb": 3.74,
+      "so_tran": 31
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.96,
+      "so_tran": 101
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "MasterYi",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.96,
+      "so_tran": 25
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Ornn",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.8,
+      "so_tran": 25
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Sivir",
+       "Vi"
+      ],
+      "hang_tb": 2.5,
+      "so_tran": 8
+     },
+     {
+      "tuong": [
+       "KhaZix",
+       "MasterYi",
+       "Sett",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 2.5,
+      "so_tran": 8
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "MasterYi",
+       "Rengar",
+       "Sett",
+       "Yorick",
+       "Krug",
+       "Nidalee",
+       "Vi"
+      ],
+      "hang_tb": 1.92,
+      "so_tran": 13
+     },
+     {
+      "tuong": [
+       "Gnar",
+       "MasterYi",
+       "Rengar",
+       "Sett",
+       "Yorick",
+       "KogMaw",
+       "Krug"
+      ],
+      "hang_tb": 2.0,
+      "so_tran": 11
+     }
+    ]
+   }
+  },
+  "426047": {
+   "cap": [
+    [
+     "2-1",
+     3
+    ],
+    [
+     "2-2",
+     4
+    ],
+    [
+     "2-6",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-1",
+     7
+    ],
+    [
+     "5-1",
+     8
+    ],
+    [
+     "6-2",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Rammus": [
+     0,
+     3
+    ],
+    "Tristana": [
+     3,
+     0
+    ],
+    "Teemo": [
+     3,
+     0
+    ],
+    "Kobuko": [
+     0,
+     3
+    ],
+    "Veigar": [
+     3,
+     2
+    ],
+    "Gnar": [
+     1,
+     2
+    ],
+    "Lillia": [
+     0,
+     4
+    ],
+    "Ashe": [
+     3,
+     0
+    ],
+    "Fiddlesticks": [
+     2,
+     3
+    ],
+    "KogMaw": [
+     3,
+     1
+    ],
+    "Sivir": [
+     3,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Kobuko",
+       "LeBlanc",
+       "Rammus",
+       "Veigar"
+      ],
+      "hang_tb": 3.86,
+      "so_tran": 7
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "Rengar",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 5.25,
+      "so_tran": 8
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Kobuko",
+       "Rammus",
+       "Teemo",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 2.56,
+      "so_tran": 18
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "Rammus",
+       "Rengar",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 4.6,
+      "so_tran": 10
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Kobuko",
+       "Rammus",
+       "Rengar",
+       "Teemo",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.32,
+      "so_tran": 19
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "Rammus",
+       "RekSai",
+       "Teemo",
+       "Tristana",
+       "Veigar"
+      ],
+      "hang_tb": 5.47,
+      "so_tran": 17
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Kobuko",
+       "Rammus",
+       "Rengar",
+       "Teemo",
+       "Tristana",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.17,
+      "so_tran": 47
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "Rammus",
+       "Teemo",
+       "Tristana",
+       "Veigar",
+       "Fiddlesticks",
+       "KogMaw"
+      ],
+      "hang_tb": 3.98,
+      "so_tran": 41
+     }
+    ]
+   }
+  },
+  "426048": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "5-1",
+     8
+    ],
+    [
+     "6-2",
+     9
+    ],
+    [
+     "7-2",
+     10
+    ]
+   ],
+   "vi_tri": {
+    "Tristana": [
+     3,
+     0
+    ],
+    "Rammus": [
+     0,
+     3
+    ],
+    "Sivir": [
+     3,
+     5
+    ],
+    "Vi": [
+     0,
+     3
+    ],
+    "Lillia": [
+     0,
+     3
+    ],
+    "Rakan": [
+     0,
+     2
+    ],
+    "Xayah": [
+     3,
+     6
+    ],
+    "Ashe": [
+     3,
+     0
+    ],
+    "Kobuko": [
+     0,
+     1
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Gnar": [
+     1,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Rakan",
+       "Tristana",
+       "Xayah",
+       "Vi"
+      ],
+      "hang_tb": 3.85,
+      "so_tran": 55
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Varus",
+       "Xayah",
+       "Vi"
+      ],
+      "hang_tb": 4.21,
+      "so_tran": 61
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Kobuko",
+       "Rakan",
+       "Rammus",
+       "Tristana",
+       "Vi"
+      ],
+      "hang_tb": 3.22,
+      "so_tran": 37
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Elise",
+       "Rakan",
+       "Tristana"
+      ],
+      "hang_tb": 3.65,
+      "so_tran": 26
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Kobuko",
+       "Rakan",
+       "Rammus",
+       "Sivir",
+       "Tristana",
+       "Vi"
+      ],
+      "hang_tb": 2.48,
+      "so_tran": 29
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Rammus",
+       "Sivir",
+       "Tristana",
+       "Xayah",
+       "Vi"
+      ],
+      "hang_tb": 3.67,
+      "so_tran": 21
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Gnar",
+       "Lillia",
+       "Rakan",
+       "Rammus",
+       "Sivir",
+       "Tristana",
+       "Vi"
+      ],
+      "hang_tb": 3.75,
+      "so_tran": 366
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "Lillia",
+       "Rakan",
+       "Rammus",
+       "Sivir",
+       "Tristana",
+       "Vi"
+      ],
+      "hang_tb": 3.89,
+      "so_tran": 1851
+     }
+    ]
+   }
+  },
+  "426049": {
+   "cap": [
+    [
+     "3-1",
+     5
+    ],
+    [
+     "3-5",
+     6
+    ],
+    [
+     "4-2",
+     7
+    ],
+    [
+     "5-1",
+     8
+    ],
+    [
+     "6-2",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Veigar": [
+     3,
+     0
+    ],
+    "Malphite": [
+     0,
+     3
+    ],
+    "RekSai": [
+     0,
+     3
+    ],
+    "Kobuko": [
+     2,
+     3
+    ],
+    "Azir": [
+     3,
+     6
+    ],
+    "Soraka": [
+     2,
+     3
+    ],
+    "Fiddlesticks": [
+     2,
+     2
+    ],
+    "Rammus": [
+     2,
+     3
+    ],
+    "Ornn": [
+     0,
+     3
+    ],
+    "LeBlanc": [
+     2,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 3.46,
+      "so_tran": 93
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 3.86,
+      "so_tran": 71
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 3.69,
+      "so_tran": 242
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "LeBlanc",
+       "RekSai",
+       "Teemo",
+       "Veigar"
+      ],
+      "hang_tb": 3.84,
+      "so_tran": 56
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "Azir",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 3.22,
+      "so_tran": 27
+     },
+     {
+      "tuong": [
+       "Kobuko",
+       "Malphite",
+       "Rammus",
+       "RekSai",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.8,
+      "so_tran": 25
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 2.36,
+      "so_tran": 39
+     },
+     {
+      "tuong": [
+       "Alistar",
+       "Cassiopeia",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.18,
+      "so_tran": 33
+     }
+    ]
+   }
+  },
+  "426050": {
+   "cap": [
+    [
+     "1-4",
+     3
+    ],
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-5",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Soraka": [
+     3,
+     0
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Ezreal": [
+     3,
+     0
+    ],
+    "Fiddlesticks": [
+     0,
+     4
+    ],
+    "Kennen": [
+     1,
+     2
+    ],
+    "Lillia": [
+     0,
+     3
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Azir": [
+     3,
+     6
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Hecarim": [
+     0,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 5.19,
+      "so_tran": 48
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 5.23,
+      "so_tran": 22
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Rakan",
+       "Soraka",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.09,
+      "so_tran": 11
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Shen",
+       "Varus",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 5.1,
+      "so_tran": 10
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Shen",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.29,
+      "so_tran": 7
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "KhaZix",
+       "Rakan"
+      ],
+      "hang_tb": 4.0,
+      "so_tran": 6
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Kennen",
+       "KhaZix",
+       "Maokai",
+       "Shen",
+       "Soraka",
+       "Fiddlesticks",
+       "Vi"
+      ],
+      "hang_tb": 2.0,
+      "so_tran": 10
+     },
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Lillia",
+       "Ornn",
+       "Rammus",
+       "Rengar",
+       "Shen",
+       "Fiddlesticks",
+       "Taric"
+      ],
+      "hang_tb": 2.0,
+      "so_tran": 9
+     }
+    ]
+   }
+  },
+  "426051": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-1",
+     7
+    ],
+    [
+     "5-1",
+     8
+    ],
+    [
+     "6-3",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Scuttlecrab": [
+     0,
+     3
+    ],
+    "Gromp": [
+     3,
+     0
+    ],
+    "Krug": [
+     0,
+     3
+    ],
+    "Sentry": [
+     3,
+     0
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Cinderling": [
+     3,
+     2
+    ],
+    "Murkwolf": [
+     2,
+     1
+    ],
+    "Brambleback": [
+     2,
+     6
+    ],
+    "KogMaw": [
+     3,
+     1
+    ],
+    "CrimsonRaptor": [
+     3,
+     3
+    ],
+    "ElderDragon": [
+     2,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Sentry",
+       "Yorick",
+       "Gromp",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.23,
+      "so_tran": 278
+     },
+     {
+      "tuong": [
+       "Sentry",
+       "Yorick",
+       "Cinderling",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.55,
+      "so_tran": 425
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Sentry",
+       "Cinderling",
+       "Gromp",
+       "Krug",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.31,
+      "so_tran": 1608
+     },
+     {
+      "tuong": [
+       "Sentry",
+       "Gromp",
+       "Krug",
+       "Murkwolf",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.5,
+      "so_tran": 1333
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Sejuani",
+       "Sentry",
+       "Teemo",
+       "Gromp",
+       "KogMaw",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.53,
+      "so_tran": 261
+     },
+     {
+      "tuong": [
+       "Rakan",
+       "Sentry",
+       "Cinderling",
+       "Gromp",
+       "Murkwolf",
+       "Scuttlecrab"
+      ],
+      "hang_tb": 4.65,
+      "so_tran": 360
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Sentry",
+       "Brambleback",
+       "Gromp",
+       "Krug",
+       "Murkwolf",
+       "Scuttlecrab",
+       "Sentinel"
+      ],
+      "hang_tb": 3.97,
+      "so_tran": 4931
+     },
+     {
+      "tuong": [
+       "ElderDragon",
+       "Sentry",
+       "Gromp",
+       "Krug",
+       "Scuttlecrab",
+       "Sentinel"
+      ],
+      "hang_tb": 4.21,
+      "so_tran": 613
+     }
+    ]
+   }
+  },
+  "426052": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-5",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Sett": [
+     0,
+     3
+    ],
+    "Ahri": [
+     3,
+     2
+    ],
+    "Cassiopeia": [
+     3,
+     0
+    ],
+    "Fiddlesticks": [
+     0,
+     3
+    ],
+    "Karma": [
+     3,
+     6
+    ],
+    "Alune": [
+     3,
+     0
+    ],
+    "Lillia": [
+     0,
+     3
+    ],
+    "LeBlanc": [
+     3,
+     2
+    ],
+    "Gnar": [
+     1,
+     3
+    ],
+    "Malphite": [
+     0,
+     3
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "LeBlanc",
+       "Leona",
+       "Ornn",
+       "Xayah"
+      ],
+      "hang_tb": 3.81,
+      "so_tran": 32
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 4.06,
+      "so_tran": 108
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.3,
+      "so_tran": 23
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 4.33,
+      "so_tran": 49
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.19,
+      "so_tran": 21
+     },
+     {
+      "tuong": [
+       "Cassiopeia",
+       "LeBlanc",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 4.3,
+      "so_tran": 23
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alistar",
+       "LeBlanc",
+       "Ornn",
+       "RekSai",
+       "Veigar",
+       "Fiddlesticks",
+       "Karma"
+      ],
+      "hang_tb": 4.0,
+      "so_tran": 14
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Morgana",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.08,
+      "so_tran": 13
+     }
+    ]
+   }
+  },
+  "426053": {
+   "cap": [
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-2",
+     9
+    ],
+    [
+     "7-2",
+     10
+    ]
+   ],
+   "vi_tri": {
+    "Aphelios": [
+     3,
+     0
+    ],
+    "Diana": [
+     1,
+     2
+    ],
+    "Sentinel": [
+     0,
+     3
+    ],
+    "Kayle": [
+     3,
+     1
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Alune": [
+     3,
+     1
+    ],
+    "Maokai": [
+     0,
+     3
+    ],
+    "Leona": [
+     1,
+     3
+    ],
+    "Sejuani": [
+     0,
+     2
+    ],
+    "Taric": [
+     0,
+     3
+    ],
+    "Varus": [
+     3,
+     0
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Varus"
+      ],
+      "hang_tb": 3.95,
+      "so_tran": 63
+     },
+     {
+      "tuong": [
+       "LeBlanc",
+       "Leona",
+       "Ornn",
+       "Xayah"
+      ],
+      "hang_tb": 4.02,
+      "so_tran": 58
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 3.87,
+      "so_tran": 97
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Leona",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 3.91,
+      "so_tran": 33
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Aphelios",
+       "Diana",
+       "Kayle",
+       "Leona",
+       "Rakan",
+       "Sejuani"
+      ],
+      "hang_tb": 2.84,
+      "so_tran": 19
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Diana",
+       "Kayle",
+       "Leona",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 3.37,
+      "so_tran": 19
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Aphelios",
+       "Diana",
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 2.76,
+      "so_tran": 37
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus",
+       "Amumu"
+      ],
+      "hang_tb": 3.44,
+      "so_tran": 16
+     }
+    ]
+   }
+  },
+  "426054": {
+   "cap": [
+    [
+     "3-1",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-2",
+     7
+    ],
+    [
+     "5-2",
+     8
+    ],
+    [
+     "7-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Elise": [
+     0,
+     3
+    ],
+    "Cassiopeia": [
+     3,
+     0
+    ],
+    "Diana": [
+     1,
+     3
+    ],
+    "Morgana": [
+     1,
+     2
+    ],
+    "Hecarim": [
+     0,
+     4
+    ],
+    "Sentinel": [
+     0,
+     4
+    ],
+    "Caitlyn": [
+     3,
+     1
+    ],
+    "Alune": [
+     3,
+     1
+    ],
+    "Camille": [
+     0,
+     2
+    ],
+    "Rakan": [
+     0,
+     1
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 4.49,
+      "so_tran": 11380
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Elise"
+      ],
+      "hang_tb": 4.57,
+      "so_tran": 2021
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Diana",
+       "Elise",
+       "Hecarim"
+      ],
+      "hang_tb": 4.54,
+      "so_tran": 816
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Hecarim"
+      ],
+      "hang_tb": 4.55,
+      "so_tran": 2244
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Hecarim",
+       "Morgana"
+      ],
+      "hang_tb": 4.18,
+      "so_tran": 3947
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Morgana"
+      ],
+      "hang_tb": 4.36,
+      "so_tran": 7846
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alune",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "Morgana",
+       "Sentinel"
+      ],
+      "hang_tb": 2.86,
+      "so_tran": 5742
+     },
+     {
+      "tuong": [
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "LeBlanc",
+       "Morgana",
+       "Sentinel"
+      ],
+      "hang_tb": 3.29,
+      "so_tran": 2742
+     }
+    ]
+   }
+  },
+  "426055": {
+   "cap": [
+    [
+     "1-4",
+     3
+    ],
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-2",
+     8
+    ],
+    [
+     "5-2",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Aphelios": [
+     3,
+     0
+    ],
+    "Amumu": [
+     0,
+     3
+    ],
+    "Diana": [
+     1,
+     2
+    ],
+    "Varus": [
+     3,
+     1
+    ],
+    "Shen": [
+     0,
+     3
+    ],
+    "Kayle": [
+     3,
+     1
+    ],
+    "Alune": [
+     3,
+     1
+    ],
+    "Kennen": [
+     1,
+     2
+    ],
+    "Leona": [
+     1,
+     3
+    ],
+    "Sejuani": [
+     0,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Akali",
+       "Leona",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 5.2,
+      "so_tran": 40
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Camille",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 5.49,
+      "so_tran": 39
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Akali",
+       "Kayle",
+       "Leona",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 4.32,
+      "so_tran": 19
+     },
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 4.42,
+      "so_tran": 24
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 2.8,
+      "so_tran": 10
+     },
+     {
+      "tuong": [
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus",
+       "Amumu"
+      ],
+      "hang_tb": 2.92,
+      "so_tran": 12
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Aphelios",
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus",
+       "Amumu"
+      ],
+      "hang_tb": 2.38,
+      "so_tran": 13
+     },
+     {
+      "tuong": [
+       "Akali",
+       "Diana",
+       "Kayle",
+       "Leona",
+       "Sejuani",
+       "Shen",
+       "Varus"
+      ],
+      "hang_tb": 3.44,
+      "so_tran": 18
+     }
+    ]
+   }
+  },
+  "426056": {
+   "cap": [
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-6",
+     7
+    ],
+    [
+     "4-5",
+     8
+    ],
+    [
+     "6-5",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Malphite": [
+     0,
+     3
+    ],
+    "Azir": [
+     3,
+     0
+    ],
+    "Veigar": [
+     2,
+     3
+    ],
+    "Soraka": [
+     2,
+     3
+    ],
+    "KhaZix": [
+     0,
+     1
+    ],
+    "Krug": [
+     2,
+     3
+    ],
+    "RekSai": [
+     2,
+     2
+    ],
+    "Ahri": [
+     2,
+     3
+    ],
+    "Fiddlesticks": [
+     2,
+     3
+    ],
+    "Warwick": [
+     2,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Kobuko",
+       "LeBlanc",
+       "RekSai",
+       "Veigar"
+      ],
+      "hang_tb": 3.67,
+      "so_tran": 18
+     },
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "Rakan",
+       "Yorick"
+      ],
+      "hang_tb": 4.59,
+      "so_tran": 22
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "KhaZix",
+       "Veigar",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.36,
+      "so_tran": 14
+     },
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 3.88,
+      "so_tran": 16
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "RekSai",
+       "Veigar",
+       "Warwick",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.75,
+      "so_tran": 24
+     },
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "Malphite",
+       "RekSai",
+       "Veigar",
+       "Warwick"
+      ],
+      "hang_tb": 3.97,
+      "so_tran": 32
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "Malphite",
+       "RekSai",
+       "Soraka",
+       "Warwick",
+       "Krug"
+      ],
+      "hang_tb": 2.71,
+      "so_tran": 82
+     },
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "Malphite",
+       "RekSai",
+       "Veigar",
+       "Warwick",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.95,
+      "so_tran": 76
+     }
+    ]
+   }
+  },
+  "426057": {
+   "cap": [
+    [
+     "2-1",
+     4
+    ],
+    [
+     "2-5",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "3-5",
+     7
+    ],
+    [
+     "4-3",
+     8
+    ],
+    [
+     "6-1",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "KhaZix": [
+     0,
+     1
+    ],
+    "Azir": [
+     3,
+     0
+    ],
+    "Fiddlesticks": [
+     0,
+     3
+    ],
+    "Diana": [
+     1,
+     1
+    ],
+    "Aphelios": [
+     3,
+     0
+    ],
+    "Rammus": [
+     0,
+     3
+    ],
+    "Veigar": [
+     2,
+     3
+    ],
+    "Soraka": [
+     3,
+     0
+    ],
+    "Rakan": [
+     0,
+     3
+    ],
+    "Alune": [
+     3,
+     0
+    ],
+    "Yorick": [
+     0,
+     4
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Alistar",
+       "KhaZix",
+       "LeBlanc",
+       "Ornn"
+      ],
+      "hang_tb": 3.13,
+      "so_tran": 8
+     },
+     {
+      "tuong": [
+       "KhaZix",
+       "LeBlanc",
+       "Ornn",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.5,
+      "so_tran": 6
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Akali",
+       "KhaZix",
+       "Shen",
+       "Varus",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 4.67,
+      "so_tran": 6
+     },
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "Rammus",
+       "RekSai",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 5.0,
+      "so_tran": 6
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Akali",
+       "Cassiopeia",
+       "KhaZix",
+       "Shen",
+       "Varus",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 5.0,
+      "so_tran": 5
+     },
+     {
+      "tuong": [
+       "Azir",
+       "KhaZix",
+       "Rakan",
+       "Yorick",
+       "Yunara",
+       "Karma"
+      ],
+      "hang_tb": 6.8,
+      "so_tran": 5
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Diana",
+       "Ezreal",
+       "Hecarim",
+       "KhaZix",
+       "Ornn",
+       "Soraka",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 2.33,
+      "so_tran": 27
+     },
+     {
+      "tuong": [
+       "Azir",
+       "Diana",
+       "Hecarim",
+       "KhaZix",
+       "Rammus",
+       "Veigar",
+       "Fiddlesticks"
+      ],
+      "hang_tb": 3.0,
+      "so_tran": 11
+     }
+    ]
+   }
+  },
+  "426058": {
+   "cap": [
+    [
+     "1-4",
+     3
+    ],
+    [
+     "2-2",
+     4
+    ],
+    [
+     "3-1",
+     5
+    ],
+    [
+     "3-3",
+     6
+    ],
+    [
+     "4-2",
+     7
+    ],
+    [
+     "5-1",
+     8
+    ],
+    [
+     "6-2",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Xayah": [
+     3,
+     0
+    ],
+    "Varus": [
+     3,
+     1
+    ],
+    "Ornn": [
+     0,
+     3
+    ],
+    "Rakan": [
+     0,
+     3
+    ],
+    "Tristana": [
+     3,
+     6
+    ],
+    "Hecarim": [
+     0,
+     3
+    ],
+    "Lillia": [
+     0,
+     2
+    ],
+    "Amumu": [
+     0,
+     4
+    ],
+    "LeBlanc": [
+     3,
+     2
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Ornn",
+       "Rakan",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 5.37,
+      "so_tran": 137
+     },
+     {
+      "tuong": [
+       "Hecarim",
+       "Ornn",
+       "Rakan",
+       "Xayah"
+      ],
+      "hang_tb": 5.47,
+      "so_tran": 59
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Hecarim",
+       "Ornn",
+       "Rakan",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 5.05,
+      "so_tran": 232
+     },
+     {
+      "tuong": [
+       "Ornn",
+       "Rakan",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 5.57,
+      "so_tran": 63
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Hecarim",
+       "Ornn",
+       "Rakan",
+       "Shen",
+       "Varus",
+       "Xayah"
+      ],
+      "hang_tb": 4.49,
+      "so_tran": 81
+     },
+     {
+      "tuong": [
+       "Hecarim",
+       "Ornn",
+       "Rakan",
+       "Varus",
+       "Xayah",
+       "Amumu"
+      ],
+      "hang_tb": 4.93,
+      "so_tran": 41
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Akali",
+       "KhaZix",
+       "Rakan",
+       "Tristana",
+       "Varus",
+       "Xayah",
+       "Amumu"
+      ],
+      "hang_tb": 3.0,
+      "so_tran": 12
+     },
+     {
+      "tuong": [
+       "Hecarim",
+       "Ornn",
+       "Rakan",
+       "Tristana",
+       "Varus",
+       "Xayah",
+       "Amumu"
+      ],
+      "hang_tb": 4.11,
+      "so_tran": 18
+     }
+    ]
+   }
+  },
+  "426059": {
+   "cap": [
+    [
+     "2-2",
+     4
+    ],
+    [
+     "3-1",
+     5
+    ],
+    [
+     "3-2",
+     6
+    ],
+    [
+     "4-2",
+     7
+    ],
+    [
+     "5-5",
+     8
+    ],
+    [
+     "6-5",
+     9
+    ]
+   ],
+   "vi_tri": {
+    "Elise": [
+     0,
+     3
+    ],
+    "Cassiopeia": [
+     3,
+     0
+    ],
+    "Hecarim": [
+     0,
+     4
+    ],
+    "Diana": [
+     0,
+     2
+    ],
+    "Caitlyn": [
+     3,
+     0
+    ],
+    "Rakan": [
+     0,
+     1
+    ],
+    "Sentinel": [
+     0,
+     2
+    ],
+    "Camille": [
+     0,
+     2
+    ],
+    "Morgana": [
+     1,
+     2
+    ],
+    "Murkwolf": [
+     0,
+     0
+    ],
+    "Alune": [
+     3,
+     1
+    ]
+   },
+   "som": {
+    "4": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 6.13,
+      "so_tran": 369
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise"
+      ],
+      "hang_tb": 6.13,
+      "so_tran": 647
+     }
+    ],
+    "5": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise"
+      ],
+      "hang_tb": 6.12,
+      "so_tran": 282
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Elise",
+       "Hecarim"
+      ],
+      "hang_tb": 6.2,
+      "so_tran": 134
+     }
+    ],
+    "6": [
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "Rakan"
+      ],
+      "hang_tb": 5.98,
+      "so_tran": 281
+     },
+     {
+      "tuong": [
+       "Caitlyn",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Rakan"
+      ],
+      "hang_tb": 6.21,
+      "so_tran": 382
+     }
+    ],
+    "7": [
+     {
+      "tuong": [
+       "Alune",
+       "Camille",
+       "Cassiopeia",
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "Rakan"
+      ],
+      "hang_tb": 4.09,
+      "so_tran": 78
+     },
+     {
+      "tuong": [
+       "Diana",
+       "Elise",
+       "Hecarim",
+       "Warwick",
+       "Brambleback",
+       "Murkwolf",
+       "Sentinel"
+      ],
+      "hang_tb": 4.41,
+      "so_tran": 78
+     }
+    ]
+   }
+  }
+ },
+ "do_tuong": {
+  "Sentinel": {
+   "hang_tb": 4.3238,
+   "ti_le": 42.1,
+   "do": [
+    "ProtectorsVow",
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "AdaptiveHelm",
+    "SpiritVisage"
+   ]
+  },
+  "Amumu": {
+   "hang_tb": 4.4218,
+   "ti_le": 32.4,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "Crownguard",
+    "ProtectorsVow"
+   ]
+  },
+  "Fiddlesticks": {
+   "hang_tb": 4.42,
+   "ti_le": 27.0,
+   "do": [
+    "ThiefsGloves",
+    "GargoyleStoneplate",
+    "IonicSpark",
+    "SunfireCape",
+    "WarmogsArmor"
+   ]
+  },
+  "Diana": {
+   "hang_tb": 4.4774,
+   "ti_le": 26.6,
+   "do": [
+    "ThiefsGloves",
+    "IonicSpark",
+    "HandOfJustice",
+    "JeweledGauntlet",
+    "Bloodthirster"
+   ]
+  },
+  "Taric": {
+   "hang_tb": 3.9856,
+   "ti_le": 25.8,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "ThiefsGloves",
+    "ProtectorsVow"
+   ]
+  },
+  "Kennen": {
+   "hang_tb": 4.0236,
+   "ti_le": 20.5,
+   "do": [
+    "ThiefsGloves",
+    "EdgeOfNight",
+    "HandOfJustice",
+    "RabadonsDeathcap",
+    "JeweledGauntlet"
+   ]
+  },
+  "Ornn": {
+   "hang_tb": 4.473,
+   "ti_le": 19.1,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "Crownguard",
+    "SteadfastHeart"
+   ]
+  },
+  "Maokai": {
+   "hang_tb": 4.2363,
+   "ti_le": 19.1,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "ProtectorsVow",
+    "Crownguard"
+   ]
+  },
+  "Ivern": {
+   "hang_tb": 3.9815,
+   "ti_le": 18.9,
+   "do": [
+    "SpearOfShojin",
+    "GuinsoosRageblade",
+    "AdaptiveHelm",
+    "BlueBuff",
+    "ArchangelsStaff"
+   ]
+  },
+  "Vi": {
+   "hang_tb": 4.6525,
+   "ti_le": 18.5,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "ThiefsGloves",
+    "SunfireCape"
+   ]
+  },
+  "Krug": {
+   "hang_tb": 4.4039,
+   "ti_le": 18.4,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "SunfireCape",
+    "DragonsClaw"
+   ]
+  },
+  "Hecarim": {
+   "hang_tb": 4.5993,
+   "ti_le": 18.3,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "ProtectorsVow",
+    "SunfireCape"
+   ]
+  },
+  "Soraka": {
+   "hang_tb": 4.2326,
+   "ti_le": 17.8,
+   "do": [
+    "SpearOfShojin",
+    "RabadonsDeathcap",
+    "VoidStaff",
+    "JeweledGauntlet",
+    "ArchangelsStaff"
+   ]
+  },
+  "Ezreal": {
+   "hang_tb": 4.3354,
+   "ti_le": 17.5,
+   "do": [
+    "SpearOfShojin",
+    "LastWhisper",
+    "Deathblade",
+    "InfinityEdge",
+    "RedBuff"
+   ]
+  },
+  "Gnar": {
+   "hang_tb": 3.8424,
+   "ti_le": 17.2,
+   "do": [
+    "ThiefsGloves",
+    "SteraksGage",
+    "Bloodthirster",
+    "EdgeOfNight",
+    "TitansResolve"
+   ]
+  },
+  "Aphelios": {
+   "hang_tb": 4.2824,
+   "ti_le": 17.1,
+   "do": [
+    "GuinsoosRageblade",
+    "KrakensFury",
+    "InfinityEdge",
+    "Deathblade",
+    "GiantSlayer"
+   ]
+  },
+  "Alistar": {
+   "hang_tb": 4.4905,
+   "ti_le": 16.8,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "Crownguard",
+    "DragonsClaw"
+   ]
+  },
+  "Yorick": {
+   "hang_tb": 4.685,
+   "ti_le": 16.6,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SunfireCape",
+    "ThiefsGloves",
+    "SpiritVisage"
+   ]
+  },
+  "LeBlanc": {
+   "hang_tb": 4.5029,
+   "ti_le": 15.2,
+   "do": [
+    "VoidStaff",
+    "SpearOfShojin",
+    "Morellonomicon",
+    "JeweledGauntlet",
+    "RedBuff"
+   ]
+  },
+  "Sentry": {
+   "hang_tb": 4.3544,
+   "ti_le": 14.8,
+   "do": [
+    "JeweledGauntlet",
+    "BlueBuff",
+    "ArchangelsStaff",
+    "RabadonsDeathcap",
+    "VoidStaff"
+   ]
+  },
+  "Azir": {
+   "hang_tb": 4.3184,
+   "ti_le": 14.6,
+   "do": [
+    "GuinsoosRageblade",
+    "HextechGunblade",
+    "RabadonsDeathcap",
+    "ArchangelsStaff",
+    "JeweledGauntlet"
+   ]
+  },
+  "ElderDragon": {
+   "hang_tb": 4.0235,
+   "ti_le": 14.6,
+   "do": [
+    "InfinityEdge",
+    "LastWhisper",
+    "SteraksGage",
+    "Deathblade",
+    "StrikersFlail"
+   ]
+  },
+  "Morgana": {
+   "hang_tb": 4.5206,
+   "ti_le": 14.4,
+   "do": [
+    "VoidStaff",
+    "Morellonomicon",
+    "RedBuff",
+    "HextechGunblade",
+    "RabadonsDeathcap"
+   ]
+  },
+  "Sett": {
+   "hang_tb": 4.5188,
+   "ti_le": 14.3,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "DragonsClaw",
+    "SteadfastHeart"
+   ]
+  },
+  "Veigar": {
+   "hang_tb": 4.3525,
+   "ti_le": 13.9,
+   "do": [
+    "JeweledGauntlet",
+    "BlueBuff",
+    "HextechGunblade"
+   ]
+  },
+  "Zyra": {
+   "hang_tb": 4.3633,
+   "ti_le": 13.8,
+   "do": [
+    "VoidStaff",
+    "ArchangelsStaff",
+    "SpearOfShojin",
+    "Morellonomicon",
+    "HextechGunblade"
+   ]
+  },
+  "KogMaw": {
+   "hang_tb": 4.3564,
+   "ti_le": 13.1,
+   "do": [
+    "RedBuff",
+    "SpearOfShojin",
+    "GuinsoosRageblade",
+    "Morellonomicon",
+    "InfinityEdge"
+   ]
+  },
+  "Alune": {
+   "hang_tb": 3.714,
+   "ti_le": 13.1,
+   "do": [
+    "SpearOfShojin",
+    "JeweledGauntlet",
+    "ArchangelsStaff",
+    "BlueBuff",
+    "VoidStaff"
+   ]
+  },
+  "Sejuani": {
+   "hang_tb": 4.6076,
+   "ti_le": 12.9,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "Crownguard",
+    "DragonsClaw"
+   ]
+  },
+  "Ahri": {
+   "hang_tb": 4.4729,
+   "ti_le": 12.4,
+   "do": [
+    "JeweledGauntlet",
+    "SpearOfShojin",
+    "StrikersFlail",
+    "RabadonsDeathcap",
+    "Emblem_Invoker"
+   ]
+  },
+  "Draven": {
+   "hang_tb": 4.2226,
+   "ti_le": 12.3,
+   "do": [
+    "GuinsoosRageblade",
+    "KrakensFury",
+    "InfinityEdge",
+    "Deathblade",
+    "LastWhisper"
+   ]
+  },
+  "Nidalee": {
+   "hang_tb": 4.411,
+   "ti_le": 12.3,
+   "do": [
+    "InfinityEdge",
+    "SteraksGage",
+    "SpearOfShojin",
+    "EdgeOfNight",
+    "HandOfJustice"
+   ]
+  },
+  "Scuttlecrab": {
+   "hang_tb": 4.5814,
+   "ti_le": 12.2,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "SunfireCape",
+    "DragonsClaw"
+   ]
+  },
+  "Karma": {
+   "hang_tb": 4.6755,
+   "ti_le": 11.8,
+   "do": [
+    "JeweledGauntlet",
+    "BlueBuff",
+    "RabadonsDeathcap",
+    "SpearOfShojin",
+    "Emblem_Executioner"
+   ]
+  },
+  "Varus": {
+   "hang_tb": 4.481,
+   "ti_le": 11.5,
+   "do": [
+    "SpearOfShojin",
+    "InfinityEdge",
+    "LastWhisper",
+    "Deathblade",
+    "GuinsoosRageblade"
+   ]
+  },
+  "Leona": {
+   "hang_tb": 4.5334,
+   "ti_le": 11.4,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "ThiefsGloves",
+    "SpiritVisage",
+    "SunfireCape"
+   ]
+  },
+  "Lux": {
+   "hang_tb": 3.5795,
+   "ti_le": 11.2,
+   "do": [
+    "SpearOfShojin",
+    "JeweledGauntlet",
+    "VoidStaff",
+    "RabadonsDeathcap",
+    "BlueBuff"
+   ]
+  },
+  "Brambleback": {
+   "hang_tb": 4.1964,
+   "ti_le": 10.8,
+   "do": [
+    "EdgeOfNight",
+    "SteraksGage",
+    "Quicksilver",
+    "InfinityEdge",
+    "Bloodthirster"
+   ]
+  },
+  "Cassiopeia": {
+   "hang_tb": 4.5902,
+   "ti_le": 10.7,
+   "do": [
+    "HextechGunblade",
+    "ArchangelsStaff",
+    "SpearOfShojin",
+    "VoidStaff",
+    "Morellonomicon"
+   ]
+  },
+  "Rammus": {
+   "hang_tb": 4.4139,
+   "ti_le": 10.5,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "Crownguard",
+    "SteadfastHeart"
+   ]
+  },
+  "Rakan": {
+   "hang_tb": 4.9311,
+   "ti_le": 10.5,
+   "do": [
+    "GargoyleStoneplate",
+    "ThiefsGloves",
+    "SpiritVisage",
+    "WarmogsArmor",
+    "ProtectorsVow"
+   ]
+  },
+  "Kayle": {
+   "hang_tb": 4.364,
+   "ti_le": 9.6,
+   "do": [
+    "GuinsoosRageblade",
+    "JeweledGauntlet",
+    "RabadonsDeathcap",
+    "HextechGunblade",
+    "RedBuff"
+   ]
+  },
+  "Yunara": {
+   "hang_tb": 4.6469,
+   "ti_le": 8.9,
+   "do": [
+    "SpearOfShojin",
+    "LastWhisper",
+    "Deathblade",
+    "InfinityEdge",
+    "RedBuff"
+   ]
+  },
+  "Lillia": {
+   "hang_tb": 4.5751,
+   "ti_le": 8.9,
+   "do": [
+    "GargoyleStoneplate",
+    "ProtectorsVow",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "AdaptiveHelm"
+   ]
+  },
+  "Murkwolf": {
+   "hang_tb": 4.3481,
+   "ti_le": 8.8,
+   "do": [
+    "EdgeOfNight",
+    "HandOfJustice",
+    "ThiefsGloves",
+    "InfinityEdge",
+    "SteraksGage"
+   ]
+  },
+  "RekSai": {
+   "hang_tb": 4.5072,
+   "ti_le": 8.3,
+   "do": [
+    "GargoyleStoneplate",
+    "ThiefsGloves",
+    "WarmogsArmor",
+    "SunfireCape",
+    "SpiritVisage"
+   ]
+  },
+  "Teemo": {
+   "hang_tb": 4.3212,
+   "ti_le": 7.8,
+   "do": [
+    "JeweledGauntlet",
+    "SpearOfShojin",
+    "VoidStaff",
+    "RabadonsDeathcap",
+    "BlueBuff"
+   ]
+  },
+  "Ashe": {
+   "hang_tb": 4.2414,
+   "ti_le": 7.5,
+   "do": [
+    "SpearOfShojin",
+    "RedBuff",
+    "LastWhisper",
+    "InfinityEdge",
+    "GuinsoosRageblade"
+   ]
+  },
+  "Sivir": {
+   "hang_tb": 4.7574,
+   "ti_le": 7.4,
+   "do": [
+    "InfinityEdge",
+    "LastWhisper",
+    "SpearOfShojin",
+    "RedBuff",
+    "GuinsoosRageblade"
+   ]
+  },
+  "Elise": {
+   "hang_tb": 5.0358,
+   "ti_le": 6.8,
+   "do": [
+    "GargoyleStoneplate",
+    "GuinsoosRageblade",
+    "TitansResolve",
+    "WarmogsArmor",
+    "Emblem_Slayer"
+   ]
+  },
+  "Xayah": {
+   "hang_tb": 4.6733,
+   "ti_le": 6.7,
+   "do": [
+    "GuinsoosRageblade",
+    "InfinityEdge",
+    "KrakensFury",
+    "Deathblade",
+    "LastWhisper"
+   ]
+  },
+  "Cinderling": {
+   "hang_tb": 4.4913,
+   "ti_le": 6.6,
+   "do": [
+    "InfinityEdge",
+    "LastWhisper",
+    "SpearOfShojin",
+    "BlueBuff",
+    "Deathblade"
+   ]
+  },
+  "Malphite": {
+   "hang_tb": 4.6422,
+   "ti_le": 6.4,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "Crownguard",
+    "SpiritVisage",
+    "SteadfastHeart"
+   ]
+  },
+  "KhaZix": {
+   "hang_tb": 4.3713,
+   "ti_le": 5.9,
+   "do": [
+    "HandOfJustice",
+    "RabadonsDeathcap",
+    "EdgeOfNight",
+    "NashorsTooth",
+    "JeweledGauntlet"
+   ]
+  },
+  "Shen": {
+   "hang_tb": 4.7409,
+   "ti_le": 5.8,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "SpiritVisage",
+    "ThiefsGloves",
+    "ProtectorsVow"
+   ]
+  },
+  "CrimsonRaptor": {
+   "hang_tb": 4.5246,
+   "ti_le": 4.2,
+   "do": [
+    "GuinsoosRageblade",
+    "LastWhisper",
+    "InfinityEdge",
+    "KrakensFury",
+    "Deathblade"
+   ]
+  },
+  "Gromp": {
+   "hang_tb": 4.3438,
+   "ti_le": 4.2,
+   "do": [
+    "JeweledGauntlet",
+    "SpearOfShojin",
+    "VoidStaff",
+    "BlueBuff",
+    "RabadonsDeathcap"
+   ]
+  },
+  "Rengar": {
+   "hang_tb": 4.5494,
+   "ti_le": 3.5,
+   "do": [
+    "GuinsoosRageblade",
+    "EdgeOfNight",
+    "TitansResolve",
+    "Emblem_Defender",
+    "SteraksGage"
+   ]
+  },
+  "Camille": {
+   "hang_tb": 5.3859,
+   "ti_le": 3.3,
+   "do": [
+    "SteraksGage",
+    "InfinityEdge",
+    "EdgeOfNight",
+    "HandOfJustice",
+    "Bloodthirster"
+   ]
+  },
+  "Akali": {
+   "hang_tb": 4.8781,
+   "ti_le": 3.1,
+   "do": [
+    "HandOfJustice",
+    "EdgeOfNight",
+    "JeweledGauntlet",
+    "InfinityEdge",
+    "RabadonsDeathcap"
+   ]
+  },
+  "MasterYi": {
+   "hang_tb": 4.6147,
+   "ti_le": 2.6,
+   "do": [
+    "GuinsoosRageblade",
+    "EdgeOfNight",
+    "Emblem_Brawler",
+    "Quicksilver",
+    "TitansResolve"
+   ]
+  },
+  "Kobuko": {
+   "hang_tb": 4.7795,
+   "ti_le": 2.6,
+   "do": [
+    "GargoyleStoneplate",
+    "WarmogsArmor",
+    "ThiefsGloves",
+    "SpiritVisage",
+    "SunfireCape"
+   ]
+  },
+  "Tristana": {
+   "hang_tb": 5.0711,
+   "ti_le": 2.5,
+   "do": [
+    "GuinsoosRageblade",
+    "InfinityEdge",
+    "HextechGunblade",
+    "KrakensFury",
+    "LastWhisper"
+   ]
+  },
+  "Caitlyn": {
+   "hang_tb": 5.9231,
+   "ti_le": 1.8,
+   "do": [
+    "GuinsoosRageblade",
+    "KrakensFury",
+    "HextechGunblade",
+    "InfinityEdge",
+    "Deathblade"
+   ]
+  },
+  "Warwick": {
+   "hang_tb": 4.6626,
+   "ti_le": 1.7,
+   "do": [
+    "SpearOfShojin",
+    "TitansResolve",
+    "SteraksGage",
+    "Quicksilver",
+    "InfinityEdge"
+   ]
+  }
+ }
+}

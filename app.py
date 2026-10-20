@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.2 (2026-10-20) — điểm vào của web
+# ĐTCL Coach v1.3 (2026-10-20) — điểm vào của web
 # Chạy local:  streamlit run app.py
 import streamlit as st
 
@@ -31,7 +31,8 @@ if not auth.current_user():
 
 user = auth.current_user()
 pages = [
-    st.Page("views/doi_hinh.py", title="Đội hình meta", icon="🏆", default=True),
+    st.Page("views/cam_nang.py", title="Cẩm nang Thách Đấu", icon="👑", default=True),
+    st.Page("views/doi_hinh.py", title="Đội hình meta", icon="🏆"),
     st.Page("views/tro_ly.py", title="Trợ lý ván đấu", icon="🧭"),
     st.Page("views/phan_tich.py", title="Phân tích bản cập nhật", icon="📈"),
     st.Page("views/loi.py", title="Lõi nâng cấp", icon="✨"),
@@ -54,7 +55,8 @@ with st.sidebar:
         st.markdown(f"<a href='?ban={khac[0]}' target='_blank' style='font-size:.85rem'>↗ Mở bản {khac[0]} ở tab mới</a>",
                     unsafe_allow_html=True)
     if st.session_state["bo"] != config.BO_MAC_DINH:
-        st.warning(f"Đang xem bản CŨ {st.session_state['bo']}. Bản mới: {config.BO_MAC_DINH}.", icon="🕘")
+        st.warning(f"Đang xem {config.BO_DU_LIEU[st.session_state['bo']][1]}. "
+                   f"Bản đang chạy trên máy chủ: {config.BO_MAC_DINH}.", icon="🕘")
     m = engine.data()["meta"]
     ai = f"{llm.provider()} · {llm.model_name()}" if llm.is_online() else "chưa bật (lời giải thích soạn sẵn)"
     st.caption(f"Mùa {m['mua']} · số liệu bản {m['phien_ban']}" + (f" · thay đổi {m['ban_moi']}" if m.get("ban_moi") else "")

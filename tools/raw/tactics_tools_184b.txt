@@ -1,0 +1,109 @@
+EM 18_EmblemJuggernaut 120588 4.28 53.71 14.11 Malphite:-0.10,Kennen:-0.06
+EM 18_EmblemRapidfire 137444 4.22 55.97 12.12 Brambleback:-0.08
+EM 18_EmblemCoven 40174 5.12 38.53 11.26
+EM 18_EmblemBlackthorn 141441 4.44 51.18 13.66 Yunara:-0.21,Zyra:-0.06,KhaZix:0.00
+EM 18_EmblemElderwood 190187 4.27 53.6 16 Aphelios:-0.14,Lillia:-0.12,Soraka:0.02
+EM 18_EmblemPrimal 81304 4.51 49.98 11.06 Tristana:-0.08,Ashe:0.01
+EM 18_EmblemFloraFatalisAugment 42836 4.55 49.08 11.48 Veigar:-0.14
+EM 18_EmblemSpellweaver 135988 4.31 53.21 14.63 Lux_Fae:-0.11,Lux_Moonbeam:-0.09,Lux_Blossom:-0.08,Lux_Blackthorn:-0.07,Lux_Elderwood:-0.05
+EM 18_EmblemSlayer 116672 4.32 54.3 11.66 Elise:-0.20,Nidalee:-0.15,Rengar:-0.14
+EM 18_EmblemInvoker 213930 4.34 53.12 13.64 Lux_Blossom:-0.16,Ahri:-0.14,Gromp:-0.08,Lux_Coven:-0.02,Lux_Base:0.02
+EM 18_EmblemInferno 148596 4.44 50.07 14.51 Ashe:-0.06,Draven:-0.05,Sivir:0.00
+EM 18_EmblemHunter 114782 4.55 48.98 11.62 ElderDragon:-0.08,Rengar:-0.07,Nidalee:-0.05
+EM 18_EmblemDefender 112147 4.26 54.17 13.99 Rengar:-0.29
+EM 18_EmblemBrawler 148104 4.15 56.34 14.15 MasterYi:-0.22,Rengar:-0.14
+EM 18_EmblemVanguard 138928 4.21 55.23 14.91 Lillia:-0.04,Sett:0.03
+EM 18_EmblemBlossom 96333 4.52 49.33 12.59 Sivir:0.02,Morgana:0.04
+EM 18_EmblemExecutioner 278765 4.25 54.45 15.5 Warwick:-0.37,Karma:-0.29,Lux_Elderwood:-0.18,Lux_Blackthorn:-0.18,Draven:-0.18
+EM 18_EmblemSprykin 67127 4.68 46.37 11.08 Rengar:0.00
+EM 18_EmblemLunar 169984 4.26 54.63 14.16 Varus:-0.25,Kayle:-0.07,Lux_Fae:-0.06,Lux_Sunbeam:-0.02
+EM 18_EmblemFloraFatalis 90847 4.34 52.74 13.43
+EM 18_EmblemFae 83968 4.64 47.15 13.51 Rengar:-0.08,Sivir:-0.04
+UN Caitlyn 73973 5.82 27.4 5.81 HextechGunblade+KrakensFury+GuinsoosRageblade+GiantSlayer+InfinityEdge
+UN Cinderling 291196 4.47 51.12 9.94 LastWhisper+SpearOfShojin+InfinityEdge+GiantSlayer+StrikersFlail
+UN Veigar 599347 4.35 52.67 13.59 HextechGunblade+GiantSlayer+SpearOfShojin+StrikersFlail+NashorsTooth
+UN Rakan 509702 4.93 42.06 9.94 WarmogsArmor+ThiefsGloves
+UN Krug 827380 4.39 52.48 10.83 WarmogsArmor+ThiefsGloves
+UN Sivir 377446 4.73 45.21 10.51 RedBuff+InfinityEdge+LastWhisper+GiantSlayer+StrikersFlail
+UN Warwick 77782 4.64 48.77 8.83 TitansResolve+EdgeOfNight+SteraksGage+SpearOfShojin+Bloodthirster
+UN Gromp 167784 4.38 53.01 10.73 VoidStaff+GiantSlayer+SpearOfShojin+RedBuff+StrikersFlail
+UN Nidalee 581227 4.44 52.64 7.72 SteraksGage+InfinityEdge+EdgeOfNight+SpearOfShojin+Bloodthirster
+UN ElderDragon 616869 4.04 57.01 21.17 StrikersFlail+LastWhisper+GiantSlayer+RedBuff+InfinityEdge
+UN KhaZix 262358 4.38 52.6 13.25 NashorsTooth+EdgeOfNight+StrikersFlail+Bloodthirster+ThiefsGloves
+UN Aphelios 804792 4.3 54.95 10.81 KrakensFury+InfinityEdge+GiantSlayer+RedBuff+GuinsoosRageblade
+UN MasterYi 108474 4.62 48.14 10.35 GuinsoosRageblade+EdgeOfNight+TitansResolve+GiantSlayer+KrakensFury
+UN Fiddlesticks 1204787 4.44 51.08 12.43 WarmogsArmor+TitansResolve+ThiefsGloves
+UN GnarSmall 765570 3.84 61.78 19.65 SteraksGage+EdgeOfNight+Bloodthirster+RedBuff+TitansResolve
+UN Draven 530339 4.22 52.59 22.47 KrakensFury+GuinsoosRageblade+InfinityEdge+RedBuff+GiantSlayer
+UN Sentry 666605 4.34 53.55 11.38 HextechGunblade+VoidStaff+GiantSlayer+StrikersFlail+SpearOfShojin
+UN Hecarim 821014 4.59 48.19 12.57 WarmogsArmor+ThiefsGloves
+UN KogMaw 618070 4.38 53.99 8.49 RedBuff+GiantSlayer+SpearOfShojin+HextechGunblade+InfinityEdge
+UN Rammus 456784 4.44 50.95 12.46 WarmogsArmor
+UN Alistar 753754 4.48 49.77 14.11 WarmogsArmor+ThiefsGloves
+UN Camille 128844 5.3 36.9 7.55 SteraksGage+EdgeOfNight+Bloodthirster+InfinityEdge+TitansResolve
+UN Diana 1204202 4.47 51.13 11.38 TitansResolve+Bloodthirster+EdgeOfNight+ThiefsGloves+WarmogsArmor
+UN Sett 694159 4.49 50.61 10.39 WarmogsArmor+SteraksGage+ThiefsGloves
+UN Ezreal 800804 4.34 52.37 14.92 RedBuff+InfinityEdge+LastWhisper+GiantSlayer+SpearOfShojin
+UN Kobuko 105428 4.8 45.02 8.52 WarmogsArmor+ThiefsGloves
+UN Ivern 869137 3.97 58.26 22.12 SpearOfShojin+RedBuff+VoidStaff+NashorsTooth+GuinsoosRageblade
+UN Malphite 329072 4.63 48.01 9.52 WarmogsArmor
+UN Alune 597803 3.68 65.26 21.25 VoidStaff+RedBuff+GiantSlayer+SpearOfShojin+NashorsTooth
+UN Elise 269640 5.06 39.6 12.91 TitansResolve+GuinsoosRageblade+WarmogsArmor+ThiefsGloves
+UN Kayle 351037 4.42 51.98 12.1 RedBuff+GuinsoosRageblade+GiantSlayer+HextechGunblade+StrikersFlail
+UN Akali 127854 4.83 45.02 8.62 InfinityEdge+EdgeOfNight+SteraksGage+GiantSlayer+Bloodthirster
+UN Ahri 609213 4.44 51.44 11.56 StrikersFlail+SpearOfShojin+NashorsTooth+GiantSlayer+VoidStaff
+UN Kennen 939484 4.03 57.58 20.16 EdgeOfNight+VoidStaff+Bloodthirster+StrikersFlail+HextechGunblade
+UN Shen 275937 4.71 46.2 10.51 WarmogsArmor+ThiefsGloves
+UN Amumu 1538398 4.41 51.35 13.79 WarmogsArmor+ThiefsGloves
+UN CrimsonRaptor 200789 4.53 50.27 9.61 LastWhisper+GiantSlayer+RedBuff+KrakensFury+HextechGunblade
+UN RekSai 381390 4.49 50.35 12.04 SteraksGage+WarmogsArmor+ThiefsGloves
+UN Teemo 320930 4.35 52.96 12.78 StrikersFlail+HextechGunblade+SpearOfShojin+GiantSlayer+NashorsTooth
+UN Soraka 816185 4.28 54.31 13.28 VoidStaff+NashorsTooth+SpearOfShojin+StrikersFlail+GiantSlayer
+UN Varus 540545 4.46 52.43 8.07 InfinityEdge+GiantSlayer+SpearOfShojin+StrikersFlail+LastWhisper
+UN Karma 442316 4.68 47.06 10.03 StrikersFlail+SpearOfShojin+GiantSlayer+NashorsTooth+HextechGunblade
+UN Vi 900278 4.66 47.67 8.6 WarmogsArmor+ThiefsGloves
+UN Sejuani 506804 4.64 47.79 10.83 WarmogsArmor+ThiefsGloves
+UN Taric 1149130 3.97 58.86 20.69 WarmogsArmor+ThiefsGloves
+UN Zyra 667965 4.41 51.78 12.02 VoidStaff+RedBuff+HextechGunblade+SpearOfShojin+GiantSlayer
+UN Brambleback 467984 4.22 55.86 11.42 EdgeOfNight+Bloodthirster+SteraksGage+GiantSlayer+TitansResolve
+UN LeBlanc 592796 4.48 50.14 13.44 VoidStaff+SpearOfShojin+HextechGunblade+RedBuff+GiantSlayer
+UN Murkwolf 362125 4.35 53.39 11.05 EdgeOfNight+SteraksGage+Bloodthirster+GiantSlayer+StrikersFlail
+UN Ornn 881234 4.45 50.92 12.79 WarmogsArmor+ThiefsGloves
+UN Tristana 116218 5.07 39.21 8.69 HextechGunblade+GiantSlayer+KrakensFury+GuinsoosRageblade+LastWhisper
+UN Azir 644958 4.42 51.77 12.15 HextechGunblade+GuinsoosRageblade+StrikersFlail+GiantSlayer+VoidStaff
+UN Leona 420918 4.55 49.62 11.23 WarmogsArmor+ThiefsGloves
+UN Yunara 314074 4.68 47.48 10.36 SpearOfShojin+LastWhisper+RedBuff+StrikersFlail+GiantSlayer
+UN Ashe 377734 4.2 55.23 16 RedBuff+SpearOfShojin+LastWhisper+GiantSlayer+InfinityEdge
+UN Scuttlecrab 557798 4.6 48.33 9.88 WarmogsArmor+ThiefsGloves
+UN Lillia 412741 4.58 48.15 12.16 WarmogsArmor+ThiefsGloves
+UN Xayah 324515 4.65 47.3 11.82 GiantSlayer+InfinityEdge+RedBuff+KrakensFury+HextechGunblade
+UN Morgana 640679 4.51 49.95 13.32 VoidStaff+RedBuff+HextechGunblade+SpearOfShojin+GiantSlayer
+UN Cassiopeia 444411 4.58 48.3 13.78 HextechGunblade+SpearOfShojin+VoidStaff+GiantSlayer+RedBuff
+UN Maokai 868716 4.22 53.45 19.58 WarmogsArmor+ThiefsGloves
+UN Rengar 154526 4.58 48.54 11.88 TitansResolve+EdgeOfNight+SteraksGage+GuinsoosRageblade+Bloodthirster
+UN Yorick 695942 4.7 46.51 10.02 WarmogsArmor+ThiefsGloves
+UN Sentinel 1887200 4.32 53.44 13.61 WarmogsArmor+ThiefsGloves
+TR Elderwood 1:4.39 2:4.77 3:4.37 4:2.69 5:1.07
+TR Slayer 1:4.33 2:4.23 3:4.08
+TR Hunter 1:4.66 2:4.54 3:4.15 4:3.89
+TR Juggernaut 1:4.40 2:4.91 3:4.46
+TR Summoner 1:4.38 2:4.45
+TR Sprykin 1:4.28 2:4.51 3:4.26
+TR Blackthorn 1:4.49 2:4.18 3:3.76
+TR Vanguard 1:4.30 2:4.47 3:3.61
+TR Blossom 1:4.53 2:4.22 3:4.63 4:3.80 5:1.33
+TR Rapidfire 1:4.42 2:4.03 3:4.10 4:4.04
+TR Inferno 1:4.26 2:4.31 3:4.17 4:3.71
+TR Defender 1:4.41 2:4.71 3:4.34
+TR Riftbeast 1:4.29 2:6.29 3:4.27 4:2.26
+TR Brawler 1:4.23 2:3.82 3:4.00
+TR Invoker 1:4.29 2:4.40 3:4.33 4:3.90
+TR Primal 1:4.50 2:4.14
+TR Lunar 1:4.34 2:3.81 3:3.42 4:3.10
+TR Adaptor 1:4.40 2:4.07 3:3.55
+TR Spellweaver 1:4.35 2:4.13 3:3.42
+TR Executioner 1:4.71 2:4.13 3:3.62
+TR Fae 1:4.70 2:4.69
+TR Coven 1:4.69 2:5.81 3:5.24 4:5.57
+TR FloraFatalis 1:4.69 2:4.25
+TR Rival 1:4.40 2:5.04 3:4.79

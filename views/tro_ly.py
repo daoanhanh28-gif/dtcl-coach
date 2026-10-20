@@ -1,9 +1,10 @@
-# ĐTCL Coach v1.2 (2026-10-20) — trang Trợ lý ván đấu: bấm hình để nhập, đọc 4 dòng kết luận (luật trong code + AI diễn giải)
+# ĐTCL Coach v1.3 (2026-10-20) — trang Trợ lý ván đấu: bấm hình để nhập, đọc 4 dòng kết luận (luật trong code + AI diễn giải)
 from collections import Counter
 
 import streamlit as st
 
 from core import coach, engine, ui
+from core import flex as F
 from core import plan as P
 
 d = engine.data()
@@ -317,95 +318,154 @@ with tab2:
         if info:
             st.markdown(f"<div style='font-size:.85rem'>{ui.rich(e)}: {ui.esc(info['cong_thuc'])} · {ui.esc(info['hieu_ung'])}</div>",
                         unsafe_allow_html=True)
-    res = engine.emblem_rank(sel, an["loai_do"].index(lean))
-    for i, x in enumerate(res[:3]):
-        c = x["doi_hinh"]
-        units, core = P.an_comp_units(c)
-        medal = ["Top 1", "Top 2", "Top 3"][i]
-        lines_an = "".join(f"<li>{ui.rich(l['an'])}: {ui.esc(l['dien_giai'])} · +{l['diem']:.1f} điểm</li>" for l in x["an"])
-        roles = {}
-        for k in ("chu_luc", "chu_luc_phu", "do_don"):
-            cid = engine.champ_id(c[k]["tuong"])
-            if cid:
-                roles[cid] = [i2 for i2 in (engine.item_id(n) for n in c[k]["do"]) if i2]
-        st.markdown(f"<div class='dc-card{' hi' if i == 0 else ''}'><div style='color:var(--mute);font-size:.82rem'>{medal} · "
-                    f"điểm {x['diem']:.1f} (ấn +{x['diem_an']:.1f})</div><div style='font-weight:700;font-size:1.05rem'>"
-                    f"{ui.esc(c['ten'])}</div><div style='font-size:.85rem;color:var(--mute)'>{ui.esc(c['so_lieu_vn'])} · "
-                    f"{ui.esc(c['ban_moi'])}</div><div style='margin:10px 0'>{ui.champ_row(units, 44, roles)}</div>"
-                    f"<ul class='dc-why'>{lines_an or '<li>Chưa chọn Ấn — xếp theo sức mạnh đội.</li>'}</ul>"
-                    f"<div style='font-size:.85rem'>Lên cấp: {ui.rich(c['len_cap'])}</div></div>", unsafe_allow_html=True)
-        if not sel_ids:
-            continue
-        with st.expander(f"Tối ưu mốc tộc/hệ với Ấn — {c['ten']}", expanded=i == 0):
-            cols = st.columns(2)
-            for col, lv in zip(cols, (8, 9)):
-                ep = P.emblem_plan(units, sel_ids, core, lv)
-                with col:
-                    tags = {u: "Ấn" for u in ep["nguoi_deo"].values()}
-                    st.markdown(f"**Cấp {lv}**")
-                    st.markdown(ui.champ_row(ep["doi"], 40, tags=tags), unsafe_allow_html=True)
-                    out = []
-                    for a in ep["an"]:
-                        if a["khong_ai_deo"]:
-                            out.append(f"{engine.item_name(a['an'])}: cả đội đều đã có {P.trait_name(a['toc_he'])} — "
-                                       f"Ấn này chỉ còn chỉ số, nên bán / đổi hướng.")
-                            continue
-                        who = engine.champ(a["nguoi_deo"])["ten"]
-                        s = f"{engine.item_name(a['an'])} → {who}: {P.trait_name(a['toc_he'])} {a['truoc']} → {a['sau']}"
-                        if a["len_moc"]:
-                            s += f" (đạt mốc {a['moc_dat']})"
-                        elif a["moc_dat"]:
-                            s += f" (giữ mốc {a['moc_dat']})"
-                        else:
-                            s += " (chưa đủ mốc)"
-                        if a["moc_tiep"]:
-                            s += f" · mốc tiếp theo {a['moc_tiep']} cần thêm {a['moc_tiep'] - a['sau']} tướng"
-                        out.append(s)
-                    st.markdown("<ul class='dc-why'>" + "".join(f"<li>{ui.rich(o)}</li>" for o in out) + "</ul>",
-                                unsafe_allow_html=True)
-                    st.markdown("<div class='dc-row'>" + "".join(ui.trait_chip(t["id"], t["so"]) for t in ep["toc_he"])
-                                + "</div>", unsafe_allow_html=True)
-                    if ep["goi_y"]:
-                        st.markdown("<div style='margin-top:8px;font-weight:700'>Đổi 1 tướng để lên mốc cao hơn</div>",
+    # ---- MỚI: flex Ấn xoay quanh chủ lực meta (số liệu thật của bản đang xem)
+    m_ = d["meta"]
+    st.markdown(f"### Đội hình tối ưu cho Ấn — xoay quanh chủ lực meta (bản {m_.get('bo', m_['phien_ban'])})")
+    st.caption("Ứng viên là các đội meta đủ mẫu (MetaTFT ≥ 15.000 trận). Điểm = sức mạnh đội (×2) + mốc tộc/hệ Ấn mở thêm "
+               "(tộc của chủ lực nặng gấp 3) + người cầm Ấn hợp (thống kê tactics.tools, chủ lực nhận tộc tăng sát thương, "
+               "đỡ đòn nhận tộc chống chịu). Mỗi chủ lực chỉ hiện 1 đội.")
+    if not sel_ids:
+        st.info("Bấm Ấn bạn đang có ở trên để xem đội hình hợp nhất.")
+    else:
+        for e in dict.fromkeys(sel_ids):
+            users = F.an_nguoi_cam(e)
+            if users:
+                st.markdown(f"<div style='font-size:.88rem'>{ui.item_icon(e, 22)} <b>{ui.esc(engine.item_name(e))}</b> — cầm tốt nhất "
+                            "(thống kê 18.4b): " + " · ".join(
+                                f"{ui.champ_tile(u['tuong'], 26, name=False)} {ui.esc(engine.champ(u['tuong'])['ten'])} "
+                                f"({'tốt hơn' if u['chenh'] < 0 else 'kém hơn'} {abs(u['chenh']):.2f} hạng)" for u in users[:3])
+                            + "</div>", unsafe_allow_html=True)
+        flex = F.flex_an(sel_ids, top=5)
+        if not flex:
+            st.warning("Không đội meta nào dùng được Ấn này để mở mốc — cân nhắc bán Ấn lấy chỉ số hoặc giữ chờ Ấn khác.")
+        for i, r in enumerate(flex):
+            cp = r["comp"]
+            sl = cp.get("so_lieu") or {}
+            roles = {x["tuong"]: x["do"] for x in cp.get("chu_luc", []) + cp.get("do_don", [])}
+            tags = {who: "Ấn" for _, who in r["nguoi_cam"]}
+            stats = [("Hạng TB quốc tế", f"{sl.get('hang_tb', 0):.2f}"), ("Top 4", f"{sl.get('top4', 0):.1f}%"),
+                     ("Top 1", f"{sl.get('top1', 0):.1f}%")]
+            if r["vn"]:
+                stats += [("Hạng TB VN", f"{r['vn']['hang_tb']:.2f}"), ("Top 4 VN", f"{r['vn']['top4']:.1f}%")]
+            lines = []
+            for mm in r["moc"]:
+                s_ = (f"{engine.item_name(mm['an'])} → <b>{ui.esc(engine.champ(mm['nguoi_cam'])['ten'])}</b>: "
+                      f"{P.trait_name(mm['toc_he'])} {mm['truoc']} → {mm['sau']}")
+                if mm["len_moc"]:
+                    s_ += f" (đạt mốc {mm['moc_dat']})"
+                elif mm["moc_dat"]:
+                    s_ += f" (giữ mốc {mm['moc_dat']}, chỉ thêm chỉ số)"
+                else:
+                    s_ += " (chưa đủ mốc — chỉ thêm chỉ số)"
+                if mm["moc_tiep"]:
+                    s_ += f" · mốc tiếp {mm['moc_tiep']} cần thêm {mm['moc_tiep'] - mm['sau']}"
+                lines.append(s_)
+            lines += [ui.esc(y) for y in dict.fromkeys(r["vi_sao"])]
+            if r["doi"]:
+                g = r["doi"]
+                lines.append(f"Đổi tướng: thay {ui.esc(engine.champ(g['bo'])['ten'])} → <b>{ui.esc(engine.champ(g['them'])['ten'])}</b> "
+                             f"({engine.champ(g['them'])['gia']} vàng): {ui.esc('; '.join(g['doi']))}")
+            st.markdown(
+                f"<div class='dc-card{' hi' if i == 0 else ''}'><div style='color:var(--mute);font-size:.82rem'>Top {i + 1} · "
+                f"điểm {r['diem']:.1f} (đội {r['suc_manh']:.1f} · Ấn {r['diem_an']:.1f}) · {ui.esc(cp['kieu_ten'])}</div>"
+                f"<div style='font-weight:700;font-size:1.05rem'>Chủ lực {ui.esc(r['ten'])}</div>"
+                f"<div style='font-size:.8rem;color:var(--mute)'>Cụm MetaTFT: {ui.esc(cp['ten'])}</div>"
+                f"<div style='margin:10px 0'>{ui.champ_row(r['tuong'], 44, roles, tags=tags)}</div>"
+                f"<div class='dc-stat'>" + "".join(f"<div>{ui.esc(k)}<b>{ui.esc(v)}</b></div>" for k, v in stats) + "</div>"
+                f"<ul class='dc-why'>" + "".join(f"<li>{x}</li>" for x in lines) + "</ul>"
+                f"<div class='dc-row'>" + "".join(ui.trait_chip(t, P.counts(r['tuong'], [P.emblem_trait(e) for e, _ in r['nguoi_cam']])[t])
+                                                  for t in r["toc_he"][:7]) + "</div></div>", unsafe_allow_html=True)
+
+    if st.toggle("Xem thêm: bảng điểm của file Excel v1.8 (bản 18.3b) và tối ưu chi tiết theo cấp 8 / 9", key="an_excel"):
+        res = engine.emblem_rank(sel, an["loai_do"].index(lean))
+        for i, x in enumerate(res[:3]):
+            c = x["doi_hinh"]
+            units, core = P.an_comp_units(c)
+            medal = ["Top 1", "Top 2", "Top 3"][i]
+            lines_an = "".join(f"<li>{ui.rich(l['an'])}: {ui.esc(l['dien_giai'])} · +{l['diem']:.1f} điểm</li>" for l in x["an"])
+            roles = {}
+            for k in ("chu_luc", "chu_luc_phu", "do_don"):
+                cid = engine.champ_id(c[k]["tuong"])
+                if cid:
+                    roles[cid] = [i2 for i2 in (engine.item_id(n) for n in c[k]["do"]) if i2]
+            st.markdown(f"<div class='dc-card{' hi' if i == 0 else ''}'><div style='color:var(--mute);font-size:.82rem'>{medal} · "
+                        f"điểm {x['diem']:.1f} (ấn +{x['diem_an']:.1f})</div><div style='font-weight:700;font-size:1.05rem'>"
+                        f"{ui.esc(c['ten'])}</div><div style='font-size:.85rem;color:var(--mute)'>{ui.esc(c['so_lieu_vn'])} · "
+                        f"{ui.esc(c['ban_moi'])}</div><div style='margin:10px 0'>{ui.champ_row(units, 44, roles)}</div>"
+                        f"<ul class='dc-why'>{lines_an or '<li>Chưa chọn Ấn — xếp theo sức mạnh đội.</li>'}</ul>"
+                        f"<div style='font-size:.85rem'>Lên cấp: {ui.rich(c['len_cap'])}</div></div>", unsafe_allow_html=True)
+            if not sel_ids:
+                continue
+            with st.expander(f"Tối ưu mốc tộc/hệ với Ấn — {c['ten']}", expanded=i == 0):
+                cols = st.columns(2)
+                for col, lv in zip(cols, (8, 9)):
+                    ep = P.emblem_plan(units, sel_ids, core, lv)
+                    with col:
+                        tags = {u: "Ấn" for u in ep["nguoi_deo"].values()}
+                        st.markdown(f"**Cấp {lv}**")
+                        st.markdown(ui.champ_row(ep["doi"], 40, tags=tags), unsafe_allow_html=True)
+                        out = []
+                        for a in ep["an"]:
+                            if a["khong_ai_deo"]:
+                                out.append(f"{engine.item_name(a['an'])}: cả đội đều đã có {P.trait_name(a['toc_he'])} — "
+                                           f"Ấn này chỉ còn chỉ số, nên bán / đổi hướng.")
+                                continue
+                            who = engine.champ(a["nguoi_deo"])["ten"]
+                            s = f"{engine.item_name(a['an'])} → {who}: {P.trait_name(a['toc_he'])} {a['truoc']} → {a['sau']}"
+                            if a["len_moc"]:
+                                s += f" (đạt mốc {a['moc_dat']})"
+                            elif a["moc_dat"]:
+                                s += f" (giữ mốc {a['moc_dat']})"
+                            else:
+                                s += " (chưa đủ mốc)"
+                            if a["moc_tiep"]:
+                                s += f" · mốc tiếp theo {a['moc_tiep']} cần thêm {a['moc_tiep'] - a['sau']} tướng"
+                            out.append(s)
+                        st.markdown("<ul class='dc-why'>" + "".join(f"<li>{ui.rich(o)}</li>" for o in out) + "</ul>",
                                     unsafe_allow_html=True)
-                        for g in ep["goi_y"]:
-                            act = (f"Thay {ui.champ_tile(g['bo'], 30, name=False)} {ui.esc(engine.champ(g['bo'])['ten'])} → "
-                                   if g["bo"] else "Thêm ")
-                            st.markdown(f"<div class='dc-row' style='margin:4px 0'>{act}{ui.champ_tile(g['them'], 30, name=False)} "
-                                        f"<b>{ui.esc(engine.champ(g['them'])['ten'])}</b> "
-                                        f"<span style='font-size:.82rem;color:var(--mute)'>({engine.champ(g['them'])['gia']} vàng)</span>"
-                                        f"<span style='font-size:.85rem'>· {ui.rich('; '.join(g['doi']))}</span></div>",
+                        st.markdown("<div class='dc-row'>" + "".join(ui.trait_chip(t["id"], t["so"]) for t in ep["toc_he"])
+                                    + "</div>", unsafe_allow_html=True)
+                        if ep["goi_y"]:
+                            st.markdown("<div style='margin-top:8px;font-weight:700'>Đổi 1 tướng để lên mốc cao hơn</div>",
                                         unsafe_allow_html=True)
-                    else:
-                        st.caption("Đã là cách xếp tốt nhất cho mốc tộc/hệ — không cần đổi tướng.")
-            early = P.emblem_holder_early(c, sel_ids)
-            if early:
-                st.markdown("**Giai đoạn đầu: ai cầm Ấn tạm**")
-                for g in early:
-                    tags = {u: "tạm" for u in g["tam"]}
-                    for a in g["an"]:
-                        if a["nguoi_deo"]:
-                            tags[a["nguoi_deo"]] = "Ấn"
-                    txt = []
-                    for a in g["an"]:
-                        if not a["nguoi_deo"]:
-                            txt.append(f"{engine.item_name(a['an'])}: cất chờ {engine.champ(a['chuyen_cho'])['ten']}")
-                            continue
-                        who = engine.champ(a["nguoi_deo"])["ten"]
-                        t = f"{engine.item_name(a['an'])} cho {who} ({P.trait_name(a['toc_he'])} {a['sau']}"
-                        t += ", mở mốc)" if a["len_moc"] else ")"
-                        if a["tam"] and a["chuyen_cho"]:
-                            t += f" → sau chuyển cho {engine.champ(a['chuyen_cho'])['ten']}"
-                        txt.append(t)
-                    st.markdown(f"<div class='dc-row' style='margin:6px 0;align-items:center'>"
-                                f"<b style='width:70px'>{ui.esc(g['ten'])}</b>{ui.champ_row(g['tuong'], 34, tags=tags, dim=set(g['tam']))}"
-                                f"<span style='font-size:.85rem'>{ui.rich('; '.join(txt))}</span></div>", unsafe_allow_html=True)
-                st.caption("Bán tướng thì đồ trên người tự về hàng chờ — cứ đeo Ấn ngay cho tướng đang trên bàn để có mốc tộc/hệ sớm.")
-    with st.expander("Bảng xếp hạng tất cả đội với Ấn đã chọn"):
-        st.markdown(ui.html_table(["#", "Đội hình", "Tổng điểm", "Từ ấn", "Chủ lực chính", f"Bản {d['meta'].get('ban_moi', 'mới')}"],
-                                  [[i + 1, x["doi_hinh"]["ten"], f"{x['diem']:.1f}", f"{x['diem_an']:.1f}",
-                                    f"{x['doi_hinh']['chu_luc']['tuong']} ({x['doi_hinh']['chu_luc']['kieu']})",
-                                    x["doi_hinh"]["ban_moi"]] for i, x in enumerate(res)], rich_text=True), unsafe_allow_html=True)
+                            for g in ep["goi_y"]:
+                                act = (f"Thay {ui.champ_tile(g['bo'], 30, name=False)} {ui.esc(engine.champ(g['bo'])['ten'])} → "
+                                       if g["bo"] else "Thêm ")
+                                st.markdown(f"<div class='dc-row' style='margin:4px 0'>{act}{ui.champ_tile(g['them'], 30, name=False)} "
+                                            f"<b>{ui.esc(engine.champ(g['them'])['ten'])}</b> "
+                                            f"<span style='font-size:.82rem;color:var(--mute)'>({engine.champ(g['them'])['gia']} vàng)</span>"
+                                            f"<span style='font-size:.85rem'>· {ui.rich('; '.join(g['doi']))}</span></div>",
+                                            unsafe_allow_html=True)
+                        else:
+                            st.caption("Đã là cách xếp tốt nhất cho mốc tộc/hệ — không cần đổi tướng.")
+                early = P.emblem_holder_early(c, sel_ids)
+                if early:
+                    st.markdown("**Giai đoạn đầu: ai cầm Ấn tạm**")
+                    for g in early:
+                        tags = {u: "tạm" for u in g["tam"]}
+                        for a in g["an"]:
+                            if a["nguoi_deo"]:
+                                tags[a["nguoi_deo"]] = "Ấn"
+                        txt = []
+                        for a in g["an"]:
+                            if not a["nguoi_deo"]:
+                                txt.append(f"{engine.item_name(a['an'])}: cất chờ {engine.champ(a['chuyen_cho'])['ten']}")
+                                continue
+                            who = engine.champ(a["nguoi_deo"])["ten"]
+                            t = f"{engine.item_name(a['an'])} cho {who} ({P.trait_name(a['toc_he'])} {a['sau']}"
+                            t += ", mở mốc)" if a["len_moc"] else ")"
+                            if a["tam"] and a["chuyen_cho"]:
+                                t += f" → sau chuyển cho {engine.champ(a['chuyen_cho'])['ten']}"
+                            txt.append(t)
+                        st.markdown(f"<div class='dc-row' style='margin:6px 0;align-items:center'>"
+                                    f"<b style='width:70px'>{ui.esc(g['ten'])}</b>{ui.champ_row(g['tuong'], 34, tags=tags, dim=set(g['tam']))}"
+                                    f"<span style='font-size:.85rem'>{ui.rich('; '.join(txt))}</span></div>", unsafe_allow_html=True)
+                    st.caption("Bán tướng thì đồ trên người tự về hàng chờ — cứ đeo Ấn ngay cho tướng đang trên bàn để có mốc tộc/hệ sớm.")
+        with st.expander("Bảng xếp hạng tất cả đội với Ấn đã chọn"):
+            st.markdown(ui.html_table(["#", "Đội hình", "Tổng điểm", "Từ ấn", "Chủ lực chính", f"Bản {d['meta'].get('ban_moi', 'mới')}"],
+                                      [[i + 1, x["doi_hinh"]["ten"], f"{x['diem']:.1f}", f"{x['diem_an']:.1f}",
+                                        f"{x['doi_hinh']['chu_luc']['tuong']} ({x['doi_hinh']['chu_luc']['kieu']})",
+                                        x["doi_hinh"]["ban_moi"]] for i, x in enumerate(res)], rich_text=True), unsafe_allow_html=True)
     with st.expander("Bảng tra 21 Ấn — công thức, hiệu ứng, ai đeo tốt nhất"):
         st.markdown(ui.html_table(["Ấn", "Công thức / nguồn", "Hiệu ứng riêng", "Đeo tốt nhất (hạng TB)", "Hạng TB"],
                                   [[e["ten"], e["cong_thuc"], e["hieu_ung"], e["deo_tot_nhat"], e["hang_tb"]] for e in an["an"]],

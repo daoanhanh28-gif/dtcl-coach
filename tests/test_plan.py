@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.2 (2026-10-20) — kiểm thử form theo vòng, tối ưu Ấn theo mốc tộc/hệ, phân tích bản cập nhật
+# ĐTCL Coach v1.3 (2026-10-20) — kiểm thử form theo vòng, tối ưu Ấn theo mốc tộc/hệ, phân tích bản cập nhật
 import sys
 from pathlib import Path
 
@@ -113,10 +113,17 @@ def test_emblem_with_whole_team_having_trait():
 
 
 def test_patch_rows_and_categories():
+    from core import config
+
+    with config.voi_bo("18.5"):
+        _check_patch_185()
+
+
+def _check_patch_185():
     rows = P.patch_rows()
     assert len(rows) == 19
     az = next(r for r in rows if r["ten"].startswith("Đao Phủ Azir"))
-    assert az["vn"] == {"hang_tb": 2.82, "top4": 83.4, "ti_le": 1.82} and az["xu_huong"] == 0
+    assert az["vn"] == {"hang_tb": 2.78, "top4": 84.3, "ti_le": 1.9} and az["xu_huong"] == 0
     assert P.trend_of("↑ 18.4: …") == 2 and P.trend_of("→ 18.4: … MẠNH LÊN") == 0.5 and P.trend_of("↓ x") == -2
     pa = P.patch_analysis()
     assert set(pa) == {k for k, _, _ in P.CATEGORIES} == {k for k, _, _ in P.categories()}
@@ -156,4 +163,47 @@ def test_old_data_set_kept():
         assert az["vn"] == {"hang_tb": 2.69, "top4": 84.8, "ti_le": 1.15} and az["xu_huong"] == -1
         assert P.patch_analysis()["manh_nhat"][0]["ten"].startswith("Đao Phủ Azir")
         assert "18.4" in P.categories()[0][1]
-    assert E.data()["meta"]["bo"] == "18.5" and new is P.patch_rows()
+    assert E.data()["meta"]["bo"] == config.BO_MAC_DINH and new is P.patch_rows()
+
+
+def test_running_patch_set_184b():
+    """Bộ 18.4b (đang chạy) là mặc định, có cẩm nang, bảng VN có cấu trúc và thống kê Ấn."""
+    from core import config
+
+    assert config.BO_MAC_DINH == "18.4b" and set(config.BO_DU_LIEU) == {"18.4b", "18.5", "18.3b"}
+    d = E.data()
+    assert d["meta"]["bo"] == "18.4b" and d["ban_cap_nhat"]["phien_ban"] == "18.4b"
+    assert d["cam_nang"]["loi_top1"] and d["cam_nang"]["tinh_linh"] and d["cam_nang"]["tempo"]["nguyen_tac"]
+    assert all(x["id"] in d["aug"] for x in d["cam_nang"]["loi_top1"])
+    assert all(i in d["aug"] for x in d["cam_nang"]["cap_loi"] for i in x["loi"])
+    assert len(d["vn_opgg"]["doi_hinh"]) >= 20 and d["an_thong_ke"]["an"]
+    with config.voi_bo("18.3b"):
+        assert E.data()["vn_opgg"] == {} and E.data()["cam_nang"] == {}
+
+
+def test_cam_nang_lists():
+    from core import cam_nang as C
+
+    top = C.top_manh()
+    assert top and all(r["ti_le"] >= 0.3 for r in top)
+    assert [r["hang_tb"] for r in top] == sorted(r["hang_tb"] for r in top)
+    rare = C.manh_it_nguoi()
+    assert rare and all(r["ti_le"] < 0.3 and r["hang_tb"] <= 3.6 for r in rare)
+    easy = C.de_vao_top()
+    assert easy and all(r["top4"] >= 65 for r in easy) and easy[0]["dieu_kien"]
+    moc = C.moc_len_cap()
+    f8 = next(x for x in moc if x["loi_choi"] == "Lên nhanh cấp 8")
+    assert f8["cap"][8] == "4-2"
+
+
+def test_flex_emblem_around_meta_carry():
+    from core import flex as F
+
+    res = F.flex_an(["Emblem_Executioner"])
+    assert res and len({r["chu_luc"] for r in res}) == len(res)          # mỗi chủ lực 1 đội
+    azir = next(r for r in res if r["chu_luc"] == "Azir")
+    assert dict((w, e) for e, w in azir["nguoi_cam"]).get("Zyra") == "Emblem_Executioner"   # Ấn Đao Phủ → Zyra
+    assert azir["moc"][0]["len_moc"]
+    two = F.flex_an(["Emblem_Invoker", "Emblem_Invoker"])
+    assert two and len(two[0]["nguoi_cam"]) == 2 and len({w for _, w in two[0]["nguoi_cam"]}) == 2
+    assert F.an_nguoi_cam("Emblem_Defender")[0]["tuong"] == "Rengar"
