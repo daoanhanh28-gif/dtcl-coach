@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — trang Bàn cờ & xếp vị trí (bàn 4×7 bấm để đặt tướng)
+# ĐTCL Coach v1.2 (2026-10-20) — trang Bàn cờ & xếp vị trí (bàn 4×7 bấm để đặt tướng)
 import streamlit as st
 
 from core import engine, ui

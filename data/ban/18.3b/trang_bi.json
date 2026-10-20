@@ -1,0 +1,793 @@
+{
+ "thanh_phan": [
+  {
+   "id": "BFSword",
+   "ten": "Kiếm B.F.",
+   "ten_en": "B.F. Sword",
+   "chi_so": "+10% SMCK",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bfsword.png"
+  },
+  {
+   "id": "RecurveBow",
+   "ten": "Cung Gỗ",
+   "ten_en": "Recurve Bow",
+   "chi_so": "+10% Tốc Độ Đánh",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_recurvebow.png"
+  },
+  {
+   "id": "NeedlesslyLargeRod",
+   "ten": "Gậy Quá Khổ",
+   "ten_en": "Needlessly Large Rod",
+   "chi_so": "+10 SMPT",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_needlesslylargerod.png"
+  },
+  {
+   "id": "TearOfTheGoddess",
+   "ten": "Nước Mắt Nữ Thần",
+   "ten_en": "Tear of the Goddess",
+   "chi_so": "+1 Hồi Năng Lượng",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tearofthegoddess.png"
+  },
+  {
+   "id": "ChainVest",
+   "ten": "Giáp Lưới",
+   "ten_en": "Chain Vest",
+   "chi_so": "+20 Giáp",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_chainvest.png"
+  },
+  {
+   "id": "NegatronCloak",
+   "ten": "Áo Choàng Bạc",
+   "ten_en": "Negatron Cloak",
+   "chi_so": "+20 Kháng Phép",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_negatroncloak.png"
+  },
+  {
+   "id": "GiantsBelt",
+   "ten": "Đai Khổng Lồ",
+   "ten_en": "Giant's Belt",
+   "chi_so": "+150 Máu",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_giantsbelt.png"
+  },
+  {
+   "id": "SparringGloves",
+   "ten": "Găng Đấu Tập",
+   "ten_en": "Sparring Gloves",
+   "chi_so": "+20% Tỉ Lệ Chí Mạng",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_sparringgloves.png"
+  },
+  {
+   "id": "Spatula",
+   "ten": "Siêu Xẻng",
+   "ten_en": "Spatula",
+   "chi_so": "Ghép ra Ấn tộc",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spatula.png"
+  },
+  {
+   "id": "FryingPan",
+   "ten": "Chảo Vàng",
+   "ten_en": "Frying Pan",
+   "chi_so": "Ghép ra Ấn hệ",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_fryingpan.png"
+  }
+ ],
+ "hoan_chinh": [
+  {
+   "id": "Deathblade",
+   "ten": "Kiếm Tử Thần",
+   "ten_en": "Deathblade",
+   "cong_thuc": [
+    "BFSword",
+    "BFSword"
+   ],
+   "chi_so": "+55% SMCK, +10% sát thương",
+   "tac_dung": "Đồ SMCK thuần mạnh nhất.",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_deathblade.png"
+  },
+  {
+   "id": "GiantSlayer",
+   "ten": "Diệt Khổng Lồ",
+   "ten_en": "Giant Slayer",
+   "cong_thuc": [
+    "BFSword",
+    "RecurveBow"
+   ],
+   "chi_so": "+15% SMCK, +15 SMPT, +15% TĐĐ",
+   "tac_dung": "+15% Khuếch Đại Sát Thương lên tướng Đỡ Đòn.",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_madredsbloodrazor.png"
+  },
+  {
+   "id": "HextechGunblade",
+   "ten": "Kiếm Súng Hextech",
+   "ten_en": "Hextech Gunblade",
+   "cong_thuc": [
+    "BFSword",
+    "NeedlesslyLargeRod"
+   ],
+   "chi_so": "+20% SMCK, +20 SMPT, +1 Hồi NL, 18% Hút Máu",
+   "tac_dung": "Hồi máu cho đồng minh yếu nhất bằng 20% sát thương gây ra.",
+   "nhom": "AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_hextechgunblade.png"
+  },
+  {
+   "id": "SpearOfShojin",
+   "ten": "Ngọn Giáo Shojin",
+   "ten_en": "Spear of Shojin",
+   "cong_thuc": [
+    "BFSword",
+    "TearOfTheGoddess"
+   ],
+   "chi_so": "+15% SMCK, +15 SMPT, +1 Hồi NL",
+   "tac_dung": "Mỗi đòn đánh hồi 5 Năng Lượng.",
+   "nhom": "AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spearofshojin.png"
+  },
+  {
+   "id": "EdgeOfNight",
+   "ten": "Áo Choàng Bóng Tối",
+   "ten_en": "Edge of Night",
+   "cong_thuc": [
+    "BFSword",
+    "ChainVest"
+   ],
+   "chi_so": "+10% SMCK, +10 SMPT, +15% TĐĐ, +20 Giáp",
+   "tac_dung": "Ở 60% Máu: tàng hình chốc lát, xoá hiệu ứng xấu, hồi 20% Máu đã mất.",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_guardianangel.png"
+  },
+  {
+   "id": "Bloodthirster",
+   "ten": "Huyết Kiếm",
+   "ten_en": "Bloodthirster",
+   "cong_thuc": [
+    "BFSword",
+    "NegatronCloak"
+   ],
+   "chi_so": "+15% SMCK, +15 SMPT, +20 Kháng Phép, 20% Hút Máu",
+   "tac_dung": "Ở 40% Máu: lá chắn 25% Máu tối đa trong 5 giây.",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bloodthirster.png"
+  },
+  {
+   "id": "SteraksGage",
+   "ten": "Móng Vuốt Sterak",
+   "ten_en": "Sterak's Gage",
+   "cong_thuc": [
+    "BFSword",
+    "GiantsBelt"
+   ],
+   "chi_so": "+45% SMCK, +300 Máu",
+   "tac_dung": "Ở 60% Máu: lá chắn 40% Máu tối đa, giảm dần trong 4 giây.",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_steraksgage.png"
+  },
+  {
+   "id": "InfinityEdge",
+   "ten": "Vô Cực Kiếm",
+   "ten_en": "Infinity Edge",
+   "cong_thuc": [
+    "BFSword",
+    "SparringGloves"
+   ],
+   "chi_so": "+35% SMCK, +35% Chí Mạng",
+   "tac_dung": "Nhận Chuẩn Xác (kỹ năng có thể chí mạng).",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_infinityedge.png"
+  },
+  {
+   "id": "RedBuff",
+   "ten": "Bùa Đỏ",
+   "ten_en": "Red Buff",
+   "cong_thuc": [
+    "RecurveBow",
+    "RecurveBow"
+   ],
+   "chi_so": "+45% TĐĐ, +6% sát thương",
+   "tac_dung": "Đòn đánh và kỹ năng gây Thiêu Đốt 1% + Vết Thương Sâu 33% trong 5 giây.",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_rapidfirecannon.png"
+  },
+  {
+   "id": "GuinsoosRageblade",
+   "ten": "Cuồng Đao Guinsoo",
+   "ten_en": "Guinsoo's Rageblade",
+   "cong_thuc": [
+    "RecurveBow",
+    "NeedlesslyLargeRod"
+   ],
+   "chi_so": "+10 SMPT, +10% TĐĐ",
+   "tac_dung": "+7% Tốc Độ Đánh cộng dồn mỗi giây.",
+   "nhom": "AD/AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_guinsoosrageblade.png"
+  },
+  {
+   "id": "VoidStaff",
+   "ten": "Trượng Hư Vô",
+   "ten_en": "Void Staff",
+   "cong_thuc": [
+    "RecurveBow",
+    "TearOfTheGoddess"
+   ],
+   "chi_so": "+35 SMPT, +15% TĐĐ, +1 Hồi NL",
+   "tac_dung": "Đòn đánh và kỹ năng giảm 30% Kháng Phép mục tiêu (Cào Xé).",
+   "nhom": "AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_voidstaff.png"
+  },
+  {
+   "id": "TitansResolve",
+   "ten": "Quyền Năng Khổng Lồ",
+   "ten_en": "Titan's Resolve",
+   "cong_thuc": [
+    "RecurveBow",
+    "ChainVest"
+   ],
+   "chi_so": "+10% TĐĐ, +20 Giáp",
+   "tac_dung": "Đánh/bị đánh cộng dồn 2% SMCK & SMPT (tối đa 25); đủ cộng dồn: +10% sát thương, miễn khống chế.",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_titansresolve.png"
+  },
+  {
+   "id": "KrakensFury",
+   "ten": "Thịnh Nộ Thủy Quái",
+   "ten_en": "Kraken's Fury",
+   "cong_thuc": [
+    "RecurveBow",
+    "NegatronCloak"
+   ],
+   "chi_so": "+10% SMCK, +10% TĐĐ, +20 Kháng Phép",
+   "tac_dung": "Mỗi đòn đánh +3.5% SMCK (tối đa 15 lần), đủ 15 lần +15% TĐĐ.",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayer.png"
+  },
+  {
+   "id": "NashorsTooth",
+   "ten": "Nanh Nashor",
+   "ten_en": "Nashor's Tooth",
+   "cong_thuc": [
+    "RecurveBow",
+    "GiantsBelt"
+   ],
+   "chi_so": "+15 SMPT, +10% TĐĐ, +150 Máu, +20% Chí Mạng",
+   "tac_dung": "Mỗi đòn đánh hồi 2 Năng Lượng (4 nếu chí mạng).",
+   "nhom": "AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_leviathan.png"
+  },
+  {
+   "id": "LastWhisper",
+   "ten": "Cung Xanh",
+   "ten_en": "Last Whisper",
+   "cong_thuc": [
+    "RecurveBow",
+    "SparringGloves"
+   ],
+   "chi_so": "+15% SMCK, +20% TĐĐ, +20% Chí Mạng",
+   "tac_dung": "Giảm 30% Giáp mục tiêu trong 3 giây (Phân Tách).",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_lastwhisper.png"
+  },
+  {
+   "id": "RabadonsDeathcap",
+   "ten": "Mũ Phù Thủy Rabadon",
+   "ten_en": "Rabadon's Deathcap",
+   "cong_thuc": [
+    "NeedlesslyLargeRod",
+    "NeedlesslyLargeRod"
+   ],
+   "chi_so": "+55 SMPT, +15% sát thương",
+   "tac_dung": "Đồ SMPT thuần mạnh nhất.",
+   "nhom": "AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_rabadonsdeathcap.png"
+  },
+  {
+   "id": "ArchangelsStaff",
+   "ten": "Quyền Trượng Thiên Thần",
+   "ten_en": "Archangel's Staff",
+   "cong_thuc": [
+    "NeedlesslyLargeRod",
+    "TearOfTheGoddess"
+   ],
+   "chi_so": "+30 SMPT, +1 Hồi NL",
+   "tac_dung": "+20 SMPT mỗi 5 giây giao tranh.",
+   "nhom": "AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_archangelsstaff.png"
+  },
+  {
+   "id": "Crownguard",
+   "ten": "Vương Miện Hoàng Gia",
+   "ten_en": "Crownguard",
+   "cong_thuc": [
+    "NeedlesslyLargeRod",
+    "ChainVest"
+   ],
+   "chi_so": "+20 SMPT, +20 Giáp, +100 Máu",
+   "tac_dung": "Đầu giao tranh: lá chắn 25% Máu trong 8 giây; hết lá chắn +25 SMPT.",
+   "nhom": "AP/Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_crownguard.png"
+  },
+  {
+   "id": "IonicSpark",
+   "ten": "Nỏ Sét",
+   "ten_en": "Ionic Spark",
+   "cong_thuc": [
+    "NeedlesslyLargeRod",
+    "NegatronCloak"
+   ],
+   "chi_so": "+15 SMPT, +250 Máu, +35 Kháng Phép",
+   "tac_dung": "Giảm 30% Kháng Phép địch trong 2 ô; địch tung chiêu thì bị giật sét.",
+   "nhom": "Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_ionicspark.png"
+  },
+  {
+   "id": "Morellonomicon",
+   "ten": "Quỷ Thư Morello",
+   "ten_en": "Morellonomicon",
+   "cong_thuc": [
+    "NeedlesslyLargeRod",
+    "GiantsBelt"
+   ],
+   "chi_so": "+20 SMPT, +150 Máu, +1 Hồi NL",
+   "tac_dung": "Thiêu Đốt 1% + Vết Thương Sâu 33% trong 10 giây.",
+   "nhom": "AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_morellonomicon.png"
+  },
+  {
+   "id": "JeweledGauntlet",
+   "ten": "Găng Bảo Thạch",
+   "ten_en": "Jeweled Gauntlet",
+   "cong_thuc": [
+    "NeedlesslyLargeRod",
+    "SparringGloves"
+   ],
+   "chi_so": "+35 SMPT, +35% Chí Mạng",
+   "tac_dung": "Nhận Chuẩn Xác (kỹ năng có thể chí mạng).",
+   "nhom": "AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_jeweledgauntlet.png"
+  },
+  {
+   "id": "BlueBuff",
+   "ten": "Bùa Xanh",
+   "ten_en": "Blue Buff",
+   "cong_thuc": [
+    "TearOfTheGoddess",
+    "TearOfTheGoddess"
+   ],
+   "chi_so": "+15% SMCK, +15 SMPT, +5 Hồi NL",
+   "tac_dung": "+10% SMCK và SMPT từ mọi nguồn.",
+   "nhom": "AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bluebuff.png"
+  },
+  {
+   "id": "ProtectorsVow",
+   "ten": "Lời Thề Hộ Vệ",
+   "ten_en": "Protector's Vow",
+   "cong_thuc": [
+    "TearOfTheGoddess",
+    "ChainVest"
+   ],
+   "chi_so": "+25 Giáp, +25 Kháng Phép, +1 Hồi NL",
+   "tac_dung": "Đầu giao tranh +20 Năng Lượng; ở 40% Máu: +15 Năng Lượng và lá chắn 20% Máu.",
+   "nhom": "Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_frozenheart.png"
+  },
+  {
+   "id": "AdaptiveHelm",
+   "ten": "Mũ Thích Nghi",
+   "ten_en": "Adaptive Helm",
+   "cong_thuc": [
+    "TearOfTheGoddess",
+    "NegatronCloak"
+   ],
+   "chi_so": "+20 Kháng Phép, +3 Hồi NL",
+   "tac_dung": "+15% Năng Lượng nhận được. Đỡ đòn: +30 Giáp/Kháng Phép; vai trò khác: +10% SMCK/SMPT.",
+   "nhom": "Tank/AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_adaptivehelm.png"
+  },
+  {
+   "id": "SpiritVisage",
+   "ten": "Giáp Tâm Linh",
+   "ten_en": "Spirit Visage",
+   "cong_thuc": [
+    "TearOfTheGoddess",
+    "GiantsBelt"
+   ],
+   "chi_so": "+300 Máu, +2 Hồi NL",
+   "tac_dung": "Hồi 2% Máu đã mất mỗi giây.",
+   "nhom": "Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png"
+  },
+  {
+   "id": "HandOfJustice",
+   "ten": "Bàn Tay Công Lý",
+   "ten_en": "Hand Of Justice",
+   "cong_thuc": [
+    "TearOfTheGoddess",
+    "SparringGloves"
+   ],
+   "chi_so": "+15% SMCK, +15 SMPT, +20% Chí Mạng, 12% Hút Máu",
+   "tac_dung": "Trên 50% Máu: gấp đôi SMCK/SMPT; dưới 50%: gấp đôi Hút Máu.",
+   "nhom": "AD/AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_unstableconcoction.png"
+  },
+  {
+   "id": "BrambleVest",
+   "ten": "Áo Choàng Gai",
+   "ten_en": "Bramble Vest",
+   "cong_thuc": [
+    "ChainVest",
+    "ChainVest"
+   ],
+   "chi_so": "+50 Giáp, +6% Máu",
+   "tac_dung": "Giảm 5% sát thương đòn đánh; bị đánh thì gây 100 sát thương phép xung quanh.",
+   "nhom": "Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bramblevest.png"
+  },
+  {
+   "id": "GargoyleStoneplate",
+   "ten": "Thú Tượng Thạch Giáp",
+   "ten_en": "Gargoyle Stoneplate",
+   "cong_thuc": [
+    "ChainVest",
+    "NegatronCloak"
+   ],
+   "chi_so": "+25 Giáp, +25 Kháng Phép, +100 Máu",
+   "tac_dung": "+10 Giáp và Kháng Phép cho mỗi kẻ địch đang nhắm vào.",
+   "nhom": "Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_gargoylestoneplate.png"
+  },
+  {
+   "id": "SunfireCape",
+   "ten": "Áo Choàng Lửa",
+   "ten_en": "Sunfire Cape",
+   "cong_thuc": [
+    "ChainVest",
+    "GiantsBelt"
+   ],
+   "chi_so": "+20 Giáp, +150 Máu, +8% Máu",
+   "tac_dung": "Mỗi 2 giây Thiêu Đốt + Vết Thương Sâu 1 kẻ địch trong 2 ô.",
+   "nhom": "Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_redbuff.png"
+  },
+  {
+   "id": "SteadfastHeart",
+   "ten": "Trái Tim Kiên Định",
+   "ten_en": "Steadfast Heart",
+   "cong_thuc": [
+    "ChainVest",
+    "SparringGloves"
+   ],
+   "chi_so": "+20 Giáp, +250 Máu, +20% Chí Mạng",
+   "tac_dung": "15% Chống Chịu khi trên 50% Máu (5% khi dưới).",
+   "nhom": "Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_nightharvester.png"
+  },
+  {
+   "id": "DragonsClaw",
+   "ten": "Vuốt Rồng",
+   "ten_en": "Dragon's Claw",
+   "cong_thuc": [
+    "NegatronCloak",
+    "NegatronCloak"
+   ],
+   "chi_so": "+60 Kháng Phép, +6% Máu",
+   "tac_dung": "Mỗi 2 giây hồi 2.5% Máu tối đa.",
+   "nhom": "Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_dragonsclaw.png"
+  },
+  {
+   "id": "Evenshroud",
+   "ten": "Giáp Vai Nguyệt Thần",
+   "ten_en": "Evenshroud",
+   "cong_thuc": [
+    "NegatronCloak",
+    "GiantsBelt"
+   ],
+   "chi_so": "+20 Kháng Phép, +250 Máu",
+   "tac_dung": "Giảm 30% Giáp địch trong 2 ô; +15 Giáp/Kháng Phép 15 giây đầu.",
+   "nhom": "Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spectralgauntlet.png"
+  },
+  {
+   "id": "Quicksilver",
+   "ten": "Áo Choàng Thủy Ngân",
+   "ten_en": "Quicksilver",
+   "cong_thuc": [
+    "SparringGloves",
+    "NegatronCloak"
+   ],
+   "chi_so": "+15% TĐĐ, +20% Chí Mạng, +20 Kháng Phép",
+   "tac_dung": "Miễn khống chế 18 giây đầu; +3% TĐĐ mỗi giây.",
+   "nhom": "AD",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_quicksilver.png"
+  },
+  {
+   "id": "WarmogsArmor",
+   "ten": "Giáp Máu Warmog",
+   "ten_en": "Warmog's Armor",
+   "cong_thuc": [
+    "GiantsBelt",
+    "GiantsBelt"
+   ],
+   "chi_so": "+500 Máu, +18% Máu",
+   "tac_dung": "Đồ Máu thuần.",
+   "nhom": "Tank",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_warmogsarmor.png"
+  },
+  {
+   "id": "StrikersFlail",
+   "ten": "Chùy Đoản Côn",
+   "ten_en": "Striker's Flail",
+   "cong_thuc": [
+    "GiantsBelt",
+    "SparringGloves"
+   ],
+   "chi_so": "+10% TĐĐ, +150 Máu, +20% Chí Mạng",
+   "tac_dung": "Chí mạng cho +5% sát thương trong 5 giây (cộng dồn 4).",
+   "nhom": "AD/AP",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_powergauntlet.png"
+  },
+  {
+   "id": "ThiefsGloves",
+   "ten": "Găng Đạo Tặc",
+   "ten_en": "Thief's Gloves",
+   "cong_thuc": [
+    "SparringGloves",
+    "SparringGloves"
+   ],
+   "chi_so": "+20% Chí Mạng, +150 Máu",
+   "tac_dung": "Mỗi vòng mang 2 trang bị ngẫu nhiên (chiếm 3 ô đồ).",
+   "nhom": "Đặc biệt",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_thiefsgloves.png"
+  },
+  {
+   "id": "TacticiansCrown",
+   "ten": "Vương Miện Chiến Thuật",
+   "ten_en": "Tactician's Crown",
+   "cong_thuc": [
+    "Spatula",
+    "Spatula"
+   ],
+   "chi_so": "+1 số tướng tối đa",
+   "tac_dung": "10% cơ hội rơi 1 vàng khi thắng giao tranh.",
+   "nhom": "Đặc biệt",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_forceofnature.png"
+  },
+  {
+   "id": "TacticiansCape",
+   "ten": "Áo Choàng Chiến Thuật",
+   "ten_en": "Tactician's Cape",
+   "cong_thuc": [
+    "Spatula",
+    "FryingPan"
+   ],
+   "chi_so": "+1 số tướng tối đa",
+   "tac_dung": "10% cơ hội rơi 1 vàng sau 10 giây giao tranh.",
+   "nhom": "Đặc biệt",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansring.png"
+  },
+  {
+   "id": "TacticiansShield",
+   "ten": "Lá Chắn Chiến Thuật",
+   "ten_en": "Tactician's Shield",
+   "cong_thuc": [
+    "FryingPan",
+    "FryingPan"
+   ],
+   "chi_so": "+1 số tướng tối đa",
+   "tac_dung": "10% cơ hội rơi 1 vàng khi người mang tử trận.",
+   "nhom": "Đặc biệt",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansscepter.png"
+  }
+ ],
+ "an": [
+  {
+   "id": "Emblem_Fae",
+   "ten": "Ấn Tiên Linh",
+   "toc_he": "Fae",
+   "cong_thuc": [
+    "Spatula",
+    "BFSword"
+   ],
+   "tac_dung": "Người mang tính là tướng Tiên Linh.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_fae.png"
+  },
+  {
+   "id": "Emblem_Inferno",
+   "ten": "Ấn Hỏa Ngục",
+   "toc_he": "Inferno",
+   "cong_thuc": [
+    "Spatula",
+    "RecurveBow"
+   ],
+   "tac_dung": "Người mang tính là tướng Hỏa Ngục.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_inferno.png"
+  },
+  {
+   "id": "Emblem_Blossom",
+   "ten": "Ấn Hoa Linh",
+   "toc_he": "Blossom",
+   "cong_thuc": [
+    "Spatula",
+    "NeedlesslyLargeRod"
+   ],
+   "tac_dung": "Người mang tính là tướng Hoa Linh.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_blossom.png"
+  },
+  {
+   "id": "Emblem_Lunar",
+   "ten": "Ấn Mặt Trăng",
+   "toc_he": "Lunar",
+   "cong_thuc": [
+    "Spatula",
+    "TearOfTheGoddess"
+   ],
+   "tac_dung": "Người mang tính là tướng Mặt Trăng.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_lunar.png"
+  },
+  {
+   "id": "Emblem_Elderwood",
+   "ten": "Ấn Thần Rừng",
+   "toc_he": "Elderwood",
+   "cong_thuc": [
+    "Spatula",
+    "ChainVest"
+   ],
+   "tac_dung": "Người mang tính là tướng Thần Rừng.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_elderwood.png"
+  },
+  {
+   "id": "Emblem_Sprykin",
+   "ten": "Ấn Tinh Nghịch",
+   "toc_he": "Sprykin",
+   "cong_thuc": [
+    "Spatula",
+    "NegatronCloak"
+   ],
+   "tac_dung": "Người mang tính là tướng Tinh Nghịch.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_sprykin.png"
+  },
+  {
+   "id": "Emblem_Blackthorn",
+   "ten": "Ấn Gai Đen",
+   "toc_he": "Blackthorn",
+   "cong_thuc": [
+    "Spatula",
+    "GiantsBelt"
+   ],
+   "tac_dung": "Người mang tính là tướng Gai Đen.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_blackthorn.png"
+  },
+  {
+   "id": "Emblem_Primal",
+   "ten": "Ấn Nguyên Sinh",
+   "toc_he": "Primal",
+   "cong_thuc": [
+    "Spatula",
+    "SparringGloves"
+   ],
+   "tac_dung": "Người mang tính là tướng Nguyên Sinh.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_primal.png"
+  },
+  {
+   "id": "Emblem_Hunter",
+   "ten": "Ấn Thợ Săn",
+   "toc_he": "Hunter",
+   "cong_thuc": [
+    "FryingPan",
+    "BFSword"
+   ],
+   "tac_dung": "Người mang tính là tướng Thợ Săn.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_hunter.png"
+  },
+  {
+   "id": "Emblem_Rapidfire",
+   "ten": "Ấn Liên Kích",
+   "toc_he": "Rapidfire",
+   "cong_thuc": [
+    "FryingPan",
+    "RecurveBow"
+   ],
+   "tac_dung": "Người mang tính là tướng Liên Kích.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_rapidfire.png"
+  },
+  {
+   "id": "Emblem_Spellweaver",
+   "ten": "Ấn Thuật Sư",
+   "toc_he": "Spellweaver",
+   "cong_thuc": [
+    "FryingPan",
+    "NeedlesslyLargeRod"
+   ],
+   "tac_dung": "Người mang tính là tướng Thuật Sư.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_spellweaver.png"
+  },
+  {
+   "id": "Emblem_Invoker",
+   "ten": "Ấn Thuật Sĩ",
+   "toc_he": "Invoker",
+   "cong_thuc": [
+    "FryingPan",
+    "TearOfTheGoddess"
+   ],
+   "tac_dung": "Người mang tính là tướng Thuật Sĩ.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_invoker.png"
+  },
+  {
+   "id": "Emblem_Vanguard",
+   "ten": "Ấn Tiên Phong",
+   "toc_he": "Vanguard",
+   "cong_thuc": [
+    "FryingPan",
+    "ChainVest"
+   ],
+   "tac_dung": "Người mang tính là tướng Tiên Phong.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_vanguard.png"
+  },
+  {
+   "id": "Emblem_Slayer",
+   "ten": "Ấn Tàn Phá",
+   "toc_he": "Slayer",
+   "cong_thuc": [
+    "FryingPan",
+    "NegatronCloak"
+   ],
+   "tac_dung": "Người mang tính là tướng Tàn Phá.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_ravager.png"
+  },
+  {
+   "id": "Emblem_Brawler",
+   "ten": "Ấn Đấu Sĩ",
+   "toc_he": "Brawler",
+   "cong_thuc": [
+    "FryingPan",
+    "GiantsBelt"
+   ],
+   "tac_dung": "Người mang tính là tướng Đấu Sĩ.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_brawler.png"
+  },
+  {
+   "id": "Emblem_Executioner",
+   "ten": "Ấn Đao Phủ",
+   "toc_he": "Executioner",
+   "cong_thuc": [
+    "FryingPan",
+    "SparringGloves"
+   ],
+   "tac_dung": "Người mang tính là tướng Đao Phủ.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_executioner.png"
+  },
+  {
+   "id": "Emblem_Coven",
+   "ten": "Ấn Tiên Hắc Ám",
+   "toc_he": "Coven",
+   "cong_thuc": [],
+   "tac_dung": "Người mang tính là tướng Tiên Hắc Ám. Không ghép được — chỉ có từ lõi hoặc phần thưởng.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_coven.png"
+  },
+  {
+   "id": "Emblem_Defender",
+   "ten": "Ấn Vệ Quân",
+   "toc_he": "Defender",
+   "cong_thuc": [],
+   "tac_dung": "Người mang tính là tướng Vệ Quân. Không ghép được — chỉ có từ lõi hoặc phần thưởng.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_defender.png"
+  },
+  {
+   "id": "Emblem_FloraFatalis",
+   "ten": "Ấn Thực Vật",
+   "toc_he": "FloraFatalis",
+   "cong_thuc": [],
+   "tac_dung": "Người mang tính là tướng Thực Vật. Không ghép được — chỉ có từ lõi hoặc phần thưởng.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_florafatalis.png"
+  },
+  {
+   "id": "Emblem_Juggernaut",
+   "ten": "Ấn Dũng Sĩ",
+   "toc_he": "Juggernaut",
+   "cong_thuc": [],
+   "tac_dung": "Người mang tính là tướng Dũng Sĩ. Không ghép được — chỉ có từ lõi hoặc phần thưởng.",
+   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_juggernaut.png"
+  }
+ ]
+}

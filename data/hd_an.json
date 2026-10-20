@@ -1,5 +1,5 @@
 {
- "nguon": "Excel hướng dẫn v1.8 · 06/10/2026 (trang CHỌN ẤN → ĐỘI HÌNH)",
+ "nguon": "Excel hướng dẫn v1.8 · 06/10/2026 (trang CHỌN ẤN → ĐỘI HÌNH) · Cập nhật 18.5: số liệu OP.GG · máy chủ VN · bản 18.4b (171.120 ván / 24 giờ, 20/10/2026), xu hướng theo thay đổi bản 18.5.",
  "cach_tinh": "Điểm = sức mạnh đội theo số liệu máy chủ VN (đã cân cỡ mẫu) + dự báo bản 18.4 + điểm từ Ấn (mở được mốc tộc/hệ = điểm lớn; chỉ cộng chỉ số = điểm nhỏ; ấn vô dụng ≈ 0) + lệch theo loại đồ đang cầm. Ấn thứ 2, 3 cùng loại dùng bảng riêng và chia đều.",
  "an": [
   {
@@ -239,8 +239,8 @@
     "Kennen"
    ],
    "toc_he": "3 Tinh Nghịch · 3 Đao Phủ · 2 Gai Đen · 2 Thuật Sư · 2 Triệu Hồi · 2 Thực Vật · 2 Vệ Quân · 1 Vườn Gai",
-   "so_lieu_vn": "VN 18.3b: hạng TB 2.69 · top 4 84,8% · 1,15% người chơi",
-   "ban_moi": "↘ 18.4: Đao Phủ chảy máu giảm (40% → 35%) – giảm NHẸ, vẫn là đội tốt nhất VN",
+   "so_lieu_vn": "VN 18.4b: hạng TB 2.82 · top 4 83,4% · 1,82% người chơi",
+   "ban_moi": "→ 18.5: Soraka tăng; Azir, Thực Vật giảm – cân bằng",
    "len_cap": "Cấp 7 ở 3-5 → lên 8 ở 4-2 đổi tướng tìm Soraka + Zyra 2 sao → 9 thêm Malphite",
    "lech_do": [
     0,
@@ -290,8 +290,8 @@
     "Taric"
    ],
    "toc_he": "4 Dũng Sĩ · 2 Tiên Phong · 2 Nguyên Sinh · 2 Hỏa Ngục · 2 Thợ Săn · 1 Thụ Thần · 1 Cổ Thụ · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.3b: hạng TB 2.77 · top 4 79,3% · 0,54% người chơi",
-   "ban_moi": "↓ 18.4: Ashe mất 20 Năng Lượng khởi đầu, Maokai +10 Năng Lượng, Dũng Sĩ 3 giảm – GIẢM RÕ",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.75 · top 4 66,5% · 0,13% người chơi",
+   "ban_moi": "↑ 18.5: Taric, Ashe tăng – MẠNH LÊN RÕ",
    "len_cap": "Tham vàng: 8 ở 4-2 (đổi tướng ít) → 9 ở 5-1 → đổi tướng tìm Ashe/Maokai",
    "lech_do": [
     0,
@@ -341,8 +341,8 @@
     "Alune"
    ],
    "toc_he": "6 Thuật Sư · 3 Thần Rừng · 2 Vệ Quân · 2 Gai Đen · 2 Đấu Sĩ · 1 Thực Vật · 1 Hòa Hợp",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.09 · top 4 77,9% · 0,65% người chơi",
-   "ban_moi": "→ 18.4: không bị đụng tới, các đội khác bị giảm → TƯƠNG ĐỐI MẠNH LÊN",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.10 · top 4 77,2% · 0,45% người chơi",
+   "ban_moi": "→ 18.5: không bị đụng tới",
    "len_cap": "Cấp 6–7, giữ trên 50 vàng đổi tướng phần dư tới khi Veigar 3 sao → lên 8–9",
    "lech_do": [
     0,
@@ -391,8 +391,8 @@
     "Soraka"
    ],
    "toc_he": "3 Thần Rừng · 2 Vệ Quân · 2 Mặt Trăng · 2 Tiên Phong · 2 Thực Vật · 2 Đao Phủ · 1 Khắc Tinh",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.09 · top 4 78,0% · 0,33% người chơi",
-   "ban_moi": "→ 18.4: Diana chậm hơn chút, Mặt Trăng (Aphelios) tăng – cân bằng",
+   "so_lieu_vn": "VN 18.4b: hạng TB 2.83 · top 4 84,0% · 0,57% người chơi",
+   "ban_moi": "↘ 18.5: Soraka tăng; Kha'Zix, Thực Vật giảm – giảm nhẹ",
    "len_cap": "4 → 5 → 6 → 7 (3-5) đổi tướng tìm Kha'Zix 2 sao → 8 ở 4-2",
    "lech_do": [
     0,
@@ -441,8 +441,8 @@
     "Zyra"
    ],
    "toc_he": "3 Hoa Linh · 3 Triệu Hồi · 2 Gai Đen · 2 Đấu Sĩ · 2 Dũng Sĩ · 2 Đao Phủ · 1 Khắc Tinh · 1 Vườn Gai",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.17 · top 4 77,3% · 0,47% người chơi",
-   "ban_moi": "→ 18.4: không bị đụng tới → TƯƠNG ĐỐI MẠNH LÊN",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.55 · top 4 70,6% · 0,08% người chơi",
+   "ban_moi": "→ 18.5: Sett tăng; Azir, Kha'Zix giảm – cân bằng",
    "len_cap": "Cấp 7 ở 3-5, đổi tướng tìm Azir + Vi 3 sao rồi mới lên 8",
    "lech_do": [
     0,
@@ -492,8 +492,8 @@
     "Taric"
    ],
    "toc_he": "3 Thần Rừng · 2 Đấu Sĩ · 2 Hỏa Ngục · 2 Dũng Sĩ · 2 Đao Phủ · 1 Săn Thưởng · 1 Thụ Thần · 1 Cổ Thụ · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.17 · top 4 73,4% · 1,26% người chơi",
-   "ban_moi": "↓ 18.4: Maokai chậm hơn, Dũng Sĩ 3 giảm – GIẢM",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.56 · top 4 65,9% · 1,26% người chơi",
+   "ban_moi": "→ 18.5: Taric tăng; Draven giảm – cân bằng",
    "len_cap": "Tham vàng: 8 ở 4-2 → 9 ở 5-1, đổi tướng tìm tướng 5 vàng",
    "lech_do": [
     0,
@@ -542,8 +542,8 @@
     "Taric"
    ],
    "toc_he": "2 Hỏa Ngục · 2 Dũng Sĩ · 2 Tiên Phong · 1 Săn Thưởng · 1 Thụ Thần · 1 Cổ Thụ · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.18 · top 4 71,9% · 3,51% người chơi",
-   "ban_moi": "↓ 18.4: Maokai + Hỏa Ngục giảm (Quái Rừng 3 tăng nhẹ) – GIẢM, lại BỊ TRANH NHIỀU NHẤT VN",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.30 · top 4 69,4% · 6,29% người chơi",
+   "ban_moi": "→ 18.5: Taric tăng; Draven giảm – cân bằng",
    "len_cap": "Tham vàng lên 9; cần Draven + Rồng Ngàn Tuổi 2 sao",
    "lech_do": [
     0,
@@ -592,8 +592,8 @@
     "Soraka"
    ],
    "toc_he": "6 Vệ Quân · 2 Thuật Sư · 2 Thực Vật",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.50 · top 4 72,2% · 0,39% người chơi",
-   "ban_moi": "↘ 18.4: Vệ Quân 6 giảm nhẹ (120 → 115) – gần như không đổi",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.80 · top 4 67,4% · 0,17% người chơi",
+   "ban_moi": "→ 18.5: Soraka tăng; Thực Vật giảm – cân bằng",
    "len_cap": "Cấp 7 ở 3-5, đổi tướng phần dư trên 50 vàng tìm Cassiopeia/Rammus 3 sao",
    "lech_do": [
     0,
@@ -642,8 +642,8 @@
     "Taric"
    ],
    "toc_he": "4 Tiên Phong · 3 Tiên Hắc Ám · 2 Thuật Sư · 2 Mặt Trăng · 2 Thuật Sĩ · 1 Hòa Hợp · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.62 · top 4 65,2% · 0,64% người chơi",
-   "ban_moi": "↗ 18.4: Mặt Trăng + Tiên Hắc Ám + Thuật Sĩ (ấn cho Alune) tăng – MẠNH LÊN",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.43 · top 4 69,0% · 0,75% người chơi",
+   "ban_moi": "↑ 18.5: Morgana, Taric tăng – MẠNH LÊN RÕ",
    "len_cap": "Lên 8 ở 4-2 đổi tướng tìm Alune; ưu tiên Ấn Thuật Sĩ cho Alune",
    "lech_do": [
     0,
@@ -692,8 +692,8 @@
     "Người Đá"
    ],
    "toc_he": "2 Hỏa Ngục · 2 Liên Kích · 2 Mặt Trăng · 2 Tiên Phong · 2 Thuật Sĩ · 2 Thích Ứng · 2 Nguyên Sinh · 2 Dũng Sĩ · 1 Ăn Mòn",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.94 · top 4 63,1% · 3,87% người chơi",
-   "ban_moi": "↗ 18.4: Mặt Trăng tăng Tốc Độ Đánh mọi mốc – MẠNH LÊN (nhưng đông người chơi)",
+   "so_lieu_vn": "VN 18.4b: hạng TB 4.31 · top 4 55,4% · 4,15% người chơi",
+   "ban_moi": "→ 18.5: không bị đụng tới",
    "len_cap": "Lên 8 ở 4-2, đổi tướng tìm Aphelios + Nidalee 2 sao",
    "lech_do": [
     0,
@@ -742,8 +742,8 @@
     "Alune"
    ],
    "toc_he": "3 Mặt Trời · 3 Liên Kích · 3 Mặt Trăng · 2 Vệ Quân · 2 Hỏa Ngục · 1 Hòa Hợp",
-   "so_lieu_vn": "VN 18.3b: hạng TB 2.67 · top 4 84,9% · 0,12% người chơi",
-   "ban_moi": "↗ 18.4: Mặt Trăng tăng, Mặt Trời dễ lên bậc 4 hơn (8 → 7) – MẠNH LÊN · mẫu số liệu nhỏ",
+   "so_lieu_vn": "VN 18.4b: hạng TB 2.90 · top 4 82,4% · 0,31% người chơi",
+   "ban_moi": "→ 18.5: không bị đụng tới",
    "len_cap": "Cấp 6, đổi tướng phần dư trên 50 vàng tìm Kayle 3 sao → lên 8",
    "lech_do": [
     0,
@@ -792,8 +792,8 @@
     "Taric"
    ],
    "toc_he": "6 Quái Rừng · 2 Thuật Sĩ · 2 Tàn Phá · 2 Đấu Sĩ · 2 Tiên Phong · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.3b: hạng TB 2.63 · top 4 84,3% · 0,05% người chơi",
-   "ban_moi": "↗ 18.4: Quái Rừng 3 + lõi Quái Rừng Omega tăng – MẠNH LÊN · mẫu số liệu rất nhỏ",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.24 · top 4 75,3% · 0,46% người chơi",
+   "ban_moi": "↗ 18.5: Taric tăng – MẠNH LÊN",
    "len_cap": "Lên 9 nhanh: 8 ở 4-2 → 9 ở 5-1 → tìm Rồng Ngàn Tuổi 2 sao",
    "lech_do": [
     0,
@@ -842,8 +842,8 @@
     "Sett"
    ],
    "toc_he": "3 Hoa Linh · 3 Thích Ứng · 2 Dũng Sĩ · 2 Đấu Sĩ · 2 Nguyên Sinh · 1 Ăn Mòn · 1 Khắc Tinh",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.24 · top 4 76,9% · 0,1% người chơi",
-   "ban_moi": "↘ 18.4: Master Yi giảm SMCK (62 → 60) – giảm nhẹ",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.14 · top 4 79,0% · 0,12% người chơi",
+   "ban_moi": "↑ 18.5: Master Yi, Sett tăng – MẠNH LÊN RÕ",
    "len_cap": "Cấp 7 ở 3-5, đổi tướng tìm Rengar + Yi 3 sao",
    "lech_do": [
     0,
@@ -893,8 +893,8 @@
     "Gnar"
    ],
    "toc_he": "5 Hoa Linh · 2 Thuật Sư · 2 Dũng Sĩ · 2 Triệu Hồi · 2 Nguyên Sinh · 2 Đấu Sĩ · 2 Thợ Săn · 1 Vườn Gai",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.75 · top 4 65,9% · 0,14% người chơi",
-   "ban_moi": "↗ 18.4: Hoa Linh 3/4 tăng (45% → 50%/55%), Ashe giảm – nhỉnh lên",
+   "so_lieu_vn": "VN 18.4b: chưa có trong bảng OP.GG (đội ít người chơi)",
+   "ban_moi": "↑ 18.5: Sett, Ashe tăng – MẠNH LÊN RÕ",
    "len_cap": "Lên 9 nhanh: mua mọi Tinh Linh kinh tế, 8 ở 4-2 → 9 ở 5-1",
    "lech_do": [
     0,
@@ -944,8 +944,8 @@
     "Gnar"
    ],
    "toc_he": "7 Thần Rừng · 2 Vệ Quân · 2 Đấu Sĩ · 2 Thuật Sư · 2 Thực Vật · 2 Đao Phủ",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.73 · top 4 64,5% · 0,74% người chơi",
-   "ban_moi": "→ 18.4: không đổi",
+   "so_lieu_vn": "VN 18.4b: hạng TB 4.40 · top 4 54,7% · 0,43% người chơi",
+   "ban_moi": "→ 18.5: Soraka tăng; Thực Vật giảm – cân bằng",
    "len_cap": "Lên 8 ở 4-2, đổi tướng tìm Ezreal 2 sao; lên 9 thêm Ivern",
    "lech_do": [
     0,
@@ -994,8 +994,8 @@
     "Malphite"
    ],
    "toc_he": "4 Gai Đen · 4 Tàn Phá · 3 Quái Rừng · 2 Đấu Sĩ · 1 Cự Thạch",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.55 · top 4 73,8% · 0,21% người chơi",
-   "ban_moi": "→ 18.4: không đổi",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.72 · top 4 71,6% · 0,10% người chơi",
+   "ban_moi": "→ 18.5: Malphite tăng; Azir giảm – cân bằng",
    "len_cap": "Cấp 5–6, đổi tướng từ từ trên 50 vàng tới Warwick 3 sao → lên 8",
    "lech_do": [
     0,
@@ -1045,8 +1045,8 @@
     "Kennen"
    ],
    "toc_he": "3 Hỏa Ngục · 3 Thợ Săn · 2 Vệ Quân · 2 Tiên Linh · 2 Nguyên Sinh · 2 Dũng Sĩ · 1 Thụ Thần",
-   "so_lieu_vn": "VN 18.3b: hạng TB 3.60 · top 4 — · 0,3% người chơi",
-   "ban_moi": "↓ 18.4: Thợ Săn 4 giảm (65% → 60%) + Ashe giảm – GIẢM",
+   "so_lieu_vn": "VN 18.4b: hạng TB 3.75 · top 4 66,5% · 0,13% người chơi",
+   "ban_moi": "↑ 18.5: Tristana, Ashe, Tiên Linh tăng – MẠNH LÊN RÕ",
    "len_cap": "Lên 8 ở 4-2 đổi tướng tìm Sivir 2 sao",
    "lech_do": [
     0,
@@ -1095,8 +1095,8 @@
     "Taric"
    ],
    "toc_he": "3 Hoa Linh · 3 Quái Rừng · 3 Thuật Sĩ · 2 Thuật Sư · 2 Đấu Sĩ · 2 Tiên Phong · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.3b: hạng TB 4.25 · top 4 55,0% · 1,24% người chơi",
-   "ban_moi": "↑ 18.4: Thuật Sĩ hồi Năng Lượng tăng MỌI mốc (2/3/5 → 3/4/6) – MẠNH LÊN RÕ",
+   "so_lieu_vn": "VN 18.4b: hạng TB 4.62 · top 4 47,4% · 1,50% người chơi",
+   "ban_moi": "↑ 18.5: Morgana, Sett, Taric tăng – MẠNH LÊN RÕ",
    "len_cap": "Lên 8 ở 4-2, đổi tướng tìm Ahri + Morgana 2 sao",
    "lech_do": [
     0,
@@ -1145,8 +1145,8 @@
     "Người Đá"
    ],
    "toc_he": "5 Tiên Hắc Ám · 4 Tiên Phong · 2 Tàn Phá · 2 Thuật Sĩ",
-   "so_lieu_vn": "VN 18.3b: hạng TB 5.46 · top 4 28,6% · 0,17% người chơi",
-   "ban_moi": "↗ 18.4: Tiên Hắc Ám nhận nhiều Tinh Chất hơn – có tăng nhưng VẪN YẾU ở VN",
+   "so_lieu_vn": "VN 18.4b: hạng TB 5.25 · top 4 33,6% · 0,08% người chơi",
+   "ban_moi": "↗ 18.5: Caitlyn, Morgana tăng – MẠNH LÊN",
    "len_cap": "Cố tình thua đầu game tích Tinh Chất → đổi quà lớn giữa game",
    "lech_do": [
     0,

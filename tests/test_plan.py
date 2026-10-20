@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — kiểm thử form theo vòng, tối ưu Ấn theo mốc tộc/hệ, phân tích bản cập nhật
+# ĐTCL Coach v1.2 (2026-10-20) — kiểm thử form theo vòng, tối ưu Ấn theo mốc tộc/hệ, phân tích bản cập nhật
 import sys
 from pathlib import Path
 
@@ -116,10 +116,11 @@ def test_patch_rows_and_categories():
     rows = P.patch_rows()
     assert len(rows) == 19
     az = next(r for r in rows if r["ten"].startswith("Đao Phủ Azir"))
-    assert az["vn"] == {"hang_tb": 2.69, "top4": 84.8, "ti_le": 1.15} and az["xu_huong"] == -1
+    assert az["vn"] == {"hang_tb": 2.82, "top4": 83.4, "ti_le": 1.82} and az["xu_huong"] == 0
     assert P.trend_of("↑ 18.4: …") == 2 and P.trend_of("→ 18.4: … MẠNH LÊN") == 0.5 and P.trend_of("↓ x") == -2
     pa = P.patch_analysis()
-    assert set(pa) == {k for k, _, _ in P.CATEGORIES}
+    assert set(pa) == {k for k, _, _ in P.CATEGORIES} == {k for k, _, _ in P.categories()}
+    assert "18.5" in P.categories()[0][1]
     assert all(pa[k] for k in ("nen_choi", "duoc_loi", "manh_nhat", "de_top1", "de_top4", "an_spam", "de_choi", "nen_tranh"))
     assert pa["manh_nhat"][0]["ten"].startswith("Đao Phủ Azir")
     assert all(r["xu_huong"] > 0 for r in pa["duoc_loi"])
@@ -141,3 +142,18 @@ def test_best_items():
     bi = P.best_items("Azir")
     assert bi and bi["do"] and all(i in E.data()["item"] for i in bi["do"])
     assert P.best_items("KhôngCó") is None
+
+
+def test_old_data_set_kept():
+    """Bộ 18.3b cũ vẫn đọc được song song với bộ mới, số liệu không lẫn nhau."""
+    from core import config
+
+    new = P.patch_rows()
+    with config.voi_bo("18.3b"):
+        old = P.patch_rows()
+        assert E.data()["meta"]["bo"] == "18.3b" and E.data()["ban_cap_nhat"]["phien_ban"] == "18.4"
+        az = next(r for r in old if r["ten"].startswith("Đao Phủ Azir"))
+        assert az["vn"] == {"hang_tb": 2.69, "top4": 84.8, "ti_le": 1.15} and az["xu_huong"] == -1
+        assert P.patch_analysis()["manh_nhat"][0]["ten"].startswith("Đao Phủ Azir")
+        assert "18.4" in P.categories()[0][1]
+    assert E.data()["meta"]["bo"] == "18.5" and new is P.patch_rows()

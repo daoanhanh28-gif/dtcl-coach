@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — trang Lõi nâng cấp
+# ĐTCL Coach v1.2 (2026-10-20) — trang Lõi nâng cấp
 import streamlit as st
 
 from core import engine, ui
@@ -85,7 +85,7 @@ with tab3:
     st.markdown("### Quy tắc chọn lõi theo mốc")
     for x in hl["quy_tac_moc"]:
         st.markdown(f"- **{x['moc']}** — {x['quy_tac']}")
-    st.markdown("### Danh sách lõi mạnh (bản 18.3b)")
+    st.markdown("### Danh sách lõi mạnh (theo file hướng dẫn v1.8 · bản 18.3b)")
     loai = st.selectbox("Loại", ["Tất cả"] + sorted({x["loai"] for x in hl["loi_manh"]}), key="l_manh")
     st.markdown(ui.html_table(["", "Lõi", "Loại", "Hạng", "Hợp với", "Ghi chú"],
                               [[ui.Raw(_aug_pic(x["ten"])), x["ten"], x["loai"], x["hang"], x["hop_voi"], x["ghi_chu"]]
@@ -93,8 +93,8 @@ with tab3:
                 unsafe_allow_html=True)
 
 with tab4:
-    st.markdown("### Xếp hạng lõi tộc hệ — bản 18.3b + thay đổi 18.4")
-    st.markdown(ui.html_table(["", "Lõi", "Tộc/Hệ", "Sức mạnh", "Cho bạn", "Đội hình hợp", "Cách đánh", "Bản 18.4"],
+    st.markdown("### Xếp hạng lõi tộc hệ — file hướng dẫn v1.8 (bản 18.3b + nhận định 18.4)")
+    st.markdown(ui.html_table(["", "Lõi", "Tộc/Hệ", "Sức mạnh", "Cho bạn", "Đội hình hợp", "Cách đánh", "Nhận định 18.4"],
                               [[ui.Raw(_aug_pic(x["ten"]) or _trait_pic(x["toc_he"])), x["ten"], x["toc_he"], x["suc_manh"],
                                 x["cho"], x["doi_hinh"], x["cach_danh"], x["ban_moi"]]
                                for x in hl["loi_toc_he"]], rich_text=True), unsafe_allow_html=True)

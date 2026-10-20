@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — trang Kinh tế & nhịp ván
+# ĐTCL Coach v1.2 (2026-10-20) — trang Kinh tế & nhịp ván
 import streamlit as st
 
 from core import engine, ui

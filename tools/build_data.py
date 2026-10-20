@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — dựng data/*.json từ dữ liệu thô (Community Dragon + MetaTFT)
+# ĐTCL Coach v1.2 (2026-10-20) — dựng data/*.json từ dữ liệu thô (Community Dragon + MetaTFT)
 """
 Chạy:  python tools/build_data.py
 Đọc tools/raw/*.tsv|txt  →  ghi data/tuong.json, toc_he.json, trang_bi.json, loi.json, doi_hinh.json, meta.json
@@ -15,8 +15,8 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "tools" / "raw"
 DATA = ROOT / "data"
 
-GAME = {"mua": 18, "ten_mua": "Enchanted Wilds", "ten_mua_vi": "Đại Ngàn Kỳ Bí", "phien_ban": "18.3b"}
-NGAY_LAY = "2026-10-06"
+GAME = {"mua": 18, "ten_mua": "Enchanted Wilds", "ten_mua_vi": "Đại Ngàn Kỳ Bí", "phien_ban": "18.4b"}
+NGAY_LAY = "2026-10-20"
 CDN = "https://raw.communitydragon.org/latest/game/"
 
 # --------------------------------------------------------------------------- tộc / hệ
@@ -212,6 +212,21 @@ AUG_VI_EXTRA = {  # lõi có trong danh sách MetaTFT nhưng Community Dragon th
     "DA_NestingDolls": ("Búp Bê Xây Tổ", "Nesting Dolls", "Tướng bị hạ tạo bản sao thấp hơn 1 sao. Nhận lượt đổi miễn phí."),
     "DA_NestingDollsPlusPlus": ("Búp Bê Xây Tổ++", "Nesting Dolls++", "Tướng bị hạ tạo bản sao thấp hơn 1 sao. Nhận nhiều lượt đổi miễn phí."),
     "DA_GainGold": ("Nhận 21 Vàng", "Gain 21 Gold", "Nhận 21 vàng."),
+    # bản 18.4 / 18.4b — lõi mới hoặc đổi số (Community Dragon PBE, 20/10/2026)
+    "DA_ConstructACompanion": ("Người Bạn Vàng", "Construct a Companion", "Tướng 1 vàng tiếp theo bạn mua được nâng lên 3 sao. Nhận 2 vàng."),
+    "DA_ForgeAFriend": ("Chế Tạo Bằng Hữu", "Forge A Friend", "Tướng 1 vàng tiếp theo bạn mua được nâng lên 3 sao. Nhận 5 vàng."),
+    "DA_TonsOfStatsII": ("Cộng Mệt Nghỉ! II", "TONS of Stats!", "Cả đội nhận thêm 88 Máu, 8% SMCK, 8% SMPT, 8 Giáp, 8 Kháng Phép, 8% Tốc Độ Đánh và 8 Năng Lượng."),
+    "DA_CalculatedLoss": ("Thua Có Tính Toán", "Calculated Loss", "Sau khi thua giao tranh, nhận 2 vàng và 1 lượt đổi Cửa Hàng miễn phí."),
+}
+# lõi đã có tên Việt nhưng Riot đổi số ở 18.4 / 18.4b → mô tả mới (giữ tên cũ)
+AUG_MO_TA_MOI = {
+    "DA_BronzeForLifeII": "+2.5% Khuếch Đại Sát Thương và 3 Giáp & Kháng Phép cho mỗi tộc/hệ bậc Đồng (18.4: 4 → 3).",
+    "DA_GiantAndMighty": "Cả đội hóa lớn, +225 Máu và 10% Máu tối đa (18.4b: 200 → 225).",
+    "DA_InvestmentStrategyI": "Tướng nhận vĩnh viễn 9 Máu tối đa cho mỗi vàng lợi tức. Nhận ngay 6 vàng (18.4: 8 → 9 Máu, 4 → 6 vàng).",
+    "DA_LevelUp": "Mỗi lần mua XP nhận thêm 2 XP. Nhận ngay 10 XP (18.4: 6 → 10 XP).",
+    "DA_HeroicGrabBag": "Nhận 2 Máy Sao Chép Tướng Cỡ Nhỏ và 6 vàng (18.4b: 4 → 6 vàng).",
+    "DA_Retribution": "Nhận 2 Bàn Tay Công Lý; đồng minh cầm Bàn Tay Công Lý nhận Chuẩn Xác (kỹ năng chí mạng được) và 15% Tỉ Lệ Chí Mạng.",
+    "DA_SpiritOfRedemption": "Nhận 1 Giáp Tâm Linh; mỗi 5 giây hồi 9% Máu đã mất cho đồng minh trong 1 ô (18.4b: 7.5% → 9%).",
 }
 # nhóm lõi (để lọc và để trợ lý chấm điểm)
 AUG_GROUP_RULES = [
@@ -260,6 +275,7 @@ def build_augments():
             continue
         r, rounds = rar.get(api, (2, []))
         name, en, desc = vi[api]
+        desc = AUG_MO_TA_MOI.get(api, desc)
         out.append({"id": api, "ten": name, "ten_en": en, "bac": BAC[r], "bac_so": r, "xep_hang": lab,
                     "vong": rounds, "nhom": aug_group(api), "mo_ta": desc, "anh": icons.get(api, "")})
     order = {"S": 0, "A": 1, "B": 2, "C": 3}
@@ -370,7 +386,7 @@ def build_comps(champs):
             "tuong": units, "chu_luc": carries, "do_don": tanks, "toc_he": tr,
             "an_nen_ghep": sorted(set(emblems)),
             "so_lieu": {"so_tran": int(count), "hang_tb": a, "top4": float(t4), "top1": float(win),
-                        "nguon": "MetaTFT", "pham_vi": "Bạch Kim trở lên · 3 ngày gần nhất · bản 18.3b"},
+                        "nguon": "MetaTFT", "pham_vi": f"Bạch Kim trở lên · 3 ngày gần nhất · bản {GAME['phien_ban']}"},
             "cach_choi": plan_text(kieu, cap, carry_names, tank_names),
         })
     comps.sort(key=lambda c: c["so_lieu"]["hang_tb"])
@@ -428,7 +444,7 @@ def main():
         **GAME, "ngay_cap_nhat": NGAY_LAY,
         "nguon": [
             {"ten": "Community Dragon (dữ liệu game Riot, bản tiếng Việt)", "url": "https://raw.communitydragon.org/latest/cdragon/tft/vi_vn.json"},
-            {"ten": "MetaTFT – thống kê đội hình (Bạch Kim+, 3 ngày, bản 18.3b)", "url": "https://www.metatft.com/comps"},
+            {"ten": f"MetaTFT – thống kê đội hình (Bạch Kim+, 3 ngày, bản {GAME['phien_ban']})", "url": "https://www.metatft.com/comps"},
             {"ten": "MetaTFT – bảng xếp hạng lõi", "url": "https://www.metatft.com/augments"},
             {"ten": "SeeMeta – tỉ lệ cửa hàng Mùa 18", "url": "https://seemeta.com/en/tft/set-18/odds"},
         ],

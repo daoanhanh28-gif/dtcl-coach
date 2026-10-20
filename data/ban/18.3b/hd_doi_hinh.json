@@ -1,0 +1,1396 @@
+{
+ "nguon": "Excel hướng dẫn v1.8 · 06/10/2026",
+ "doi_hinh": [
+  {
+   "ten": "Đao Phủ Azir – Soraka & Zyra (Thực Vật)",
+   "hang": "S",
+   "loi_choi": "Lên 8 nhanh",
+   "do_kho": "Trung bình",
+   "nhom_gia": 1,
+   "thu_tu": 1,
+   "toc_he": "4 Đao Phủ (có Ấn) · 3 Tinh Nghịch · 2 Thực Vật · 2 Triệu Hồi · 2 Gai Đen · 2 Thuật Sư · 2 Vệ Quân · Vườn Gai",
+   "tong_quan": "ĐỘI TỐT NHẤT MÁY CHỦ VN (18.3b: hạng TB 2.69, top 4 84,8%). Soraka + Zyra gây sát thương phép có chí mạng (Đao Phủ); Azir triệu hồi lính; Veigar + Teemo + Rammus bật Tinh Nghịch cho Rammus cưỡi Bạn Lông Xù làm tường thịt; Fiddlesticks hồi máu (Thực Vật).",
+   "len_cap": "Cấp 7 ở 3-5 → lên 8 ở 4-2, đổi tướng tìm Soraka + Zyra 2 sao → lên 9 thêm Malphite.",
+   "mo_man": "Mở đầu đội phép rẻ: Veigar, Teemo, Rek'Sai/Kobuko. Ghép sớm Găng Bảo Thạch / Nanh Nashor cho Veigar làm chủ lực tạm.",
+   "giua_tran": "Cấp 7: Veigar, Teemo, Azir, Fiddlesticks, Rammus, Kennen/Zyra + chủ lực tạm. Rammus cưỡi Bạn Lông Xù.",
+   "tuong": [
+    "Veigar",
+    "Teemo",
+    "Azir",
+    "Fiddlesticks",
+    "Rammus",
+    "Soraka",
+    "Zyra",
+    "Kennen",
+    "Malphite"
+   ],
+   "chu_luc": {
+    "tuong": "Soraka",
+    "do": [
+     "Găng Bảo Thạch",
+     "Nanh Nashor",
+     "Mũ Phù Thủy Rabadon"
+    ],
+    "ghi_chu": "Mũ Thích Nghi thay Rabadon · Tạo Tác: Lõi Bình Minh, Kiếm Tai Ương"
+   },
+   "chu_luc_phu": {
+    "tuong": "Zyra",
+    "do": [
+     "Găng Bảo Thạch",
+     "Trượng Hư Vô",
+     "Ngọn Giáo Shojin"
+    ],
+    "ghi_chu": "Ấn Đao Phủ đeo cho Zyra = mở Đao Phủ 4 (tốt nhất)"
+   },
+   "do_don": {
+    "tuong": "Rammus",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Vương Miện Hoàng Gia",
+     "Áo Choàng Gai"
+    ],
+    "ghi_chu": "Fiddlesticks: Nỏ Sét / Áo Choàng Lửa · Malphite (cấp 9): Giáp Máu Warmog"
+   },
+   "uu_tien_manh": "Gậy Quá Khổ > Găng Đấu Tập > Nước Mắt Nữ Thần > Giáp Lưới > Áo Choàng Bạc",
+   "loi_khuyen_dung": [
+    "Thực Vật Hấp Thụ",
+    "Khiên Đơn Đấu",
+    "Đam Mê Gậy",
+    "Giữ Vững Hàng Ngũ",
+    "Ấn Đao Phủ"
+   ],
+   "khi_nao": "Có đồ phép + Găng; ít đội phép khác trong phòng. ⚠ 18.4 (07/10): Đao Phủ chảy máu giảm nhẹ (40% → 35%) – vẫn rất mạnh.",
+   "xep_vi_tri": "Soraka & Zyra hàng sau ở 2 góc; Rammus (cưỡi Bạn Lông Xù) + Fiddlesticks hàng đầu giữa; cây của Zyra lấp khoảng trống phía trước.",
+   "meo": "Đây là đội Azir + Rammus + Teemo + Fiddlesticks + Veigar + Zyra + Soraka – số liệu VN xác nhận mạnh nhất · Ấn Đao Phủ → Zyra · Ấn Thuật Sĩ → Soraka · Giữ từ 6 cây Zyra sống để Vườn Gai lên 10%.",
+   "diem_yeu": "Đội dồn sát thương phép nhanh; Soraka bị bắt sớm; 2 người cùng ép Soraka/Zyra.",
+   "mau_ban_co": "Chủ lực ở góc (chuẩn)"
+  },
+  {
+   "ten": "Nidalee & Aphelios Mặt Trăng",
+   "hang": "S",
+   "loi_choi": "Lên 8 nhanh",
+   "do_kho": "Trung bình",
+   "nhom_gia": 2,
+   "thu_tu": 2,
+   "toc_he": "2 Mặt Trăng · 2 Liên Kích · 2 Nguyên Sinh · 2 Thích Ứng · 2 Dũng Sĩ · 2 Tiên Phong · 2 Hỏa Ngục · Ăn Mòn",
+   "tong_quan": "⚠ 18.3: Nidalee dạng vật lý bị giảm nhẹ (dạng phép được buff). Hai chủ lực vật lý 4 vàng. Không cần đồ tiện ích: Kog'Maw giảm giáp/kháng phép, Hỏa Ngục gây Vết Thương → được ghép đồ sát thương ngay từ sớm.",
+   "len_cap": "Cấp 4 (có tướng lên 2 sao) → 5 → 6 (nếu thắng liên tiếp ≥ 4) → 7 → 8 ở Giai đoạn 4 (4-1/4-2) đổi tướng cho ổn → 9 khi máu cao.",
+   "mo_man": "Mở đầu Tàn Phá: Camille, Akali, Warwick, Sói Hắc Ám, Shen, Varus. Ghép sớm đồ vật lý / tốc độ đánh.",
+   "giua_tran": "Cấp 7: Varus, Diana, Kog'Maw, Vi, Amumu, Shen + chủ lực tạm; giữ Aphelios/Nidalee nếu gặp.",
+   "tuong": [
+    "Varus",
+    "Diana",
+    "Kog'Maw",
+    "Vi",
+    "Amumu",
+    "Aphelios",
+    "Nidalee",
+    "Người Đá",
+    "Taric"
+   ],
+   "chu_luc": {
+    "tuong": "Aphelios",
+    "do": [
+     "Cuồng Đao Guinsoo",
+     "Vô Cực Kiếm",
+     "Thịnh Nộ Thủy Quái"
+    ],
+    "ghi_chu": "Thay thế: Kiếm Tử Thần, Cung Xanh · Tạo Tác: Đại Bác Hải Tặc"
+   },
+   "chu_luc_phu": {
+    "tuong": "Nidalee",
+    "do": [
+     "Vô Cực Kiếm",
+     "Ngọn Giáo Shojin",
+     "Móng Vuốt Sterak"
+    ],
+    "ghi_chu": "Thay thế: Áo Choàng Bóng Tối + Áo Choàng Thủy Ngân + Vô Cực Kiếm · Tạo Tác: Chùy Bạch Ngân"
+   },
+   "do_don": {
+    "tuong": "Amumu",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Giáp Máu Warmog",
+     "Giáp Tâm Linh"
+    ],
+    "ghi_chu": "Người Đá: 2–3 Lời Thề Hộ Vệ, Áo Choàng Lửa"
+   },
+   "uu_tien_manh": "Kiếm BF > Găng Đấu Tập > Cung Gỗ > Nước Mắt Nữ Thần > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "Thợ Rèn Kiếm",
+    "Đam Mê Kiếm",
+    "Thép Mạ Vàng",
+    "Quái Thú Bên Trong"
+   ],
+   "khi_nao": "Có nhiều Kiếm BF/Găng; có Tạo Tác Đại Bác Hải Tặc; không ai tranh Nidalee.",
+   "xep_vi_tri": "Aphelios đứng cạnh tướng Mặt Trăng (Diana) để được tăng sức mạnh; Nidalee đặt ở cánh yếu để lao vào mục tiêu ít đồ trong 3 ô.",
+   "meo": "Nguyên Sinh: chọn Phúc Lành HỔ · Sau khi hạ gục, Nidalee nhảy vào tướng ít đồ nhất trong 3 ô → đặt ở cánh yếu để bắt chủ lực địch.",
+   "diem_yeu": "Đội nhiều giáp + khống chế; bị tranh Nidalee (đội Sivir & Nidalee cũng dùng).",
+   "mau_ban_co": "Sát thủ đánh vào cánh yếu"
+  },
+  {
+   "ten": "Sivir & Nidalee Nguyên Sinh",
+   "hang": "S",
+   "loi_choi": "Lên 8 nhanh",
+   "do_kho": "Trung bình",
+   "nhom_gia": 3,
+   "thu_tu": 3,
+   "toc_he": "3 Thợ Săn · 3 Quái Rừng · 2 Nguyên Sinh · 2 Thích Ứng · 2 Gai Đen · 2 Đấu Sĩ · 2 Thuật Sĩ · Cự Thạch",
+   "tong_quan": "Hai chủ lực vật lý Nguyên Sinh + Malphite đỡ đòn cực lì nhờ hiến tế Gai Đen và tộc Cự Thạch.",
+   "len_cap": "Lên 8 nhanh chuẩn; lên 8 ở Giai đoạn 4, đổi tướng tới khi đỡ đòn + chủ lực 2 sao; lên 9 nếu máu cho phép để thêm Ashe.",
+   "mo_man": "Mở đầu Tàn Phá (Camille, Akali, Shen) hoặc Quái Rừng vật lý (Mầm Non, Sói Hắc Ám). Ghép sớm Vô Cực Kiếm.",
+   "giua_tran": "Cấp 7: Mầm Non, Rek'Sai, Quái Đá Krug, Kog'Maw, Vi, Warwick + Malphite/Sivir nếu gặp.",
+   "tuong": [
+    "Mầm Non",
+    "Rek'Sai",
+    "Quái Đá Krug",
+    "Kog'Maw",
+    "Malphite",
+    "Nidalee",
+    "Sivir",
+    "Người Đá",
+    "Ashe"
+   ],
+   "chu_luc": {
+    "tuong": "Sivir",
+    "do": [
+     "Vô Cực Kiếm",
+     "Kiếm Tử Thần",
+     "Bùa Xanh"
+    ],
+    "ghi_chu": "Ngọn Giáo Shojin thay Bùa Xanh; Chùy Đoản Côn / Bùa Đỏ"
+   },
+   "chu_luc_phu": {
+    "tuong": "Nidalee",
+    "do": [
+     "Vô Cực Kiếm",
+     "Ngọn Giáo Shojin",
+     "Móng Vuốt Sterak"
+    ],
+    "ghi_chu": "Bàn Tay Công Lý thay Móng Vuốt Sterak"
+   },
+   "do_don": {
+    "tuong": "Malphite",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Vương Miện Hoàng Gia",
+     "Giáp Máu Warmog"
+    ],
+    "ghi_chu": "Tạo Tác: Huy Hiệu Thánh Khiên / Khiên Hừng Đông (lên hạng S)"
+   },
+   "uu_tien_manh": "Kiếm BF > Găng Đấu Tập > Nước Mắt Nữ Thần > Giáp Lưới > Áo Choàng Bạc",
+   "loi_khuyen_dung": [
+    "Thợ Rèn Kiếm",
+    "Đam Mê Kiếm (+2 bậc)",
+    "Xúc Xắc Hoành Tráng",
+    "Xúc Xắc Vô Tận",
+    "Ấn Thợ Săn / Nguyên Sinh"
+   ],
+   "khi_nao": "Nhiều Kiếm BF; có Ấn Thợ Săn/Nguyên Sinh; ít người chơi Nidalee.",
+   "xep_vi_tri": "Malphite giữa hàng đầu (bị nhiều tướng nhắm → Cự Thạch mạnh hơn); Sivir góc sau; Nidalee ở cánh yếu.",
+   "meo": "Nguyên Sinh: chọn HỔ, chọn GẤU khi cần kết liễu · Đặt 1 tướng dư (ví dụ Quái Đá Krug) lên ô hiến tế Gai Đen để Malphite nhận chỉ số · Phải có Ashe để hoàn thiện đội.",
+   "diem_yeu": "Tranh Nidalee với đội Nidalee & Aphelios; đội nhiều giáp nếu thiếu Cung Xanh.",
+   "mau_ban_co": "Sát thủ đánh vào cánh yếu"
+  },
+  {
+   "ten": "Kha'Zix Khắc Tinh (Thần Rừng Đao Phủ)",
+   "hang": "A",
+   "loi_choi": "Săn 3 sao 3 vàng (đổi tướng ở cấp 7)",
+   "do_kho": "Trung bình",
+   "nhom_gia": 4,
+   "thu_tu": 4,
+   "toc_he": "3 Đao Phủ · 3 Thần Rừng · 2 Thực Vật · 2 Vệ Quân · 2 Mặt Trăng · Khắc Tinh",
+   "tong_quan": "⚠ 18.3b giảm sát thương Kha'Zix (285/400/580 → 265/370/535) nên đội hạ nhiệt, vẫn nằm nhóm mạnh. Kha'Zix 3 sao tiến hoá theo số lần hạ gục (8 / 30 / 60), có Tạo Tác Kiếm Tai Ương là gần như thắng. Cây của Thần Rừng giữ tuyến trước rất tốt.",
+   "len_cap": "4 → 5 → 6 → 7 (3-5) rồi ĐỔI TƯỚNG tới khi gần hết vàng (giữ tối thiểu 10) để có Kha'Zix 3 sao + đỡ đòn 2–3 sao → chỉ lên 8 sau khi đã đủ 3 sao.",
+   "mo_man": "Mua Kha'Zix từ 2-1 → 2-3, ghép sớm Áo Choàng Bóng Tối. Mở đầu Thần Rừng: Ornn, Xayah, Alistar, LeBlanc.",
+   "giua_tran": "Cấp 6–7: Ornn, Hecarim, Fiddlesticks, Diana, Kha'Zix + giữ mọi bản Kha'Zix gặp được.",
+   "tuong": [
+    "Ornn",
+    "Hecarim",
+    "Fiddlesticks",
+    "Diana",
+    "Kha'Zix",
+    "Soraka",
+    "Aphelios",
+    "Ezreal"
+   ],
+   "chu_luc": {
+    "tuong": "Kha'Zix",
+    "do": [
+     "Áo Choàng Bóng Tối",
+     "Bàn Tay Công Lý",
+     "Mũ Phù Thủy Rabadon"
+    ],
+    "ghi_chu": "Tạo Tác Kiếm Tai Ương là đồ chuẩn số 1 (đẩy đội lên mức cao nhất) · Thay thế: Găng Bảo Thạch, Chùy Đoản Côn"
+   },
+   "chu_luc_phu": {
+    "tuong": "Aphelios",
+    "do": [
+     "Cuồng Đao Guinsoo",
+     "Vô Cực Kiếm",
+     "Thịnh Nộ Thủy Quái"
+    ],
+    "ghi_chu": "Chủ lực phụ; Ezreal cũng cầm được đồ dư (Ngọn Giáo Shojin, Cung Xanh)"
+   },
+   "do_don": {
+    "tuong": "Hecarim",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Áo Choàng Lửa",
+     "Giáp Máu Warmog"
+    ],
+    "ghi_chu": "Ornn: Áo Choàng Gai, Giáp Tâm Linh · Cây Thần Rừng lấp tuyến trước"
+   },
+   "uu_tien_manh": "Gậy Quá Khổ > Kiếm BF > Nước Mắt Nữ Thần > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "Kiếm Tai Ương (Tạo Tác)",
+    "Không Đối Thủ",
+    "Ấn Đao Phủ",
+    "Nồi Nấu Ăn",
+    "Giữ Vững Hàng Ngũ"
+   ],
+   "khi_nao": "Gặp Kha'Zix sớm (2-1 → 2-3) hoặc nhận Kha'Zix từ quả cầu; có Áo Choàng Bóng Tối.",
+   "xep_vi_tri": "Đặt Kha'Zix CÙNG PHÍA với chủ lực của đối thủ để nhảy vào; đỡ đòn và cây Thần Rừng chắn phía trước.",
+   "meo": "Thứ tự tiến hoá: Tàn Phá > Đao Phủ > Liên Kích > Thuật Sư · Có lõi Không Đối Thủ thì ra sân cả Rengar · Ưu tiên hạ gục liên tục để tiến hoá sớm.",
+   "diem_yeu": "Không hit 3 sao trước 4-2; đội dồn cục nhiều khống chế.",
+   "mau_ban_co": "Sát thủ đánh vào cánh yếu"
+  },
+  {
+   "ten": "Ahri & Morgana Thuật Sĩ",
+   "hang": "A",
+   "loi_choi": "Lên 8 nhanh",
+   "do_kho": "Trung bình",
+   "nhom_gia": 5,
+   "thu_tu": 5,
+   "toc_he": "3 Thuật Sĩ · 3 Hoa Linh · 3 Quái Rừng · 2 Thuật Sư · 2 Đấu Sĩ · 2 Tiên Phong",
+   "tong_quan": "Đội phép dễ ráp nhất hiện tại: Ahri dọn hàng sau, Morgana giảm kháng phép; Thuật Sĩ giúp cả đội hồi năng lượng nhanh. Dễ hơn bản Hoa Linh thuần vì không cần Ashe.",
+   "len_cap": "Cấp 4 (2-1) → 5 (2-5) → 6 (3-1) → 7 (3-5) → 8 (4-2) dồn vàng tìm Ahri/Morgana 2 sao → 9 (5-1/5-2) khi đội đã ổn.",
+   "mo_man": "Mở đầu đội phép: Karma, Sỏi, Yorick, LeBlanc, Teemo. Ghép sớm Găng Bảo Thạch / Ngọn Giáo Shojin.",
+   "giua_tran": "Cấp 6–7: Karma, Sỏi, Quái Đá Krug, Teemo, Kog'Maw, Cua Kỳ Cục, thêm Sett/Morgana nếu gặp. Giữ 3 Thuật Sĩ để hồi năng lượng.",
+   "tuong": [
+    "Karma",
+    "Sỏi",
+    "Quái Đá Krug",
+    "Sett",
+    "Ahri",
+    "Morgana",
+    "Người Đá",
+    "Taric",
+    "Lux"
+   ],
+   "chu_luc": {
+    "tuong": "Ahri",
+    "do": [
+     "Găng Bảo Thạch",
+     "Ngọn Giáo Shojin",
+     "Chùy Đoản Côn"
+    ],
+    "ghi_chu": "Thay thế: Nanh Nashor · Tạo Tác: Khế Ước Vĩnh Hằng"
+   },
+   "chu_luc_phu": {
+    "tuong": "Morgana",
+    "do": [
+     "Quỷ Thư Morello",
+     "Trượng Hư Vô",
+     "Mũ Phù Thủy Rabadon"
+    ],
+    "ghi_chu": "Bắt buộc có Quỷ Thư Morello + Trượng Hư Vô · Tạo Tác: Đá Hắc Hóa"
+   },
+   "do_don": {
+    "tuong": "Người Đá",
+    "do": [
+     "Lời Thề Hộ Vệ",
+     "Áo Choàng Lửa",
+     "Thú Tượng Thạch Giáp"
+    ],
+    "ghi_chu": "Sett: Giáp Máu Warmog, Thú Tượng Thạch Giáp, Giáp Tâm Linh"
+   },
+   "uu_tien_manh": "Gậy Quá Khổ > Nước Mắt Nữ Thần > Găng Đấu Tập > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "Ấn Thuật Sĩ (lên S+)",
+    "Sinh Nhật Đoàn Tụ",
+    "Kỳ Vọng Bất Ngờ",
+    "Xúc Xắc Hoành Tráng"
+   ],
+   "khi_nao": "Đầu game nhận nhiều Gậy/Nước Mắt; có Ấn Thuật Sĩ; trong phòng ít người chơi đội phép.",
+   "xep_vi_tri": "Ahri & Morgana hàng cuối, tách 2 bên; Người Đá + Sett + Quái Đá Krug hàng đầu; Taric ghép cặp với chủ lực.",
+   "meo": "Luôn đưa đồ cho tướng nào lên 2 sao trước · Ở cấp 8 đừng dùng Kog'Maw – thay bằng tướng 5 vàng · Gặp đội giống mình thì đổi vị trí để né kỹ năng diện rộng.",
+   "diem_yeu": "Đội sát thủ nhảy vào hàng sau; đội nhiều Kháng Phép.",
+   "mau_ban_co": "Chủ lực ở góc (chuẩn)"
+  },
+  {
+   "ten": "Ashe Hoa Linh Lên 9",
+   "hang": "A",
+   "loi_choi": "Lên 9 nhanh",
+   "do_kho": "Khó",
+   "nhom_gia": "",
+   "thu_tu": 6,
+   "toc_he": "5 Hoa Linh · 2 Thuật Sư · 2 Đấu Sĩ · 2 Dũng Sĩ · Tiên Phong",
+   "tong_quan": "⚠ 18.3 giảm Tinh Linh; 18.3b chỉnh Ashe: vệt tên ngắn hơn nhưng sát thương theo thời gian tăng mạnh. Ashe bắn mưa tên phủ cả bàn, bào máu từ từ → rất hợp đồ tiện ích. Hoa Linh biến Tinh Linh thành nguồn kinh tế khổng lồ.",
+   "len_cap": "Lên 9 nhanh: 4 → 5 → 6 → 7 → 8 (4-2) → 9 (5-1). Liên tục mua Tinh Linh kinh tế nhờ Hoa Linh.",
+   "mo_man": "Mở đầu Hoa Linh: Karma, Yorick, Yunara + ghép đồ phép sớm. Ra sân đủ 3 Hoa Linh để có Tinh Linh nâng cấp.",
+   "giua_tran": "Cấp 7–8: Karma, Yorick, Yunara, Master Yi, Vi, Ahri, Sett. Giai đoạn 4 lên 5 Hoa Linh.",
+   "tuong": [
+    "Karma",
+    "Yorick",
+    "Ahri",
+    "Sett",
+    "Ashe",
+    "Maokai",
+    "Taric",
+    "Gnar",
+    "Alune"
+   ],
+   "chu_luc": {
+    "tuong": "Ashe",
+    "do": [
+     "Ngọn Giáo Shojin",
+     "Bùa Đỏ",
+     "Cung Xanh"
+    ],
+    "ghi_chu": "Bùa Xanh thay Ngọn Giáo · Bùa Đỏ Ánh Sáng là đồ tốt nhất"
+   },
+   "chu_luc_phu": {
+    "tuong": "Ahri",
+    "do": [
+     "Găng Bảo Thạch",
+     "Chùy Đoản Côn",
+     "Nanh Nashor"
+    ],
+    "ghi_chu": "Ngọn Giáo Shojin / Bùa Xanh thay Nanh Nashor"
+   },
+   "do_don": {
+    "tuong": "Sett",
+    "do": [
+     "Giáp Máu Warmog",
+     "Áo Choàng Gai",
+     "Vuốt Rồng"
+    ],
+    "ghi_chu": "Maokai: Thú Tượng Thạch Giáp, Giáp Máu Warmog, Giáp Tâm Linh"
+   },
+   "uu_tien_manh": "Nước Mắt Nữ Thần > Gậy Quá Khổ > Găng Đấu Tập > Cung Gỗ > Đai Khổng Lồ",
+   "loi_khuyen_dung": [
+    "Tinh Linh Hoàn Tiền (tốt nhất)",
+    "Tiếng Gọi Hoa Linh",
+    "Thăng Tiến Cuối Trận",
+    "Kỷ Nguyên"
+   ],
+   "khi_nao": "Có Tiếng Gọi Hoa Linh / Tinh Linh Hoàn Tiền; nhiều Nước Mắt + Gậy; máu cao.",
+   "xep_vi_tri": "Ashe đặt ĐỐI DIỆN hướng địch dồn quân để mưa tên phủ rộng nhất; Sett + Maokai đỡ đòn phía trước.",
+   "meo": "Không bật/tắt Hoa Linh được – phải ra sân đủ 3 Hoa Linh mới có Tinh Linh nâng cấp · Mua Tinh Linh kinh tế, bỏ Tinh Linh giao tranh trừ khi cần giữ chuỗi · Bản 18.3 cắt mạnh sức mạnh Tinh Linh → đội này yếu hơn trước, cần máu cao và lên 9 sớm.",
+   "diem_yeu": "Bị ép máu sớm; nhiều người tranh Hoa Linh / Ahri.",
+   "mau_ban_co": "Chủ lực ở góc (chuẩn)"
+  },
+  {
+   "ten": "Rồng Ngàn Tuổi Quái Rừng",
+   "hang": "A",
+   "loi_choi": "Lên 9 nhanh",
+   "do_kho": "Khó",
+   "nhom_gia": "",
+   "thu_tu": 7,
+   "toc_he": "7 Quái Rừng · Bá Chủ · 2 Tàn Phá · 2 Đấu Sĩ · 2 Tiên Phong · 2 Thuật Sĩ",
+   "tong_quan": "Được ăn cả, ngã về không: Rồng Ngàn Tuổi 2 sao gần như chắc thắng, 1 sao thì yếu.",
+   "len_cap": "Lên 9 nhanh: lên 8 ở 4-2 (đổi tướng ít) → 9 ở 5-1 → đổi tướng tìm Rồng Ngàn Tuổi, cố lên 2 sao.",
+   "mo_man": "Mở đầu Quái Rừng: Mầm Non, Sỏi, Sói Hắc Ám, Cua Kỳ Cục + ghép đồ vật lý.",
+   "giua_tran": "Cấp 7–8: Sỏi, Sói Hắc Ám, Quái Đá Krug, Cua Kỳ Cục, Bụi Gai Đỏ, Người Đá → giữ 5 Quái Rừng.",
+   "tuong": [
+    "Sỏi",
+    "Sói Hắc Ám",
+    "Quái Đá Krug",
+    "Bụi Gai Đỏ",
+    "Người Đá",
+    "Rồng Ngàn Tuổi",
+    "Gnar",
+    "Taric"
+   ],
+   "chu_luc": {
+    "tuong": "Rồng Ngàn Tuổi",
+    "do": [
+     "Vô Cực Kiếm",
+     "Bàn Tay Công Lý",
+     "Móng Vuốt Sterak"
+    ],
+    "ghi_chu": "Cung Xanh / Chùy Đoản Côn thay thế"
+   },
+   "chu_luc_phu": {
+    "tuong": "Bụi Gai Đỏ",
+    "do": [
+     "Áo Choàng Bóng Tối",
+     "Móng Vuốt Sterak",
+     "Áo Choàng Thủy Ngân"
+    ],
+    "ghi_chu": "Diệt Khổng Lồ thay Móng Vuốt (cần 2/3 món)"
+   },
+   "do_don": {
+    "tuong": "Người Đá",
+    "do": [
+     "Lời Thề Hộ Vệ",
+     "Áo Choàng Lửa",
+     "Thú Tượng Thạch Giáp"
+    ],
+    "ghi_chu": "Quái Đá Krug: Thú Tượng Thạch Giáp, Giáp Máu Warmog"
+   },
+   "uu_tien_manh": "Kiếm BF > Găng Đấu Tập > Nước Mắt Nữ Thần > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "Thăng Cấp.",
+    "Quà Sinh Nhật",
+    "Quái Rừng Omega",
+    "Kỷ Nguyên"
+   ],
+   "khi_nao": "Có lõi kinh tế/kinh nghiệm, máu cao ở Giai đoạn 4; ít người cùng lên 9.",
+   "xep_vi_tri": "Rồng Ngàn Tuổi chiếm 2 ô ở giữa/hàng trước; Người Đá + Quái Đá Krug đỡ đòn; Sỏi hàng sau.",
+   "meo": "Rồng Ngàn Tuổi tính +2 Quái Rừng · Luôn đặt Dấu Ấn Đầu Đàn lên tướng đỡ đòn 2–3 sao · Chỉ chơi khi đủ máu.",
+   "diem_yeu": "Bị ép máu ở Giai đoạn 3–4; không lên được cấp 9.",
+   "mau_ban_co": "Cận chiến dồn cục"
+  },
+  {
+   "ten": "Draven Lên 9 (Thần Rừng Đao Phủ)",
+   "hang": "A",
+   "loi_choi": "Lên 9 nhanh",
+   "do_kho": "Khó",
+   "nhom_gia": "",
+   "thu_tu": 8,
+   "toc_he": "3 Thần Rừng · 2 Đao Phủ · 2 Đấu Sĩ · 2 Dũng Sĩ · 2 Hỏa Ngục · Săn Thưởng · Cổ Thụ · Thụ Thần · Lục Bảo",
+   "tong_quan": "Đội có sức mạnh cuối game cao nhất: Draven + Maokai (tăng máu vĩnh viễn) + Ezreal. Hưởng lợi từ việc 18.2 giảm kinh nghiệm lên cấp 8/9.",
+   "len_cap": "Tham kinh tế: 4 (2-1) → 5 → 6 → 7 → 8 ở 4-2 (đổi tướng ít, chỉ để giữ máu) → 9 ở 5-1 → đổi tướng tìm Draven/Maokai 2 sao.",
+   "mo_man": "Mở đầu mạnh bất kỳ (Thần Rừng: Ornn, Xayah, Alistar, LeBlanc). Ghép sớm Cuồng Đao Guinsoo nếu có.",
+   "giua_tran": "Cấp 7–8: Alistar, LeBlanc, Hecarim, Ezreal, Amumu, Kennen/Taric nếu có; giữ vàng trên 50.",
+   "tuong": [
+    "Alistar",
+    "Amumu",
+    "Ezreal",
+    "Draven",
+    "Gnar",
+    "Ivern",
+    "Kennen",
+    "Maokai",
+    "Taric"
+   ],
+   "chu_luc": {
+    "tuong": "Draven",
+    "do": [
+     "Cuồng Đao Guinsoo",
+     "Thịnh Nộ Thủy Quái",
+     "Kiếm Tử Thần"
+    ],
+    "ghi_chu": "Diệt Khổng Lồ thay Kiếm Tử Thần · Cuồng Đao Guinsoo gần như bắt buộc"
+   },
+   "chu_luc_phu": {
+    "tuong": "Ezreal",
+    "do": [
+     "Ngọn Giáo Shojin",
+     "Cung Xanh",
+     "Bùa Đỏ"
+    ],
+    "ghi_chu": "Thay thế: Kiếm Tử Thần, Bùa Xanh"
+   },
+   "do_don": {
+    "tuong": "Maokai",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Giáp Máu Warmog",
+     "Giáp Tâm Linh"
+    ],
+    "ghi_chu": "Áo Choàng Gai / Lời Thề Hộ Vệ đều tốt"
+   },
+   "uu_tien_manh": "Cung Gỗ > Gậy Quá Khổ (để ghép Guinsoo) > Kiếm BF > Áo Choàng Bạc > Đai Khổng Lồ",
+   "loi_khuyen_dung": [
+    "Thăng Tiến Cuối Trận (+2 bậc)",
+    "Thăng Cấp.",
+    "Quà Sinh Nhật",
+    "Ấn Đao Phủ"
+   ],
+   "khi_nao": "Có lõi KINH TẾ hoặc chuỗi thắng dài; máu > 60 ở Giai đoạn 4. Không có lõi kinh tế thì gần như không lên 9 kịp.",
+   "xep_vi_tri": "Draven ở góc hàng cuối; Maokai + Amumu + Alistar giữa hàng đầu; Ezreal góc đối diện; Ivern gần đỡ đòn.",
+   "meo": "Đừng nâng Ivern 2 sao trước khi có đủ tướng 5 vàng quan trọng · Draven cần hạ gục cuối để hoàn thành truy nã → đặt nơi dễ đánh mục tiêu yếu.",
+   "diem_yeu": "Thua liên tục đầu game mà không có lõi kinh tế; phòng có từ 2 người cùng lên 9.",
+   "mau_ban_co": "Chủ lực ở góc (chuẩn)"
+  },
+  {
+   "ten": "Caitlyn Dũng Sĩ Thợ Săn",
+   "hang": "B",
+   "loi_choi": "Săn 3 sao 2 vàng (đổi tướng từ từ ở cấp 6)",
+   "do_kho": "Dễ",
+   "nhom_gia": "",
+   "thu_tu": 9,
+   "toc_he": "4 Dũng Sĩ · 4 Thợ Săn · 2 Nguyên Sinh · 2 Tiên Linh",
+   "tong_quan": "Caitlyn không dùng kỹ năng → chỉ lên đồ đánh thường. Thợ Săn + Dũng Sĩ rất ổn định.",
+   "len_cap": "4 → 5 → 6 (3-1) → đổi tướng từ từ ở cấp 6 trên 50 vàng từ 3-2 tới khi Caitlyn 3 sao → 7 → 8.",
+   "mo_man": "Caitlyn, Cua Kỳ Cục, Sejuani, Rakan, Mầm Non – ghép sớm Cuồng Đao Guinsoo + Thịnh Nộ Thủy Quái.",
+   "giua_tran": "Rakan, Caitlyn, Cua Kỳ Cục, Sejuani, Tristana, Vi.",
+   "tuong": [
+    "Rakan",
+    "Caitlyn",
+    "Cua Kỳ Cục",
+    "Sejuani",
+    "Tristana",
+    "Vi",
+    "Sivir",
+    "Ashe"
+   ],
+   "chu_luc": {
+    "tuong": "Caitlyn",
+    "do": [
+     "Cuồng Đao Guinsoo",
+     "Thịnh Nộ Thủy Quái",
+     "Diệt Khổng Lồ"
+    ],
+    "ghi_chu": "Cuồng Đao Guinsoo là bắt buộc · KHÔNG dùng đồ Năng Lượng · Tạo Tác: Đao Chớp"
+   },
+   "chu_luc_phu": {
+    "tuong": "Sivir",
+    "do": [
+     "Cung Xanh",
+     "Vô Cực Kiếm",
+     "Ngọn Giáo Shojin"
+    ],
+    "ghi_chu": "Chủ lực phụ, giữ đồ tiện ích"
+   },
+   "do_don": {
+    "tuong": "Cua Kỳ Cục",
+    "do": [
+     "Giáp Máu Warmog",
+     "Thú Tượng Thạch Giáp",
+     "Giáp Tâm Linh"
+    ],
+    "ghi_chu": "Sejuani: Thú Tượng Thạch Giáp, Áo Choàng Lửa"
+   },
+   "uu_tien_manh": "Cung Gỗ > Gậy Quá Khổ > Kiếm BF > Áo Choàng Bạc",
+   "loi_khuyen_dung": [
+    "Tăng Vốn I",
+    "Băng Trộm",
+    "Kỳ Vọng Bất Ngờ"
+   ],
+   "khi_nao": "Có Cuồng Đao + Thịnh Nộ Thủy Quái sớm; có từ 3 Caitlyn ở Giai đoạn 2.",
+   "xep_vi_tri": "Caitlyn ở góc hàng cuối; các tướng Dũng Sĩ dàn đều hàng đầu.",
+   "meo": "Nhắm vào đỡ đòn chính trước để Thợ Săn khuếch đại sát thương (không đổi mục tiêu) · 18.2 tăng sức mạnh Thợ Săn.",
+   "diem_yeu": "Đội sát thủ; thiếu Cuồng Đao Guinsoo.",
+   "mau_ban_co": "Chống sát thủ"
+  },
+  {
+   "ten": "Veigar Thực Vật Hấp Thụ (Tinh Nghịch)",
+   "hang": "B",
+   "loi_choi": "Săn 3 sao 1 vàng (đổi tướng từ từ ở cấp 5)",
+   "do_kho": "Dễ",
+   "nhom_gia": "",
+   "thu_tu": 10,
+   "toc_he": "5 Tinh Nghịch · 4 Đấu Sĩ · 2 Thuật Sư · 2 Gai Đen · 2 Vệ Quân · Thực Vật",
+   "tong_quan": "Đội có điều kiện: nhận được lõi Thực Vật Hấp Thụ → lên hạng S. Veigar 3 sao dội phép cực mạnh.",
+   "len_cap": "Đổi tướng từ từ ở cấp 5 trên 50 vàng tới khi Veigar 3 sao → lên 6/7/8 thêm tướng Tinh Nghịch 5 vàng (Gnar).",
+   "mo_man": "Veigar, Kobuko, Rek'Sai, Teemo – cần lõi Thực Vật Hấp Thụ hoặc có sẵn nhiều Veigar sớm.",
+   "giua_tran": "Kobuko, Rek'Sai, Veigar, Teemo, Fiddlesticks, Rammus.",
+   "tuong": [
+    "Kobuko",
+    "Rek'Sai",
+    "Veigar",
+    "Teemo",
+    "Fiddlesticks",
+    "Rammus",
+    "Sett",
+    "Gnar"
+   ],
+   "chu_luc": {
+    "tuong": "Veigar",
+    "do": [
+     "Găng Bảo Thạch",
+     "Bùa Xanh",
+     "Nanh Nashor"
+    ],
+    "ghi_chu": "Ngọn Giáo Shojin thay Bùa Xanh · Tạo Tác: Kiếm Tai Ương / Lõi Bình Minh / Khế Ước Vĩnh Hằng"
+   },
+   "chu_luc_phu": {
+    "tuong": "Teemo",
+    "do": [
+     "Găng Bảo Thạch",
+     "Nanh Nashor",
+     "Nanh Nashor"
+    ],
+    "ghi_chu": "Chủ lực phép phụ"
+   },
+   "do_don": {
+    "tuong": "Rek'Sai",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Áo Choàng Lửa",
+     "Giáp Máu Warmog"
+    ],
+    "ghi_chu": "—"
+   },
+   "uu_tien_manh": "Nước Mắt Nữ Thần > Gậy Quá Khổ > Găng Đấu Tập > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "Thực Vật Hấp Thụ (bắt buộc, 1 người/phòng)",
+    "Lò Rèn Thần Thoại",
+    "Ấn Thực Vật"
+   ],
+   "khi_nao": "CHỈ chơi khi có Thực Vật Hấp Thụ hoặc sớm có Veigar 3 sao.",
+   "xep_vi_tri": "Veigar đứng sau đỡ đòn Tinh Nghịch; thả tướng Tinh Nghịch tốt nhất lên Bạn Lông Xù.",
+   "meo": "Thả tướng Tinh Nghịch lên Bạn Lông Xù để chọn người cưỡi (cận chiến/đánh xa sẽ đổi kỹ năng) · Kiếm Tai Ương là Tạo Tác ưu tiên.",
+   "diem_yeu": "Không có điều kiện thì rất yếu; đội nhiều Kháng Phép.",
+   "mau_ban_co": "Chủ lực ở góc (chuẩn)"
+  },
+  {
+   "ten": "Yunara Mặt Trời (săn 3 sao)",
+   "hang": "B",
+   "loi_choi": "Săn 3 sao 2 vàng",
+   "do_kho": "Trung bình",
+   "nhom_gia": "",
+   "thu_tu": 11,
+   "toc_he": "3 Mặt Trời · 3 Hoa Linh · 2 Đao Phủ · 2 Dũng Sĩ · 2 Thuật Sư · Triệu Hồi",
+   "tong_quan": "Yunara 3 sao bắn liên tục, Mặt Trời thưởng theo số tướng 3 sao. Cần nhiều 3 sao mới mạnh nên hơi tốn tài nguyên.",
+   "len_cap": "Cấp 4–5 sớm → dồn vàng ở 3-2 cho ổn định → tích lại 50 vàng → đổi tướng từ từ tới khi có 3 sao (khoảng 4-1/4-2) → lên 7 rồi 8 sớm nhất có thể.",
+   "mo_man": "Yunara, Karma, LeBlanc, Leona + ghép Ngọn Giáo Shojin.",
+   "giua_tran": "Sejuani, Yorick, Leona, Yunara, LeBlanc, Karma – chưa vội bật Mặt Trời.",
+   "tuong": [
+    "Sejuani",
+    "Yorick",
+    "Leona",
+    "Yunara",
+    "LeBlanc",
+    "Karma",
+    "Kayle",
+    "Azir"
+   ],
+   "chu_luc": {
+    "tuong": "Yunara",
+    "do": [
+     "Ngọn Giáo Shojin",
+     "Kiếm Tử Thần",
+     "Chùy Đoản Côn"
+    ],
+    "ghi_chu": "Tạo Tác: Đại Bác Hải Tặc, Lõi Bình Minh (đẩy hạng lên cao)"
+   },
+   "chu_luc_phu": {
+    "tuong": "Kayle",
+    "do": [
+     "Cuồng Đao Guinsoo",
+     "Găng Bảo Thạch",
+     "Mũ Phù Thủy Rabadon"
+    ],
+    "ghi_chu": "Chủ lực phụ khi có thêm 3 sao"
+   },
+   "do_don": {
+    "tuong": "Sejuani",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Giáp Máu Warmog",
+     "Giáp Tâm Linh"
+    ],
+    "ghi_chu": "Leona: Áo Choàng Gai, Vuốt Rồng"
+   },
+   "uu_tien_manh": "Nước Mắt Nữ Thần > Kiếm BF > Găng Đấu Tập > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "Xúc Xắc Vô Tận",
+    "Tăng Vốn I",
+    "Hàng Chờ Pandora"
+   ],
+   "khi_nao": "Nhặt được nhiều Yunara sớm; có Tạo Tác cho Yunara.",
+   "xep_vi_tri": "Yunara góc hàng cuối; Sejuani/Leona chắn trước; Kayle cạnh tướng buff.",
+   "meo": "Đừng bật Mặt Trời quá sớm – chờ tới cấp 7–8 khi đã có vài tướng 3 sao thì thưởng mới đáng.",
+   "diem_yeu": "Tốn tài nguyên, yếu nếu chỉ có 1 tướng 3 sao.",
+   "mau_ban_co": "Chủ lực ở góc (chuẩn)"
+  },
+  {
+   "ten": "Azir Triệu Hồi (săn 3 sao)",
+   "hang": "B",
+   "loi_choi": "Săn 3 sao 3 vàng (đổi tướng ở cấp 7)",
+   "do_kho": "Trung bình",
+   "nhom_gia": "",
+   "thu_tu": 12,
+   "toc_he": "3 Triệu Hồi · 3 Đao Phủ · 2 Hoa Linh · 2 Gai Đen · 2 Đấu Sĩ · 2 Dũng Sĩ",
+   "tong_quan": "📈 Đang lên ở bản 18.3b (Azir được tăng sát thương từ 18.3). Azir 3 sao gọi lính đánh liên tục, Triệu Hồi cường hoá quân triệu hồi của cả Yorick và Zyra.",
+   "len_cap": "Cấp 4 (nếu bàn mạnh) → 5 ở Giai đoạn 2 → 6 → 7 (3-5) rồi mới đổi tướng tìm Azir + Vi 3 sao → cân nhắc lên 8 sau khi đủ 3 sao.",
+   "mo_man": "Yorick, Rek'Sai, Karma + ghép sớm Kiếm Súng Hextech / Mũ Phù Thủy Rabadon.",
+   "giua_tran": "Cấp 6–7: Yorick, Rek'Sai, Azir, Vi, Yunara, Sett – giữ mọi bản Azir/Vi.",
+   "tuong": [
+    "Azir",
+    "Vi",
+    "Kha'Zix",
+    "Sett",
+    "Zyra",
+    "Yorick",
+    "Rek'Sai",
+    "Yunara"
+   ],
+   "chu_luc": {
+    "tuong": "Azir",
+    "do": [
+     "Kiếm Súng Hextech",
+     "Mũ Phù Thủy Rabadon",
+     "Quyền Trượng Thiên Thần"
+    ],
+    "ghi_chu": "Tạo Tác: Đao Chớp (rất mạnh), Kiếm Tai Ương"
+   },
+   "chu_luc_phu": {
+    "tuong": "Zyra",
+    "do": [
+     "Găng Bảo Thạch",
+     "Trượng Hư Vô",
+     "Ngọn Giáo Shojin"
+    ],
+    "ghi_chu": "Chủ lực phụ nhờ cây Triệu Hồi"
+   },
+   "do_don": {
+    "tuong": "Vi",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Thú Tượng Thạch Giáp",
+     "Giáp Máu Warmog"
+    ],
+    "ghi_chu": "Rek'Sai: Áo Choàng Lửa, Giáp Tâm Linh"
+   },
+   "uu_tien_manh": "Gậy Quá Khổ > Nước Mắt Nữ Thần > Giáp Lưới > Kiếm BF",
+   "loi_khuyen_dung": [
+    "Lõi kinh tế + 1 lõi trang bị",
+    "Giữ Vững Hàng Ngũ",
+    "Khảm Bảo Thạch",
+    "Nồi Nấu Ăn"
+   ],
+   "khi_nao": "Gặp nhiều Azir từ Giai đoạn 2; có Gậy Quá Khổ sớm.",
+   "xep_vi_tri": "Azir hàng cuối giữa để lính đi xa nhất; Vi + Rek'Sai chắn trước; Zyra cạnh Azir.",
+   "meo": "Đặt 1 tướng dư lên ô hiến tế Gai Đen để buff · Giữ đủ 3 Triệu Hồi (Azir + Yorick + Zyra) thì quân triệu hồi mới đủ mạnh.",
+   "diem_yeu": "Yếu nếu không hit 3 sao; sát thương dồn vào quân triệu hồi nên sợ sát thương diện rộng.",
+   "mau_ban_co": "Chủ lực ở góc (chuẩn)"
+  },
+  {
+   "ten": "Cassiopeia Vệ Quân",
+   "hang": "B",
+   "loi_choi": "Săn 3 sao 3 vàng (đổi tướng từ từ ở cấp 7)",
+   "do_kho": "Trung bình",
+   "nhom_gia": "",
+   "thu_tu": 13,
+   "toc_he": "6 Vệ Quân · 2 Thuật Sư · 2 Thực Vật",
+   "tong_quan": "Hàng trước 6 Vệ Quân cực lì, Cassiopeia 3 sao dội phép; Fiddlesticks hút máu, Rammus khiêu khích.",
+   "len_cap": "4 → 5 → 6 → 7 (3-5) → đổi tướng từ từ trên 50 vàng tìm Cassiopeia/Fiddlesticks/Rammus 3 sao.",
+   "mo_man": "Mở đầu Vệ Quân: Leona, Ornn, Shen + Cassiopeia.",
+   "giua_tran": "Leona, Ornn, Shen, Cassiopeia, Fiddlesticks, Rammus.",
+   "tuong": [
+    "Leona",
+    "Ornn",
+    "Shen",
+    "Cassiopeia",
+    "Fiddlesticks",
+    "Rammus",
+    "Lillia",
+    "Soraka"
+   ],
+   "chu_luc": {
+    "tuong": "Cassiopeia",
+    "do": [
+     "Kiếm Súng Hextech",
+     "Quyền Trượng Thiên Thần",
+     "Bùa Xanh"
+    ],
+    "ghi_chu": "Rabadon thay Quyền Trượng; Ngọn Giáo Shojin thay Bùa Xanh · Tạo Tác: Đá Hắc Hóa"
+   },
+   "chu_luc_phu": {
+    "tuong": "Fiddlesticks",
+    "do": [
+     "Áo Choàng Lửa",
+     "Nỏ Sét",
+     "Giáp Tâm Linh"
+    ],
+    "ghi_chu": "Fiddlesticks hồi máu cho cả đội"
+   },
+   "do_don": {
+    "tuong": "Rammus",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Vương Miện Hoàng Gia",
+     "Áo Choàng Gai"
+    ],
+    "ghi_chu": "—"
+   },
+   "uu_tien_manh": "Gậy Quá Khổ > Nước Mắt Nữ Thần > Giáp Lưới > Áo Choàng Bạc",
+   "loi_khuyen_dung": [
+    "Thực Vật Hấp Thụ",
+    "Hang Ổ Baron",
+    "To Lớn & Mạnh Mẽ"
+   ],
+   "khi_nao": "Có nhiều Cassiopeia sớm; phòng có nhiều đội vật lý đánh thường.",
+   "xep_vi_tri": "Fiddlesticks đặt ngoài rìa, Rammus đứng SÁT BÊN Fiddlesticks; Cassiopeia hàng sau ở giữa.",
+   "meo": "Khiêu khích của Rammus kéo kẻ địch, giúp Fiddlesticks hồi máu lâu hơn.",
+   "diem_yeu": "Đội gây sát thương chuẩn/giảm kháng; thiếu sát thương ở Giai đoạn 5.",
+   "mau_ban_co": "Dàn trải chống diện rộng"
+  },
+  {
+   "ten": "Mầm Non Quái Rừng",
+   "hang": "B",
+   "loi_choi": "Săn 3 sao 1 vàng (đổi tướng từ từ ở cấp 5)",
+   "do_kho": "Dễ",
+   "nhom_gia": "",
+   "thu_tu": 14,
+   "toc_he": "7 Quái Rừng · 2 Đấu Sĩ · 2 Tàn Phá",
+   "tong_quan": "✅ 18.3 buff Cóc Thành Tinh & Sói Hắc Ám, 18.3b không đụng tới → đội này đang lên. Thuần Quái Rừng 7: chỉ số tăng liên tục trong trận; Mầm Non dễ chơi hơn Sỏi.",
+   "len_cap": "Đổi tướng từ từ ở cấp 5 trên 50 vàng tới khi Mầm Non/Sỏi + Quái Đá Krug 3 sao → 7 → 8.",
+   "mo_man": "Mầm Non hoặc Sỏi 2 sao + ghép đồ ngay.",
+   "giua_tran": "Mầm Non, Sỏi, Sói Hắc Ám, Cua Kỳ Cục, Quái Đá Krug.",
+   "tuong": [
+    "Mầm Non",
+    "Quái Đá Krug",
+    "Sỏi",
+    "Sói Hắc Ám",
+    "Cua Kỳ Cục",
+    "Bụi Gai Đỏ",
+    "Người Đá",
+    "Gnar"
+   ],
+   "chu_luc": {
+    "tuong": "Mầm Non",
+    "do": [
+     "Vô Cực Kiếm",
+     "Ngọn Giáo Shojin",
+     "Cung Xanh"
+    ],
+    "ghi_chu": "Bùa Xanh thay Ngọn Giáo"
+   },
+   "chu_luc_phu": {
+    "tuong": "Sỏi",
+    "do": [
+     "Bùa Xanh",
+     "Quyền Trượng Thiên Thần",
+     "Găng Bảo Thạch"
+    ],
+    "ghi_chu": "Rabadon thay Quyền Trượng"
+   },
+   "do_don": {
+    "tuong": "Quái Đá Krug",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Giáp Máu Warmog",
+     "Áo Choàng Lửa"
+    ],
+    "ghi_chu": "Cua Kỳ Cục: Giáp Máu Warmog, Thú Tượng Thạch Giáp, Giáp Tâm Linh"
+   },
+   "uu_tien_manh": "Kiếm BF > Nước Mắt Nữ Thần > Giáp Lưới > Đai Khổng Lồ",
+   "loi_khuyen_dung": [
+    "Quái Rừng Omega",
+    "Hàng Chờ Pandora"
+   ],
+   "khi_nao": "Có lõi Quái Rừng; nhiều Mầm Non sớm.",
+   "xep_vi_tri": "Dồn cục quanh tướng giữ Dấu Ấn Đầu Đàn; chủ lực đứng ngay phía sau.",
+   "meo": "Luôn đặt Dấu Ấn Đầu Đàn lên Cua Kỳ Cục hoặc Quái Đá Krug 3 sao để giữ hàng trước lâu hơn.",
+   "diem_yeu": "Cuối game thiếu sức mạnh.",
+   "mau_ban_co": "Cận chiến dồn cục"
+  },
+  {
+   "ten": "Master Yi & Kog'Maw Thích Ứng",
+   "hang": "B",
+   "loi_choi": "Săn 3 sao 3 vàng (đổi tướng từ từ ở cấp 7)",
+   "do_kho": "Trung bình",
+   "nhom_gia": "",
+   "thu_tu": 15,
+   "toc_he": "3 Thích Ứng · 3 Hoa Linh · 3 Đấu Sĩ · 2 Dũng Sĩ · 2 Nguyên Sinh · Ăn Mòn",
+   "tong_quan": "Master Yi 3 sao cận chiến + Kog'Maw giảm giáp/kháng phép. Bị giảm sức mạnh ở 18.2 nhưng vẫn ổn khi có đúng đồ.",
+   "len_cap": "4 → 5 → 6 → 7 (3-5) → đổi tướng từ từ trên 50 vàng tìm Yi/Kog'Maw 3 sao → 8.",
+   "mo_man": "Mở đầu với Yi hoặc Rengar; ghép Cuồng Đao Guinsoo / Áo Choàng Bóng Tối.",
+   "giua_tran": "Yorick, Kog'Maw, Quái Đá Krug, Master Yi, Vi, Cóc Thành Tinh, Cua Kỳ Cục.",
+   "tuong": [
+    "Yorick",
+    "Kog'Maw",
+    "Quái Đá Krug",
+    "Master Yi",
+    "Vi",
+    "Nidalee",
+    "Sett",
+    "Gnar"
+   ],
+   "chu_luc": {
+    "tuong": "Master Yi",
+    "do": [
+     "Cuồng Đao Guinsoo",
+     "Áo Choàng Bóng Tối",
+     "Quyền Năng Khổng Lồ"
+    ],
+    "ghi_chu": "Yi vật lý: Áo Choàng Thủy Ngân + Áo Choàng Bóng Tối + Quyền Năng Khổng Lồ · Tạo Tác: Đao Tím, Rìu Hỏa Ngục"
+   },
+   "chu_luc_phu": {
+    "tuong": "Kog'Maw",
+    "do": [
+     "Vô Cực Kiếm",
+     "Ngọn Giáo Shojin",
+     "Bùa Đỏ"
+    ],
+    "ghi_chu": "—"
+   },
+   "do_don": {
+    "tuong": "Sett",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Giáp Máu Warmog",
+     "Giáp Tâm Linh"
+    ],
+    "ghi_chu": "Quái Đá Krug: Thú Tượng Thạch Giáp, Áo Choàng Lửa"
+   },
+   "uu_tien_manh": "Cung Gỗ > Gậy Quá Khổ > Kiếm BF > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "Nồi Nấu Ăn",
+    "Lò Rèn Thần Thoại",
+    "Hàng Chờ Pandora"
+   ],
+   "khi_nao": "Có Yi 2 sao sớm + Cuồng Đao Guinsoo; không ai tranh tướng 3 vàng.",
+   "xep_vi_tri": "Yi ở cạnh sườn hàng giữa; Kog'Maw góc sau; Sett/Quái Đá Krug/Gnar hàng đầu.",
+   "meo": "Yi dạng phép cần Cuồng Đao Guinsoo; Yi dạng vật lý cần Áo Choàng Thủy Ngân · Thích Ứng: SMCK hay SMPT cao hơn sẽ quyết định kỹ năng.",
+   "diem_yeu": "Khống chế diện rộng; đội nhiều Giáp.",
+   "mau_ban_co": "Cận chiến dồn cục"
+  },
+  {
+   "ten": "Akali Mặt Trời",
+   "hang": "C",
+   "loi_choi": "Săn 3 sao 1 vàng",
+   "do_kho": "Dễ",
+   "nhom_gia": "",
+   "thu_tu": 16,
+   "toc_he": "3 Mặt Trời · 4 Tàn Phá · 2 Hỏa Ngục · 2 Vệ Quân",
+   "tong_quan": "⚠ 18.3b giảm sát thương Camille → đội này yếu đi. Akali dạng phép tung lại chiêu mỗi khi hạ gục. Mặt Trời thưởng theo số tướng 3 sao khác nhau → rất hợp săn 3 sao tướng 1 vàng.",
+   "len_cap": "Ở cấp 4–5, dồn vàng đổi tướng ở 3-1 tới khi Akali 3 sao; giữ ≥ 20 vàng; sau đó 6 → 7 → 8 thêm tướng 4 vàng.",
+   "mo_man": "Camille, Akali, Leona, Kayle, Warwick – mua mọi bản Akali/Camille.",
+   "giua_tran": "Akali 3 sao, Camille 3 sao, Leona, Kayle, Sejuani, Shen, Warwick.",
+   "tuong": [
+    "Akali",
+    "Camille",
+    "Leona",
+    "Kayle",
+    "Sejuani",
+    "Shen",
+    "Warwick",
+    "Diana"
+   ],
+   "chu_luc": {
+    "tuong": "Akali",
+    "do": [
+     "Áo Choàng Bóng Tối",
+     "Găng Bảo Thạch",
+     "Bàn Tay Công Lý"
+    ],
+    "ghi_chu": "Tạo Tác ưu tiên: Kiếm Tai Ương (gần như chắc thắng)"
+   },
+   "chu_luc_phu": {
+    "tuong": "Camille",
+    "do": [
+     "Móng Vuốt Sterak",
+     "Vô Cực Kiếm",
+     "Áo Choàng Thủy Ngân"
+    ],
+    "ghi_chu": "—"
+   },
+   "do_don": {
+    "tuong": "Sejuani",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Giáp Máu Warmog",
+     "Giáp Tâm Linh"
+    ],
+    "ghi_chu": "Leona: Áo Choàng Gai, Vuốt Rồng"
+   },
+   "uu_tien_manh": "Gậy Quá Khổ > Găng Đấu Tập > Kiếm BF > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "Hàng Chờ Pandora",
+    "Bài Học Sơ Khai",
+    "Chuột Nhắt Lan Tràn (Tinh Linh)"
+   ],
+   "khi_nao": "Đầu game có từ 3 Akali/Camille; ít người săn 3 sao 1 vàng; 18.2 tăng sức mạnh Akali & Leona.",
+   "xep_vi_tri": "Akali đặt ở cạnh sườn để vào hàng sau; Leona/Sejuani/Shen dàn đều hàng đầu.",
+   "meo": "Mua Tinh Linh 'Chuột Nhắt Lan Tràn' khi có từ 5 tướng 1 vàng khác nhau trên sân · Mỗi tướng 3 sao khác nhau làm Mặt Trời mạnh hơn.",
+   "diem_yeu": "Đội đỡ đòn dày cuối game nếu không thêm tướng 4 vàng; bị tranh Akali.",
+   "mau_ban_co": "Cận chiến dồn cục"
+  },
+  {
+   "ten": "Tristana & Rengar Tiên Linh",
+   "hang": "C",
+   "loi_choi": "Săn 3 sao 3 vàng (đổi tướng từ từ ở cấp 7)",
+   "do_kho": "Trung bình",
+   "nhom_gia": "",
+   "thu_tu": 17,
+   "toc_he": "4 Tiên Linh · 2 Thợ Săn · 2 Nguyên Sinh · 2 Dũng Sĩ · 2 Vệ Quân · Khắc Tinh",
+   "tong_quan": "Hai chủ lực 3 vàng 3 sao: Tristana bắn xa, Rengar cận chiến gánh đội và đổi điểm hạ gục ra vàng.",
+   "len_cap": "4 (2-1) → 5 (2-5) → 6 (3-1) → 7 (3-5, hoặc 3-2 nếu đang thua liên tục) → đổi tướng từ từ trên 50 vàng tới khi đủ 3 sao → 8.",
+   "mo_man": "Mở đầu Tiên Linh/Thợ Săn: Rakan, Xayah, Mầm Non, Caitlyn. Ghép Cuồng Đao Guinsoo.",
+   "giua_tran": "Cấp 7: Rakan, Xayah, Rammus, Tristana, Rengar, Vi, Lillia → giữ mọi bản Tristana/Rengar.",
+   "tuong": [
+    "Rakan",
+    "Xayah",
+    "Rammus",
+    "Tristana",
+    "Rengar",
+    "Vi",
+    "Lillia",
+    "Sivir"
+   ],
+   "chu_luc": {
+    "tuong": "Tristana",
+    "do": [
+     "Cuồng Đao Guinsoo",
+     "Thịnh Nộ Thủy Quái",
+     "Diệt Khổng Lồ"
+    ],
+    "ghi_chu": "Kiếm Súng Hextech thay Thịnh Nộ · Tạo Tác: Đao Chớp"
+   },
+   "chu_luc_phu": {
+    "tuong": "Rengar",
+    "do": [
+     "Quyền Năng Khổng Lồ",
+     "Móng Vuốt Sterak",
+     "Áo Choàng Bóng Tối"
+    ],
+    "ghi_chu": "Bản Thợ Săn: Huyết Kiếm + Quyền Năng Khổng Lồ · Cuồng Đao Ánh Sáng"
+   },
+   "do_don": {
+    "tuong": "Rammus",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Áo Choàng Lửa",
+     "Giáp Máu Warmog"
+    ],
+    "ghi_chu": "Lillia: Thú Tượng Thạch Giáp, Giáp Tâm Linh, Giáp Máu Warmog"
+   },
+   "uu_tien_manh": "Cung Gỗ > Gậy Quá Khổ > Kiếm BF > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "U.R.F.",
+    "Cắm Rễ Phân Tán",
+    "Tôi Thăng Cấp Một Mình (Rengar)",
+    "Ấn Tiên Linh / Tiên Phong"
+   ],
+   "khi_nao": "Có cặp Tristana/Rengar sớm; Ấn nhận được quyết định biến thể (Tinh Nghịch / Tiên Linh / Thợ Săn).",
+   "xep_vi_tri": "Tristana ở góc hàng cuối; Rengar ở cạnh sườn để lao vào hàng sau; Rammus giữa hàng đầu.",
+   "meo": "Ấn nhận được quyết định hướng biến thể · Cả 3 biến thể đều vào top 2 nếu đủ 3 sao · 18.2 giảm nhẹ Rengar → ưu tiên Tristana làm chủ lực chính.",
+   "diem_yeu": "Bị người khác tranh tướng 3 vàng; đội lên 8 nhanh mạnh ở Giai đoạn 5.",
+   "mau_ban_co": "Chống sát thủ"
+  },
+  {
+   "ten": "Kayle Mặt Trời Liên Kích",
+   "hang": "C",
+   "loi_choi": "Săn 3 sao 1–2 vàng (đổi tướng từ từ ở cấp 6)",
+   "do_kho": "Trung bình",
+   "nhom_gia": "",
+   "thu_tu": 18,
+   "toc_he": "3 Mặt Trời · 3 Liên Kích · 3 Mặt Trăng · 2 Vệ Quân · 2 Hỏa Ngục (→ mở Thiên Thực)",
+   "tong_quan": "Kayle 3 sao + Mặt Trời & Mặt Trăng mở tộc ẩn Thiên Thực kết liễu kẻ địch. Có lõi Vương Miện Hắc Hóa → lên S, dễ có 8 tướng 3 sao.",
+   "len_cap": "Đổi tướng từ từ ở cấp 6 trên 50 vàng; 18.2 giảm Mặt Trời cuối game → cần lên 8 thêm tướng 4–5 vàng.",
+   "mo_man": "Mở đầu với Kayle hoặc Xayah; Leona, Varus, Sejuani.",
+   "giua_tran": "Leona, Varus, Kayle, Sejuani, Shen, Diana.",
+   "tuong": [
+    "Leona",
+    "Varus",
+    "Kayle",
+    "Sejuani",
+    "Shen",
+    "Diana",
+    "Aphelios",
+    "Alune"
+   ],
+   "chu_luc": {
+    "tuong": "Kayle",
+    "do": [
+     "Cuồng Đao Guinsoo",
+     "Găng Bảo Thạch",
+     "Mũ Phù Thủy Rabadon"
+    ],
+    "ghi_chu": "Có thể dùng 2 Cuồng Đao · Tạo Tác: Đao Chớp, Đao Tím"
+   },
+   "chu_luc_phu": {
+    "tuong": "Aphelios",
+    "do": [
+     "Cuồng Đao Guinsoo",
+     "Vô Cực Kiếm",
+     "Kiếm Tử Thần"
+    ],
+    "ghi_chu": "Chủ lực vật lý phụ"
+   },
+   "do_don": {
+    "tuong": "Sejuani",
+    "do": [
+     "Thú Tượng Thạch Giáp",
+     "Giáp Tâm Linh",
+     "Giáp Máu Warmog"
+    ],
+    "ghi_chu": "—"
+   },
+   "uu_tien_manh": "Cung Gỗ > Gậy Quá Khổ > Găng Đấu Tập > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "Vương Miện Hắc Hóa (lên S)",
+    "Hàng Chờ Pandora",
+    "Bài Học Sơ Khai"
+   ],
+   "khi_nao": "Đầu game có từ 3 Kayle; nhận được Vương Miện Hắc Hóa.",
+   "xep_vi_tri": "Kayle đứng cạnh Diana/Alune (Mặt Trăng) để nhận Tốc Độ Đánh + SMPT.",
+   "meo": "Ra sân từ 5 tướng 1 vàng để dùng Tinh Linh 'Chuột Nhắt Lan Tràn' · Mỗi tướng 3 sao khác nhau làm Mặt Trời mạnh hơn.",
+   "diem_yeu": "Cuối game yếu nếu không có tướng 4–5 vàng 2 sao.",
+   "mau_ban_co": "Chủ lực ở góc (chuẩn)"
+  },
+  {
+   "ten": "Cassiopeia Tiên Hắc Ám (Tà Thuật – ĐANG TẮT)",
+   "hang": "C",
+   "loi_choi": "Lên 8 nhanh",
+   "do_kho": "Trung bình",
+   "nhom_gia": "",
+   "thu_tu": 19,
+   "toc_he": "3 Tiên Hắc Ám · 2 Thuật Sư · 2 Tiên Phong · 2 Mặt Trăng · 2 Thần Rừng · Thụ Thần · Hòa Hợp",
+   "tong_quan": "⛔ BẢN 18.3b (24/09): Riot TẠM TẮT lõi Tà Thuật do lỗi → HIỆN CHƯA CHƠI ĐƯỢC đội này; giữ lại để dùng khi Riot bật lại (dự kiến bản 18.4). ĐIỀU KIỆN: chỉ chơi khi nhận lõi Tà Thuật (đổi Tinh Chất Tiên Hắc Ám ra SMPT). Có lõi này thì đây là một trong những đội mạnh nhất phiên bản 18.3.",
+   "len_cap": "Lên 8 trong khi giữ trên 30 vàng → đổi tướng cho tới khi có 2 sao ổn định → lên 9 nếu máu cho phép. Mục tiêu: tích khoảng 250 Tinh Chất để Tà Thuật cộng SMPT tối đa.",
+   "mo_man": "Ưu tiên nhặt Cassiopeia ở băng chuyền đầu tiên · Mở đầu Tiên Hắc Ám: Camille, Caitlyn, Elise.",
+   "giua_tran": "Cấp 7: Elise, Diana, Hecarim, Cassiopeia, Morgana + giữ chuỗi để tích Tinh Chất (thua trận cũng cho nhiều Tinh Chất).",
+   "tuong": [
+    "Người Đá",
+    "Hecarim",
+    "Diana",
+    "Morgana",
+    "Elise",
+    "Ivern",
+    "Alune",
+    "Cassiopeia"
+   ],
+   "chu_luc": {
+    "tuong": "Cassiopeia",
+    "do": [
+     "Đá Hắc Hóa",
+     "Ngọn Giáo Shojin",
+     "Găng Bảo Thạch"
+    ],
+    "ghi_chu": "Tạo Tác thay thế: Lõi Bình Minh, Khế Ước Vĩnh Hằng, Thánh Kiếm Manazane (lên S+)"
+   },
+   "chu_luc_phu": {
+    "tuong": "Morgana",
+    "do": [
+     "Quỷ Thư Morello",
+     "Trượng Hư Vô",
+     "Mũ Phù Thủy Rabadon"
+    ],
+    "ghi_chu": "Chủ lực phụ gây sát thương phép"
+   },
+   "do_don": {
+    "tuong": "Người Đá",
+    "do": [
+     "Lời Thề Hộ Vệ",
+     "Áo Choàng Lửa",
+     "Thú Tượng Thạch Giáp"
+    ],
+    "ghi_chu": "Hecarim: Thú Tượng Thạch Giáp, Giáp Máu Warmog"
+   },
+   "uu_tien_manh": "Gậy Quá Khổ > Nước Mắt Nữ Thần > Găng Đấu Tập > Giáp Lưới",
+   "loi_khuyen_dung": [
+    "Tà Thuật (ĐANG TẮT ở 18.3b)",
+    "Tín Đồ Tiên Hắc Ám",
+    "Xúc Xắc Vô Tận",
+    "Kiên Nhẫn Học Tập",
+    "Khiên Đơn Đấu"
+   ],
+   "khi_nao": "⛔ 18.3b: lõi Tà Thuật đang bị tắt nên chưa chơi được. Khi bật lại: nhận ở 2-1 hoặc 3-2 thì ép luôn.",
+   "xep_vi_tri": "Cassiopeia hàng sau giữa, Morgana góc đối diện; Người Đá + Hecarim chắn trước; Taric/Alune hỗ trợ.",
+   "meo": "Thua trận người chơi vẫn cho nhiều Tinh Chất → giai đoạn đầu không cần cố thắng bằng mọi giá · Đổi Tinh Chất đúng lúc: tích để nhận quà lớn thay vì đổi lắt nhắt.",
+   "diem_yeu": "Không có lõi Tà Thuật thì đội rất yếu; cần Cassiopeia 2 sao sớm.",
+   "mau_ban_co": "Chủ lực ở góc (chuẩn)"
+  }
+ ],
+ "vi_tri": [
+  {
+   "ten": "Chủ lực ở góc (chuẩn)",
+   "ghi_chu": "Chủ lực chính ở góc hàng cuối, chủ lực phụ ở góc đối diện để né kỹ năng diện rộng. Đỡ đòn dàn 4 ô hàng đầu, 1 hỗ trợ (Taric/Thuật Sĩ) đứng sau đỡ đòn.",
+   "luoi": [
+    [
+     "",
+     "🛡 ĐỠ ĐÒN",
+     "🛡 ĐỠ ĐÒN",
+     "",
+     "🛡 ĐỠ ĐÒN",
+     "🛡 ĐỠ ĐÒN",
+     ""
+    ],
+    [
+     "",
+     "",
+     "✚ HỖ TRỢ",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "⚔ CHỦ LỰC",
+     "✚ HỖ TRỢ",
+     "",
+     "",
+     "",
+     "🏹 CHỦ LỰC 2",
+     ""
+    ]
+   ]
+  },
+  {
+   "ten": "Chống sát thủ",
+   "ghi_chu": "Đặt 1 tướng MỒI (rẻ) ở góc, chủ lực lùi vào 1 ô; tướng hỗ trợ đứng cạnh chủ lực để hứng sát thủ nhảy vào.",
+   "luoi": [
+    [
+     "",
+     "🛡 ĐỠ ĐÒN",
+     "🛡 ĐỠ ĐÒN",
+     "🛡 ĐỠ ĐÒN",
+     "",
+     "🛡 ĐỠ ĐÒN",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "🎯 MỒI",
+     "⚔ CHỦ LỰC",
+     "✚ HỖ TRỢ",
+     "",
+     "",
+     "✚ HỖ TRỢ",
+     "🏹 CHỦ LỰC 2"
+    ]
+   ]
+  },
+  {
+   "ten": "Dàn trải chống diện rộng",
+   "ghi_chu": "Dàn tướng cách nhau 1 ô để kỹ năng diện rộng (Ahri, Ashe, Morgana) không trúng nhiều tướng cùng lúc.",
+   "luoi": [
+    [
+     "🛡 ĐỠ ĐÒN",
+     "",
+     "🛡 ĐỠ ĐÒN",
+     "",
+     "🛡 ĐỠ ĐÒN",
+     "",
+     "🛡 ĐỠ ĐÒN"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "✚ HỖ TRỢ",
+     "",
+     "",
+     "",
+     "✚ HỖ TRỢ",
+     ""
+    ],
+    [
+     "⚔ CHỦ LỰC",
+     "",
+     "",
+     "🏹 CHỦ LỰC 2",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "ten": "Cận chiến dồn cục",
+   "ghi_chu": "Dồn đỡ đòn + chủ lực cận chiến ở giữa để cùng lao vào giao tranh, hiệu ứng lan (Mặt Trăng/Tiên Phong) hiệu quả hơn.",
+   "luoi": [
+    [
+     "",
+     "",
+     "🛡 ĐỠ ĐÒN",
+     "🛡 ĐỠ ĐÒN",
+     "🛡 ĐỠ ĐÒN",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "⚔ CHỦ LỰC",
+     "✚ HỖ TRỢ",
+     "🏹 CHỦ LỰC 2",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "✚ HỖ TRỢ",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "ten": "Sát thủ đánh vào cánh yếu",
+   "ghi_chu": "Nidalee/Kha'Zix đứng hàng đầu ở phía YẾU của đối thủ (bên ít đỡ đòn) để lao vào hàng sau; chủ lực đánh xa ở góc bên kia.",
+   "luoi": [
+    [
+     "",
+     "🛡 ĐỠ ĐÒN",
+     "🛡 ĐỠ ĐÒN",
+     "🛡 ĐỠ ĐÒN",
+     "",
+     "",
+     "🏹 CHỦ LỰC 2"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "⚔ CHỦ LỰC",
+     "✚ HỖ TRỢ",
+     "✚ HỖ TRỢ",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ]
+}

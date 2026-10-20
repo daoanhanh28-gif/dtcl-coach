@@ -1,6 +1,6 @@
-# ĐTCL Coach v1.1 (2026-10-06) — dựng data/metatft_chi_tiet.json (form theo cấp, vị trí, đồ từng tướng) từ tools/raw
+# ĐTCL Coach v1.2 (2026-10-20) — dựng data/metatft_chi_tiet.json (form theo cấp, vị trí, đồ từng tướng) từ tools/raw
 """
-Đầu vào (lấy từ API công khai của MetaTFT qua trình duyệt, Bạch Kim+, 3 ngày, bản 18.3b):
+Đầu vào (lấy từ API công khai của MetaTFT qua trình duyệt, Bạch Kim+, 3 ngày, bản 18.4b):
   tools/raw/comp_details_metatft.tsv  — mỗi cụm đội: mốc lên cấp, ô đứng từng tướng, 2 bàn cờ phổ biến nhất ở cấp 4/5/6/7
   tools/raw/unit_items_metatft.tsv    — mỗi tướng: hạng TB, tỉ lệ chơi, bộ đồ hay dùng nhất
 Chạy:  python tools/build_chi_tiet.py
@@ -73,7 +73,7 @@ def build() -> dict:
         its = [i for i in its if i in items]
         if u in champs:
             do[u] = {"hang_tb": float(p[1]), "ti_le": float(p[2]), "do": its}
-    return {"nguon": "MetaTFT (Bạch Kim+, 3 ngày, bản 18.3b) — đội hình giữa trận & đồ hay dùng",
+    return {"nguon": "MetaTFT (Bạch Kim+, 3 ngày, bản 18.4b) — đội hình giữa trận & đồ hay dùng",
             "cum": cum, "do_tuong": do}
 
 

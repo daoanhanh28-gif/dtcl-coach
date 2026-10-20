@@ -1,7 +1,13 @@
-# ĐTCL Coach · v1.1 · 2026-10-06 — Quy trình “cập nhật meta”
+# ĐTCL Coach · v1.2 · 2026-10-20 — Quy trình “cập nhật meta”
 
 Khi Riot ra bản mới (khoảng 2 tuần / lần), anh Peach chỉ cần nhắn Claude: **“cập nhật meta”**.
 Claude làm theo các bước dưới. Mọi dữ liệu nằm trong `data/*.json` — không cần sửa code.
+
+## 0. Giữ bản cũ để xem song song
+- Chép toàn bộ `data/*.json` hiện tại vào `data/ban/<bản cũ>/` (ví dụ `data/ban/18.4b/`).
+- Thêm dòng vào `BO_DU_LIEU` trong `core/config.py`, sửa `BO_MAC_DINH` thành bản mới. Bộ cũ hơn có thể xoá khỏi danh sách.
+- Thêm vào `meta.json` của bộ cũ: `bo`, `ban_moi`, `ngay_ban_moi`, `vn_nguon`, `excel` (xem bộ 18.3b làm mẫu).
+- Sao lưu `tools/raw/*` vào `tools/raw/<bản cũ>/`.
 
 ## 1. Kiểm tra bản hiện tại
 - Tra lịch bản vá (esports.gg / Riot) → bản đang chạy ở VN, bản kế tiếp.
@@ -19,7 +25,10 @@ Claude làm theo các bước dưới. Mọi dữ liệu nằm trong `data/*.jso
 - MetaTFT `comp_details?comp=<id>` (form cấp 4/5/6/7, ô đứng, mốc lên cấp) → `tools/raw/comp_details_metatft.tsv`;
   `unit_items_processed` (đồ hay dùng từng tướng) → `tools/raw/unit_items_metatft.tsv`; chạy `python tools/build_chi_tiet.py`.
 - Bản mới: ghi danh sách tăng / giảm vào `data/ban_cap_nhat.json` (trang Phân tích bản cập nhật tự xếp đội theo đó).
-- Số liệu máy chủ VN (OP.GG lọc `region=vn`) → cập nhật trong file Excel, rồi chạy bước 4.
+- Số liệu máy chủ VN: OP.GG `https://op.gg/tft/meta-trends/comps?region=vn` (mở bằng Chrome, đọc mảng `decks` trong trang)
+  → `tools/raw/vn_opgg.tsv`. Ghi `phien_ban`, `moc` (mốc tộc/hệ bị đổi) và `muc` (0,5 = chỉnh nhỏ) trong `data/ban_cap_nhat.json`.
+- Chạy `python tools/cap_nhat_ban.py` (sửa `BO`, `VN_BAN`, `VN_NGAY`, `VN_SO_VAN` ở đầu file) → bảng VN, xu hướng bản mới
+  cho 19 đội, mục “Có gì mới”. Không cần làm lại file Excel nếu chỉ đổi số liệu.
 - **Không bịa** tỉ lệ thắng / hạng trung bình. Không lấy được số thì ghi rõ “chưa có số liệu”.
 
 ## 4. Nội dung hướng dẫn (file Excel)
@@ -30,7 +39,8 @@ Claude làm theo các bước dưới. Mọi dữ liệu nằm trong `data/*.jso
 ```
 python tools/build_data.py
 python tools/build_chi_tiet.py
-python tools/import_excel.py
+python tools/import_excel.py     # chỉ khi có file Excel mới
+python tools/cap_nhat_ban.py
 python -m pytest -q
 ```
 - Tăng phiên bản web: `core/config.py` (VERSION, VERSION_DATE), file `VERSION`, `README.md`, **dòng đầu mọi file**.

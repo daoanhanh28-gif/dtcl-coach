@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — giao diện dùng chung: màu, chữ, thẻ tướng, bàn cờ lục giác
+# ĐTCL Coach v1.2 (2026-10-20) — giao diện dùng chung: màu, chữ, thẻ tướng, bàn cờ lục giác
 """
 Bảng màu "rừng đêm + đồng thau":
   nền #0F1714 · mặt thẻ #17211D · viền #2A3631 · đồng #C9A45C · chữ #ECE6D6 · chữ phụ #9AA59E
@@ -9,7 +9,6 @@ from __future__ import annotations
 
 import html
 import re
-from functools import lru_cache
 
 import streamlit as st
 
@@ -184,7 +183,7 @@ def _num(x):
 
 
 def stats_html(comp: dict) -> str:
-    """Số liệu: ưu tiên máy chủ VN (Excel v1.8), kèm số MetaTFT quốc tế nếu khớp."""
+    """Số liệu: ưu tiên máy chủ VN (OP.GG), kèm số MetaTFT quốc tế nếu khớp."""
     cells = []
     vn = comp.get("so_lieu_vn")
     if vn:
@@ -318,7 +317,7 @@ def stage_view(comp: dict, emblems: list[str] | None = None, key: str = ""):
 def source_note(extra: str = "", excel: bool = True):
     m = engine.data()["meta"]
     links = " · ".join(f"<a href='{s['url']}' target='_blank'>{esc(s['ten'])}</a>" for s in m["nguon"])
-    ex = "Nội dung hướng dẫn: file Excel “Hướng dẫn Thách Đấu Mùa 18” v1.8 (06/10/2026). " if excel else ""
+    ex = f"Nội dung hướng dẫn: {m.get('excel', 'file Excel “Hướng dẫn Thách Đấu Mùa 18” v1.8 (06/10/2026)')}. " if excel else ""
     st.markdown(f"<div class='dc-src'>{ex}Dữ liệu Mùa {m['mua']} ({esc(m['ten_mua_vi'])}), bản {esc(m['phien_ban'])}, "
                 f"cập nhật {esc(m['ngay_cap_nhat'])}. Nguồn: {links}. {esc(extra)}</div>", unsafe_allow_html=True)
 
@@ -342,7 +341,7 @@ def html_table(cols: list[str], rows: list[list], rich_text: bool = False) -> st
 
 
 # ---------------------------------------------------------------- chữ có hình: tên tướng / đồ / lõi / tộc hệ → kèm ảnh
-@lru_cache(maxsize=None)
+@config.theo_bo
 def _name_index() -> tuple[dict, re.Pattern | None]:
     d = engine.data()
     m: dict[str, str] = {}
@@ -396,7 +395,8 @@ def trait_icon(tid: str, size: int = 22) -> str:
 
 def change_mark(huong: str) -> str:
     return {"tang": "<span class='dc-up'>▲ tăng</span>", "giam": "<span class='dc-down'>▼ giảm</span>",
-            "moi": "<span class='dc-new'>✚ mới</span>", "xoa": "<span class='dc-down'>✖ xoá</span>"}.get(huong, "")
+            "moi": "<span class='dc-new'>✚ mới</span>", "xoa": "<span class='dc-down'>✖ xoá</span>",
+            "dieu_chinh": "<span class='dc-new'>↔ điều chỉnh</span>"}.get(huong, "")
 
 
 def trend_mark(x: float) -> str:

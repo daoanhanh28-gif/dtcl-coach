@@ -1,0 +1,3644 @@
+[
+ {
+  "id": "DA_PandorasBench",
+  "ten": "Hàng Chờ Pandora",
+  "ten_en": "Pandora's Bench",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "S",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Đầu mỗi vòng, 3 ô phải hàng chờ đổi thành tướng ngẫu nhiên cùng giá. Nhận 4 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandoras-bench-ii.png"
+ },
+ {
+  "id": "DA_LatentForge",
+  "ten": "Lò Rèn Tiềm Ẩn",
+  "ten_en": "Latent Forge",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "S",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Sau vài giao tranh người chơi, nhận 1 Gói Trang Bị Tạo Tác.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/long-time-crafting-i.png"
+ },
+ {
+  "id": "DA_18_BranchingOut",
+  "ten": "Phân Nhánh",
+  "ten_en": "Branching Out",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "S",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 Ấn ngẫu nhiên.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png"
+ },
+ {
+  "id": "DA_18_BranchingOutPlus",
+  "ten": "Phân Nhánh+",
+  "ten_en": "Branching Out+",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "S",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 Ấn ngẫu nhiên và 1 Búa Rèn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png"
+ },
+ {
+  "id": "DA_RollingForDays",
+  "ten": "Xúc Xắc Vô Tận",
+  "ten_en": "Rolling For Days",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "S",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận lượt đổi Cửa Hàng miễn phí.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/rolling-for-days-i.png"
+ },
+ {
+  "id": "DA_PartialAscension",
+  "ten": "Bán Thăng Hoa",
+  "ten_en": "Partial Ascension",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Sau 12 giây giao tranh, cả đội nhận thêm 20% Khuếch Đại Sát Thương.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/ascension1.png"
+ },
+ {
+  "id": "DA_BandOfThieves",
+  "ten": "Băng Trộm",
+  "ten_en": "Band of Thieves",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Găng Đạo Tặc.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bandthieves1.png"
+ },
+ {
+  "id": "DA_SliceOfLife",
+  "ten": "Chuyện Đời Thường",
+  "ten_en": "Slice of Life",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Hai lần mỗi giai đoạn nhận 1 tướng ngẫu nhiên, giá tăng theo giai đoạn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/slice_of_life_i.png"
+ },
+ {
+  "id": "DA_VerticalityI",
+  "ten": "Chỉ Một Con Đường I",
+  "ten_en": "Verticality I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng nhận 1.5% SMCK/SMPT, 1.5 Giáp/Kháng Phép cho mỗi đồng minh cùng tộc/hệ.",
+  "anh": ""
+ },
+ {
+  "id": "DA_Expedition",
+  "ten": "Cuộc Viễn Chinh",
+  "ten_en": "Expedition",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Mỗi giao tranh mất tướng ở ô phải cùng hàng dự bị; đủ 33 vàng tướng thì nhận thưởng lớn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/expedition_i.png"
+ },
+ {
+  "id": "DA_LoadedDice",
+  "ten": "Gian Lận",
+  "ten_en": "Loaded Dice",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Đổ xúc xắc nhận vàng bằng số điểm, rồi tung xu nhận thêm.",
+  "anh": ""
+ },
+ {
+  "id": "DA_LateGameSpecialist",
+  "ten": "Hướng Đến Hồi Kết",
+  "ten_en": "Late Game Specialist",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Khi đạt Cấp 9, nhận 27 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/late-game-specialist-i.png"
+ },
+ {
+  "id": "DA_PandorasItemsI",
+  "ten": "Hộp Pandora I",
+  "ten_en": "Pandora's Items I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Đầu vòng, trang bị trên hàng chờ bị tráo ngẫu nhiên. Nhận trang bị thành phần.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora1.png"
+ },
+ {
+  "id": "DA_IronAssets",
+  "ten": "Kho Báu Sắt",
+  "ten_en": "Iron Assets",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 gói trang bị thành phần và vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/iron-assets-i.png"
+ },
+ {
+  "id": "DA_KickStart",
+  "ten": "Khởi Động Nhanh",
+  "ten_en": "Kick Start",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 1 tướng 2 vàng 2 sao ngẫu nhiên và 1 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/kickstart_i.png"
+ },
+ {
+  "id": "DA_PatienceIsAVirtue",
+  "ten": "Kiên Nhẫn Là Một Đức Tính",
+  "ten_en": "Patience Is A Virtue",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận lượt đổi. Mỗi vòng không mua tướng thì vòng sau nhận 1 lượt đổi.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/patienceisavirtue_i.png"
+ },
+ {
+  "id": "DA_MissedConnections",
+  "ten": "Kết Nối Gián Đoạn",
+  "ten_en": "Missed Connections",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 1 bản sao của mỗi tướng 1 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missed-connections-i.png"
+ },
+ {
+  "id": "DA_CarveAPath",
+  "ten": "Mở Lối",
+  "ten_en": "Carve a Path",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Kiếm B.F. Sau khi gây đủ sát thương vật lý, nhận thêm Kiếm B.F.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/carveapath_i.png"
+ },
+ {
+  "id": "DA_ChampDelivery",
+  "ten": "Phân Phối Tướng",
+  "ten_en": "Champ Delivery",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận tướng 2 vàng. Sau 6 vòng nhận thêm tướng cùng bậc.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ChampDeliveryPlus",
+  "ten": "Phân Phối Tướng+",
+  "ten_en": "Champ Delivery+",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận tướng 3 vàng. Sau 6 vòng nhận thêm tướng cùng bậc.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ChampDeliveryPlusPlus",
+  "ten": "Phân Phối Tướng++",
+  "ten_en": "Champ Delivery++",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận tướng 4 vàng. Sau 6 vòng nhận thêm tướng cùng bậc.",
+  "anh": ""
+ },
+ {
+  "id": "DA_SlightlyMagicRoll",
+  "ten": "Quay Trúng Thưởng",
+  "ten_en": "Slightly Magic Roll",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Đổ 1 xúc xắc, nhận thưởng theo số đổ ra.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/slightlymagicroll_i.png"
+ },
+ {
+  "id": "DA_18_WispRebatePlusPlus",
+  "ten": "Tinh Linh Hoàn Tiền+",
+  "ten_en": "Wisp Rebate+",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Mỗi lần mua Tinh Linh, nhận 2 vàng. Nhận ngay nhiều vàng hơn.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ItemGrabBag",
+  "ten": "Tiếp Tế Trang Bị I",
+  "ten_en": "Item Grab Bag I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 trang bị hoàn chỉnh ngẫu nhiên.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/itemgrabbag1.png"
+ },
+ {
+  "id": "DA_QuickStreaks",
+  "ten": "Tích Chuỗi Nhanh",
+  "ten_en": "Quick Streaks",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Tiến trình chuỗi thắng/thua tăng gấp đôi. Nhận 2 vàng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_SmallGrabBag",
+  "ten": "Túi Đồ Cỡ Nhỏ",
+  "ten_en": "Small Grab Bag",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận trang bị thành phần ngẫu nhiên.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/smallgrabbag_i.png"
+ },
+ {
+  "id": "DA_CapitalGainsI",
+  "ten": "Tăng Vốn I",
+  "ten_en": "Capital Gains I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Tích trữ vàng bằng lợi tức kiếm được; vòng 3-3 nhận lại một phần.",
+  "anh": ""
+ },
+ {
+  "id": "DA_SilverDestiny",
+  "ten": "Vận Mệnh Bạc",
+  "ten_en": "Silver Destiny",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận 1 lõi Bạc và 2 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silverdestiny_i.png"
+ },
+ {
+  "id": "DA_SilverDestinyPlus",
+  "ten": "Vận Mệnh Bạc+",
+  "ten_en": "Silver Destiny+",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận 1 lõi Bạc và 4 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silverdestiny_i.png"
+ },
+ {
+  "id": "DA_SilverDestinyPlusPlus",
+  "ten": "Vận Mệnh Bạc++",
+  "ten_en": "Silver Destiny++",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận 1 lõi Bạc và 7 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silverdestiny_i.png"
+ },
+ {
+  "id": "DA_ComponentBuffet",
+  "ten": "Đại Tiệc Trang Bị",
+  "ten_en": "Component Buffet",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [],
+  "nhom": "Trang bị",
+  "mo_ta": "Mỗi trang bị thành phần nhận được biến thành gói để chọn. Nhận 1 thành phần.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/the-customer-is-always-right-i.png"
+ },
+ {
+  "id": "DA_Kingslayer",
+  "ten": "Đồ Vương",
+  "ten_en": "Kingslayer",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Thắng giao tranh người chơi nhận vàng, nhiều hơn nếu đối thủ nhiều máu hơn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/kingslayer_i.png"
+ },
+ {
+  "id": "DA_18_CaretakersAlly",
+  "ten": "Đồng Minh Của Bụt",
+  "ten_en": "Caretaker's Ally",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận ngay 1 tướng 2 vàng ngẫu nhiên. Mỗi lần lên cấp, nhận lại tướng này.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/caretaker_s-chosen-i.png"
+ },
+ {
+  "id": "DA_BackupBows",
+  "ten": "Cung Dự Phòng",
+  "ten_en": "Backup Bows",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Cung Gỗ. Sau 1000 đòn đánh, nhận thêm Cung Gỗ.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/recurvewrecker_i.png"
+ },
+ {
+  "id": "DA_FeelingLucky",
+  "ten": "Cảm Thấy May Mắn",
+  "ten_en": "Feeling Lucky",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận vàng rồi tung đồng xu, ngửa thì nhận thêm vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/feelinglucky_i.png"
+ },
+ {
+  "id": "DA_HealingOrbsI",
+  "ten": "Cầu Hồi Phục I",
+  "ten_en": "Healing Orbs I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Khi 1 kẻ địch bị hạ, 1 đồng minh gần đó được hồi Máu.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/healing-orbs-i.png"
+ },
+ {
+  "id": "DA_18_ResidualMagic",
+  "ten": "Dư Âm Ma Thuật",
+  "ten_en": "Residual Magic",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội +60 Máu. Mỗi lần mua Tinh Linh, tăng hiệu ứng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_18_ResidualMagicPlus",
+  "ten": "Dư Âm Ma Thuật +",
+  "ten_en": "Residual Magic +",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội +75 Máu. Mỗi lần mua Tinh Linh, tăng hiệu ứng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_18_ResidualMagicPlusPlus",
+  "ten": "Dư Âm Ma Thuật ++",
+  "ten_en": "Residual Magic ++",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội +90 Máu. Mỗi lần mua Tinh Linh, tăng hiệu ứng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_MakeshiftArmorI",
+  "ten": "Giáp Tự Chế I",
+  "ten_en": "Makeshift Armor I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng không mang trang bị nhận Giáp và Kháng Phép.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/makeshift1.png"
+ },
+ {
+  "id": "DA_Dummify",
+  "ten": "Hình Nhân Hóa",
+  "ten_en": "Dummify",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Mất mọi tướng, nhận 1 Hình Nhân mang phần trăm tổng Máu của chúng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/dummify_i.png"
+ },
+ {
+  "id": "DA_CraftedCrafting",
+  "ten": "Khéo Tay Hay Làm",
+  "ten_en": "Crafted Crafting",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Mỗi lần ghép 1 trang bị hoàn chỉnh, nhận lượt đổi.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/craftedcrafting_i.png"
+ },
+ {
+  "id": "DA_GlassCannon_Silver",
+  "ten": "Lấy Công Bù Thủ I",
+  "ten_en": "Glass Cannon I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng hàng sau khởi đầu ít Máu hơn nhưng nhận 16% Khuếch Đại Sát Thương.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/glasscannon_i.png"
+ },
+ {
+  "id": "DA_FlowingTears",
+  "ten": "Lệ Lưu Ly",
+  "ten_en": "Flowing Tears",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Nước Mắt. Sau khi tiêu đủ Năng Lượng, nhận thêm Nước Mắt.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/griefofthegreatgoddess_i.png"
+ },
+ {
+  "id": "DA_18_OneTwoFive",
+  "ten": "Một, Hai, Năm!",
+  "ten_en": "One, Two, Five!",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 1 trang bị thành phần ngẫu nhiên, 2 vàng và 1 tướng 5 vàng ngẫu nhiên.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/one-two-five-i.png"
+ },
+ {
+  "id": "DA_StandUnited",
+  "ten": "Nhất Thống",
+  "ten_en": "Stand United",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng nhận Sức Mạnh Công Kích và Phép Thuật theo số tộc/hệ (không độc nhất) đang kích hoạt.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/standunited1.png"
+ },
+ {
+  "id": "DA_AugmentedPower",
+  "ten": "Nâng Tầm Uy Lực",
+  "ten_en": "Augmented Power",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Lõi tiếp theo được tăng một bậc.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/powerup_i.png"
+ },
+ {
+  "id": "DA_CelestialBlessingI",
+  "ten": "Phước Lành Vũ Trụ I",
+  "ten_en": "Celestial Blessing I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội nhận Hút Máu Toàn Phần; hồi máu thừa thành lá chắn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/celestialblessing1.png"
+ },
+ {
+  "id": "DA_TwinGuardians",
+  "ten": "Song Vệ",
+  "ten_en": "Twin Guardians",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nếu có đúng 2 đồng minh hàng đầu, họ nhận 100 Máu, Giáp và Kháng Phép.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/twinguardians_i.png"
+ },
+ {
+  "id": "DA_CognitiveTax",
+  "ten": "Thuế Nhận Thức",
+  "ten_en": "Cognitive Tax",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận 8 vàng và XP.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cognitivetax_i.png"
+ },
+ {
+  "id": "DA_CognitiveTaxPlus",
+  "ten": "Thuế Nhận Thức+",
+  "ten_en": "Cognitive Tax+",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận vàng và XP.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cognitivetax_i.png"
+ },
+ {
+  "id": "DA_18_WispRebatePlus",
+  "ten": "Tinh Linh Hoàn Tiền",
+  "ten_en": "Wisp Rebate",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Mỗi lần mua Tinh Linh, nhận 2 vàng. Nhận ngay một ít vàng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_FindYourCenter",
+  "ten": "Tiền Vệ Trung Tâm",
+  "ten_en": "Find Your Center",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng đứng chính giữa hàng trên nhận 15% Khuếch Đại Sát Thương và 25% Máu tối đa.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/findyourcenter_i.png"
+ },
+ {
+  "id": "DA_YoungAndWildAndFree",
+  "ten": "Trẻ, Khỏe & Tự Do",
+  "ten_en": "Young and Wild and Free",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Luôn được đi tự do trong Vòng Đi Chợ. Nhận 5 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/young-and-wild-and-free-i.png"
+ },
+ {
+  "id": "DA_TheTower",
+  "ten": "Tòa Tháp",
+  "ten_en": "The Tower",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 1 Hình Nhân khổng lồ, định kỳ phóng điện gây sát thương chuẩn theo Máu tối đa.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thetower_i.png"
+ },
+ {
+  "id": "DA_BoxingLessons",
+  "ten": "Tập Chịu Đòn",
+  "ten_en": "Boxing Lessons",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội nhận Máu với mỗi tướng đứng hàng đầu.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/boxinglessons_i.png"
+ },
+ {
+  "id": "DA_FocusedFire",
+  "ten": "Tập Trung Hỏa Lực",
+  "ten_en": "Focused Fire",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội +10% Sức Mạnh Công Kích, tăng thêm mỗi 5 giây.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/marksman_i.png"
+ },
+ {
+  "id": "DA_Recombobulator",
+  "ten": "Xoay Bài Tự Động",
+  "ten_en": "Recombobulator",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Mọi tướng trên sân đổi thành tướng ngẫu nhiên giá cao hơn 1 bậc.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/recombobulator-i.png"
+ },
+ {
+  "id": "DA_TeamBuilding",
+  "ten": "Xây Dựng Đội Hình",
+  "ten_en": "Team Building",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 1 Máy Sao Chép Tướng Cỡ Nhỏ, sau vài vòng nhận thêm 1.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/building-an-army-i.png"
+ },
+ {
+  "id": "DA_GroupHugI",
+  "ten": "Ôm Tập Thể I",
+  "ten_en": "Group Hug I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Đầu giao tranh, mỗi tướng tăng Giáp và Kháng Phép cho tướng liền kề (cộng dồn).",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/grouphug1_i.png"
+ },
+ {
+  "id": "DA_Corrosion",
+  "ten": "Ăn Mòn",
+  "ten_en": "Corrosion",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng địch ở 2 hàng trên mất 4 Giáp và Kháng Phép mỗi 2 giây.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/corrosion_i.png"
+ },
+ {
+  "id": "DA_18_GoodForSomethingI",
+  "ten": "Được Cái Này Mất Cái Kia I",
+  "ten_en": "Good For Something I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Tướng không mang trang bị có xác suất rơi 1 vàng khi bị hạ.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/good-for-something-i.png"
+ },
+ {
+  "id": "DA_SilverSpoon",
+  "ten": "Đặc Quyền Phú Gia",
+  "ten_en": "Silver Spoon",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận 10 XP.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silver-spoon-i.png"
+ },
+ {
+  "id": "DA_FutureFocused",
+  "ten": "Định Hướng Tương Lai",
+  "ten_en": "Future Focused",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Mất 20 máu người chơi; sau 5 giao tranh nhận 3 tướng 4 vàng và vàng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ExtraBuckles",
+  "ten": "Khóa Dự Phòng",
+  "ten_en": "Extra Buckles",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Đai Khổng Lồ. Sau khi chịu đủ sát thương, nhận thêm Đai.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/extrabuckles_i.png"
+ },
+ {
+  "id": "DA_18_OnesTwosThree",
+  "ten": "Một, Hai, Ba",
+  "ten_en": "Ones Two Three",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận vài tướng 1 vàng, 2 vàng và 3 vàng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ElectrochargeI",
+  "ten": "Tụ Điện I",
+  "ten_en": "Electrocharge I",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "C",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Đồng minh bị đánh đủ số lần sẽ gây sát thương phép quanh mình.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/electrocharge-i.png"
+ },
+ {
+  "id": "DA_CalledShot",
+  "ten": "Đòn Quyết Định",
+  "ten_en": "Called Shot",
+  "bac": "Bạc",
+  "bac_so": 1,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Đặt chuỗi thắng về một mốc nhất định. Nhận 4 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/calledshot_i.png"
+ },
+ {
+  "id": "DA_BlackthornTraitAugment",
+  "ten": "Chiết Xuất Trang Bị",
+  "ten_en": "Item Extraction",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "3 lần đầu hiến tế tướng trên ô Gai Đen, nhận bản sao 1 trang bị thành phần tướng đó đang mang.",
+  "anh": ""
+ },
+ {
+  "id": "DA_SpreadingRoots",
+  "ten": "Cắm Rễ Phân Tán",
+  "ten_en": "Spreading Roots",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 Ấn ngẫu nhiên; sau 3 giao tranh nhận thêm 1 Ấn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/spreadingroots_ii.png"
+ },
+ {
+  "id": "DA_SpreadingRootsPlus",
+  "ten": "Cắm Rễ Phân Tán+",
+  "ten_en": "Spreading Roots+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận Ấn ngẫu nhiên và vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/spreadingroots_ii.png"
+ },
+ {
+  "id": "DA_FrontlineFoundation",
+  "ten": "Củng Cố Tuyến Trước",
+  "ten_en": "Frontline Foundation",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 tướng Đỡ Đòn 1 vàng 2 sao và 1 Ấn hợp hệ của tướng đó.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/frontlinefoundation_ii.png"
+ },
+ {
+  "id": "DA_BoosterPack",
+  "ten": "Gói Tăng Cường",
+  "ten_en": "Booster Pack",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận các tướng ngẫu nhiên với tổng giá nhất định.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/boosterpack1_ii.png"
+ },
+ {
+  "id": "DA_BoosterPackPlus",
+  "ten": "Gói Tăng Cường+",
+  "ten_en": "Booster Pack+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận các tướng ngẫu nhiên với tổng giá lớn hơn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/boosterpack1_ii.png"
+ },
+ {
+  "id": "DA_BoosterPackPlusPlus",
+  "ten": "Gói Tăng Cường++",
+  "ten_en": "Booster Pack++",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận các tướng ngẫu nhiên với tổng giá lớn hơn nữa.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/boosterpack1_ii.png"
+ },
+ {
+  "id": "DA_PortableForge",
+  "ten": "Lò Rèn Thần Thoại",
+  "ten_en": "Portable Forge",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Chọn 1 trong 4 Tạo Tác.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/portableforge2.png"
+ },
+ {
+  "id": "DA_18_PrimalAugment_Nidalee",
+  "ten": "Quái Thú Bên Trong",
+  "ten_en": "Beast Within",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Tướng Nguyên Sinh cho thêm một Phước Lành. Nhận 1 Vi ngay và 1 Nidalee sau vài vòng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_18_PrimalAugmentPlus_Nidalee",
+  "ten": "Quái Thú Bên Trong+",
+  "ten_en": "Beast Within+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Tướng Nguyên Sinh cho thêm một Phước Lành. Nhận 1 Vi và 1 Nidalee.",
+  "anh": ""
+ },
+ {
+  "id": "DA_CalculatedLoss",
+  "ten": "Thua Có Tính Toán",
+  "ten_en": "Calculated Loss",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [],
+  "nhom": "Kinh tế",
+  "mo_ta": "Sau khi thua, nhận 2 vàng và 1 lượt đổi miễn phí.",
+  "anh": ""
+ },
+ {
+  "id": "DA_18_FloraFatalisAugmentPlus",
+  "ten": "Thực Vật Hấp Thụ+",
+  "ten_en": "Consuming Flora+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Nhận 1 Ấn Thực Vật, tướng mang ấn tăng hiệu ứng Thực Vật. Nhận thêm vàng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_SeraphimsStaff",
+  "ten": "Trượng Đại Thiên Sứ",
+  "ten_en": "Seraphim's Staff",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Quyền Trượng Thiên Thần, tăng thêm Hồi Năng Lượng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/seraphimsstaff_ii.png"
+ },
+ {
+  "id": "DA_18_CovenTraitAugment_LootToAP",
+  "ten": "Tà Thuật",
+  "ten_en": "Dark Ritual",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Đổi Tinh Hoa Tiên Hắc Ám thành Sức Mạnh Phép Thuật cho tướng Tiên Hắc Ám thay vì báu vật. Nhận 1 Camille.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ExplosiveGrowth",
+  "ten": "Tăng Trưởng Bùng Nổ",
+  "ten_en": "Explosive Growth",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận 7 XP ngay và ở đầu 3 vòng tiếp theo.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/explosivegrowth_ii.png"
+ },
+ {
+  "id": "DA_EpicRolldown",
+  "ten": "Xúc Xắc Hoành Tráng",
+  "ten_en": "Epic Rolldown",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Khi đạt Cấp 8, nhận 20 lượt đổi Cửa Hàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/epicrolldown_ii.png"
+ },
+ {
+  "id": "DA_MagicRoll",
+  "ten": "Xúc Xắc Ma Pháp",
+  "ten_en": "Magic Roll",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "S",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Đổ 3 xúc xắc, nhận thưởng theo tổng điểm.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/a-magical-roll-ii.png"
+ },
+ {
+  "id": "DA_EarlyLearnings",
+  "ten": "Bài Học Sơ Khai",
+  "ten_en": "Early Learnings",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội nhận Sức Mạnh Công Kích & Phép Thuật, tăng dần sau mỗi giao tranh.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/earlylearning_ii.png"
+ },
+ {
+  "id": "DA_ClutteredMind",
+  "ten": "Bừa Bộn",
+  "ten_en": "Cluttered Mind",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận 4 tướng rẻ. Nếu hàng chờ đầy khi hết giao tranh, nhận 3 XP.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/dizzy-ii.png"
+ },
+ {
+  "id": "DA_WorththeWait",
+  "ten": "Chờ Đợi Xứng Đáng",
+  "ten_en": "Worth the Wait",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 1 tướng 1 vàng, mỗi vòng nhận thêm 1 bản sao đến hết trận.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/worththewait_ii.png"
+ },
+ {
+  "id": "DA_MoneyHungry_NotBroken",
+  "ten": "Cơn Khát Vàng",
+  "ten_en": "Money Hungry",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận 7 vàng ngay và 7 vàng ở đầu mỗi giai đoạn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/moneyhungry1_ii.png"
+ },
+ {
+  "id": "DA_CyberneticImplants_Gold",
+  "ten": "Cấy Ghép Siêu Công Nghệ",
+  "ten_en": "Cybernetic Implants",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Tướng mang trang bị nhận Máu và Sức Mạnh Công Kích. Nhận 1 Kiếm B.F.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cybernetic2.png"
+ },
+ {
+  "id": "DA_BodyguardTraining",
+  "ten": "Huấn Luyện Cận Vệ",
+  "ten_en": "Bodyguard Training",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Đồng minh nhận 15 Giáp và Kháng Phép, tăng theo cấp người chơi.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bodyguardstraining_ii.png"
+ },
+ {
+  "id": "DA_18_DuoQueue",
+  "ten": "Hàng Chờ Đấu Đôi",
+  "ten_en": "Duo Queue",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 2 tướng 5 vàng ngẫu nhiên và 2 bản sao của một trang bị thành phần ngẫu nhiên.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/duoqueue_ii.png"
+ },
+ {
+  "id": "DA_SlamminPlus",
+  "ten": "Hạ Đo Ván+",
+  "ten_en": "Slammin'+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận vàng và XP. Sau mỗi giao tranh, nếu hàng chờ không còn trang bị, nhận thưởng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/slammin_ii.png"
+ },
+ {
+  "id": "DA_SoloPlate",
+  "ten": "Khiên Đơn Đấu",
+  "ten_en": "Solo Plate",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Thú Tượng Thạch Giáp; người mang đứng một mình một hàng thì +17% Máu tối đa.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/soloplate_ii.png"
+ },
+ {
+  "id": "DA_TradeSector",
+  "ten": "Khu Giao Dịch",
+  "ten_en": "Trade Sector",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận 1 lượt đổi miễn phí mỗi vòng. Nhận 2 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/trade2.png"
+ },
+ {
+  "id": "DA_TheGoldenDragon",
+  "ten": "Kim Long",
+  "ten_en": "The Golden Dragon",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Giáp Đại Hãn: người mang chiếm thêm chỗ đội hình nhưng +600 Máu và 15% Chống Chịu.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thegoldendragon_ii.png"
+ },
+ {
+  "id": "DA_PatientStudy",
+  "ten": "Kiên Nhẫn Học Tập",
+  "ten_en": "Patient Study",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Sau giao tranh người chơi nhận XP (nhiều hơn nếu thua).",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/learning-from-experience-ii.png"
+ },
+ {
+  "id": "DA_ExclusiveCustomization",
+  "ten": "Lựa Chọn Độc Quyền",
+  "ten_en": "Exclusive Customization",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Rương Trang Bị May Mắn, 1 Nam Châm Ma Thuật và 7 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/exclusivecustomization_ii.png"
+ },
+ {
+  "id": "DA_SalvageBin",
+  "ten": "Nhà Máy Tái Chế",
+  "ten_en": "Salvage Bin",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 trang bị hoàn chỉnh ngay, 1 thành phần sau 8 vòng. Bán tướng tách đồ.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/salvage2.png"
+ },
+ {
+  "id": "DA_Replication",
+  "ten": "Nhân Bản",
+  "ten_en": "Replication",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Chọn 1 trong 3 thành phần; vài vòng tới nhận thêm bản sao của nó.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/replication-ii.png"
+ },
+ {
+  "id": "DA_BonusGift",
+  "ten": "Quà Tặng Thêm",
+  "ten_en": "Bonus Gifts",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Mỗi lần mở hộp vật phẩm, 25% nhận thêm 1 hộp xám.",
+  "anh": ""
+ },
+ {
+  "id": "DA_18_PrimalAugment_Sivir",
+  "ten": "Quái Thú Bên Trong (Sivir)",
+  "ten_en": "Beast Within",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Nguyên Sinh cho thêm một Phước Lành. Nhận 1 Vi ngay và 1 Sivir sau vài vòng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_18_PrimalAugmentPlus_Sivir",
+  "ten": "Quái Thú Bên Trong+ (Sivir)",
+  "ten_en": "Beast Within+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Nguyên Sinh cho thêm một Phước Lành. Nhận 1 Vi và 1 Sivir.",
+  "anh": ""
+ },
+ {
+  "id": "DA_LegionOfThrees",
+  "ten": "Quân Đoàn 3 Sao",
+  "ten_en": "Legion Of Threes",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 Ấn. Tướng 3 vàng và tướng mang Ấn nhận Máu và 12% Tốc Độ Đánh.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/legionofthrees_ii.png"
+ },
+ {
+  "id": "DA_BirthdayReunion",
+  "ten": "Sinh Nhật Đoàn Tụ",
+  "ten_en": "Birthday Reunion",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận tướng 2 sao ngẫu nhiên; ở các mốc cấp nhận thêm đồ và tướng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/birthdayreunion_ii.png"
+ },
+ {
+  "id": "DA_BacklineBlueprint",
+  "ten": "Sơ Đồ Tuyến Sau",
+  "ten_en": "Backline Blueprint",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 tướng 3 vàng (không phải Đỡ Đòn) và 1 Ấn hợp với hệ của tướng đó.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/backlineblueprint_ii.png"
+ },
+ {
+  "id": "DA_GildedSteel",
+  "ten": "Thép Mạ Vàng",
+  "ten_en": "Gilded Steel",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 2 tướng 5 vàng. Có tướng 5 vàng trên sân thì tướng 1-4 vàng nhận 8% Chống Chịu.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/gildedsteel_ii.png"
+ },
+ {
+  "id": "DA_LateGameScaling",
+  "ten": "Thăng Tiến Cuối Trận",
+  "ten_en": "Late Game Scaling",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận 2 XP mỗi vòng giao tranh. Tướng 5 vàng nhận Máu và Tốc Độ Đánh.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/lategamescaling_ii.png"
+ },
+ {
+  "id": "DA_Staffsmith",
+  "ten": "Thợ Rèn Gậy",
+  "ten_en": "Staffsmith",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận trang bị hoàn chỉnh ngẫu nhiên ghép từ Gậy Quá Khổ.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/rodsmith_ii.png"
+ },
+ {
+  "id": "DA_Swordsmith",
+  "ten": "Thợ Rèn Kiếm",
+  "ten_en": "Swordsmith",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận trang bị hoàn chỉnh ngẫu nhiên ghép từ Kiếm B.F.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/swordsmith_ii.png"
+ },
+ {
+  "id": "DA_CyberneticUplink_Gold",
+  "ten": "Trí Tuệ Siêu Công Nghệ",
+  "ten_en": "Cybernetic Uplink",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Tướng mang trang bị nhận Máu và Hồi Năng Lượng. Nhận 1 Nước Mắt.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cybernetic-uplink-ii.png"
+ },
+ {
+  "id": "DA_18_BigGrabBag",
+  "ten": "Túi Đồ Cỡ Đại",
+  "ten_en": "Big Grab Bag",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 3 trang bị thành phần ngẫu nhiên, 2 vàng và 1 Búa Rèn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/grab-bag-ii.png"
+ },
+ {
+  "id": "DA_HeroicGrabBag",
+  "ten": "Túi Đồ Siêu Hùng",
+  "ten_en": "Heroic Grab Bag",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 2 Máy Sao Chép Tướng Cỡ Nhỏ và 4 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/heroic-grab-bag-ii.png"
+ },
+ {
+  "id": "DA_HeroicGrabBagPlus",
+  "ten": "Túi Đồ Siêu Hùng+",
+  "ten_en": "Heroic Grab Bag+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 2 Máy Sao Chép Tướng Cỡ Nhỏ và 8 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/heroic-grab-bag-ii.png"
+ },
+ {
+  "id": "DA_HeroicGrabBagPlusPlus",
+  "ten": "Túi Đồ Siêu Hùng++",
+  "ten_en": "Heroic Grab Bag++",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 2 Máy Sao Chép Tướng Cỡ Nhỏ và 14 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/heroic-grab-bag-ii.png"
+ },
+ {
+  "id": "DA_ExplosiveGrowthPlus",
+  "ten": "Tăng Trưởng Bùng Nổ+",
+  "ten_en": "Explosive Growth+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận XP ngay và ở đầu 3 vòng tiếp theo.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/explosivegrowth_ii.png"
+ },
+ {
+  "id": "DA_URF",
+  "ten": "U.R.F.",
+  "ten_en": "U.R.F",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Xẻng Vàng. Tướng mang Xẻng/Chảo nhận 20% Tốc Độ Đánh và 3 Hồi Năng Lượng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/ultrarapidfire_ii.png"
+ },
+ {
+  "id": "DA_TimeSkip",
+  "ten": "Vượt Thời Gian",
+  "ten_en": "Time Skip",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Khóa cửa hàng vài vòng, sau đó nhận nhiều XP.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/timeskip_ii.png"
+ },
+ {
+  "id": "DA_GoldDestiny",
+  "ten": "Vận Mệnh Vàng",
+  "ten_en": "Gold Destiny",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận 1 lõi Vàng ngẫu nhiên và 3 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldendestiny_ii.png"
+ },
+ {
+  "id": "DA_GoldDestinyPlus",
+  "ten": "Vận Mệnh Vàng+",
+  "ten_en": "Gold Destiny+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận 1 lõi Vàng ngẫu nhiên và 5 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldendestiny_ii.png"
+ },
+ {
+  "id": "DA_MaxBuild",
+  "ten": "Đội Hình Tối Ưu",
+  "ten_en": "Max Build",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận 10 lượt đổi. Ở cấp 9 nhận thêm lượt đổi và 1 Máy Sao Chép Tướng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/maxbuild_ii.png"
+ },
+ {
+  "id": "DA_ArcaneViktory",
+  "ten": "Arcane Viktor-y",
+  "ten_en": "Arcane Viktor-y",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Sau vài giây giao tranh, làm choáng đội địch 1.5 giây, lặp lại sau đó.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/arcaneviktory_ii.png"
+ },
+ {
+  "id": "DA_InfinityProtection",
+  "ten": "Bảo Hộ Vô Tận",
+  "ten_en": "Infinity Protection",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 3 vàng. Vòng 3-7 nhận 1 Tam Luyện Kiếm (lá chắn cho đồng minh cùng hàng).",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/infinityprotection_ii.png"
+ },
+ {
+  "id": "DA_CaretakersFavor",
+  "ten": "Chúc Phúc Của Bụt",
+  "ten_en": "Caretaker's Favor",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận gói trang bị thành phần (4 lựa chọn) ở cấp 5, 6, 7 và 8.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/caretaker_s-chosen-ii.png"
+ },
+ {
+  "id": "DA_VerticalityII",
+  "ten": "Chỉ Một Con Đường II",
+  "ten_en": "Verticality II",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng nhận 2% SMCK/SMPT, 2 Giáp/Kháng Phép cho mỗi đồng minh cùng tộc/hệ.",
+  "anh": ""
+ },
+ {
+  "id": "DA_MoneyHungryPlus",
+  "ten": "Cơn Khát Vàng+",
+  "ten_en": "Money Hungry+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận vàng ngay và thêm vàng ở đầu mỗi giai đoạn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/moneyhungry2_ii.png"
+ },
+ {
+  "id": "DA_HealingOrbsII",
+  "ten": "Cầu Hồi Phục II",
+  "ten_en": "Healing Orbs II",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Khi 1 kẻ địch bị hạ, 1 đồng minh gần đó được hồi nhiều Máu.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/healing-orbs-ii.png"
+ },
+ {
+  "id": "DA_DoubleTrouble",
+  "ten": "Cặp Đôi Hoàn Cảnh",
+  "ten_en": "Double Trouble",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Ra sân đúng 2 bản sao của 1 tướng: cả hai nhận thêm SMCK, SMPT, Giáp, Kháng Phép.",
+  "anh": ""
+ },
+ {
+  "id": "DA_TonsOfStatsI",
+  "ten": "Cộng Mệt Nghỉ!",
+  "ten_en": "Tons of Stats!",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội +44 Máu, 4% SMCK, 4% SMPT, 4 Giáp, 4 Kháng Phép, 4% Tốc Độ Đánh, 4 Năng Lượng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/tons-of-stats-ii.png"
+ },
+ {
+  "id": "DA_MaliciousMonetization",
+  "ten": "Dòng Tiền Mờ Ám",
+  "ten_en": "Malicious Monetization",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận 4 vàng. 2 vòng tới, tướng địch rơi vàng khi bị hạ.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/mirroredmonetization_ii.png"
+ },
+ {
+  "id": "DA_MakeshiftArmorII",
+  "ten": "Giáp Tự Chế II",
+  "ten_en": "Makeshift Armor II",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng không mang trang bị nhận nhiều Giáp và Kháng Phép.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/makeshift2.png"
+ },
+ {
+  "id": "DA_CryMeARiver",
+  "ten": "Giọt Lệ Bi Ai",
+  "ten_en": "Cry Me A River",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Nước Mắt Nữ Thần. Cả đội +1 Hồi Năng Lượng, sau một lúc tăng lên 4.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/crymeariver_ii.png"
+ },
+ {
+  "id": "DA_PlotArmor",
+  "ten": "Hào Quang Nhân Vật Chính",
+  "ten_en": "Plot Armor",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội nhận Giáp và Kháng Phép, tăng mạnh khi thấp máu.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/plotarmor_ii.png"
+ },
+ {
+  "id": "DA_18_FaeTraitAugment",
+  "ten": "Hóa Lớn",
+  "ten_en": "Embiggen",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Pix Tiên Linh lớn hơn, cho thêm 50% Sức Mạnh Công Kích & Phép Thuật. Tướng Tiên Linh nhận thêm Máu.",
+  "anh": ""
+ },
+ {
+  "id": "DA_Slammin",
+  "ten": "Hạ Đo Ván",
+  "ten_en": "Slammin'",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận 3 vàng. Sau mỗi giao tranh, nếu hàng chờ không còn trang bị, nhận thưởng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/slammin_ii.png"
+ },
+ {
+  "id": "DA_PandorasItemsII",
+  "ten": "Hộp Pandora II",
+  "ten_en": "Pandora's Items II",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Đầu vòng, trang bị trên hàng chờ bị tráo ngẫu nhiên. Nhận trang bị thành phần.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora2.png"
+ },
+ {
+  "id": "DA_TradeSectorPlus",
+  "ten": "Khu Giao Dịch+",
+  "ten_en": "Trade Sector+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận 1 lượt đổi miễn phí mỗi vòng. Nhận thêm vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/trade2.png"
+ },
+ {
+  "id": "DA_18_RivalsAugment",
+  "ten": "Không Đối Thủ",
+  "ten_en": "Unrivaled",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Đưa Rengar và Kha'Zix ra sân cùng nhau, mỗi con mạnh thêm khi con kia tung chiêu.",
+  "anh": ""
+ },
+ {
+  "id": "DA_18_RivalsAugmentPlus",
+  "ten": "Không Đối Thủ+",
+  "ten_en": "Unrivaled+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Ra sân Rengar và Kha'Zix cùng lúc không bị phạt, cường hóa lẫn nhau. Nhận 1 Rengar và 1 Kha'Zix.",
+  "anh": ""
+ },
+ {
+  "id": "DA_JeweledLotus_I",
+  "ten": "Khảm Bảo Thạch I",
+  "ten_en": "Jeweled Lotus I",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội nhận Tỉ Lệ Chí Mạng và Chuẩn Xác (kỹ năng có thể chí mạng).",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/jeweled-lotus-ii.png"
+ },
+ {
+  "id": "DA_Epoch",
+  "ten": "Kỷ Nguyên",
+  "ten_en": "Epoch",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Ngay và đầu mỗi giai đoạn, nhận XP và lượt đổi miễn phí.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/epoch_ii.png"
+ },
+ {
+  "id": "DA_EpochPlus",
+  "ten": "Kỷ Nguyên+",
+  "ten_en": "Epoch+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Ngay và đầu mỗi giai đoạn, nhận XP và lượt đổi miễn phí (nhiều hơn).",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/epoch_ii.png"
+ },
+ {
+  "id": "DA_SpiritOfRedemption",
+  "ten": "Linh Hồn Chuộc Tội",
+  "ten_en": "Spirit Of Redemption",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Giáp Tâm Linh; định kỳ hồi 7.5% Máu đã mất cho đồng minh trong 1 ô.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/spiritofredemption_ii.png"
+ },
+ {
+  "id": "DA_ItsMeBaby",
+  "ten": "Là Ta Đây",
+  "ten_en": "It's Me, Baby",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận 1 ô vô địch góc dưới phải: tướng trong ô +15% Khuếch Đại Sát Thương, +15% Tốc Độ Đánh.",
+  "anh": ""
+ },
+ {
+  "id": "DA_GlassCannon_Gold",
+  "ten": "Lấy Công Bù Thủ II",
+  "ten_en": "Glass Cannon II",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Tướng hàng sau khởi đầu ít Máu hơn nhưng nhận nhiều Khuếch Đại Sát Thương.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/glasscannon_ii.png"
+ },
+ {
+  "id": "DA_WovenMagic",
+  "ten": "Ma Thuật Đan Kết",
+  "ten_en": "Woven Magic",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 thành phần; mỗi 2200 Năng Lượng tiêu hao nhận thêm 1.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/wovenmagic_iii.png"
+ },
+ {
+  "id": "DA_NoScoutNoPivot",
+  "ten": "NHẮM MẮT CHƠI BỪA",
+  "ten_en": "NO SCOUT NO PIVOT",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng đã ra sân không thể rút về hay bán. Cả đội nhận Máu và Sức Mạnh Công Kích.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/noscoutnopivot_ii.png"
+ },
+ {
+  "id": "DA_SalvageBinPlus",
+  "ten": "Nhà Máy Tái Chế+",
+  "ten_en": "Salvage Bin+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Như trên, nhận thành phần sớm hơn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/salvage2.png"
+ },
+ {
+  "id": "DA_GainGold",
+  "ten": "Nhận 21 Vàng",
+  "ten_en": "Gain 21 Gold",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận 21 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/windfall2.png"
+ },
+ {
+  "id": "DA_CookingPot",
+  "ten": "Nồi Nấu Ăn",
+  "ten_en": "Cooking Pot",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Mỗi lượt, tướng mang Xẻng/Chảo tăng vĩnh viễn Máu cho tướng gần nhất.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cookingpot_ii.png"
+ },
+ {
+  "id": "DA_CelestialBlessingII",
+  "ten": "Phước Lành Vũ Trụ II",
+  "ten_en": "Celestial Blessing II",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội nhận Hút Máu Toàn Phần; hồi máu thừa thành lá chắn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/celestialblessing2.png"
+ },
+ {
+  "id": "DA_BonusGiftPlus",
+  "ten": "Quà Tặng Thêm+",
+  "ten_en": "Bonus Gifts+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Mỗi lần mở hộp vật phẩm, 25% nhận thêm 1 hộp xám.",
+  "anh": ""
+ },
+ {
+  "id": "DA_CognitiveOverload",
+  "ten": "Quá Tải Tư Duy",
+  "ten_en": "Cognitive Overload",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 7 vàng, vài tướng, XP và 1 lượt đổi.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cognitiveoverload_ii.png"
+ },
+ {
+  "id": "DA_18_RiftbeastTraitAugment",
+  "ten": "Quái Rừng Omega",
+  "ten_en": "Omega Riftbeast",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Chọn thêm Quái Rừng Đầu Đàn thứ hai. Nhận 1 Cua Kỳ Cục, 1 Mầm Non và 1 Sỏi.",
+  "anh": ""
+ },
+ {
+  "id": "DA_SpeedyDoubleKill",
+  "ten": "Song Sát Tốc Hành",
+  "ten_en": "Speedy Double Kill",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận 1 Cuồng Đao Guinsoo. Sau khi vài người chơi bị loại, nhận 40 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/speedydoublekill_ii.png"
+ },
+ {
+  "id": "DA_18_ElderwoodTraitAugment",
+  "ten": "Thiên Nhiên Che Chở",
+  "ten_en": "Nature's Shelter",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Tướng đứng cạnh cây Thần Rừng nhận 15% Tốc Độ Đánh và hồi 2% Máu tối đa mỗi 2 giây. Nhận 1 Alistar, 1 Ornn.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ClearMind",
+  "ten": "Thông Thoáng",
+  "ten_en": "Clear Mind",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nếu hàng chờ trống khi hết giao tranh người chơi, nhận 3 XP.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/clearmind2.png"
+ },
+ {
+  "id": "DA_Ascension",
+  "ten": "Thăng Hoa",
+  "ten_en": "Ascension",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Sau 12 giây giao tranh, cả đội nhận thêm 35% Khuếch Đại Sát Thương.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/ascension2.png"
+ },
+ {
+  "id": "DA_HardBargain",
+  "ten": "Thương Vụ Khó Xơi",
+  "ten_en": "Hard Bargain",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Không được chọn ở Vòng Đi Chợ; mỗi vòng đi chợ nhận 6 máu người chơi và 8 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/hardbargain_ii.png"
+ },
+ {
+  "id": "DA_PromisedProtection",
+  "ten": "Thệ Ước Bảo Hộ",
+  "ten_en": "Promised Protection",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Lời Thề Hộ Vệ, cho thêm Năng Lượng và Máu tối đa.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/promisedprotection_ii.png"
+ },
+ {
+  "id": "DA_18_FloraFatalisAugment",
+  "ten": "Thực Vật Hấp Thụ",
+  "ten_en": "Consuming Flora",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Nhận 1 Ấn Thực Vật. Tướng mang ấn được tăng hiệu ứng Thực Vật. Nhận 3 vàng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_HeartOfSteel",
+  "ten": "Trái Tim Sắt Đá",
+  "ten_en": "Heart of Steel",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Trái Tim Kiên Định, tăng vĩnh viễn Máu khi chủ sở hữu sống sót lâu.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/healthygains_ii.png"
+ },
+ {
+  "id": "DA_18_CovenTraitAugment",
+  "ten": "Tín Đồ Tiên Hắc Ám",
+  "ten_en": "Coven Acolyte",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Khi chọn tiếp tục tích Tinh Hoa Tiên Hắc Ám, hồi 2 máu Linh Thú. Nhận 1 Camille, 1 Elise và 1 Caitlyn.",
+  "anh": ""
+ },
+ {
+  "id": "DA_SoloLeveling",
+  "ten": "Tôi Thăng Cấp Một Mình",
+  "ten_en": "Solo Leveling",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "5 giao tranh tới chỉ được ra sân ít tướng nhưng tướng đó rất mạnh; nhận XP mỗi mạng hạ gục.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/sololeveling_ii.png"
+ },
+ {
+  "id": "DA_CapitalGainsII",
+  "ten": "Tăng Vốn II",
+  "ten_en": "Capital Gains II",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Tích trữ vàng bằng lợi tức kiếm được; vòng 3-3 nhận lại phần lớn.",
+  "anh": ""
+ },
+ {
+  "id": "DA_BronzeForLifeI",
+  "ten": "Tất Tay Bậc Đồng I",
+  "ten_en": "Bronze For Life I",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội +2.5% Khuếch Đại Sát Thương cho mỗi tộc/hệ bậc Đồng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bronzeforlife_ii.png"
+ },
+ {
+  "id": "DA_AdvancedLoan",
+  "ten": "Vay Tạm Ứng",
+  "ten_en": "Advanced Loan",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận vàng ngay. Lõi tiếp theo bị giảm 1 bậc.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/advancedloan_ii.png"
+ },
+ {
+  "id": "DA_AdvancedLoanPlus",
+  "ten": "Vay Tạm Ứng+",
+  "ten_en": "Advanced Loan+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận nhiều vàng hơn. Lõi tiếp theo bị giảm 1 bậc.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/advancedloan_ii.png"
+ },
+ {
+  "id": "DA_18_WeightTheWorth",
+  "ten": "Xứng Đáng Chờ Đợi",
+  "ten_en": "Weight The Worth",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Lần đầu nâng 1 tướng lên 3 sao, nhận 1 bản sao tướng đó mỗi vòng đến hết trận.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ChallengersGrace",
+  "ten": "Ân Huệ Thách Đấu",
+  "ten_en": "Challenger's Grace",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Đầu giao tranh tăng Tốc Độ Đánh; khi hạ gục, lướt tới mục tiêu tiếp theo.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/choiceui/precisiongrace_ii.png"
+ },
+ {
+  "id": "DA_18_FOURcing",
+  "ten": "Ép Bốn",
+  "ten_en": "FOURcing",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 1 tướng 4 vàng ngẫu nhiên. Mỗi trang bị gắn trên tướng đó cho cả đội 100 Máu.",
+  "anh": ""
+ },
+ {
+  "id": "DA_GroupHugII",
+  "ten": "Ôm Tập Thể II",
+  "ten_en": "Group Hug II",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Đầu giao tranh, mỗi tướng tăng Giáp và Kháng Phép cho tướng liền kề (cộng dồn).",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/grouphug2_ii.png"
+ },
+ {
+  "id": "DA_Warpath",
+  "ten": "Đường Ra Trận",
+  "ten_en": "Warpath",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 1 tướng 2 vàng 2 sao. Gây đủ 80 sát thương lên người chơi thì nhận rương lớn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/warpath_ii.png"
+ },
+ {
+  "id": "DA_ClockworkAccelerator",
+  "ten": "Động Cơ Tăng Tốc",
+  "ten_en": "Clockwork Accelerator",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội +10% Tốc Độ Đánh sau mỗi vài giây giao tranh.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/clockworkaccelerator_ii.png"
+ },
+ {
+  "id": "DA_InvestmentStrategyI",
+  "ten": "Chiến Thuật Đầu Tư I",
+  "ten_en": "Investment Strategy I",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Tướng nhận Máu vĩnh viễn theo vàng lợi tức. Nhận 4 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/investmentstrategy_ii.png"
+ },
+ {
+  "id": "DA_18_SprykinAugment",
+  "ten": "Lông Xù Bé Nhỏ",
+  "ten_en": "Small Furry Friend",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "C",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Khi kích hoạt Tinh Nghịch, triệu hồi thêm một Lông Xù thứ hai. Nhận 1 Teemo, 1 Veigar, 1 Kobuko.",
+  "anh": ""
+ },
+ {
+  "id": "DA_18_LunarTraitAugment",
+  "ten": "Mặt Trời và Mặt Trăng",
+  "ten_en": "Sun and Moon",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "C",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Tướng Mặt Trăng nhận 100 Máu và 8% Khuếch Đại Sát Thương với mỗi tướng Mặt Trời khác nhau trên sân.",
+  "anh": ""
+ },
+ {
+  "id": "DA_18_LunarTraitAugmentPlus",
+  "ten": "Mặt Trời và Mặt Trăng+",
+  "ten_en": "Sun and Moon+",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "C",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Như Mặt Trời và Mặt Trăng, kèm thêm tướng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_Hustler",
+  "ten": "Sống Vội",
+  "ten_en": "Hustler",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Không còn lợi tức, nhưng nhận vàng đầu mỗi vòng giao tranh người chơi.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/hyperroll2.png"
+ },
+ {
+  "id": "DA_18_SolarTraitAugment",
+  "ten": "Sự Lựa Chọn của Mặt Trời",
+  "ten_en": "Chosen of the Sun",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Nhận 1 Leona, 1 Kayle, 1 Sejuani. Leona nhận Máu tối đa vĩnh viễn mỗi vòng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_18_BlossomTraitAugment",
+  "ten": "Tiếng Gọi Hoa Linh",
+  "ten_en": "Blossom's Call",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "C",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Khi mua 1 Tinh Linh, nhận 1 tướng Hoa Linh ngẫu nhiên theo giá Tinh Linh. Nhận 1 Yunara, 1 Yorick và 1 Karma.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ElectrochargeII",
+  "ten": "Tụ Điện II",
+  "ten_en": "Electrocharge II",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "C",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Đồng minh bị đánh đủ số lần sẽ gây sát thương phép quanh mình.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/electrocharge-ii.png"
+ },
+ {
+  "id": "DA_Pilfer",
+  "ten": "Ăn Trộm",
+  "ten_en": "Pilfer",
+  "bac": "Vàng",
+  "bac_so": 2,
+  "xep_hang": "C",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Mỗi vòng nhận bản sao 1 sao của tướng đầu tiên bạn hạ ở giao tranh trước.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pilfer_ii.png"
+ },
+ {
+  "id": "DA_TheTraitTree",
+  "ten": "Cây Tộc/Hệ",
+  "ten_en": "The Trait Tree",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "S",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận nhiều Ấn ngẫu nhiên và 2 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thetraittree_iii.png"
+ },
+ {
+  "id": "DA_TheTraitTreePlus",
+  "ten": "Cây Tộc/Hệ+",
+  "ten_en": "The Trait Tree+",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "S",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận nhiều Ấn ngẫu nhiên, 1 Búa Rèn và vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thetraittree_iii.png"
+ },
+ {
+  "id": "DA_BaronsLair",
+  "ten": "Hang Ổ Baron",
+  "ten_en": "Baron's Lair",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "S",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 trang bị Đỡ Đòn ngẫu nhiên. Sau 8 giây giao tranh, cả đội tăng dần Sức Mạnh Công Kích và Phép Thuật.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thebaronslair_iii.png"
+ },
+ {
+  "id": "DA_TacticiansKitchen",
+  "ten": "Linh Thú Vào Bếp",
+  "ten_en": "Tactician's Kitchen",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "S",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 Ấn ngẫu nhiên. Sau 3 vòng nhận 1 Áo Choàng Chiến Thuật.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/tacticianskitchen_iii.png"
+ },
+ {
+  "id": "DA_StarringUp",
+  "ten": "Lên Sao Thăng Cấp",
+  "ten_en": "Starring Up",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "S",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Sau khi nâng đủ số tướng lên 3 sao, cấp người chơi được đặt lên mốc cao. Nhận lượt đổi ngay và mỗi vòng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_TraitLadder",
+  "ten": "Thứ Hạng Tộc Hệ",
+  "ten_en": "Trait Ladder",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "S",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 Ấn. Ra sân đủ số tộc/hệ để nhận thưởng, mốc tiếp theo tăng dần.",
+  "anh": ""
+ },
+ {
+  "id": "DA_BronzeForLifeII",
+  "ten": "Tất Tay Bậc Đồng II",
+  "ten_en": "Bronze For Life II",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "S",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "+2.5% Khuếch Đại Sát Thương và 4 Giáp & Kháng Phép cho mỗi tộc/hệ bậc Đồng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bronzeforlife_iii.png"
+ },
+ {
+  "id": "DA_PrismaticTicket",
+  "ten": "Vé Kim Cương",
+  "ten_en": "Prismatic Ticket",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "S",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Mỗi lần đổi cửa hàng có tỉ lệ nhận thêm 1 lượt đổi miễn phí.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldenticket3.png"
+ },
+ {
+  "id": "DA_WorththeWaitII",
+  "ten": "Chờ Đợi Xứng Đáng II",
+  "ten_en": "Worth the Wait II",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 2 bản sao tướng 2 vàng, mỗi vòng nhận thêm 1 bản sao đến hết trận.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/worththewait_iii.png"
+ },
+ {
+  "id": "DA_NestingAnvils",
+  "ten": "Gói Trang Bị Bất Ngờ",
+  "ten_en": "Nesting Anvils",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Gói Tạo Tác; mở xong nhận Gói Thành Phần; mở xong nhận 4 vàng.",
+  "anh": ""
+ },
+ {
+  "id": "DA_NestingAnvilsPlus",
+  "ten": "Gói Trang Bị Bất Ngờ+",
+  "ten_en": "Nesting Anvils+",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Như trên, nhận 8 vàng ở cuối.",
+  "anh": ""
+ },
+ {
+  "id": "DA_BuriedTreasuresIII",
+  "ten": "Kho Báu Chôn Giấu III",
+  "ten_en": "Buried Treasures III",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 trang bị thành phần ngay và ở đầu vài vòng tiếp theo.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/buried-treasures-iii.png"
+ },
+ {
+  "id": "DA_ExpectedUnexpectedness",
+  "ten": "Kỳ Vọng Bất Ngờ",
+  "ten_en": "Expected Unexpectedness",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Ngay và đầu 2 giai đoạn tiếp, đổ 3 xúc xắc nhận thưởng theo tổng điểm.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/addicted-to-rolling-iii.png"
+ },
+ {
+  "id": "DA_DeadlierCaps",
+  "ten": "Mũ Tử Thần",
+  "ten_en": "Deadlier Caps",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Mũ Rabadon, tăng vĩnh viễn Sức Mạnh Phép Thuật mỗi lần hạ gục.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/deadliercaps_ii.png"
+ },
+ {
+  "id": "DA_ComponentQuest",
+  "ten": "Nhiệm Vụ Trang Bị",
+  "ten_en": "Component Quest",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 thành phần và 1 vàng; 7 lần thắng tiếp theo mỗi lần nhận 1 thành phần.",
+  "anh": ""
+ },
+ {
+  "id": "DA_LevelUp",
+  "ten": "Thăng Cấp!",
+  "ten_en": "Level Up!",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Mỗi lần mua XP nhận thêm XP. Nhận ngay 6 XP.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/levelup3.png"
+ },
+ {
+  "id": "DA_CommerceCore",
+  "ten": "Trung Tâm Thương Mại",
+  "ten_en": "Commerce Core",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Nhận lượt đổi miễn phí ngay và mỗi vòng đến hết trận.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/trade3.png"
+ },
+ {
+  "id": "DA_ShoppingSpree",
+  "ten": "Tín Đồ Mua Sắm",
+  "ten_en": "Shopping Spree",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Mỗi lần lên cấp nhận lượt đổi bằng cấp +1. Nhận 6 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silver-ticket-iii.png"
+ },
+ {
+  "id": "DA_GoldenGamblePlus",
+  "ten": "Ván Cược Hoàng Kim+",
+  "ten_en": "Golden Gamble+",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Như trên, nhận 3 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldengamble_iii.png"
+ },
+ {
+  "id": "DA_GoldenGamblePlusPlus",
+  "ten": "Ván Cược Hoàng Kim++",
+  "ten_en": "Golden Gamble++",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Như trên, nhận 6 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldengamble_iii.png"
+ },
+ {
+  "id": "DA_PrismaticDestiny",
+  "ten": "Vận Mệnh Kim Cương",
+  "ten_en": "Prismatic Destiny",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận 1 lõi Kim Cương ngẫu nhiên và 4 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/prismaticdestiny_iii.png"
+ },
+ {
+  "id": "DA_PrismaticDestinyPlus",
+  "ten": "Vận Mệnh Kim Cương+",
+  "ten_en": "Prismatic Destiny+",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận 1 lõi Kim Cương ngẫu nhiên và 7 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/prismaticdestiny_iii.png"
+ },
+ {
+  "id": "DA_WandOverflow",
+  "ten": "Đam Mê Gậy",
+  "ten_en": "Wand Overflow",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Gậy Quá Khổ; Gậy cho thêm Tốc Độ Đánh.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/wandoverflow_iii.png"
+ },
+ {
+  "id": "DA_SwordOverflow",
+  "ten": "Đam Mê Kiếm",
+  "ten_en": "Sword Overflow",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Kiếm B.F.; Kiếm B.F. cho thêm Tốc Độ Đánh.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bladeoverflow_iii.png"
+ },
+ {
+  "id": "DA_InvestedPlusPlus",
+  "ten": "Đầu Tư++",
+  "ten_en": "Invested++",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "A",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận 45 vàng. Mỗi 10 vàng vượt 50 cho 1 lượt đổi mỗi vòng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/invested-iii.png"
+ },
+ {
+  "id": "DA_Retribution",
+  "ten": "Báo Oán",
+  "ten_en": "Retribution",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Bàn Tay Công Lý; người mang nhận Chuẩn Xác và 25% Tỉ Lệ Chí Mạng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/retribution_iii.png"
+ },
+ {
+  "id": "DA_MoneyMonsoon",
+  "ten": "Bão Vàng",
+  "ten_en": "Money Monsoon",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận vàng ngay và mỗi vòng đấu đến hết trận.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/moneymonsoon_iii.png"
+ },
+ {
+  "id": "DA_BandOfThievesIIPlus",
+  "ten": "Băng Trộm II+",
+  "ten_en": "Band of Thieves II+",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Găng Đạo Tặc, sau vài giao tranh nhận thêm 1.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bandthieves3.png"
+ },
+ {
+  "id": "DA_BandOfThievesIIPlusPlus",
+  "ten": "Băng Trộm II++",
+  "ten_en": "Band of Thieves II++",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Găng Đạo Tặc, sau vài giao tranh nhận thêm 1.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bandthieves3.png"
+ },
+ {
+  "id": "DA_InvestmentStrategy",
+  "ten": "Chiến Thuật Đầu Tư II",
+  "ten_en": "Investment Strategy II",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Tướng nhận Máu vĩnh viễn theo vàng lợi tức; lợi tức tối đa tăng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/investmentstrategy_iii.png"
+ },
+ {
+  "id": "DA_LivingForge",
+  "ten": "Chế Tạo Tại Chỗ",
+  "ten_en": "Living Forge",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Gói Tạo Tác ngay và sau mỗi vài giao tranh người chơi.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/living-forge-iii.png"
+ },
+ {
+  "id": "DA_VerticalityIII",
+  "ten": "Chỉ Một Con Đường III",
+  "ten_en": "Verticality III",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng nhận 3.5% SMCK/SMPT, 3.5 Giáp/Kháng Phép cho mỗi đồng minh cùng tộc/hệ.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ComebackStory",
+  "ten": "Cố Gắng Lật Kèo",
+  "ten_en": "Comeback Story",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội nhận Máu và Tốc Độ Đánh theo số máu người chơi đã mất.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/comebackstory_iii.png"
+ },
+ {
+  "id": "DA_TonsOfStatsII",
+  "ten": "Cộng Mệt Nghỉ! II",
+  "ten_en": "TONS of Stats!",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội nhận thêm Máu, SMCK, SMPT, Giáp, Kháng Phép, Tốc Độ Đánh và Năng Lượng (nhiều hơn bản I).",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/tons-of-stats-ii.png"
+ },
+ {
+  "id": "DA_HoldTheLine",
+  "ten": "Giữ Vững Hàng Ngũ",
+  "ten_en": "Hold the Line",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Tướng 2 hàng sau nhận Sức Mạnh Phép Thuật và Công Kích theo số tướng hàng trên.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/holdtheline_iii.png"
+ },
+ {
+  "id": "DA_LuxurySubscription",
+  "ten": "Gói Đăng Ký Hạng Sang",
+  "ten_en": "Luxury Subscription",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận gói quà tướng và vàng; nhận lại ở đầu các giai đoạn sau.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/luxurysubscription_iii.png"
+ },
+ {
+  "id": "DA_PandorasItemsIII",
+  "ten": "Hộp Pandora III",
+  "ten_en": "Pandora's Items III",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Đầu vòng, trang bị trên hàng chờ bị tráo ngẫu nhiên. Nhận Trang Bị Ánh Sáng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora3.png"
+ },
+ {
+  "id": "DA_RadiantRelic",
+  "ten": "Kho Thần Tích",
+  "ten_en": "Radiant Relics",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Chọn 1 trong 5 Trang Bị Ánh Sáng. Nhận 1 Nam Châm Ma Thuật.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/radiantrelic-iii.png"
+ },
+ {
+  "id": "DA_JeweledLotus_II",
+  "ten": "Khảm Bảo Thạch II",
+  "ten_en": "Jeweled Lotus II",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội nhận Tỉ Lệ Chí Mạng, Sát Thương Chí Mạng và Chuẩn Xác.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/jeweled-lotus-iii.png"
+ },
+ {
+  "id": "DA_DeadlierBlades",
+  "ten": "Kiếm Tử Thần",
+  "ten_en": "Deadlier Blades",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Kiếm Tử Thần, tăng vĩnh viễn 1% Sức Mạnh Công Kích mỗi lần hạ gục.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/deadlierblades_ii.png"
+ },
+ {
+  "id": "DA_WeStickTogether",
+  "ten": "Kề Vai Sát Cánh",
+  "ten_en": "We Stick Together",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 Ấn và 1 gói trang bị hoàn chỉnh. Đồng minh cùng tộc/hệ với Ấn +30% Tốc Độ Đánh.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/westicktogether_iii.png"
+ },
+ {
+  "id": "DA_Flexible",
+  "ten": "Linh Hoạt",
+  "ten_en": "Flexible",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 Ấn ngẫu nhiên, đầu mỗi giai đoạn nhận thêm 1. Cả đội +30 Máu mỗi Ấn đang mang.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/flexible_ii.png"
+ },
+ {
+  "id": "DA_Coronation",
+  "ten": "Lên Ngôi Vương",
+  "ten_en": "Coronation",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Vương Miện Chiến Thuật; đồ Chiến Thuật cho chủ sở hữu thêm chỉ số.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/coronation_iii.png"
+ },
+ {
+  "id": "DA_SweetTreats",
+  "ten": "Món Quà Ngọt Ngào",
+  "ten_en": "Sweet Treats",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 gói Tạo Tác. Cả đội +16 Máu mỗi trang bị đang mang.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/sweettreats_iii.png"
+ },
+ {
+  "id": "DA_OneBuffTwoBuff",
+  "ten": "Một Bùa, Hai Bùa",
+  "ten_en": "One Buff Two Buff",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Bùa Đỏ, 1 Bùa Xanh và 1 Máy Sao Chép Tướng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/onebufftwobuff_iii.png"
+ },
+ {
+  "id": "DA_CelestialBlessingIII",
+  "ten": "Phước Lành Vũ Trụ III",
+  "ten_en": "Celestial Blessing III",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội nhận Hút Máu Toàn Phần cao; hồi máu thừa thành lá chắn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/celestialblessing3.png"
+ },
+ {
+  "id": "DA_RadiantRascal",
+  "ten": "Quang Lân Tiểu Yêu",
+  "ten_en": "Radiant Rascal",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Găng Đạo Tặc Ánh Sáng (lắp 2 trang bị Ánh Sáng ngẫu nhiên mỗi vòng).",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/roll-the-dice-iii.png"
+ },
+ {
+  "id": "DA_BirthdayPresent",
+  "ten": "Quà Sinh Nhật",
+  "ten_en": "Birthday Present",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 1 tướng 2 sao và 1 vàng mỗi lần lên cấp.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/golden-gifts-iii.png"
+ },
+ {
+  "id": "DA_HedgeFund",
+  "ten": "Quỹ Phòng Hộ",
+  "ten_en": "Hedge Fund",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận 22 vàng. Lợi tức tối đa tăng lên 10.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/richgetricher3.png"
+ },
+ {
+  "id": "DA_SoulAwakening",
+  "ten": "Thức Tỉnh Linh Hồn",
+  "ten_en": "Soul Awakening",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Đầu giao tranh, cả đội tăng dần Sức Mạnh Công Kích và Phép Thuật mỗi giây.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/awakenedsoul_iii.png"
+ },
+ {
+  "id": "DA_18_LuxAugmentII",
+  "ten": "Tinh Thông Mọi Tộc",
+  "ten_en": "Master of All Origins",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Tộc/Hệ",
+  "mo_ta": "Chọn 1 tộc/hệ, nhận 1 Lux mang tộc/hệ đó và 1 Ngọn Giáo Shojin.",
+  "anh": ""
+ },
+ {
+  "id": "DA_ShimmerscaleEssence",
+  "ten": "Tinh Túy Kim Long",
+  "ten_en": "Shimmerscale Essence",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Kiếm Của Tay Bạc; sau vài giao tranh nhận Giáp Đại Hãn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/shimmerscaleessence_iii.png"
+ },
+ {
+  "id": "DA_GiantAndMighty",
+  "ten": "To Lớn & Mạnh Mẽ",
+  "ten_en": "Giant and Mighty",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Cả đội hóa lớn, +200 Máu và % Máu tối đa.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/giantandmighty_iii.png"
+ },
+ {
+  "id": "DA_CallToChaos",
+  "ten": "Triệu Gọi Hỗn Mang",
+  "ten_en": "Call To Chaos",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Chiến đấu",
+  "mo_ta": "Nhận 1 phần thưởng mạnh mẽ và ngẫu nhiên.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/calltochaos_iii.png"
+ },
+ {
+  "id": "DA_ForgedInStrength",
+  "ten": "Tôi Luyện Sức Mạnh",
+  "ten_en": "Forged In Strength",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Tạo Tác. Khi dưới 35 Máu, nhận thêm Tạo Tác và trang bị.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/forgedinstrength_iii.png"
+ },
+ {
+  "id": "DA_UrfsGrabBag",
+  "ten": "Túi Đồ Urf",
+  "ten_en": "Urf's Grab Bag",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Xẻng Vàng, 3 trang bị thành phần ngẫu nhiên và 5 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/urfs-grab-bag-iii.png"
+ },
+ {
+  "id": "DA_GoldenGamble",
+  "ten": "Ván Cược Hoàng Kim",
+  "ten_en": "Golden Gamble",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận 2 vàng và tung xu: ngửa nhận Rương Ánh Sáng, sấp nhận 2 gói trang bị hoàn chỉnh.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldengamble_iii.png"
+ },
+ {
+  "id": "DA_BeltOverflow",
+  "ten": "Đam Mê Đai Lưng",
+  "ten_en": "Belt Overflow",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Đai Khổng Lồ. Đai Khổng Lồ cho thêm Máu.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/beltoverflow_iii.png"
+ },
+ {
+  "id": "DA_LuckyGloves",
+  "ten": "Đo Ni Đóng Giày",
+  "ten_en": "Lucky Gloves",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Găng Đạo Tặc luôn cho đồ lý tưởng. Nhận Găng Đấu Tập và 4 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/lucky-gloves-iii.png"
+ },
+ {
+  "id": "DA_LuckyGlovesPlus",
+  "ten": "Đo Ni Đóng Giày+",
+  "ten_en": "Lucky Gloves+",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2",
+   "4-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Găng Đạo Tặc luôn cho đồ lý tưởng. Nhận Găng Đấu Tập, thêm 1 sau vài giao tranh.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/lucky-gloves-iii.png"
+ },
+ {
+  "id": "DA_InvestedPlus",
+  "ten": "Đầu Tư+",
+  "ten_en": "Invested+",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Nhận 26 vàng. Mỗi 10 vàng vượt 50 cho 1 lượt đổi mỗi vòng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/invested-iii.png"
+ },
+ {
+  "id": "DA_UpwardMobility",
+  "ten": "Đẩy Nhanh Tiến Độ",
+  "ten_en": "Upward Mobility",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "B",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Cấp & Đổi tướng",
+  "mo_ta": "Mua XP rẻ hơn. Mỗi lần lên cấp nhận Máu và lượt đổi.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/upwardmobility_iii.png"
+ },
+ {
+  "id": "DA_NestingDolls",
+  "ten": "Búp Bê Xây Tổ",
+  "ten_en": "Nesting Dolls",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Tướng bị hạ tạo bản sao thấp hơn 1 sao. Nhận lượt đổi miễn phí.",
+  "anh": ""
+ },
+ {
+  "id": "DA_NestingDollsPlus",
+  "ten": "Búp Bê Xây Tổ",
+  "ten_en": "Nesting Dolls",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "C",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Tướng bị hạ tạo bản sao thấp hơn 1 sao. Nhận 3 lượt đổi.",
+  "anh": ""
+ },
+ {
+  "id": "DA_NestingDollsPlusPlus",
+  "ten": "Búp Bê Xây Tổ++",
+  "ten_en": "Nesting Dolls++",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "C",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Tướng bị hạ tạo bản sao thấp hơn 1 sao. Nhận nhiều lượt đổi miễn phí.",
+  "anh": ""
+ },
+ {
+  "id": "DA_BandOfThievesII",
+  "ten": "Băng Trộm II",
+  "ten_en": "Band of Thieves II",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận Găng Đạo Tặc. Sau vài giao tranh, nhận thêm 1 Găng Đạo Tặc.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bandthieves3.png"
+ },
+ {
+  "id": "DA_HardCommit",
+  "ten": "Chỉ Một Con Đường",
+  "ten_en": "Hard Commit",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Ấn",
+  "mo_ta": "Nhận 1 Ấn ngẫu nhiên; ngay và đầu mỗi giai đoạn nhận 1 tướng cùng tộc/hệ.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/hardcommit_iii.png"
+ },
+ {
+  "id": "DA_GoldenEgg",
+  "ten": "Rồng Đẻ Trứng Vàng",
+  "ten_en": "The Golden Egg",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "C",
+  "vong": [
+   "4-2"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Trứng vàng nở sau 11 vòng, cho rất nhiều báu vật. Thắng giúp nở nhanh hơn.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/the-golden-egg-iii.png"
+ },
+ {
+  "id": "DA_GoingLong",
+  "ten": "Thích Mở Rộng",
+  "ten_en": "Going Long",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Kinh tế",
+  "mo_ta": "Không còn lợi tức. Nhận vàng ngay và XP sau mỗi giao tranh người chơi.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/going-long-iii.png"
+ },
+ {
+  "id": "DA_Min_Max",
+  "ten": "Tối Đa Hóa",
+  "ten_en": "Min-Max",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "C",
+  "vong": [
+   "3-2"
+  ],
+  "nhom": "Trang bị",
+  "mo_ta": "Nhận 1 Nam Châm Hoàng Kim và 4 trang bị thành phần ngẫu nhiên.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/minmax_iii.png"
+ },
+ {
+  "id": "DA_BuildABud",
+  "ten": "Tự Lập Đội",
+  "ten_en": "Build A Bud",
+  "bac": "Kim cương",
+  "bac_so": 3,
+  "xep_hang": "C",
+  "vong": [
+   "2-1"
+  ],
+  "nhom": "Tướng",
+  "mo_ta": "Nhận 1 tướng 1 vàng nhiều sao ngẫu nhiên và 6 vàng.",
+  "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/constructacompanion_iii.png"
+ }
+]

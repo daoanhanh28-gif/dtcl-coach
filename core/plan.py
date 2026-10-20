@@ -1,18 +1,18 @@
-# ĐTCL Coach v1.1 (2026-10-06) — form theo vòng, tối ưu mốc tộc/hệ với Ấn, phân tích bản cập nhật (luật trong code)
+# ĐTCL Coach v1.2 (2026-10-20) — form theo vòng, tối ưu mốc tộc/hệ với Ấn, phân tích bản cập nhật (luật trong code)
 """
   - form theo vòng:        stage_boards(comp, emblems)   — đội phổ biến nhất ở cấp 4/5/6/7 (MetaTFT) → đội hoàn chỉnh
   - xếp vị trí thật:       place(units, cum)             — ô đứng phổ biến nhất của từng tướng (MetaTFT)
   - tối ưu Ấn:             emblem_plan(units, emblems, core, level) — ai đeo, mốc nào mở, thay tướng nào để lên mốc cao hơn
   - phân tích bản:         patch_analysis()              — đội được lợi / mạnh nhất / dễ top 1 / dễ top 4 / mạnh ít người chơi …
   - đồ tốt nhất từng tướng: best_items(cid)
-Không bịa số: mọi con số lấy từ data/*.json (MetaTFT, OP.GG VN qua Excel v1.8).
+Không bịa số: mọi con số lấy từ data/*.json (MetaTFT, OP.GG VN — xem meta.json của bộ dữ liệu).
 """
 from __future__ import annotations
 
 import re
 from collections import Counter
-from functools import lru_cache
 
+from core import config
 from core import engine as E
 
 # ============================================================================ tiện ích tộc/hệ
@@ -74,7 +74,7 @@ def cluster_for(units: list[str], min_j: float = 0.3) -> tuple[str | None, float
     return (best, score) if score >= min_j else (None, score)
 
 
-@lru_cache(maxsize=None)
+@config.theo_bo
 def _global_pos() -> dict[str, tuple[int, int]]:
     cnt: dict[str, Counter] = {}
     for c in _details()["cum"].values():
@@ -148,7 +148,7 @@ def stage_boards(comp: dict, emblems: list[str] | None = None) -> dict:
     stages.append(_stage("Hoàn chỉnh", lv_end, _round_for_level(cum, min(lv_end, 9), comp["kieu"]), final, final, core,
                          embl, final_holder, cid, None, locked))
     return {"cum": cid, "khop": round(j, 2), "giai_doan": stages,
-            "nguon": "MetaTFT (Bạch Kim+, 3 ngày, 18.3b)" if cum else "ước tính từ đội hoàn chỉnh (chưa có số liệu MetaTFT)"}
+            "nguon": f"MetaTFT (Bạch Kim+, 3 ngày, {E.data()['meta']['phien_ban']})" if cum else "ước tính từ đội hoàn chỉnh (chưa có số liệu MetaTFT)"}
 
 
 def _stage(label, lv, rnd, units, final, core, emblems, final_holder, cid, src, locked: dict | None = None) -> dict:
@@ -391,7 +391,7 @@ def trend_of(s: str) -> float:
     return v
 
 
-@lru_cache(maxsize=None)
+@config.theo_bo
 def patch_rows() -> list[dict]:
     rows = []
     for c in E.data()["hd_an"]["doi_hinh"]:
@@ -410,16 +410,23 @@ def patch_rows() -> list[dict]:
     return rows
 
 
-CATEGORIES = [
-    ("nen_choi", "Nên chơi nhất ở 18.4", "Tổng hợp: hạng TB VN 18.3b, xu hướng 18.4, độ tranh và cỡ mẫu."),
-    ("duoc_loi", "Được lợi ở bản 18.4", "Được tăng sức mạnh hoặc không bị đụng trong khi đội khác bị giảm."),
-    ("manh_nhat", "Mạnh nhất hiện tại (VN 18.3b)", "Hạng TB thấp nhất, chỉ tính đội có ≥ 0,3% người chơi."),
-    ("de_top1", "Dễ top 1", "Tỉ lệ về nhất cao nhất (MetaTFT quốc tế, Bạch Kim+)."),
-    ("de_top4", "Dễ vào top 4 (ổn định)", "Tỉ lệ top 4 VN cao nhất, ≥ 0,2% người chơi."),
-    ("an_spam", "Mạnh mà ít người chơi — có thể spam", "Hạng TB ≤ 3,35 nhưng dưới 0,5% người chơi, không bị giảm ở 18.4."),
-    ("de_choi", "Dễ chơi (hợp leo hạng đều)", "Excel v1.8 đánh giá độ khó “Dễ” — ít phải xoay, đồ dễ ghép."),
-    ("nen_tranh", "Nên tránh / cẩn thận", "Bị giảm ở 18.4, bị tranh rất nhiều (≥ 3% người chơi) hoặc đang yếu."),
-]
+def categories() -> list[tuple[str, str, str]]:
+    """Các nhóm của trang Phân tích bản cập nhật — chữ theo bộ dữ liệu đang xem."""
+    m = E.data()["meta"]
+    nb, vb = m.get("ban_moi", "mới"), m.get("phien_ban", "")
+    return [
+        ("nen_choi", f"Nên chơi nhất ở {nb}", f"Tổng hợp: hạng TB VN {vb}, xu hướng {nb}, độ tranh và cỡ mẫu."),
+        ("duoc_loi", f"Được lợi ở bản {nb}", "Được tăng sức mạnh hoặc không bị đụng trong khi đội khác bị giảm."),
+        ("manh_nhat", f"Mạnh nhất hiện tại (VN {vb})", "Hạng TB thấp nhất, chỉ tính đội có ≥ 0,3% người chơi."),
+        ("de_top1", "Dễ top 1", "Tỉ lệ về nhất cao nhất (MetaTFT quốc tế, Bạch Kim+)."),
+        ("de_top4", "Dễ vào top 4 (ổn định)", "Tỉ lệ top 4 VN cao nhất, ≥ 0,2% người chơi."),
+        ("an_spam", "Mạnh mà ít người chơi — có thể spam", f"Hạng TB ≤ 3,35 nhưng dưới 0,5% người chơi, không bị giảm ở {nb}."),
+        ("de_choi", "Dễ chơi (hợp leo hạng đều)", "File hướng dẫn v1.8 đánh giá độ khó “Dễ” — ít phải xoay, đồ dễ ghép."),
+        ("nen_tranh", "Nên tránh / cẩn thận", f"Bị giảm ở {nb}, bị tranh rất nhiều (≥ 3% người chơi) hoặc đang yếu."),
+    ]
+
+
+CATEGORIES = [(k, "", "") for k in ("nen_choi", "duoc_loi", "manh_nhat", "de_top1", "de_top4", "an_spam", "de_choi", "nen_tranh")]
 
 
 def _easy_rows() -> list[dict]:
@@ -467,5 +474,7 @@ def patch_changes() -> list[dict]:
             ref = d["trait_by_name"].get(E.norm(x["ten"]))
         elif x["loai"] == "loi":
             ref = d["aug_by_name"].get(E.norm(x["ten"]))
+        elif x["loai"] == "trang_bi":
+            ref = E.item_id(x["ten"].split(" (")[0])
         out.append({**x, "ref": ref})
     return out

@@ -1,10 +1,17 @@
-# ĐTCL Coach v1.1 (2026-10-06) — điểm vào của web
+# ĐTCL Coach v1.2 (2026-10-20) — điểm vào của web
 # Chạy local:  streamlit run app.py
 import streamlit as st
 
 st.set_page_config(page_title="ĐTCL Coach", page_icon="♜", layout="wide")
 
 from core import auth, config, db, engine, llm, ui  # noqa: E402
+
+# Bộ dữ liệu theo bản vá: chọn ở thanh bên, hoặc mở link ?ban=18.3b ở tab khác để xem bản cũ song song.
+if "bo" not in st.session_state:
+    q = st.query_params.get("ban")
+    st.session_state["bo"] = q if q in config.BO_DU_LIEU else config.BO_MAC_DINH
+if st.query_params.get("ban") != st.session_state["bo"]:
+    st.query_params["ban"] = st.session_state["bo"]
 
 ui.setup_page()
 auth.restore_session()     # có vé ghi nhớ hợp lệ → vào thẳng, không cần đăng nhập lại
@@ -38,10 +45,20 @@ pages = [
 nav = st.navigation(pages)
 
 with st.sidebar:
-    m = engine.data()["meta"]
     st.markdown(f"**{user['name']}**" + (" · chủ web" if user["admin"] else ""))
+    st.selectbox("Bản dữ liệu", list(config.BO_DU_LIEU), key="bo",
+                 format_func=lambda b: config.BO_DU_LIEU[b][1],
+                 help="Mỗi tab trình duyệt chọn bản riêng. Muốn vừa đánh vừa so: mở thêm 1 tab bằng link bên dưới.")
+    khac = [b for b in config.BO_DU_LIEU if b != st.session_state["bo"]]
+    if khac:
+        st.markdown(f"<a href='?ban={khac[0]}' target='_blank' style='font-size:.85rem'>↗ Mở bản {khac[0]} ở tab mới</a>",
+                    unsafe_allow_html=True)
+    if st.session_state["bo"] != config.BO_MAC_DINH:
+        st.warning(f"Đang xem bản CŨ {st.session_state['bo']}. Bản mới: {config.BO_MAC_DINH}.", icon="🕘")
+    m = engine.data()["meta"]
     ai = f"{llm.provider()} · {llm.model_name()}" if llm.is_online() else "chưa bật (lời giải thích soạn sẵn)"
-    st.caption(f"Mùa {m['mua']} · bản {m['phien_ban']}\n\nAI: {ai}\n\nDữ liệu: {db.backend()}")
+    st.caption(f"Mùa {m['mua']} · số liệu bản {m['phien_ban']}" + (f" · thay đổi {m['ban_moi']}" if m.get("ban_moi") else "")
+               + f"\n\nAI: {ai}\n\nNhật ký: {db.backend()}")
     if st.button("Đăng xuất", use_container_width=True):
         auth.logout()
     st.caption(f"{config.APP_NAME} {config.VERSION_LABEL}")

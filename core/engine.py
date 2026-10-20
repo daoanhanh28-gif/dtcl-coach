@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — bộ não tính toán (luật viết trong code, không dùng AI)
+# ĐTCL Coach v1.2 (2026-10-20) — bộ não tính toán (luật viết trong code, không dùng AI)
 """
 Mọi phép tính của web nằm ở đây, không phụ thuộc Streamlit → kiểm thử dễ.
 Nguồn nội dung chính: file Excel hướng dẫn v1.8 của anh Peach (data/hd_*.json).
@@ -14,7 +14,9 @@ Số liệu bổ sung: Community Dragon (tướng/đồ/lõi bản Việt), Meta
 """
 from __future__ import annotations
 
+import copy
 import re
+import threading
 import unicodedata
 from collections import Counter
 from dataclasses import dataclass, field
@@ -38,9 +40,22 @@ def norm(s: str) -> str:
 # ============================================================================ dữ liệu
 
 
-@lru_cache(maxsize=None)
+_BUILD_LOCK = threading.Lock()
+
+
 def data() -> dict:
-    d = {n: config.load_json(f"{n}.json") for n in FILES}
+    """Toàn bộ dữ liệu của bộ đang xem (bản mới hoặc bản cũ)."""
+    return _data(config.active_version())
+
+
+@lru_cache(maxsize=None)
+def _data(bo: str) -> dict:
+    with _BUILD_LOCK:
+        return _build_data(bo)
+
+
+def _build_data(bo: str) -> dict:
+    d = {n: copy.deepcopy(config.load_json(f"{n}.json", bo)) for n in FILES}
     d["champ"] = {c["id"]: c for c in d["tuong"]}
     d["champ_by_name"] = {norm(c["ten"]): c["id"] for c in d["tuong"]}
     d["trait"] = {t["id"]: t for t in d["toc_he"]}
@@ -196,7 +211,7 @@ def _match_vn(d, units, rows):
             best, score = r, s
     if best and score >= 0.75:
         return {"ten": best[1], "bac": best[2], "hang_tb": best[3], "top4": best[4], "ti_le": best[5],
-                "nguon": "OP.GG · máy chủ VN · bản 18.3b (Excel v1.8)"}
+                "nguon": d["meta"].get("vn_nguon", "OP.GG · máy chủ VN · bản 18.3b (Excel v1.8)")}
     return None
 
 
@@ -232,7 +247,7 @@ def comp_by_name(name: str) -> dict | None:
 # ============================================================================ ghép đồ
 
 
-@lru_cache(maxsize=None)
+@config.theo_bo
 def _recipes() -> dict[frozenset, str]:
     out = {}
     for it in data()["item"].values():
@@ -702,7 +717,7 @@ def roll_or_level(st: GameState, comp: dict | None = None) -> dict:
     return out("giu_vang", "Giữ vàng")
 
 
-@lru_cache(maxsize=None)
+@config.theo_bo
 def _excel_aug_notes() -> dict[str, dict]:
     """Ghi chú của Excel cho từng lõi (hạng, tắt/bật, lời khuyên) theo id lõi."""
     hl = data()["hd_loi"]
@@ -739,7 +754,7 @@ def rank_augments(st: GameState, options: list[str], comp: dict | None = None) -
                 s += 6
         if "TẮT" in he.upper() or "TẮT" in str(note.get("uu_tien", "")).upper():
             s -= 100
-            why.append("Excel ghi lõi này đang bị Riot tạm tắt ở 18.3b — kiểm tra trong game")
+            why.append("Excel v1.8 ghi lõi này đang bị Riot tạm tắt (bản 18.3b) — kiểm tra trong game")
         if "BẮT BUỘC" in str(note.get("uu_tien", "")):
             s += 10
             why.append(f"Lõi ăn top 1: {note['uu_tien'].lower()} → {note.get('doi_hinh_ep', '')}")

@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — trang Trợ lý ván đấu: bấm hình để nhập, đọc 4 dòng kết luận (luật trong code + AI diễn giải)
+# ĐTCL Coach v1.2 (2026-10-20) — trang Trợ lý ván đấu: bấm hình để nhập, đọc 4 dòng kết luận (luật trong code + AI diễn giải)
 from collections import Counter
 
 import streamlit as st
@@ -402,7 +402,7 @@ with tab2:
                                 f"<span style='font-size:.85rem'>{ui.rich('; '.join(txt))}</span></div>", unsafe_allow_html=True)
                 st.caption("Bán tướng thì đồ trên người tự về hàng chờ — cứ đeo Ấn ngay cho tướng đang trên bàn để có mốc tộc/hệ sớm.")
     with st.expander("Bảng xếp hạng tất cả đội với Ấn đã chọn"):
-        st.markdown(ui.html_table(["#", "Đội hình", "Tổng điểm", "Từ ấn", "Chủ lực chính", "Bản 18.4"],
+        st.markdown(ui.html_table(["#", "Đội hình", "Tổng điểm", "Từ ấn", "Chủ lực chính", f"Bản {d['meta'].get('ban_moi', 'mới')}"],
                                   [[i + 1, x["doi_hinh"]["ten"], f"{x['diem']:.1f}", f"{x['diem_an']:.1f}",
                                     f"{x['doi_hinh']['chu_luc']['tuong']} ({x['doi_hinh']['chu_luc']['kieu']})",
                                     x["doi_hinh"]["ban_moi"]] for i, x in enumerate(res)], rich_text=True), unsafe_allow_html=True)

@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — kiểm thử mọi phép tính của bộ luật (không cần Streamlit)
+# ĐTCL Coach v1.2 (2026-10-20) — kiểm thử mọi phép tính của bộ luật (không cần Streamlit)
 import sys
 from pathlib import Path
 

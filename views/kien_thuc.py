@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — trang Kiến thức & tra cứu (tộc hệ, tướng, lộ trình Thách Đấu, từ điển, nguồn)
+# ĐTCL Coach v1.2 (2026-10-20) — trang Kiến thức & tra cứu (tộc hệ, tướng, lộ trình Thách Đấu, từ điển, nguồn)
 import streamlit as st
 
 from core import engine, ui
@@ -37,7 +37,7 @@ with tab1:
 with tab2:
     for i, x in enumerate(kt["nguyen_tac_vang"], 1):
         st.markdown(f"**{i}.** {x}")
-    st.markdown("### Có gì mới · bản 18.4 (07/10/2026)")
+    st.markdown(f"### Có gì mới · bản {d['meta'].get('ban_moi', '')} ({d['meta'].get('ngay_ban_moi', '')})")
     st.caption("Xem đầy đủ có hình ở trang “Phân tích bản cập nhật”.")
     for x in kt["ban_moi"]:
         st.markdown(f"<div style='margin:4px 0'><b>{ui.esc(x['k'])}</b> — {ui.rich(x['v'])}</div>", unsafe_allow_html=True)

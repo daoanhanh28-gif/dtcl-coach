@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — trang Đội hình meta (Excel v1.8 + số liệu VN/Trung/Hàn + MetaTFT)
+# ĐTCL Coach v1.2 (2026-10-20) — trang Đội hình meta (Excel v1.8 + số liệu VN/Trung/Hàn + MetaTFT)
 import pandas as pd
 import streamlit as st
 
@@ -7,10 +7,10 @@ from core import engine, ui
 d = engine.data()
 kt = d["hd_kien_thuc"]
 ui.header("Đội hình meta",
-          "19 đội hình xếp hạng S/A/B/C theo file hướng dẫn v1.8, kèm số liệu máy chủ Việt Nam. "
+          f"19 đội hình xếp hạng S/A/B/C theo file hướng dẫn v1.8, kèm số liệu máy chủ Việt Nam bản {d['meta']['phien_ban']}. "
           "Bấm vào từng đội để xem lộ trình, lên đồ, lõi và sơ đồ xếp vị trí.")
 
-with st.expander("Bản 18.4 (07/10/2026) thay đổi gì?", expanded=False):
+with st.expander(f"Bản {d['meta'].get('ban_moi', '')} ({d['meta'].get('ngay_ban_moi', '')}) thay đổi gì?", expanded=False):
     for x in kt["ban_moi"]:
         st.markdown(f"<div style='margin:4px 0'><b>{ui.esc(x['k'])}</b> — {ui.rich(x['v'])}</div>", unsafe_allow_html=True)
     st.caption("Phân tích đầy đủ (đội được lợi, dễ top 1, ít người chơi…): trang “Phân tích bản cập nhật”.")
@@ -58,7 +58,7 @@ with tab2:
                 st.markdown(f"- **{s['k']}** {s['v']}")
 
 with tab3:
-    st.caption("Thống kê MetaTFT: Bạch Kim trở lên, 3 ngày gần nhất, bản 18.3b (lấy ngày 06/10/2026). "
+    st.caption(f"Thống kê MetaTFT: Bạch Kim trở lên, 3 ngày gần nhất, bản {d['meta']['phien_ban']} (lấy ngày {d['meta']['ngay_cap_nhat']}). "
                "Đây là số quốc tế — dùng để so xu hướng, bảng máy chủ VN sát với phòng bạn đánh hơn.")
     rows = []
     for c in d["metatft_doi_hinh"]:

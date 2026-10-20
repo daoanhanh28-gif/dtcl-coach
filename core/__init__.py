@@ -1,1 +1,1 @@
-# ĐTCL Coach v1.1 (2026-10-06) — gói core
+# ĐTCL Coach v1.2 (2026-10-20) — gói core

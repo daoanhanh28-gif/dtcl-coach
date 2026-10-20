@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.1 (2026-10-06) — kiểm thử giao diện bằng Streamlit AppTest (offline, lưu CSV cục bộ)
+# ĐTCL Coach v1.2 (2026-10-20) — kiểm thử giao diện bằng Streamlit AppTest (offline, lưu CSV cục bộ)
 import os
 import shutil
 import sys
@@ -220,3 +220,25 @@ def test_kien_thuc_search():
     at = _page("views/kien_thuc.py").run()
     at.text_input(key="kt_q").input("Azir").run()
     _ok(at)
+
+
+@pytest.mark.parametrize("path", ["views/doi_hinh.py", "views/tro_ly.py", "views/phan_tich.py", "views/loi.py",
+                                  "views/trang_bi.py", "views/kien_thuc.py"])
+def test_old_data_set_pages_render(path):
+    """Bộ dữ liệu cũ 18.3b vẫn mở được từng trang."""
+    at = _page(path)
+    at.session_state["bo"] = "18.3b"
+    at.run()
+    _ok(at)
+
+
+def test_app_switch_data_set():
+    at = AppTest.from_file(str(ROOT / "app.py"), default_timeout=60)
+    at.session_state["user"] = {"name": "Peach Test", "admin": False}
+    at.run()
+    _ok(at)
+    assert at.session_state["bo"] == config.BO_MAC_DINH
+    at.selectbox(key="bo").set_value("18.3b").run()
+    _ok(at)
+    assert at.session_state["bo"] == "18.3b"
+    assert any("bản CŨ" in w.value for w in at.warning)
