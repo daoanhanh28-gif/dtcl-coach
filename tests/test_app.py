@@ -120,6 +120,10 @@ def test_tro_ly_image_pickers():
     _ok(at)
     assert at.session_state["an_1"] == "Ấn Đao Phủ" and at.session_state["an_2"] == "Ấn Mặt Trăng"
     md = " ".join(m.value for m in at.markdown)
+    assert "xoay quanh chủ lực meta" in md and "Chủ lực" in md
+    at.toggle(key="an_excel").set_value(True).run()      # bảng Excel cũ + tối ưu chi tiết cấp 8 / 9
+    _ok(at)
+    md = " ".join(m.value for m in at.markdown)
     assert "Cấp 8" in md and "Cấp 9" in md
     at.button(key="an_clear").click().run()
     assert at.session_state["an_1"] == "— Không có —"
