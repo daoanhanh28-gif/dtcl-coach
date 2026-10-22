@@ -1,5 +1,5 @@
 {
- "nguon": "Excel hướng dẫn v1.8 · 06/10/2026 (trang CHỌN ẤN → ĐỘI HÌNH) · Cập nhật 18.5: số liệu OP.GG · máy chủ VN · bản 18.4b (196.456 ván / 24 giờ, 20/10/2026), xu hướng theo thay đổi bản 18.5.",
+ "nguon": "Excel hướng dẫn v1.8 · 06/10/2026 (trang CHỌN ẤN → ĐỘI HÌNH) · Cập nhật 18.5: số liệu OP.GG · máy chủ VN · bản 18.5 (32.640 ván / 24 giờ, 22/10/2026), xu hướng theo thay đổi bản 18.5.",
  "cach_tinh": "Điểm = sức mạnh đội theo số liệu máy chủ VN (đã cân cỡ mẫu) + dự báo bản 18.4 + điểm từ Ấn (mở được mốc tộc/hệ = điểm lớn; chỉ cộng chỉ số = điểm nhỏ; ấn vô dụng ≈ 0) + lệch theo loại đồ đang cầm. Ấn thứ 2, 3 cùng loại dùng bảng riêng và chia đều.",
  "an": [
   {
@@ -239,8 +239,8 @@
     "Kennen"
    ],
    "toc_he": "3 Tinh Nghịch · 3 Đao Phủ · 2 Gai Đen · 2 Thuật Sư · 2 Triệu Hồi · 2 Thực Vật · 2 Vệ Quân · 1 Vườn Gai",
-   "so_lieu_vn": "VN 18.4b: hạng TB 2.78 · top 4 84,3% · 1,90% người chơi",
-   "ban_moi": "→ 18.5: Soraka tăng; Azir, Thực Vật giảm – cân bằng",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
+   "ban_moi": "↘ 18.5: Soraka tăng; Azir, Gai Đen, Thực Vật giảm – giảm nhẹ",
    "len_cap": "Cấp 7 ở 3-5 → lên 8 ở 4-2 đổi tướng tìm Soraka + Zyra 2 sao → 9 thêm Malphite",
    "lech_do": [
     0,
@@ -290,8 +290,8 @@
     "Taric"
    ],
    "toc_he": "4 Dũng Sĩ · 2 Tiên Phong · 2 Nguyên Sinh · 2 Hỏa Ngục · 2 Thợ Săn · 1 Thụ Thần · 1 Cổ Thụ · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.72 · top 4 67,3% · 0,13% người chơi",
-   "ban_moi": "↑ 18.5: Taric, Ashe tăng – MẠNH LÊN RÕ",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
+   "ban_moi": "↑ 18.5: Sivir, Taric, Ashe tăng – MẠNH LÊN RÕ",
    "len_cap": "Tham vàng: 8 ở 4-2 (đổi tướng ít) → 9 ở 5-1 → đổi tướng tìm Ashe/Maokai",
    "lech_do": [
     0,
@@ -341,8 +341,8 @@
     "Alune"
    ],
    "toc_he": "6 Thuật Sư · 3 Thần Rừng · 2 Vệ Quân · 2 Gai Đen · 2 Đấu Sĩ · 1 Thực Vật · 1 Hòa Hợp",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.16 · top 4 77,3% · 0,59% người chơi",
-   "ban_moi": "→ 18.5: không bị đụng tới",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
+   "ban_moi": "↘ 18.5: Alune tăng; Gai Đen, Thực Vật giảm – giảm nhẹ",
    "len_cap": "Cấp 6–7, giữ trên 50 vàng đổi tướng phần dư tới khi Veigar 3 sao → lên 8–9",
    "lech_do": [
     0,
@@ -391,7 +391,7 @@
     "Soraka"
    ],
    "toc_he": "3 Thần Rừng · 2 Vệ Quân · 2 Mặt Trăng · 2 Tiên Phong · 2 Thực Vật · 2 Đao Phủ · 1 Khắc Tinh",
-   "so_lieu_vn": "VN 18.4b: hạng TB 2.84 · top 4 83,7% · 0,58% người chơi",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
    "ban_moi": "↘ 18.5: Soraka tăng; Kha'Zix, Thực Vật giảm – giảm nhẹ",
    "len_cap": "4 → 5 → 6 → 7 (3-5) đổi tướng tìm Kha'Zix 2 sao → 8 ở 4-2",
    "lech_do": [
@@ -441,8 +441,8 @@
     "Zyra"
    ],
    "toc_he": "3 Hoa Linh · 3 Triệu Hồi · 2 Gai Đen · 2 Đấu Sĩ · 2 Dũng Sĩ · 2 Đao Phủ · 1 Khắc Tinh · 1 Vườn Gai",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.58 · top 4 70,3% · 0,07% người chơi",
-   "ban_moi": "→ 18.5: Sett tăng; Azir, Kha'Zix giảm – cân bằng",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
+   "ban_moi": "↘ 18.5: Sett tăng; Azir, Kha'Zix, Gai Đen giảm – giảm nhẹ",
    "len_cap": "Cấp 7 ở 3-5, đổi tướng tìm Azir + Vi 3 sao rồi mới lên 8",
    "lech_do": [
     0,
@@ -492,8 +492,8 @@
     "Taric"
    ],
    "toc_he": "3 Thần Rừng · 2 Đấu Sĩ · 2 Hỏa Ngục · 2 Dũng Sĩ · 2 Đao Phủ · 1 Săn Thưởng · 1 Thụ Thần · 1 Cổ Thụ · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.59 · top 4 65,3% · 1,33% người chơi",
-   "ban_moi": "→ 18.5: Taric tăng; Draven giảm – cân bằng",
+   "so_lieu_vn": "VN 18.5: hạng TB 3.53 · top 4 66,9% · 1,01% người chơi",
+   "ban_moi": "↗ 18.5: Taric tăng – MẠNH LÊN",
    "len_cap": "Tham vàng: 8 ở 4-2 → 9 ở 5-1, đổi tướng tìm tướng 5 vàng",
    "lech_do": [
     0,
@@ -542,8 +542,8 @@
     "Taric"
    ],
    "toc_he": "2 Hỏa Ngục · 2 Dũng Sĩ · 2 Tiên Phong · 1 Săn Thưởng · 1 Thụ Thần · 1 Cổ Thụ · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.31 · top 4 69,3% · 6,31% người chơi",
-   "ban_moi": "→ 18.5: Taric tăng; Draven giảm – cân bằng",
+   "so_lieu_vn": "VN 18.5: hạng TB 3.63 · top 4 62,7% · 4,18% người chơi",
+   "ban_moi": "↗ 18.5: Taric tăng – MẠNH LÊN",
    "len_cap": "Tham vàng lên 9; cần Draven + Rồng Ngàn Tuổi 2 sao",
    "lech_do": [
     0,
@@ -592,7 +592,7 @@
     "Soraka"
    ],
    "toc_he": "6 Vệ Quân · 2 Thuật Sư · 2 Thực Vật",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.76 · top 4 69,3% · 0,18% người chơi",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
    "ban_moi": "→ 18.5: Soraka tăng; Thực Vật giảm – cân bằng",
    "len_cap": "Cấp 7 ở 3-5, đổi tướng phần dư trên 50 vàng tìm Cassiopeia/Rammus 3 sao",
    "lech_do": [
@@ -642,8 +642,8 @@
     "Taric"
    ],
    "toc_he": "4 Tiên Phong · 3 Tiên Hắc Ám · 2 Thuật Sư · 2 Mặt Trăng · 2 Thuật Sĩ · 1 Hòa Hợp · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.43 · top 4 69,0% · 0,84% người chơi",
-   "ban_moi": "↑ 18.5: Morgana, Taric tăng – MẠNH LÊN RÕ",
+   "so_lieu_vn": "VN 18.5: hạng TB 3.63 · top 4 67,8% · 0,97% người chơi",
+   "ban_moi": "↑ 18.5: Morgana, Taric, Alune tăng – MẠNH LÊN RÕ",
    "len_cap": "Lên 8 ở 4-2 đổi tướng tìm Alune; ưu tiên Ấn Thuật Sĩ cho Alune",
    "lech_do": [
     0,
@@ -692,7 +692,7 @@
     "Người Đá"
    ],
    "toc_he": "2 Hỏa Ngục · 2 Liên Kích · 2 Mặt Trăng · 2 Tiên Phong · 2 Thuật Sĩ · 2 Thích Ứng · 2 Nguyên Sinh · 2 Dũng Sĩ · 1 Ăn Mòn",
-   "so_lieu_vn": "VN 18.4b: hạng TB 4.29 · top 4 56,1% · 4,25% người chơi",
+   "so_lieu_vn": "VN 18.5: hạng TB 4.81 · top 4 44,4% · 2,40% người chơi",
    "ban_moi": "→ 18.5: không bị đụng tới",
    "len_cap": "Lên 8 ở 4-2, đổi tướng tìm Aphelios + Nidalee 2 sao",
    "lech_do": [
@@ -742,8 +742,8 @@
     "Alune"
    ],
    "toc_he": "3 Mặt Trời · 3 Liên Kích · 3 Mặt Trăng · 2 Vệ Quân · 2 Hỏa Ngục · 1 Hòa Hợp",
-   "so_lieu_vn": "VN 18.4b: hạng TB 2.94 · top 4 81,4% · 0,32% người chơi",
-   "ban_moi": "→ 18.5: không bị đụng tới",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
+   "ban_moi": "↗ 18.5: Alune tăng – MẠNH LÊN",
    "len_cap": "Cấp 6, đổi tướng phần dư trên 50 vàng tìm Kayle 3 sao → lên 8",
    "lech_do": [
     0,
@@ -792,8 +792,8 @@
     "Taric"
    ],
    "toc_he": "6 Quái Rừng · 2 Thuật Sĩ · 2 Tàn Phá · 2 Đấu Sĩ · 2 Tiên Phong · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.22 · top 4 76,2% · 0,46% người chơi",
-   "ban_moi": "↗ 18.5: Taric tăng – MẠNH LÊN",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
+   "ban_moi": "↑ 18.5: Taric, Bụi Gai Đỏ tăng – MẠNH LÊN RÕ",
    "len_cap": "Lên 9 nhanh: 8 ở 4-2 → 9 ở 5-1 → tìm Rồng Ngàn Tuổi 2 sao",
    "lech_do": [
     0,
@@ -842,7 +842,7 @@
     "Sett"
    ],
    "toc_he": "3 Hoa Linh · 3 Thích Ứng · 2 Dũng Sĩ · 2 Đấu Sĩ · 2 Nguyên Sinh · 1 Ăn Mòn · 1 Khắc Tinh",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.07 · top 4 79,6% · 0,12% người chơi",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
    "ban_moi": "↑ 18.5: Master Yi, Sett tăng – MẠNH LÊN RÕ",
    "len_cap": "Cấp 7 ở 3-5, đổi tướng tìm Rengar + Yi 3 sao",
    "lech_do": [
@@ -893,8 +893,8 @@
     "Gnar"
    ],
    "toc_he": "5 Hoa Linh · 2 Thuật Sư · 2 Dũng Sĩ · 2 Triệu Hồi · 2 Nguyên Sinh · 2 Đấu Sĩ · 2 Thợ Săn · 1 Vườn Gai",
-   "so_lieu_vn": "VN 18.4b: chưa có trong bảng OP.GG (đội ít người chơi)",
-   "ban_moi": "↑ 18.5: Sett, Ashe tăng – MẠNH LÊN RÕ",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
+   "ban_moi": "↑ 18.5: Sivir, Ashe, Sett tăng – MẠNH LÊN RÕ",
    "len_cap": "Lên 9 nhanh: mua mọi Tinh Linh kinh tế, 8 ở 4-2 → 9 ở 5-1",
    "lech_do": [
     0,
@@ -944,7 +944,7 @@
     "Gnar"
    ],
    "toc_he": "7 Thần Rừng · 2 Vệ Quân · 2 Đấu Sĩ · 2 Thuật Sư · 2 Thực Vật · 2 Đao Phủ",
-   "so_lieu_vn": "VN 18.4b: hạng TB 4.69 · top 4 48,2% · 0,65% người chơi",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
    "ban_moi": "→ 18.5: Soraka tăng; Thực Vật giảm – cân bằng",
    "len_cap": "Lên 8 ở 4-2, đổi tướng tìm Ezreal 2 sao; lên 9 thêm Ivern",
    "lech_do": [
@@ -994,8 +994,8 @@
     "Malphite"
    ],
    "toc_he": "4 Gai Đen · 4 Tàn Phá · 3 Quái Rừng · 2 Đấu Sĩ · 1 Cự Thạch",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.79 · top 4 70,5% · 0,10% người chơi",
-   "ban_moi": "→ 18.5: Malphite tăng; Azir giảm – cân bằng",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
+   "ban_moi": "→ 18.5: Bụi Gai Đỏ, Malphite tăng; Azir, Gai Đen giảm – cân bằng",
    "len_cap": "Cấp 5–6, đổi tướng từ từ trên 50 vàng tới Warwick 3 sao → lên 8",
    "lech_do": [
     0,
@@ -1045,8 +1045,8 @@
     "Kennen"
    ],
    "toc_he": "3 Hỏa Ngục · 3 Thợ Săn · 2 Vệ Quân · 2 Tiên Linh · 2 Nguyên Sinh · 2 Dũng Sĩ · 1 Thụ Thần",
-   "so_lieu_vn": "VN 18.4b: hạng TB 3.72 · top 4 67,3% · 0,13% người chơi",
-   "ban_moi": "↑ 18.5: Tristana, Ashe, Tiên Linh tăng – MẠNH LÊN RÕ",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
+   "ban_moi": "↑ 18.5: Tristana, Sivir, Ashe, Tiên Linh tăng – MẠNH LÊN RÕ",
    "len_cap": "Lên 8 ở 4-2 đổi tướng tìm Sivir 2 sao",
    "lech_do": [
     0,
@@ -1095,8 +1095,8 @@
     "Taric"
    ],
    "toc_he": "3 Hoa Linh · 3 Quái Rừng · 3 Thuật Sĩ · 2 Thuật Sư · 2 Đấu Sĩ · 2 Tiên Phong · 1 Lục Bảo",
-   "so_lieu_vn": "VN 18.4b: hạng TB 4.54 · top 4 48,9% · 1,60% người chơi",
-   "ban_moi": "↑ 18.5: Morgana, Sett, Taric tăng – MẠNH LÊN RÕ",
+   "so_lieu_vn": "VN 18.5: hạng TB 5.16 · top 4 38,1% · 0,85% người chơi",
+   "ban_moi": "↑ 18.5: Morgana, Taric, Sett tăng – MẠNH LÊN RÕ",
    "len_cap": "Lên 8 ở 4-2, đổi tướng tìm Ahri + Morgana 2 sao",
    "lech_do": [
     0,
@@ -1145,8 +1145,8 @@
     "Người Đá"
    ],
    "toc_he": "5 Tiên Hắc Ám · 4 Tiên Phong · 2 Tàn Phá · 2 Thuật Sĩ",
-   "so_lieu_vn": "VN 18.4b: hạng TB 5.27 · top 4 33,3% · 0,09% người chơi",
-   "ban_moi": "↗ 18.5: Caitlyn, Morgana tăng – MẠNH LÊN",
+   "so_lieu_vn": "VN 18.5: chưa đủ ván (bản mới ra, OP.GG mới có 7 đội) — xem số quốc tế MetaTFT",
+   "ban_moi": "↗ 18.5: Morgana, Caitlyn tăng – MẠNH LÊN",
    "len_cap": "Cố tình thua đầu game tích Tinh Chất → đổi quà lớn giữa game",
    "lech_do": [
     0,

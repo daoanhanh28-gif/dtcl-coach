@@ -1,4 +1,4 @@
-# ĐTCL Coach · v1.3 · 2026-10-20 — Quy trình “cập nhật meta”
+# ĐTCL Coach · v1.4 · 2026-10-22 — Quy trình “cập nhật meta”
 
 Khi Riot ra bản mới (khoảng 2 tuần / lần), anh Peach chỉ cần nhắn Claude: **“cập nhật meta”**.
 Claude làm theo các bước dưới. Mọi dữ liệu nằm trong `data/*.json` — không cần sửa code.

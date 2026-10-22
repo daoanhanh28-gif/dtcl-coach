@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — flex Ấn: tìm đội hình meta hợp nhất với Ấn đang có, xoay quanh CHỦ LỰC META
+# ĐTCL Coach v1.4 (2026-10-22) — flex Ấn: tìm đội hình meta hợp nhất với Ấn đang có, xoay quanh CHỦ LỰC META
 """
 Khác bảng điểm cố định của file Excel (bản 18.3b), phần này tính lại từ số liệu thật của bộ dữ liệu đang xem:
   - đội ứng viên = các cụm đội MetaTFT đủ mẫu (≥ 15.000 trận), mỗi đội có chủ lực / đỡ đòn / tướng thật

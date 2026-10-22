@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — kiểm thử giao diện bằng Streamlit AppTest (offline, lưu CSV cục bộ)
+# ĐTCL Coach v1.4 (2026-10-22) — kiểm thử giao diện bằng Streamlit AppTest (offline, lưu CSV cục bộ)
 import os
 import shutil
 import sys
@@ -226,11 +226,11 @@ def test_kien_thuc_search():
     _ok(at)
 
 
-@pytest.mark.parametrize("bo", ["18.3b", "18.5"])
+@pytest.mark.parametrize("bo", ["18.3b", "18.4b"])
 @pytest.mark.parametrize("path", ["views/cam_nang.py", "views/doi_hinh.py", "views/tro_ly.py", "views/phan_tich.py",
                                   "views/loi.py", "views/trang_bi.py", "views/kien_thuc.py"])
 def test_other_data_set_pages_render(path, bo):
-    """Bộ dữ liệu khác (18.3b cũ, 18.5 xem trước) vẫn mở được từng trang."""
+    """Bộ dữ liệu khác (18.3b cũ, 18.4b bản trước) vẫn mở được từng trang."""
     at = _page(path)
     at.session_state["bo"] = bo
     at.run()
@@ -264,5 +264,6 @@ def test_cam_nang_tabs():
     _ok(at)
     md = " ".join(m.value for m in at.markdown)
     assert "Top đội hình mạnh nhất" in md and "10 nguyên tắc tempo" in md and "Cặp lõi mạnh" in md
+    assert "Đội được lợi nhất ở bản 18.5" in md and "có thể spam leo rank" in md
     at.radio(key="cn_gd").set_value("Giai đoạn 4 (4-1 → 4-7)").run()
     _ok(at)

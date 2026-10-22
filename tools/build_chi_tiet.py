@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — dựng data/metatft_chi_tiet.json (form theo cấp, vị trí, đồ từng tướng) từ tools/raw
+# ĐTCL Coach v1.4 (2026-10-22) — dựng data/metatft_chi_tiet.json (form theo cấp, vị trí, đồ từng tướng) từ tools/raw
 """
 Đầu vào (lấy từ API công khai của MetaTFT qua trình duyệt, Bạch Kim+, 3 ngày, bản 18.4b):
   tools/raw/comp_details_metatft.tsv  — mỗi cụm đội: mốc lên cấp, ô đứng từng tướng, 2 bàn cờ phổ biến nhất ở cấp 4/5/6/7

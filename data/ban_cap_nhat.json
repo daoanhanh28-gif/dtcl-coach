@@ -1,72 +1,86 @@
 {
  "phien_ban": "18.5",
  "ngay": "21/10/2026",
- "ban_dang_chay": "18.4b",
- "nguon": "Bản xem trước 18.5 dựng từ gói dữ liệu máy chủ thử nghiệm (TopMETA, 20/10/2026) · ghi chú 18.4 / 18.4b (Riot, MobaFire, TopMETA) · số liệu VN: OP.GG 18.4b (171.120 ván / 24 giờ, 20/10/2026)",
+ "ban_dang_chay": "18.5",
+ "nguon": "Ghi chú bản 18.5 chính thức của Riot (21/10/2026) · thống kê MetaTFT 18.5 (Bạch Kim+, ~1,8 triệu đội hình, 22/10) · OP.GG máy chủ VN 18.5 (32.640 ván / 24 giờ, 22/10)",
  "nguon_link": [
   {
-   "ten": "TopMETA – xem trước bản 18.5",
-   "url": "https://topmeta.gg/en/update/tft-patch-18-5"
+   "ten": "Riot – ghi chú bản 18.5",
+   "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5/"
   },
   {
-   "ten": "TopMETA – bản 18.4b",
-   "url": "https://topmeta.gg/en/update/tft-patch-18-4b/"
+   "ten": "esports.gg – 18.5",
+   "url": "https://esports.gg/news/teamfight-tactics/tft-patch-18-5/"
   },
   {
-   "ten": "Riot – ghi chú bản 18.4",
-   "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/"
+   "ten": "MetaTFT – đội hình 18.5",
+   "url": "https://www.metatft.com/comps"
   },
   {
-   "ten": "MobaFire – tóm tắt bản 18.4",
-   "url": "https://www.mobafire.com/league-of-legends/news/tft-18-4"
+   "ten": "OP.GG – máy chủ VN 18.5",
+   "url": "https://op.gg/tft/meta-trends/comps?region=vn"
   }
  ],
- "ghi_chu": "Bản 18.5 dự kiến ra ngày 21/10/2026. Số thay đổi lấy từ gói dữ liệu máy chủ thử nghiệm, Riot có thể chỉnh khi ra chính thức. Hạng TB / top 4 / top 1 là của bản 18.4b (mới nhất) — sau khi 18.5 ra cần 2–3 ngày để có số mới, lúc đó nhắn Claude “cập nhật meta”.",
+ "ghi_chu": "Bản 18.5 đã chạy trên máy chủ VN từ 21/10/2026. So với bản xem trước: Sivir, Bụi Gai Đỏ, Alune, Taric được tăng thêm, Tristana được giảm Năng Lượng; Draven và Nidalee không bị đổi; không có luật giới hạn nhóm lõi mà thay bằng lõi theo hướng đồ AD/AP. Số liệu 18.5 mới ~1 ngày — VN mới đủ mẫu cho 7 đội, nên dùng thêm số quốc tế MetaTFT.",
  "ban_truoc": [
   {
    "k": "18.4 (10/10)",
-   "v": "Hoa Linh 4 lên 55%, Mặt Trăng tăng SMPT, Quái Rừng 7 tăng, Tinh Nghịch 7 tăng · Đao Phủ, Tiên Linh, Dũng Sĩ, Tiên Hắc Ám giảm · Ashe, Kennen, Veigar, Rammus giảm · Draven, Ezreal, Sivir, Tristana, Rengar, Teemo tăng · 4 Tinh Linh mới."
+   "v": "Hoa Linh 4, Mặt Trăng, Quái Rừng 7, Tinh Nghịch 7 tăng · Đao Phủ, Tiên Linh, Dũng Sĩ, Tiên Hắc Ám giảm · Ashe, Kennen, Veigar, Rammus giảm · Draven, Ezreal, Sivir, Tristana, Rengar, Teemo tăng."
   },
   {
    "k": "18.4b (07–10/10)",
-   "v": "Trả lại phần lớn số của 18.3 cho Alistar, Gromp, Warwick, Sói Hắc Ám, Varus, Camille · Lõi Ân Huệ Thách Đấu, Giữ Vững Hàng Ngũ, Ôm Tập Thể I/II, To Lớn & Mạnh Mẽ tăng · Trái Tim Sắt Đá tạm tắt."
+   "v": "Trả lại phần lớn số của 18.3 cho Alistar, Gromp, Warwick, Sói Hắc Ám, Varus, Camille · Ân Huệ Thách Đấu, Giữ Vững Hàng Ngũ, Ôm Tập Thể, To Lớn & Mạnh Mẽ tăng."
   }
  ],
  "thay_doi": [
   {
    "loai": "tuong",
-   "ten": "Caitlyn",
+   "ten": "Tristana",
    "huong": "tang",
-   "chi_tiet": "Sát thương kỹ năng 190/285/470 → 200/300/490",
-   "muc": 0.5
+   "chi_tiet": "Năng Lượng 0/60 → 0/50 · sát thương mỗi đòn 10/15/25 → 12/18/28",
+   "muc": 1
+  },
+  {
+   "loai": "tuong",
+   "ten": "Sivir",
+   "huong": "tang",
+   "chi_tiet": "Sát thương kỹ năng 200/300 → 220/330 (sát thương nảy 20% → 18%)",
+   "muc": 1
   },
   {
    "loai": "tuong",
    "ten": "Master Yi",
    "huong": "tang",
-   "chi_tiet": "SMCK 60 → 63 · Song Kiếm thêm 125/190/285 → 135/200/320 sát thương phép",
-   "muc": 1
-  },
-  {
-   "loai": "tuong",
-   "ten": "Tristana",
-   "huong": "tang",
-   "chi_tiet": "Sát thương lan mỗi cộng dồn 10/15/25 → 12/18/28",
+   "chi_tiet": "SMCK dạng AD 60 → 63 · sát thương phép dạng AP 125/190/285 → 135/200/320",
    "muc": 1
   },
   {
    "loai": "tuong",
    "ten": "Morgana",
    "huong": "tang",
-   "chi_tiet": "Sát thương ban đầu 60/90 → 70/105 · mỗi lời nguyền 22/33 → 25/38",
+   "chi_tiet": "Sát thương nguyền ban đầu 60/90 → 70/105 · cộng thêm 22/33 → 25/38",
    "muc": 1
   },
   {
    "loai": "tuong",
-   "ten": "Soraka",
+   "ten": "Taric",
    "huong": "tang",
-   "chi_tiet": "Sát thương kỹ năng 225/335 → 235/355 · mỗi sao thêm 100/150 → 110/165",
-   "muc": 0.5
+   "chi_tiet": "Giáp & Kháng Phép 65 → 70 · 2 đòn cường hóa 100/150 → 130/200",
+   "muc": 1
+  },
+  {
+   "loai": "tuong",
+   "ten": "Alune",
+   "huong": "tang",
+   "chi_tiet": "Mảnh Trăng 55/83 → 58/88 · Tốc Độ Đánh 0.8 → 0.85 (Chống Chịu tộc riêng 7% → 5%)",
+   "muc": 1
+  },
+  {
+   "loai": "tuong",
+   "ten": "Ashe",
+   "huong": "tang",
+   "chi_tiet": "Sát thương mỗi giây 9/14 → 11/16",
+   "muc": 1
   },
   {
    "loai": "tuong",
@@ -77,6 +91,27 @@
   },
   {
    "loai": "tuong",
+   "ten": "Bụi Gai Đỏ",
+   "huong": "tang",
+   "chi_tiet": "Hồi máu dấu Đầu Đàn 4% → 5% · xuyên Giáp 20% → 25%",
+   "muc": 1
+  },
+  {
+   "loai": "tuong",
+   "ten": "Caitlyn",
+   "huong": "tang",
+   "chi_tiet": "Đòn cường hóa 190/285/470 → 200/300/490",
+   "muc": 0.5
+  },
+  {
+   "loai": "tuong",
+   "ten": "Soraka",
+   "huong": "tang",
+   "chi_tiet": "Sao đầu 225/335 → 235/355 · sao thêm 100/150 → 110/165",
+   "muc": 0.5
+  },
+  {
+   "loai": "tuong",
    "ten": "Malphite",
    "huong": "tang",
    "chi_tiet": "Lá chắn 700/850 → 735/885",
@@ -84,74 +119,63 @@
   },
   {
    "loai": "tuong",
-   "ten": "Taric",
-   "huong": "tang",
-   "chi_tiet": "Sát thương vỡ khiên 100/150 → 130/200",
-   "muc": 1
-  },
-  {
-   "loai": "tuong",
-   "ten": "Ashe",
-   "huong": "tang",
-   "chi_tiet": "Sát thương Khe Nứt mỗi giây 9/14 → 11/16",
-   "muc": 1
-  },
-  {
-   "loai": "tuong",
    "ten": "Azir",
    "huong": "giam",
-   "chi_tiet": "Lính Cát 46/69/110 → 43/65/105 sát thương",
-   "muc": 0.5
+   "chi_tiet": "Lính Cát 46/69/110 → 43/65/105",
+   "muc": 1
   },
   {
    "loai": "tuong",
    "ten": "Kha'Zix",
    "huong": "giam",
-   "chi_tiet": "Sát thương kỹ năng 265/370/535 → 255/360/515",
+   "chi_tiet": "Sát thương 255/360/515 → 250/345/500 (khi cô lập 285/410/605 → 280/390/590)",
    "muc": 0.5
   },
   {
    "loai": "tuong",
    "ten": "Mama Beak",
    "huong": "giam",
-   "chi_tiet": "Mỗi đòn nhỏ 22/33/52 → 20/30/50",
+   "chi_tiet": "Mỗi đòn 22/33/52 → 20/30/50 · khóa Năng Lượng ngắn hơn ~1 giây",
    "muc": 0.5
-  },
-  {
-   "loai": "tuong",
-   "ten": "Draven",
-   "huong": "giam",
-   "chi_tiet": "Nhiệm vụ Săn Thưởng nhận trước 3-5 khó gấp đôi (ví dụ 60 → 150 đòn đánh, 8 → 14 hạ gục) — Draven sớm khó hơn nhiều",
-   "muc": 1
   },
   {
    "loai": "tuong",
    "ten": "Sentinel",
    "huong": "dieu_chinh",
-   "chi_tiet": "Hất tung 1/1.25 giây → 0.5 giây (không tăng theo sao) · lá chắn 350/450 → 375/475",
+   "chi_tiet": "Choáng 1 → 0,5 giây · lá chắn 350/450 → 375/475",
    "muc": 1
   },
   {
-   "loai": "tuong",
-   "ten": "Alune",
-   "huong": "dieu_chinh",
-   "chi_tiet": "Mảnh Trăng 55/83 → 58/88 · Chống Chịu của tộc riêng 7% → 5%",
+   "loai": "toc_he",
+   "ten": "Tiên Linh",
+   "huong": "tang",
+   "chi_tiet": "Hồi máu mốc 2/4: 2,5/4% → 3/5% · mốc Pix 4/5/6 cần ít hơn (30k/70k/110k → 25k/60k/100k)",
+   "moc": 2,
    "muc": 1
   },
   {
-   "loai": "tuong",
-   "ten": "Nidalee",
-   "huong": "dieu_chinh",
-   "chi_tiet": "Bảng tộc riêng bị gỡ khỏi dữ liệu, chưa rõ thay bằng gì",
+   "loai": "toc_he",
+   "ten": "Liên Kích",
+   "huong": "giam",
+   "chi_tiet": "Tốc Độ Đánh mỗi đòn 3/5/8/12% → 3/5/7/10%",
+   "moc": 4,
+   "muc": 1
+  },
+  {
+   "loai": "toc_he",
+   "ten": "Quái Rừng",
+   "huong": "giam",
+   "chi_tiet": "Mốc 7: SMCK/SMPT 6% → 5%",
+   "moc": 7,
    "muc": 1
   },
   {
    "loai": "toc_he",
    "ten": "Gai Đen",
    "huong": "giam",
-   "chi_tiet": "Mốc 6: hiệu ứng 60% → 50% · khuếch đại phép cho tướng không phải đỡ đòn 12% → 10%",
-   "moc": 6,
-   "muc": 1
+   "chi_tiet": "Mốc 6: 60% → 50% · khuếch đại khi hiến tế 12% → 10%",
+   "moc": 2,
+   "muc": 0.5
   },
   {
    "loai": "toc_he",
@@ -163,35 +187,11 @@
   },
   {
    "loai": "toc_he",
-   "ten": "Liên Kích",
-   "huong": "giam",
-   "chi_tiet": "Tốc Độ Đánh mỗi đòn: mốc 4 8% → 7%, mốc 5 12% → 10%",
-   "moc": 4,
-   "muc": 1
-  },
-  {
-   "loai": "toc_he",
-   "ten": "Quái Rừng",
-   "huong": "giam",
-   "chi_tiet": "Mốc cao: Tốc Độ Đánh 6% → 5% (trả lại số của 18.3)",
-   "moc": 7,
-   "muc": 1
-  },
-  {
-   "loai": "toc_he",
    "ten": "Thực Vật",
    "huong": "giam",
-   "chi_tiet": "Mốc 2: hồi Máu tối đa cho đồng minh 8% → 7%",
-   "moc": 2,
+   "chi_tiet": "Hồi Máu tối đa 8% → 7%",
+   "moc": 1,
    "muc": 0.5
-  },
-  {
-   "loai": "toc_he",
-   "ten": "Tiên Linh",
-   "huong": "tang",
-   "chi_tiet": "Hồi máu mốc 2/4: 2.5%/4% → 3%/5% · mốc tích lũy 30k/70k/110k → 25k/60k/100k (dễ ra Pix hơn)",
-   "moc": 2,
-   "muc": 1
   },
   {
    "loai": "loi",
@@ -207,21 +207,9 @@
   },
   {
    "loai": "loi",
-   "ten": "Tiếng Gọi Hoa Linh",
-   "huong": "tang",
-   "chi_tiet": "Giá Tinh Linh tối thiểu để ra tướng 4 vàng 6/4 → 5/3"
-  },
-  {
-   "loai": "loi",
-   "ten": "Tín Đồ Tiên Hắc Ám",
-   "huong": "dieu_chinh",
-   "chi_tiet": "Thêm nhánh mới: đổi chiến lợi phẩm thành SMPT"
-  },
-  {
-   "loai": "loi",
    "ten": "Ân Huệ Thách Đấu",
    "huong": "tang",
-   "chi_tiet": "Tốc Độ Đánh đầu giao tranh 25% → 30%"
+   "chi_tiet": "Tốc Độ Đánh 25% → 30%"
   },
   {
    "loai": "loi",
@@ -233,43 +221,85 @@
    "loai": "loi",
    "ten": "Dòng Tiền Mờ Ám",
    "huong": "tang",
-   "chi_tiet": "Vàng nhận ngay 4 → 6"
+   "chi_tiet": "Vàng 4 → 6"
   },
   {
    "loai": "loi",
    "ten": "Gói Trang Bị Bất Ngờ",
    "huong": "tang",
-   "chi_tiet": "Vàng ở lớp cuối 4 → 6"
+   "chi_tiet": "Vàng 4 → 6"
   },
   {
    "loai": "loi",
    "ten": "Kiên Nhẫn Là Một Đức Tính",
    "huong": "tang",
-   "chi_tiet": "Lượt đổi nhận ngay 4 → 5"
+   "chi_tiet": "Lượt đổi 4 → 5"
   },
   {
    "loai": "loi",
    "ten": "Nồi Nấu Ăn",
    "huong": "tang",
-   "chi_tiet": "Máu vĩnh viễn mỗi vòng 60 → 70"
+   "chi_tiet": "Máu mỗi Ấn 60 → 70 (không còn đi kèm Đăng Quang, Cắm Rễ Phân Tán+, Cây Tộc/Hệ+)"
+  },
+  {
+   "loai": "loi",
+   "ten": "Hàng Chờ Pandora",
+   "huong": "giam",
+   "chi_tiet": "Vàng 4 → 1"
+  },
+  {
+   "loai": "loi",
+   "ten": "Hộp Pandora II",
+   "huong": "giam",
+   "chi_tiet": "Vàng 4 → 1 · thêm bản + (3-2, 4 vàng) và ++ (4-2, 6 vàng)"
+  },
+  {
+   "loai": "loi",
+   "ten": "Chiến Thuật Đầu Tư I",
+   "huong": "giam",
+   "chi_tiet": "Vàng ngay 6 → 3"
+  },
+  {
+   "loai": "loi",
+   "ten": "Chiến Thuật Đầu Tư II",
+   "huong": "giam",
+   "chi_tiet": "Vàng ngay 10 → 6"
   },
   {
    "loai": "loi",
    "ten": "Vận Mệnh Kim Cương",
    "huong": "giam",
-   "chi_tiet": "Vàng 4 → 2 (bản + giữ nguyên 7)"
+   "chi_tiet": "Vàng 4 → 2"
+  },
+  {
+   "loai": "loi",
+   "ten": "Quái Rừng Omega",
+   "huong": "giam",
+   "chi_tiet": "Đầu Đàn thêm Máu và Tốc Độ Đánh 10% → 8%"
+  },
+  {
+   "loai": "loi",
+   "ten": "Tà Thuật",
+   "huong": "giam",
+   "chi_tiet": "SMPT các mốc đầu 7/12/33/50/100 → 5/10/28/45/85"
+  },
+  {
+   "loai": "loi",
+   "ten": "Kỳ Vọng Bất Ngờ",
+   "huong": "giam",
+   "chi_tiet": "Vàng giai đoạn 3/4: 18/20 → 15/18 · giai đoạn 4 còn 2 tướng 5 vàng (+3 vàng)"
   },
   {
    "loai": "loi",
    "ten": "Trượng Đại Thiên Sứ",
    "huong": "giam",
-   "chi_tiet": "Ngưỡng SMPT để hồi thêm Năng Lượng 90% → 110%"
+   "chi_tiet": "Ngưỡng SMPT 90% → 110%"
   },
   {
    "loai": "loi",
    "ten": "Thệ Ước Bảo Hộ",
    "huong": "giam",
-   "chi_tiet": "Máu tối đa thêm 200 → 175"
+   "chi_tiet": "Máu 200 → 175"
   },
   {
    "loai": "loi",
@@ -281,61 +311,67 @@
    "loai": "loi",
    "ten": "Giọt Lệ Bi Ai",
    "huong": "giam",
-   "chi_tiet": "Hồi Năng Lượng sau 12 giây 4 → 3"
+   "chi_tiet": "Hồi Năng Lượng 4 → 3"
   },
   {
    "loai": "loi",
    "ten": "Tất Tay Bậc Đồng II",
    "huong": "giam",
-   "chi_tiet": "Giáp & Kháng Phép mỗi tộc/hệ bậc Đồng 3 → 2.5"
+   "chi_tiet": "Giáp & Kháng Phép mỗi tộc/hệ 3 → 2,5"
   },
   {
    "loai": "loi",
-   "ten": "Hộp Pandora II",
+   "ten": "U.R.F.",
    "huong": "dieu_chinh",
-   "chi_tiet": "Bản thường còn 1 vàng (trước 4), thêm bản + (4 vàng) và ++ (6 vàng)"
+   "chi_tiet": "Không còn xuất hiện cùng Đăng Quang, Cắm Rễ Phân Tán (+), Cây Tộc/Hệ (+)"
+  },
+  {
+   "loai": "loi",
+   "ten": "Chiết Xuất Trang Bị",
+   "huong": "dieu_chinh",
+   "chi_tiet": "Không còn tặng Veigar"
+  },
+  {
+   "loai": "loi",
+   "ten": "Trái Tim Sắt Đá",
+   "huong": "dieu_chinh",
+   "chi_tiet": "Lại bị tạm tắt vì lỗi"
   },
   {
    "loai": "he_thong",
-   "ten": "Giới hạn nhóm lõi",
+   "ten": "Lõi theo hướng đồ",
    "huong": "moi",
-   "chi_tiet": "Mỗi ván chỉ được 1 lõi họ Vận Mệnh và 1 lõi họ trang bị độc nhất"
+   "chi_tiet": "Lõi dành riêng cho đội vật lý (AD) ít xuất hiện hơn khi bạn đang đi đội phép (AP) và ngược lại"
   },
   {
    "loai": "trang_bi",
    "ten": "Mũ Thích Nghi (Ánh Sáng)",
    "huong": "giam",
-   "chi_tiet": "SMCK/SMPT thêm cho Xạ Thủ/Pháp Sư 40% → 35% · hồi Năng Lượng 7 → 6"
+   "chi_tiet": "Hồi Năng Lượng 7 → 6 · SMCK/SMPT cho tướng không đỡ đòn 40 → 35"
   },
   {
    "loai": "trang_bi",
    "ten": "Bùa Xanh (Ánh Sáng)",
    "huong": "giam",
-   "chi_tiet": "SMCK/SMPT cộng thêm 30% → 25%"
-  },
-  {
-   "loai": "trang_bi",
-   "ten": "Ấn Thần Rừng",
-   "huong": "tang",
-   "chi_tiet": "Giáp & Kháng Phép 25 → 35"
+   "chi_tiet": "SMCK/SMPT 30% → 25%"
   },
   {
    "loai": "tinh_linh",
    "ten": "Hand of Baron",
    "huong": "dieu_chinh",
-   "chi_tiet": "Giá 6 → 4 vàng nhưng mọi chỉ số giảm khoảng 1/3"
+   "chi_tiet": "Giá 6 → 4 vàng, chỉ số giảm khoảng 1/3"
   },
   {
    "loai": "tinh_linh",
    "ten": "Heroic Sacrifice",
    "huong": "giam",
-   "chi_tiet": "Máu 1.200 → 1.000 (bản nâng 1.500 → 1.250)"
+   "chi_tiet": "Máu 1.200/1.500 → 1.000/1.250"
   },
   {
    "loai": "tinh_linh",
    "ten": "Beggar's Wisp",
    "huong": "giam",
-   "chi_tiet": "Vàng 3 → 2 (bản nâng 5 → 3)"
+   "chi_tiet": "Vàng 3/5 → 2/3"
   },
   {
    "loai": "tinh_linh",
@@ -347,7 +383,13 @@
    "loai": "tinh_linh",
    "ten": "Blood and Iron",
    "huong": "giam",
-   "chi_tiet": "Giá 3 → 4 vàng"
+   "chi_tiet": "Giá 3 → 4 vàng (sửa lỗi)"
+  },
+  {
+   "loai": "tinh_linh",
+   "ten": "Returning Friend · Grove Armor",
+   "huong": "moi",
+   "chi_tiet": "Có thể xuất hiện từ giai đoạn 3"
   }
  ]
 }

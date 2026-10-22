@@ -1,8 +1,9 @@
-# ĐTCL Coach v1.3 (2026-10-20) — trang Cẩm nang Thách Đấu: top đội hình, tempo, lõi top 1, cặp lõi, bùa theo giai đoạn
+# ĐTCL Coach v1.4 (2026-10-22) — trang Cẩm nang Thách Đấu: top đội hình, tempo, lõi top 1, cặp lõi, bùa theo giai đoạn
 import streamlit as st
 
 from core import cam_nang as C
 from core import engine, ui
+from core import plan as P
 
 d = engine.data()
 m = d["meta"]
@@ -13,11 +14,68 @@ ui.header(f"Cẩm nang Thách Đấu · bản {bo}",
           "Đội hình nên chơi theo số liệu thật máy chủ VN, cách đánh tempo như người chơi Thách Đấu, cách xử lý lõi top 1, "
           "các cặp lõi mạnh và bùa (Tinh Linh) nên mua theo từng giai đoạn.")
 if not d.get("vn_opgg"):
-    st.warning(f"Bộ dữ liệu {bo} không có bảng OP.GG có cấu trúc — chọn bản 18.4b ở thanh bên để xem đầy đủ.")
+    st.warning(f"Bộ dữ liệu {bo} không có bảng OP.GG có cấu trúc — chọn bản mới hơn ở thanh bên để xem đầy đủ.")
 if cn and cn.get("phien_ban") != bo:
     ui.note(f"Phần tempo / lõi / bùa viết cho bản {cn['phien_ban']}; số liệu đội hình là của bản {bo}.")
 
-tab1, tab2, tab3, tab4 = st.tabs(["Top đội hình", "Đánh tempo như Thách Đấu", "Lõi top 1 & cặp lõi", "Bùa theo giai đoạn"])
+bd = C.bien_dong()
+tab0, tab1, tab2, tab3, tab4 = st.tabs([f"Bản {bo}: được lợi & spam", "Top đội hình", "Đánh tempo như Thách Đấu",
+                                         "Lõi top 1 & cặp lõi", "Bùa theo giai đoạn"])
+
+
+def _tac_dong(units: list[str]) -> str:
+    """Thay đổi của bản đang xem chạm tới đội này (tướng trong đội / tộc hệ của đội)."""
+    us = set(units)
+    th = set(P.counts(units))
+    out = []
+    for x in P.patch_changes():
+        if not x.get("ref") or x["huong"] not in ("tang", "giam"):
+            continue
+        if (x["loai"] == "tuong" and x["ref"] in us) or (x["loai"] == "toc_he" and x["ref"] in th):
+            ten = engine.champ(x["ref"])["ten"] if x["loai"] == "tuong" else x["ten"]
+            out.append(("▲ " if x["huong"] == "tang" else "▼ ") + ten)
+    return ", ".join(dict.fromkeys(out)) or "không bị đụng trực tiếp (thay đổi đến từ đội khác)"
+
+
+def mt_rows(rows: list[dict], extra_cols: bool = False) -> str:
+    head = ["Đội (cụm MetaTFT)", "Tướng", "Lối chơi", "Hạng TB", "Top 4", "Top 1"]
+    if extra_cols:
+        head += [f"Bản {bd['ban_truoc']}", "Chênh", "Bản vá chạm tới"]
+    else:
+        head += ["% đội hình"]
+    out = []
+    for c in rows:
+        sl = c["so_lieu"]
+        carries = {x["tuong"]: x["do"] for x in c.get("chu_luc", [])}
+        r = [c["ten"], ui.Raw(ui.champ_row(c["tuong"], 30, carries)), c["kieu_ten"], f"{sl['hang_tb']:.2f}",
+             f"{sl['top4']:.1f}%", f"{sl['top1']:.1f}%"]
+        if extra_cols:
+            r += [f"{c['truoc']['hang_tb']:.2f}", ui.Raw(f"<b style='color:{'#6FCF97' if c['chenh'] < 0 else '#EB5757'}'>"
+                                                         f"{c['chenh']:+.2f}</b>"), _tac_dong(c["tuong"])]
+        else:
+            r += [f"{c.get('ti_le_qt', 0):.2f}%"]
+        out.append(r)
+    return ui.html_table(head, out, rich_text=True)
+
+
+with tab0:
+    if not bd:
+        st.info("Không có bản trước để so sánh cho bộ dữ liệu này.")
+    else:
+        st.markdown(f"### Đội được lợi nhất ở bản {bo} (so với {bd['ban_truoc']})")
+        st.caption(f"Hạng TB quốc tế MetaTFT (Bạch Kim+) của cùng một đội ở bản {bd['ban_truoc']} và {bo}; chênh âm = mạnh lên. "
+                   f"Chỉ tính đội ≥ 3.000 trận. Cột cuối: tướng / tộc hệ của đội được tăng ▲ hoặc giảm ▼ ở bản {bo}.")
+        st.markdown(mt_rows(bd["len"], True), unsafe_allow_html=True)
+        st.markdown(f"### Đội bị ảnh hưởng nhất — cân nhắc tránh")
+        st.markdown(mt_rows(bd["xuong"], True), unsafe_allow_html=True)
+    st.markdown("### Mạnh mà ít người biết — có thể spam leo rank")
+    st.caption("Hạng TB quốc tế ≤ 4,40 nhưng dưới 1,5% số đội hình → ít bị tranh tướng. "
+               "Đội ít trận thì số dao động hơn — ưu tiên đội vừa mạnh vừa có ≥ 10.000 trận.")
+    st.markdown(mt_rows(C.manh_it_nguoi_quoc_te(6)), unsafe_allow_html=True)
+    st.markdown("### Mạnh nhất quốc tế (đủ người chơi)")
+    st.markdown(mt_rows(C.top_quoc_te(6)), unsafe_allow_html=True)
+    st.caption(f"Nguồn: MetaTFT, Bạch Kim trở lên, bản {m['phien_ban']} (lấy {m['ngay_cap_nhat']}). "
+               "Bấm tên đội ở trang “Đội hình meta” → tab Thống kê MetaTFT để xem đủ 60 cụm.")
 
 
 def comp_card(i: int, r: dict, extra: str = "") -> str:
@@ -39,6 +97,9 @@ def comp_card(i: int, r: dict, extra: str = "") -> str:
 
 with tab1:
     vn_src = (d.get("vn_opgg") or {}).get("nguon", m.get("vn_nguon", ""))
+    if len((d.get("vn_opgg") or {}).get("doi_hinh", [])) < 15:
+        ui.note(f"Bản {bo} mới ra: OP.GG máy chủ VN mới đủ ván cho {len(d['vn_opgg']['doi_hinh'])} đội. "
+                "Xem thêm số quốc tế ở thẻ đầu tiên; vài ngày nữa nhắn “cập nhật meta” để có bảng VN đầy đủ.")
     st.markdown("### Top đội hình mạnh nhất (đủ người chơi)")
     st.caption(f"Hạng TB thấp nhất trong các đội có ≥ 0,3% người chơi — số liệu đủ lớn để tin. Nguồn: {vn_src}.")
     rows = C.top_manh()

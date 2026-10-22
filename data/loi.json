@@ -11,7 +11,7 @@
    "3-2"
   ],
   "nhom": "Tướng",
-  "mo_ta": "Đầu mỗi vòng, 3 ô phải hàng chờ đổi thành tướng ngẫu nhiên cùng giá. Nhận 4 vàng.",
+  "mo_ta": "Đầu mỗi vòng, 3 ô phải hàng chờ đổi thành tướng ngẫu nhiên cùng giá. Nhận 1 vàng (18.5: 4 → 1).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandoras-bench-ii.png"
  },
  {
@@ -228,7 +228,7 @@
    "2-1"
   ],
   "nhom": "Cấp & Đổi tướng",
-  "mo_ta": "Nhận lượt đổi. Mỗi vòng không mua tướng thì vòng sau nhận 1 lượt đổi.",
+  "mo_ta": "Nhận 5 lượt đổi (18.5: 4 → 5). Mỗi vòng không mua tướng thì vòng sau nhận 1 lượt đổi.",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/patienceisavirtue_i.png"
  },
  {
@@ -611,7 +611,7 @@
    "2-1"
   ],
   "nhom": "Trang bị",
-  "mo_ta": "Nhận 1 Nước Mắt. Sau khi tiêu đủ Năng Lượng, nhận thêm Nước Mắt.",
+  "mo_ta": "Nhận 1 Nước Mắt. Sau khi tiêu đủ 7.000 Năng Lượng, nhận thêm Nước Mắt (18.5: 6.500 → 7.000).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/griefofthegreatgoddess_i.png"
  },
  {
@@ -1017,7 +1017,7 @@
    "3-2"
   ],
   "nhom": "Tộc/Hệ",
-  "mo_ta": "3 lần đầu hiến tế tướng trên ô Gai Đen, nhận bản sao 1 trang bị thành phần tướng đó đang mang.",
+  "mo_ta": "3 lần đầu hiến tế tướng trên ô Gai Đen, nhận bản sao 1 trang bị thành phần tướng đó đang mang (18.5: không còn tặng Veigar).",
   "anh": ""
  },
  {
@@ -1103,7 +1103,7 @@
    "4-2"
   ],
   "nhom": "Tộc/Hệ",
-  "mo_ta": "Chọn thêm Quái Rừng Đầu Đàn thứ hai. Nhận 1 Cua Kỳ Cục, 1 Mầm Non và 1 Sỏi.",
+  "mo_ta": "Chọn thêm Quái Rừng Đầu Đàn thứ hai. Nhận 1 Cua Kỳ Cục, 1 Mầm Non và 1 Sỏi (18.5: Đầu Đàn thêm 8% Máu, 8% Tốc Độ Đánh, giảm từ 10%).",
   "anh": ""
  },
  {
@@ -1158,7 +1158,7 @@
    "3-2"
   ],
   "nhom": "Tộc/Hệ",
-  "mo_ta": "Đổi Tinh Hoa Tiên Hắc Ám thành Sức Mạnh Phép Thuật cho tướng Tiên Hắc Ám thay vì báu vật. Nhận 1 Camille.",
+  "mo_ta": "Đổi Tinh Hoa Tiên Hắc Ám thành SMPT cho tướng Tiên Hắc Ám thay vì báu vật. Nhận 1 Camille (18.5: SMPT các mốc đầu giảm nhẹ).",
   "anh": ""
  },
  {
@@ -1258,7 +1258,7 @@
    "2-1"
   ],
   "nhom": "Kinh tế",
-  "mo_ta": "Tướng nhận vĩnh viễn 9 Máu tối đa cho mỗi vàng lợi tức. Nhận ngay 6 vàng (18.4: 8 → 9 Máu, 4 → 6 vàng).",
+  "mo_ta": "Tướng nhận vĩnh viễn 9 Máu tối đa cho mỗi vàng lợi tức. Nhận ngay 3 vàng (18.5: 6 → 3).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/investmentstrategy_ii.png"
  },
  {
@@ -1630,7 +1630,7 @@
    "3-2"
   ],
   "nhom": "Trang bị",
-  "mo_ta": "Nhận 1 Lời Thề Hộ Vệ, cho thêm Năng Lượng và Máu tối đa.",
+  "mo_ta": "Nhận 1 Lời Thề Hộ Vệ, cho thêm Năng Lượng và 175 Máu tối đa (18.5: 200 → 175).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/promisedprotection_ii.png"
  },
  {
@@ -1688,7 +1688,7 @@
    "3-2"
   ],
   "nhom": "Trang bị",
-  "mo_ta": "Nhận 1 Quyền Trượng Thiên Thần, tăng thêm Hồi Năng Lượng.",
+  "mo_ta": "Nhận 1 Quyền Trượng Thiên Thần, tăng thêm Hồi Năng Lượng (18.5: ngưỡng SMPT 90% → 110%).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/seraphimsstaff_ii.png"
  },
  {
@@ -1941,7 +1941,7 @@
    "4-2"
   ],
   "nhom": "Kinh tế",
-  "mo_ta": "Nhận 4 vàng. 2 vòng tới, tướng địch rơi vàng khi bị hạ.",
+  "mo_ta": "Nhận 6 vàng (18.5: 4 → 6). 2 vòng tới, tướng địch rơi vàng khi bị hạ.",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/mirroredmonetization_ii.png"
  },
  {
@@ -1970,7 +1970,7 @@
    "3-2"
   ],
   "nhom": "Trang bị",
-  "mo_ta": "Nhận 1 Nước Mắt Nữ Thần. Cả đội +1 Hồi Năng Lượng, sau một lúc tăng lên 4.",
+  "mo_ta": "Nhận 1 Nước Mắt Nữ Thần. Cả đội +1 Hồi Năng Lượng, sau 12 giây tăng lên 3 (18.5: 4 → 3).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/crymeariver_ii.png"
  },
  {
@@ -2001,7 +2001,7 @@
    "4-2"
   ],
   "nhom": "Tộc/Hệ",
-  "mo_ta": "Pix Tiên Linh lớn hơn, cho thêm 50% Sức Mạnh Công Kích & Phép Thuật. Tướng Tiên Linh nhận thêm Máu.",
+  "mo_ta": "Pix Tiên Linh lớn hơn, cho thêm SMCK & SMPT (18.5: chỉ số nhận ngay 10% → 18%). Tướng Tiên Linh nhận thêm Máu.",
   "anh": ""
  },
  {
@@ -2031,7 +2031,7 @@
    "4-2"
   ],
   "nhom": "Trang bị",
-  "mo_ta": "Đầu vòng, trang bị trên hàng chờ bị tráo ngẫu nhiên. Nhận trang bị thành phần.",
+  "mo_ta": "Đầu vòng, trang bị trên hàng chờ bị tráo ngẫu nhiên. Nhận trang bị thành phần và 1 vàng (18.5: 4 → 1; thêm bản + ở 3-2, ++ ở 4-2).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora2.png"
  },
  {
@@ -2259,7 +2259,7 @@
    "2-1"
   ],
   "nhom": "Trang bị",
-  "mo_ta": "Mỗi lượt, tướng mang Xẻng/Chảo tăng vĩnh viễn Máu cho tướng gần nhất.",
+  "mo_ta": "Mỗi lượt, tướng mang Xẻng/Chảo tăng vĩnh viễn 70 Máu cho tướng gần nhất (18.5: 60 → 70).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cookingpot_ii.png"
  },
  {
@@ -2390,7 +2390,7 @@
    "3-2"
   ],
   "nhom": "Tộc/Hệ",
-  "mo_ta": "Nhận 1 Ấn Thực Vật. Tướng mang ấn được tăng hiệu ứng Thực Vật. Nhận 3 vàng.",
+  "mo_ta": "Nhận 1 Ấn Thực Vật. Tướng mang ấn được tăng 70% hiệu ứng Thực Vật (18.5: 50% → 70%). Nhận 3 vàng.",
   "anh": ""
  },
  {
@@ -2503,7 +2503,7 @@
    "4-2"
   ],
   "nhom": "Chiến đấu",
-  "mo_ta": "Đầu giao tranh tăng Tốc Độ Đánh; khi hạ gục, lướt tới mục tiêu tiếp theo.",
+  "mo_ta": "Đầu giao tranh +30% Tốc Độ Đánh (18.5: 25% → 30%); khi hạ gục, lướt tới mục tiêu tiếp theo.",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/choiceui/precisiongrace_ii.png"
  },
  {
@@ -2764,7 +2764,7 @@
    "2-1"
   ],
   "nhom": "Kinh tế",
-  "mo_ta": "Tướng nhận Máu vĩnh viễn theo vàng lợi tức; lợi tức tối đa tăng.",
+  "mo_ta": "Tướng nhận Máu vĩnh viễn theo vàng lợi tức; lợi tức tối đa tăng. Nhận ngay 6 vàng (18.5: 10 → 6).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/investmentstrategy_iii.png"
  },
  {
@@ -2807,7 +2807,7 @@
    "3-2"
   ],
   "nhom": "Trang bị",
-  "mo_ta": "Nhận Gói Tạo Tác; mở xong nhận Gói Thành Phần; mở xong nhận 4 vàng.",
+  "mo_ta": "Nhận Gói Tạo Tác; mở xong nhận Gói Thành Phần; mở xong nhận 6 vàng (18.5: 4 → 6).",
   "anh": ""
  },
  {
@@ -2849,7 +2849,7 @@
    "2-1"
   ],
   "nhom": "Chiến đấu",
-  "mo_ta": "Ngay và đầu 2 giai đoạn tiếp, đổ 3 xúc xắc nhận thưởng theo tổng điểm.",
+  "mo_ta": "Ngay và đầu 2 giai đoạn tiếp, đổ 3 xúc xắc nhận thưởng theo tổng điểm (18.5: vàng giai đoạn 3/4 giảm 18/20 → 15/18).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/addicted-to-rolling-iii.png"
  },
  {
@@ -3438,7 +3438,7 @@
    "2-1"
   ],
   "nhom": "Chiến đấu",
-  "mo_ta": "Nhận 1 lõi Kim Cương ngẫu nhiên và 4 vàng.",
+  "mo_ta": "Nhận 1 lõi Kim Cương ngẫu nhiên và 2 vàng (18.5: 4 → 2).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/prismaticdestiny_iii.png"
  },
  {
@@ -3662,7 +3662,7 @@
    "2-1"
   ],
   "nhom": "Tướng",
-  "mo_ta": "Nhận 1 tướng 1 vàng nhiều sao ngẫu nhiên và 6 vàng.",
+  "mo_ta": "Nhận 1 tướng 1 vàng nhiều sao ngẫu nhiên và 9 vàng (18.5: 6 → 9).",
   "anh": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/constructacompanion_iii.png"
  }
 ]

@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — cập nhật phần hướng dẫn (data/hd_*.json) theo bản mới mà không cần làm lại file Excel
+# ĐTCL Coach v1.4 (2026-10-22) — cập nhật phần hướng dẫn (data/hd_*.json) theo bản mới mà không cần làm lại file Excel
 """
 Chạy SAU build_data.py và build_chi_tiet.py:   python tools/cap_nhat_ban.py
 Cập nhật lần lượt mọi bộ trong BO_CAN_CAP_NHAT (bộ mới data/ và bộ đang chạy data/ban/18.4b/); mỗi bộ có ban_cap_nhat.json riêng.
@@ -28,11 +28,13 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 RAW = ROOT / "tools" / "raw"
 
-BO_CAN_CAP_NHAT = {"18.5": DATA, "18.4b": DATA / "ban" / "18.4b"}   # bộ dữ liệu → thư mục
+# bộ dữ liệu → (thư mục, bảng OP.GG VN, bản của số liệu VN, ngày lấy, số ván 24 giờ)
+BO_CAN_CAP_NHAT = {
+    "18.5": (DATA, "vn_opgg_185.tsv", "18.5", "22/10/2026", "32.640"),
+    "18.4b": (DATA / "ban" / "18.4b", "vn_opgg.tsv", "18.4b", "20/10/2026", "196.456"),
+}
 BO = "18.5"                       # bộ đang xử lý (main() đổi lần lượt)
-VN_BAN = "18.4b"                  # bản của số liệu VN
-VN_NGAY = "20/10/2026"
-VN_SO_VAN = "196.456"
+VN_FILE, VN_BAN, VN_NGAY, VN_SO_VAN = "vn_opgg_185.tsv", "18.5", "22/10/2026", "32.640"
 VN_NGUON = f"OP.GG · máy chủ VN · bản {VN_BAN} ({VN_SO_VAN} ván / 24 giờ, {VN_NGAY})"
 
 
@@ -80,7 +82,7 @@ def active_traits(units: list[str]) -> set[str]:
 # ------------------------------------------------------------------ bảng VN
 def read_vn() -> list[dict]:
     rows = []
-    for line in (RAW / "vn_opgg.tsv").read_text(encoding="utf-8").splitlines():
+    for line in (RAW / VN_FILE).read_text(encoding="utf-8").splitlines():
         p = line.split("\t")
         if len(p) < 8:
             continue
@@ -205,9 +207,11 @@ def thong_ke_an() -> dict:
 
 
 def main():
-    global THU_MUC, BO
-    for bo, thu_muc in BO_CAN_CAP_NHAT.items():
+    global THU_MUC, BO, VN_FILE, VN_BAN, VN_NGAY, VN_SO_VAN, VN_NGUON
+    for bo, (thu_muc, vn_file, vn_ban, vn_ngay, vn_so_van) in BO_CAN_CAP_NHAT.items():
         THU_MUC, BO = thu_muc, bo
+        VN_FILE, VN_BAN, VN_NGAY, VN_SO_VAN = vn_file, vn_ban, vn_ngay, vn_so_van
+        VN_NGUON = f"OP.GG · máy chủ VN · bản {VN_BAN} ({VN_SO_VAN} ván / 24 giờ, {VN_NGAY})"
         cap_nhat_bo()
 
 
@@ -253,7 +257,8 @@ def cap_nhat_bo():
             c["so_lieu_vn"] = (f"VN {VN_BAN}: hạng TB {r['hang_tb']:.2f} · top 4 {vn_num(r['top4'], 1)}% · "
                                f"{vn_num(r['ti_le'], 2)}% người chơi")
         else:
-            c["so_lieu_vn"] = f"VN {VN_BAN}: chưa có trong bảng OP.GG (đội ít người chơi)"
+            c["so_lieu_vn"] = (f"VN {VN_BAN}: chưa có trong bảng OP.GG (đội ít người chơi)" if len(vn) >= 15 else
+                               f"VN {VN_BAN}: chưa đủ ván (bản mới ra, OP.GG mới có {len(vn)} đội) — xem số quốc tế MetaTFT")
         c["ban_moi"] = trend(units, core, ch)[1]
     an["nguon"] = an.get("nguon", "") .split(" · Cập nhật")[0] + f" · Cập nhật {BO}: số liệu {VN_NGUON}, xu hướng theo thay đổi bản {BO}."
     save("hd_an.json", an)
@@ -263,7 +268,7 @@ def cap_nhat_bo():
         units = [x for x in (cid(n) for n in c["tuong"]) if x]
         core = [x for x in (cid(c[k]["tuong"]) for k in ("chu_luc", "chu_luc_phu", "do_don")) if x]
         units += [u for u in core if u not in units]
-        c["khi_nao"] = c["khi_nao"].split(" ⚠ 18.")[0] + f" ⚠ {trend(units, core, ch)[1]}."
+        c["khi_nao"] = re.split(r" ⚠ (?:[↑↗→↘↓] )?\d+\.\w+:", c["khi_nao"])[0] + f" ⚠ {trend(units, core, ch)[1]}."
     save("hd_doi_hinh.json", hd)
 
     meta = load("meta.json")

@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — form theo vòng, tối ưu mốc tộc/hệ với Ấn, phân tích bản cập nhật (luật trong code)
+# ĐTCL Coach v1.4 (2026-10-22) — form theo vòng, tối ưu mốc tộc/hệ với Ấn, phân tích bản cập nhật (luật trong code)
 """
   - form theo vòng:        stage_boards(comp, emblems)   — đội phổ biến nhất ở cấp 4/5/6/7 (MetaTFT) → đội hoàn chỉnh
   - xếp vị trí thật:       place(units, cum)             — ô đứng phổ biến nhất của từng tướng (MetaTFT)
@@ -148,7 +148,7 @@ def stage_boards(comp: dict, emblems: list[str] | None = None) -> dict:
     stages.append(_stage("Hoàn chỉnh", lv_end, _round_for_level(cum, min(lv_end, 9), comp["kieu"]), final, final, core,
                          embl, final_holder, cid, None, locked))
     return {"cum": cid, "khop": round(j, 2), "giai_doan": stages,
-            "nguon": f"MetaTFT (Bạch Kim+, 3 ngày, {E.data()['meta']['phien_ban']})" if cum else "ước tính từ đội hoàn chỉnh (chưa có số liệu MetaTFT)"}
+            "nguon": _details().get("nguon", "MetaTFT").split(" — ")[0] if cum else "ước tính từ đội hoàn chỉnh (chưa có số liệu MetaTFT)"}
 
 
 def _stage(label, lv, rnd, units, final, core, emblems, final_holder, cid, src, locked: dict | None = None) -> dict:

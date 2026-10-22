@@ -1,8 +1,8 @@
 {
- "phien_ban": "18.4b",
+ "phien_ban": "18.5",
  "nguon": [
   {
-   "ten": "MetaTFT – mốc lên cấp & đội hình (Bạch Kim+, 3 ngày, 18.4b)",
+   "ten": "MetaTFT – mốc lên cấp & đội hình (Bạch Kim+, 3 ngày, 18.5 (đội hình) / 18.4b (Ấn))",
    "url": "https://www.metatft.com/comps"
   },
   {
@@ -14,7 +14,7 @@
    "url": "https://www.metatft.com/wisp-tiers"
   },
   {
-   "ten": "OP.GG – đội hình máy chủ VN 18.4b",
+   "ten": "OP.GG – đội hình máy chủ VN 18.5 (đội hình) / 18.4b (Ấn)",
    "url": "https://op.gg/tft/meta-trends/comps?region=vn"
   },
   {
@@ -22,7 +22,7 @@
    "url": "https://tactics.tools/augments"
   }
  ],
- "ghi_chu_loi": "Các trang thống kê (MetaTFT, tactics.tools) hiện không có số liệu thắng/thua theo lõi cho bản 18.4b, nên “lõi top 1” lấy từ bảng xếp hạng chuyên gia (MetaTFT, bậc S) và “cặp lõi” là nhận định theo cơ chế của lõi — không phải số liệu.",
+ "ghi_chu_loi": "Các trang thống kê (MetaTFT, tactics.tools) hiện không có số liệu thắng/thua theo lõi cho bản 18.5, nên “lõi top 1” lấy từ bảng xếp hạng chuyên gia (MetaTFT, bậc S) và “cặp lõi” là nhận định theo cơ chế của lõi — không phải số liệu.",
  "tempo": {
   "gioi_thieu": "“Tempo” là tiêu vàng đúng lúc để đội đủ mạnh ở đúng mốc, thay vì giữ vàng tới cuối. Người chơi Thách Đấu không lên cấp theo thói quen: họ nhìn máu, chuỗi, sức mạnh bàn cờ và phòng đấu rồi quyết định mỗi vòng. Bảng mốc lên cấp bên dưới tính từ số liệu thật của các đội meta (MetaTFT, Bạch Kim+).",
   "nguyen_tac": [
@@ -186,7 +186,7 @@
   },
   {
    "id": "DA_PandorasBench",
-   "vi_sao": "Đầu mỗi vòng 3 ô phải hàng chờ đổi thành tướng ngẫu nhiên cùng giá — máy tìm tướng cho đội reroll.",
+   "vi_sao": "Đầu mỗi vòng 3 ô phải hàng chờ đổi thành tướng ngẫu nhiên cùng giá — máy tìm tướng cho đội reroll. 18.5: chỉ còn tặng 1 vàng (trước 4) — vẫn mạnh cho reroll nhưng bớt lời ở 2-1.",
    "khi_nao": "2-1 / 3-2",
    "cach": [
     "Đặt tướng 1–2 vàng thừa ở 3 ô phải hàng chờ để “quay” ra bản sao chủ lực.",
@@ -208,12 +208,12 @@
   },
   {
    "id": "DA_18_RiftbeastTraitAugment",
-   "vi_sao": "Quái Rừng Omega: thêm 1 Quái Rừng Đầu Đàn + 3 tướng Quái Rừng (18.4: Đầu Đàn thêm 15% Máu, 12% Tốc Độ Đánh).",
+   "vi_sao": "Quái Rừng Omega: thêm 1 Quái Rừng Đầu Đàn + 3 tướng Quái Rừng (18.5: Đầu Đàn chỉ còn thêm 8% Máu, 8% Tốc Độ Đánh — giảm từ 10%).",
    "khi_nao": "2-1 / 3-2 / 4-2",
    "cach": [
     "Đi Quái Rừng: Sỏi reroll cấp 5 hoặc Quái Rừng Rồng Ngàn Tuổi cấp 8.",
     "Chọn Đầu Đàn là chủ lực (Sỏi, Rồng Ngàn Tuổi) và đỡ đòn chính (Quái Đá).",
-    "Quái Rừng 7 tăng ở 18.4 — cố đạt mốc 7 ở cấp 8."
+    "18.5: Quái Rừng 7 bị giảm (SMCK/SMPT 6% → 5%) — vẫn chơi được nhưng không còn ép mạnh như 18.4b."
    ],
    "tranh": "Nhận lõi nhưng vẫn ép đội khác — lõi gần như vô dụng ngoài Quái Rừng."
   },
@@ -321,7 +321,7 @@
    "ten_en": "Abandon Ship",
    "ten": "Rời Tàu",
    "tam_dich": false,
-   "gia": 0,
+   "gia": 2,
    "tu": "3-1",
    "den": "3-4",
    "mo_ta": "Bán toàn bộ bàn đấu và hàng chờ, nhận 6 vàng và 8 lượt đổi (chỉ hiện trong 2 giây đầu vòng chuẩn bị)."
@@ -409,7 +409,7 @@
    "ten_en": "Blood and Iron",
    "ten": "Máu và Sắt",
    "tam_dich": false,
-   "gia": 3,
+   "gia": 4,
    "tu": "3-1",
    "den": "4-1",
    "mo_ta": "Sau 20 lần tướng tử trận, nhận 1 gói trang bị thành phần."
@@ -618,10 +618,10 @@
    "ten_en": "Hand Of Baron",
    "ten": "Baron Chi Viện",
    "tam_dich": false,
-   "gia": 6,
+   "gia": 4,
    "tu": "5-1",
    "den": "10-1",
-   "mo_ta": "Cả đội nhận Bùa Baron, tăng chỉ số."
+   "mo_ta": "Cả đội nhận Bùa Baron, tăng chỉ số (18.5: giá 6 → 4 vàng, chỉ số giảm khoảng 1/3)."
   },
   {
    "hang": "S",
@@ -643,7 +643,7 @@
    "gia": 5,
    "tu": "4-2",
    "den": "5-7",
-   "mo_ta": "3 tướng mạnh nhất nhận SỨC MẠNH ANH HÙNG, đồng minh khác bị hiến tế."
+   "mo_ta": "3 tướng mạnh nhất nhận SỨC MẠNH ANH HÙNG (18.5: Máu 1.200 → 1.000), đồng minh khác bị hiến tế."
   },
   {
    "hang": "S",
@@ -830,7 +830,7 @@
    "gia": 0,
    "tu": "2-1",
    "den": "10-1",
-   "mo_ta": "Không có Tinh Linh lượt này, nhận 3 vàng."
+   "mo_ta": "Không có Tinh Linh lượt này, nhận 2 vàng (18.5: 3 → 2)."
   },
   {
    "hang": "A",
@@ -971,7 +971,7 @@
    "ten": "Bạn Cũ Quay Về",
    "tam_dich": true,
    "gia": 0,
-   "tu": "4-2",
+   "tu": "3-1",
    "den": "5-7",
    "mo_ta": "Nhận tạm thời 1 Hình Nhân mang 2 Đai Khổng Lồ (mới ở 18.4)."
   },
@@ -1262,5 +1262,5 @@
    "mo_ta": "Cung thủ bắn từ tán cây, 500 sát thương vật lý mỗi 3 giây."
   }
  ],
- "ghi_chu_tinh_linh": "Bùa = Tinh Linh bán trong cửa hàng. Bậc S/A theo chuyên gia MetaTFT (20/10/2026). “Từ → đến” là khoảng vòng Tinh Linh có thể xuất hiện. Tên có dấu * là tên tạm dịch (dữ liệu game chưa có tên tiếng Việt)."
+ "ghi_chu_tinh_linh": "Bùa = Tinh Linh bán trong cửa hàng. Bậc S/A theo chuyên gia MetaTFT (20/10/2026). “Từ → đến” là khoảng vòng Tinh Linh có thể xuất hiện. Tên có dấu * là tên tạm dịch (dữ liệu game chưa có tên tiếng Việt). Đã cập nhật giá / số theo bản 18.5."
 }

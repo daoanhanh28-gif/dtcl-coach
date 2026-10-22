@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — kiểm thử form theo vòng, tối ưu Ấn theo mốc tộc/hệ, phân tích bản cập nhật
+# ĐTCL Coach v1.4 (2026-10-22) — kiểm thử form theo vòng, tối ưu Ấn theo mốc tộc/hệ, phân tích bản cập nhật
 import sys
 from pathlib import Path
 
@@ -115,26 +115,36 @@ def test_emblem_with_whole_team_having_trait():
 def test_patch_rows_and_categories():
     from core import config
 
-    with config.voi_bo("18.5"):
-        _check_patch_185()
+    with config.voi_bo("18.4b"):
+        _check_patch_full()
+    _check_patch_185()
 
 
-def _check_patch_185():
+def _check_patch_full():
+    """Bộ 18.4b: bảng VN đủ 32 đội → mọi nhóm đều có đội."""
     rows = P.patch_rows()
     assert len(rows) == 19
     az = next(r for r in rows if r["ten"].startswith("Đao Phủ Azir"))
-    assert az["vn"] == {"hang_tb": 2.78, "top4": 84.3, "ti_le": 1.9} and az["xu_huong"] == 0
+    assert az["vn"] == {"hang_tb": 2.78, "top4": 84.3, "ti_le": 1.9}
     assert P.trend_of("↑ 18.4: …") == 2 and P.trend_of("→ 18.4: … MẠNH LÊN") == 0.5 and P.trend_of("↓ x") == -2
     pa = P.patch_analysis()
     assert set(pa) == {k for k, _, _ in P.CATEGORIES} == {k for k, _, _ in P.categories()}
-    assert "18.5" in P.categories()[0][1]
     assert all(pa[k] for k in ("nen_choi", "duoc_loi", "manh_nhat", "de_top1", "de_top4", "an_spam", "de_choi", "nen_tranh"))
     assert pa["manh_nhat"][0]["ten"].startswith("Đao Phủ Azir")
     assert all(r["xu_huong"] > 0 for r in pa["duoc_loi"])
     assert all((r["vn"]["ti_le"] or 0) < 0.5 and r["vn"]["hang_tb"] <= 3.35 for r in pa["an_spam"])
-    assert not any(r["ten"].startswith("Đao Phủ Azir") for r in pa["nen_tranh"])
     top1 = [r["metatft"]["top1"] for r in pa["de_top1"]]
     assert top1 == sorted(top1, reverse=True)
+
+
+def _check_patch_185():
+    """Bộ 18.5 (mặc định): ghi chú chính thức, xu hướng tự tính, số VN còn ít nhưng trang không lỗi."""
+    rows = P.patch_rows()
+    assert len(rows) == 19 and "18.5" in P.categories()[0][1]
+    alune = next(r for r in rows if r["ten"].startswith("Tiên Phong Alune"))
+    assert alune["xu_huong"] >= 1 and alune["vn"]["hang_tb"] == 3.63
+    pa = P.patch_analysis()
+    assert pa["duoc_loi"] and all(r["xu_huong"] > 0 for r in pa["duoc_loi"])
 
 
 def test_patch_changes_have_images():
@@ -166,34 +176,52 @@ def test_old_data_set_kept():
     assert E.data()["meta"]["bo"] == config.BO_MAC_DINH and new is P.patch_rows()
 
 
-def test_running_patch_set_184b():
-    """Bộ 18.4b (đang chạy) là mặc định, có cẩm nang, bảng VN có cấu trúc và thống kê Ấn."""
+def test_data_sets_185_default():
+    """18.5 là mặc định (đang chạy); 18.4b giữ làm bản trước, có cẩm nang, bảng VN đủ và thống kê Ấn."""
     from core import config
 
-    assert config.BO_MAC_DINH == "18.4b" and set(config.BO_DU_LIEU) == {"18.4b", "18.5", "18.3b"}
+    assert config.BO_MAC_DINH == "18.5" and set(config.BO_DU_LIEU) == {"18.4b", "18.5", "18.3b"}
     d = E.data()
-    assert d["meta"]["bo"] == "18.4b" and d["ban_cap_nhat"]["phien_ban"] == "18.4b"
-    assert d["cam_nang"]["loi_top1"] and d["cam_nang"]["tinh_linh"] and d["cam_nang"]["tempo"]["nguyen_tac"]
+    assert d["meta"]["bo"] == "18.5" and d["meta"]["phien_ban"] == "18.5" and d["ban_cap_nhat"]["phien_ban"] == "18.5"
+    assert d["cam_nang"]["phien_ban"] == "18.5" and d["cam_nang"]["loi_top1"] and d["cam_nang"]["tinh_linh"]
     assert all(x["id"] in d["aug"] for x in d["cam_nang"]["loi_top1"])
     assert all(i in d["aug"] for x in d["cam_nang"]["cap_loi"] for i in x["loi"])
-    assert len(d["vn_opgg"]["doi_hinh"]) >= 20 and d["an_thong_ke"]["an"]
+    with config.voi_bo("18.4b"):
+        d4 = E.data()
+        assert d4["meta"]["bo"] == "18.4b" and len(d4["vn_opgg"]["doi_hinh"]) >= 20 and d4["an_thong_ke"]["an"]
     with config.voi_bo("18.3b"):
         assert E.data()["vn_opgg"] == {} and E.data()["cam_nang"] == {}
 
 
-def test_cam_nang_lists():
+def test_bien_dong_and_spam_185():
     from core import cam_nang as C
 
-    top = C.top_manh()
-    assert top and all(r["ti_le"] >= 0.3 for r in top)
-    assert [r["hang_tb"] for r in top] == sorted(r["hang_tb"] for r in top)
-    rare = C.manh_it_nguoi()
-    assert rare and all(r["ti_le"] < 0.3 and r["hang_tb"] <= 3.6 for r in rare)
-    easy = C.de_vao_top()
-    assert easy and all(r["top4"] >= 65 for r in easy) and easy[0]["dieu_kien"]
-    moc = C.moc_len_cap()
-    f8 = next(x for x in moc if x["loi_choi"] == "Lên nhanh cấp 8")
-    assert f8["cap"][8] == "4-2"
+    bd = C.bien_dong()
+    assert bd["ban_truoc"] == "18.4b"
+    assert bd["len"] and all(r["chenh"] < 0 for r in bd["len"]) and bd["len"][0]["tuong"]
+    assert bd["xuong"] and all(r["chenh"] > 0 for r in bd["xuong"])
+    assert any("Azir" in r["tuong"] for r in bd["xuong"])               # 18.5 giảm Azir
+    spam = C.manh_it_nguoi_quoc_te()
+    assert spam and all(c["ti_le_qt"] < 1.5 and c["so_lieu"]["hang_tb"] <= 4.40 for c in spam)
+    top = C.top_quoc_te()
+    assert [c["so_lieu"]["hang_tb"] for c in top] == sorted(c["so_lieu"]["hang_tb"] for c in top)
+
+
+def test_cam_nang_lists():
+    from core import cam_nang as C
+    from core import config
+
+    with config.voi_bo("18.4b"):
+        top = C.top_manh()
+        assert top and all(r["ti_le"] >= 0.3 for r in top)
+        assert [r["hang_tb"] for r in top] == sorted(r["hang_tb"] for r in top)
+        rare = C.manh_it_nguoi()
+        assert rare and all(r["ti_le"] < 0.3 and r["hang_tb"] <= 3.6 for r in rare)
+        easy = C.de_vao_top()
+        assert easy and all(r["top4"] >= 65 for r in easy) and easy[0]["dieu_kien"]
+        moc = C.moc_len_cap()
+        f8 = next(x for x in moc if x["loi_choi"] == "Lên nhanh cấp 8")
+        assert f8["cap"][8] == "4-2"
 
 
 def test_flex_emblem_around_meta_carry():

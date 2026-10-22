@@ -15,67 +15,63 @@
  "ban_moi": [
   {
    "k": "🗓 Bản 18.5 – 21/10/2026",
-   "v": "Bản 18.5 dự kiến ra ngày 21/10/2026. Số thay đổi lấy từ gói dữ liệu máy chủ thử nghiệm, Riot có thể chỉnh khi ra chính thức. Hạng TB / top 4 / top 1 là của bản 18.4b (mới nhất) — sau khi 18.5 ra cần 2–3 ngày để có số mới, lúc đó nhắn Claude “cập nhật meta”."
+   "v": "Bản 18.5 đã chạy trên máy chủ VN từ 21/10/2026. So với bản xem trước: Sivir, Bụi Gai Đỏ, Alune, Taric được tăng thêm, Tristana được giảm Năng Lượng; Draven và Nidalee không bị đổi; không có luật giới hạn nhóm lõi mà thay bằng lõi theo hướng đồ AD/AP. Số liệu 18.5 mới ~1 ngày — VN mới đủ mẫu cho 7 đội, nên dùng thêm số quốc tế MetaTFT."
   },
   {
    "k": "▲ 18.5 tăng tướng",
-   "v": "Caitlyn: Sát thương kỹ năng 190/285/470 → 200/300/490 · Master Yi: SMCK 60 → 63 · Song Kiếm thêm 125/190/285 → 135/200/320 sát thương phép · Tristana: Sát thương lan mỗi cộng dồn 10/15/25 → 12/18/28 · Morgana: Sát thương ban đầu 60/90 → 70/105 · mỗi lời nguyền 22/33 → 25/38 · Soraka: Sát thương kỹ năng 225/335 → 235/355 · mỗi sao thêm 100/150 → 110/165 · Sett: Hồi máu 225/275 → 250/300 · Malphite: Lá chắn 700/850 → 735/885 · Taric: Sát thương vỡ khiên 100/150 → 130/200 · Ashe: Sát thương Khe Nứt mỗi giây 9/14 → 11/16."
+   "v": "Tristana: Năng Lượng 0/60 → 0/50 · sát thương mỗi đòn 10/15/25 → 12/18/28 · Sivir: Sát thương kỹ năng 200/300 → 220/330 (sát thương nảy 20% → 18%) · Master Yi: SMCK dạng AD 60 → 63 · sát thương phép dạng AP 125/190/285 → 135/200/320 · Morgana: Sát thương nguyền ban đầu 60/90 → 70/105 · cộng thêm 22/33 → 25/38 · Taric: Giáp & Kháng Phép 65 → 70 · 2 đòn cường hóa 100/150 → 130/200 · Alune: Mảnh Trăng 55/83 → 58/88 · Tốc Độ Đánh 0.8 → 0.85 (Chống Chịu tộc riêng 7% → 5%) · Ashe: Sát thương mỗi giây 9/14 → 11/16 · Sett: Hồi máu 225/275 → 250/300 · Bụi Gai Đỏ: Hồi máu dấu Đầu Đàn 4% → 5% · xuyên Giáp 20% → 25% · Caitlyn: Đòn cường hóa 190/285/470 → 200/300/490 · Soraka: Sao đầu 225/335 → 235/355 · sao thêm 100/150 → 110/165 · Malphite: Lá chắn 700/850 → 735/885."
   },
   {
    "k": "▲ 18.5 tăng tộc/hệ",
-   "v": "Tiên Linh: Hồi máu mốc 2/4: 2.5%/4% → 3%/5% · mốc tích lũy 30k/70k/110k → 25k/60k/100k (dễ ra Pix hơn)."
+   "v": "Tiên Linh: Hồi máu mốc 2/4: 2,5/4% → 3/5% · mốc Pix 4/5/6 cần ít hơn (30k/70k/110k → 25k/60k/100k)."
   },
   {
    "k": "▲ 18.5 tăng lõi",
-   "v": "Hóa Lớn: Chỉ số nhận ngay 10% → 18% · Thực Vật Hấp Thụ: Hiệu ứng thêm 50% → 70% · Tiếng Gọi Hoa Linh: Giá Tinh Linh tối thiểu để ra tướng 4 vàng 6/4 → 5/3 · Ân Huệ Thách Đấu: Tốc Độ Đánh đầu giao tranh 25% → 30% · Tự Lập Đội: Vàng 6 → 9 · Dòng Tiền Mờ Ám: Vàng nhận ngay 4 → 6 · Gói Trang Bị Bất Ngờ: Vàng ở lớp cuối 4 → 6 · Kiên Nhẫn Là Một Đức Tính: Lượt đổi nhận ngay 4 → 5 · Nồi Nấu Ăn: Máu vĩnh viễn mỗi vòng 60 → 70."
-  },
-  {
-   "k": "▲ 18.5 tăng trang bị",
-   "v": "Ấn Thần Rừng: Giáp & Kháng Phép 25 → 35."
+   "v": "Hóa Lớn: Chỉ số nhận ngay 10% → 18% · Thực Vật Hấp Thụ: Hiệu ứng thêm 50% → 70% · Ân Huệ Thách Đấu: Tốc Độ Đánh 25% → 30% · Tự Lập Đội: Vàng 6 → 9 · Dòng Tiền Mờ Ám: Vàng 4 → 6 · Gói Trang Bị Bất Ngờ: Vàng 4 → 6 · Kiên Nhẫn Là Một Đức Tính: Lượt đổi 4 → 5 · Nồi Nấu Ăn: Máu mỗi Ấn 60 → 70 (không còn đi kèm Đăng Quang, Cắm Rễ Phân Tán+, Cây Tộc/Hệ+)."
   },
   {
    "k": "⚠ 18.5 giảm tướng",
-   "v": "Azir: Lính Cát 46/69/110 → 43/65/105 sát thương · Kha'Zix: Sát thương kỹ năng 265/370/535 → 255/360/515 · Mama Beak: Mỗi đòn nhỏ 22/33/52 → 20/30/50 · Draven: Nhiệm vụ Săn Thưởng nhận trước 3-5 khó gấp đôi (ví dụ 60 → 150 đòn đánh, 8 → 14 hạ gục) — Draven sớm khó hơn nhiều."
+   "v": "Azir: Lính Cát 46/69/110 → 43/65/105 · Kha'Zix: Sát thương 255/360/515 → 250/345/500 (khi cô lập 285/410/605 → 280/390/590) · Mama Beak: Mỗi đòn 22/33/52 → 20/30/50 · khóa Năng Lượng ngắn hơn ~1 giây."
   },
   {
    "k": "⚠ 18.5 giảm tộc/hệ",
-   "v": "Gai Đen: Mốc 6: hiệu ứng 60% → 50% · khuếch đại phép cho tướng không phải đỡ đòn 12% → 10% · Thần Rừng: Mốc 9: Máu cây 140% → 125% · Liên Kích: Tốc Độ Đánh mỗi đòn: mốc 4 8% → 7%, mốc 5 12% → 10% · Quái Rừng: Mốc cao: Tốc Độ Đánh 6% → 5% (trả lại số của 18.3) · Thực Vật: Mốc 2: hồi Máu tối đa cho đồng minh 8% → 7%."
+   "v": "Liên Kích: Tốc Độ Đánh mỗi đòn 3/5/8/12% → 3/5/7/10% · Quái Rừng: Mốc 7: SMCK/SMPT 6% → 5% · Gai Đen: Mốc 6: 60% → 50% · khuếch đại khi hiến tế 12% → 10% · Thần Rừng: Mốc 9: Máu cây 140% → 125% · Thực Vật: Hồi Máu tối đa 8% → 7%."
   },
   {
    "k": "⚠ 18.5 giảm lõi",
-   "v": "Vận Mệnh Kim Cương: Vàng 4 → 2 (bản + giữ nguyên 7) · Trượng Đại Thiên Sứ: Ngưỡng SMPT để hồi thêm Năng Lượng 90% → 110% · Thệ Ước Bảo Hộ: Máu tối đa thêm 200 → 175 · Lệ Lưu Ly: Năng Lượng cần tiêu 6.500 → 7.000 · Giọt Lệ Bi Ai: Hồi Năng Lượng sau 12 giây 4 → 3 · Tất Tay Bậc Đồng II: Giáp & Kháng Phép mỗi tộc/hệ bậc Đồng 3 → 2.5."
+   "v": "Hàng Chờ Pandora: Vàng 4 → 1 · Hộp Pandora II: Vàng 4 → 1 · thêm bản + (3-2, 4 vàng) và ++ (4-2, 6 vàng) · Chiến Thuật Đầu Tư I: Vàng ngay 6 → 3 · Chiến Thuật Đầu Tư II: Vàng ngay 10 → 6 · Vận Mệnh Kim Cương: Vàng 4 → 2 · Quái Rừng Omega: Đầu Đàn thêm Máu và Tốc Độ Đánh 10% → 8% · Tà Thuật: SMPT các mốc đầu 7/12/33/50/100 → 5/10/28/45/85 · Kỳ Vọng Bất Ngờ: Vàng giai đoạn 3/4: 18/20 → 15/18 · giai đoạn 4 còn 2 tướng 5 vàng (+3 vàng) · Trượng Đại Thiên Sứ: Ngưỡng SMPT 90% → 110% · Thệ Ước Bảo Hộ: Máu 200 → 175 · Lệ Lưu Ly: Năng Lượng cần tiêu 6.500 → 7.000 · Giọt Lệ Bi Ai: Hồi Năng Lượng 4 → 3 · Tất Tay Bậc Đồng II: Giáp & Kháng Phép mỗi tộc/hệ 3 → 2,5."
   },
   {
    "k": "⚠ 18.5 giảm trang bị",
-   "v": "Mũ Thích Nghi (Ánh Sáng): SMCK/SMPT thêm cho Xạ Thủ/Pháp Sư 40% → 35% · hồi Năng Lượng 7 → 6 · Bùa Xanh (Ánh Sáng): SMCK/SMPT cộng thêm 30% → 25%."
+   "v": "Mũ Thích Nghi (Ánh Sáng): Hồi Năng Lượng 7 → 6 · SMCK/SMPT cho tướng không đỡ đòn 40 → 35 · Bùa Xanh (Ánh Sáng): SMCK/SMPT 30% → 25%."
   },
   {
    "k": "⚠ 18.5 giảm Tinh Linh",
-   "v": "Heroic Sacrifice: Máu 1.200 → 1.000 (bản nâng 1.500 → 1.250) · Beggar's Wisp: Vàng 3 → 2 (bản nâng 5 → 3) · Abandon Ship: Giá 0 → 2 vàng · Blood and Iron: Giá 3 → 4 vàng."
+   "v": "Heroic Sacrifice: Máu 1.200/1.500 → 1.000/1.250 · Beggar's Wisp: Vàng 3/5 → 2/3 · Abandon Ship: Giá 0 → 2 vàng · Blood and Iron: Giá 3 → 4 vàng (sửa lỗi)."
   },
   {
    "k": "↔ 18.5 điều chỉnh / mới tướng",
-   "v": "Sentinel: Hất tung 1/1.25 giây → 0.5 giây (không tăng theo sao) · lá chắn 350/450 → 375/475 · Alune: Mảnh Trăng 55/83 → 58/88 · Chống Chịu của tộc riêng 7% → 5% · Nidalee: Bảng tộc riêng bị gỡ khỏi dữ liệu, chưa rõ thay bằng gì."
+   "v": "Sentinel: Choáng 1 → 0,5 giây · lá chắn 350/450 → 375/475."
   },
   {
    "k": "↔ 18.5 điều chỉnh / mới lõi",
-   "v": "Tín Đồ Tiên Hắc Ám: Thêm nhánh mới: đổi chiến lợi phẩm thành SMPT · Hộp Pandora II: Bản thường còn 1 vàng (trước 4), thêm bản + (4 vàng) và ++ (6 vàng)."
+   "v": "U.R.F.: Không còn xuất hiện cùng Đăng Quang, Cắm Rễ Phân Tán (+), Cây Tộc/Hệ (+) · Chiết Xuất Trang Bị: Không còn tặng Veigar · Trái Tim Sắt Đá: Lại bị tạm tắt vì lỗi."
   },
   {
    "k": "↔ 18.5 điều chỉnh / mới Tinh Linh",
-   "v": "Hand of Baron: Giá 6 → 4 vàng nhưng mọi chỉ số giảm khoảng 1/3."
+   "v": "Hand of Baron: Giá 6 → 4 vàng, chỉ số giảm khoảng 1/3 · Returning Friend · Grove Armor: Có thể xuất hiện từ giai đoạn 3."
   },
   {
    "k": "↔ 18.5 điều chỉnh / mới hệ thống",
-   "v": "Giới hạn nhóm lõi: Mỗi ván chỉ được 1 lõi họ Vận Mệnh và 1 lõi họ trang bị độc nhất."
+   "v": "Lõi theo hướng đồ: Lõi dành riêng cho đội vật lý (AD) ít xuất hiện hơn khi bạn đang đi đội phép (AP) và ngược lại."
   },
   {
    "k": "🕘 Bản 18.4 (10/10)",
-   "v": "Hoa Linh 4 lên 55%, Mặt Trăng tăng SMPT, Quái Rừng 7 tăng, Tinh Nghịch 7 tăng · Đao Phủ, Tiên Linh, Dũng Sĩ, Tiên Hắc Ám giảm · Ashe, Kennen, Veigar, Rammus giảm · Draven, Ezreal, Sivir, Tristana, Rengar, Teemo tăng · 4 Tinh Linh mới."
+   "v": "Hoa Linh 4, Mặt Trăng, Quái Rừng 7, Tinh Nghịch 7 tăng · Đao Phủ, Tiên Linh, Dũng Sĩ, Tiên Hắc Ám giảm · Ashe, Kennen, Veigar, Rammus giảm · Draven, Ezreal, Sivir, Tristana, Rengar, Teemo tăng."
   },
   {
    "k": "🕘 Bản 18.4b (07–10/10)",
-   "v": "Trả lại phần lớn số của 18.3 cho Alistar, Gromp, Warwick, Sói Hắc Ám, Varus, Camille · Lõi Ân Huệ Thách Đấu, Giữ Vững Hàng Ngũ, Ôm Tập Thể I/II, To Lớn & Mạnh Mẽ tăng · Trái Tim Sắt Đá tạm tắt."
+   "v": "Trả lại phần lớn số của 18.3 cho Alistar, Gromp, Warwick, Sói Hắc Ám, Varus, Camille · Ân Huệ Thách Đấu, Giữ Vững Hàng Ngũ, Ôm Tập Thể, To Lớn & Mạnh Mẽ tăng."
   }
  ],
  "tinh_linh": {
@@ -851,7 +847,7 @@
  ],
  "may_chu": {
   "vn": {
-   "tieu_de": "★ MÁY CHỦ VIỆT NAM (VN) – OP.GG, bản 18.4b, 196.456 ván / 24 giờ (20/10) – ĐỌC BẢNG NÀY TRƯỚC",
+   "tieu_de": "★ MÁY CHỦ VIỆT NAM (VN) – OP.GG, bản 18.5, 32.640 ván / 24 giờ (22/10) – ĐỌC BẢNG NÀY TRƯỚC",
    "cot": [
     "#",
     "Đội hình",
@@ -866,292 +862,67 @@
      1,
      "Quái Rừng Maokai",
      "OP",
-     "3.31",
-     "69,3%",
-     "6,31%",
+     "3.63",
+     "62,7%",
+     "4,18%",
      "Amumu, Người Đá, Rồng Ngàn Tuổi, Ivern, Kennen, Maokai, Draven, Taric"
     ],
     [
      2,
-     "Đao Phủ Azir",
-     "S",
-     "2.78",
-     "84,3%",
-     "1,90%",
-     "Veigar, Teemo, Azir, Rammus, Fiddlesticks, Soraka, Zyra, Kennen"
-    ],
-    [
-     3,
      "Mặt Trời Yunara",
      "S",
-     "2.84",
-     "85,1%",
-     "0,92%",
+     "3.01",
+     "79,3%",
+     "0,95%",
      "Leona, Yorick, Karma, Kayle, LeBlanc, Sejuani, Yunara, Azir"
     ],
     [
-     4,
-     "Thần Rừng Kha'Zix",
-     "S",
-     "2.84",
-     "83,7%",
-     "0,58%",
-     "Ornn, Diana, Hecarim, Kha'Zix, Fiddlesticks, Aphelios, Ezreal, Soraka"
-    ],
-    [
-     5,
-     "Tiên Phong Alune",
-     "S",
-     "3.43",
-     "69,0%",
-     "0,84%",
-     "Elise, Cassiopeia, Diana, Morgana, Người Đá, Alune, Rồng Ngàn Tuổi, Taric"
-    ],
-    [
-     6,
+     3,
      "Thần Rừng Draven",
      "S",
-     "3.59",
-     "65,3%",
-     "1,33%",
+     "3.53",
+     "66,9%",
+     "1,01%",
      "Alistar, Ezreal, Amumu, Gnar, Ivern, Kennen, Maokai, Draven, Taric"
     ],
     [
-     7,
-     "Liên Kích Kayle",
-     "A",
-     "2.94",
-     "81,4%",
-     "0,32%",
-     "Leona, Varus, Kayle, Sejuani, Shen, Diana, Aphelios, Amumu"
+     4,
+     "Tiên Phong Alune",
+     "S",
+     "3.63",
+     "67,8%",
+     "0,97%",
+     "Elise, Cassiopeia, Diana, Morgana, Người Đá, Alune, Rồng Ngàn Tuổi, Taric"
     ],
     [
-     8,
-     "Thích Ứng Rengar",
-     "A",
-     "3.07",
-     "79,6%",
-     "0,12%",
-     "Yorick, Master Yi, Rengar, Kog'Maw, Quái Đá Krug, Vi, Sett, Nidalee"
-    ],
-    [
-     9,
-     "Thuật Sư Veigar",
-     "A",
-     "3.16",
-     "77,3%",
-     "0,59%",
-     "Ornn, Rek'Sai, Veigar, Alistar, LeBlanc, Cassiopeia, Fiddlesticks, Ahri, Alune"
-    ],
-    [
-     10,
-     "Quái Rừng Rồng Ngàn Tuổi",
-     "A",
-     "3.22",
-     "76,2%",
-     "0,46%",
-     "Sỏi, Sói Hắc Ám, Quái Đá Krug, Bụi Gai Đỏ, Người Đá, Rồng Ngàn Tuổi, Gnar, Taric"
-    ],
-    [
-     11,
-     "Thần Rừng Teemo",
-     "A",
-     "3.48",
-     "76,7%",
-     "0,16%",
-     "Kobuko, Veigar, Alistar, LeBlanc, Teemo, Hecarim, Morgana, Người Đá"
-    ],
-    [
-     12,
-     "Hỏa Ngục Akali",
-     "B",
-     "2.98",
-     "86,1%",
-     "0,07%",
-     "Akali, Camille, Leona, Ornn, Varus, Kayle, Sejuani, Amumu"
-    ],
-    [
-     13,
-     "Dũng Sĩ Zyra (cấp 8, Ashe)",
-     "B",
-     "3.53",
-     "67,5%",
-     "0,08%",
-     "Yorick, Sejuani, Cua Kỳ Cục, Vi, Sivir, Zyra, Amumu, Ashe, Maokai"
-    ],
-    [
-     14,
-     "Triệu Hồi Vi",
-     "B",
-     "3.58",
-     "70,3%",
-     "0,07%",
-     "Rek'Sai, Yorick, Yunara, Azir, Kha'Zix, Vi, Sett, Zyra"
-    ],
-    [
-     15,
-     "Quái Rừng Ashe",
-     "B",
-     "3.59",
-     "70,8%",
-     "0,07%",
-     "Vi, Sivir, Người Đá, Ashe, Rồng Ngàn Tuổi, Ivern, Maokai, Taric"
-    ],
-    [
-     16,
-     "Dũng Sĩ Ashe (cấp 8, Rồng Ngàn Tuổi)",
-     "B",
-     "3.61",
-     "68,2%",
-     "0,07%",
-     "Cua Kỳ Cục, Vi, Sivir, Amumu, Ashe, Rồng Ngàn Tuổi, Kennen, Maokai"
-    ],
-    [
-     17,
-     "Tiên Phong Morgana",
-     "B",
-     "3.66",
-     "67,2%",
-     "0,12%",
-     "Diana, Hecarim, Fiddlesticks, Lillia, Morgana, Người Đá, Alune, Ivern, Taric"
-    ],
-    [
-     18,
-     "Dũng Sĩ Ashe",
-     "B",
-     "3.72",
-     "67,3%",
-     "0,13%",
-     "Rakan, Vi, Sivir, Amumu, Ashe, Ivern, Kennen, Maokai, Taric"
-    ],
-    [
-     19,
-     "Vệ Quân Cassiopeia",
-     "B",
-     "3.76",
-     "69,3%",
-     "0,18%",
-     "Leona, Ornn, Shen, Cassiopeia, Rammus, Fiddlesticks, Lillia, Soraka"
-    ],
-    [
-     20,
-     "Gai Đen Warwick",
-     "B",
-     "3.79",
-     "70,5%",
-     "0,10%",
-     "Rek'Sai, Warwick, Sói Hắc Ám, Azir, Diana, Quái Đá Krug, Malphite, Bụi Gai Đỏ"
-    ],
-    [
-     21,
-     "Quái Rừng Sỏi & Cóc",
-     "B",
-     "3.93",
-     "64,9%",
-     "0,53%",
-     "Sỏi, Cóc Thành Tinh, Sói Hắc Ám, Cua Kỳ Cục, Kog'Maw, Quái Đá Krug, Bụi Gai Đỏ, Người Đá"
-    ],
-    [
-     22,
-     "Mặt Trăng Nidalee",
-     "D",
-     "4.29",
-     "56,1%",
-     "4,25%",
-     "Varus, Diana, Kog'Maw, Vi, Aphelios, Amumu, Nidalee, Người Đá"
-    ],
-    [
-     23,
-     "Hoa Linh Ahri (Thuật Sĩ)",
-     "D",
-     "4.54",
-     "48,9%",
-     "1,60%",
-     "Sỏi, Karma, Quái Đá Krug, Ahri, Morgana, Sett, Người Đá, Taric"
-    ],
-    [
-     24,
-     "Đao Phủ Ezreal",
-     "D",
-     "4.62",
-     "49,1%",
-     "0,77%",
-     "Ornn, Alistar, Yunara, Fiddlesticks, Ahri, Ezreal, Sett, Soraka"
-    ],
-    [
-     25,
-     "Thần Rừng Aphelios",
-     "D",
-     "4.69",
-     "48,2%",
-     "0,65%",
-     "Ornn, Xayah, Alistar, LeBlanc, Hecarim, Aphelios, Ezreal, Lillia"
-    ],
-    [
-     26,
-     "Tiên Phong Aphelios",
-     "D",
-     "4.72",
-     "50,3%",
-     "0,12%",
-     "Diana, Hecarim, Chim Mẹ, Aphelios, Zyra, Bụi Gai Đỏ, Người Đá, Taric"
-    ],
-    [
-     27,
-     "Hoa Linh Ahri (Zyra)",
-     "D",
-     "4.74",
-     "44,9%",
-     "0,18%",
-     "Yorick, Shen, Fiddlesticks, Ahri, Sett, Zyra, Amumu, Gnar"
-    ],
-    [
-     28,
+     5,
      "Đao Phủ Malphite",
      "D",
-     "4.85",
-     "42,4%",
-     "0,50%",
+     "4.57",
+     "48,7%",
+     "0,47%",
      "Yorick, Azir, Fiddlesticks, Malphite, Soraka, Zyra, Amumu, Kennen"
     ],
     [
-     29,
-     "Dũng Sĩ Zyra (Nidalee)",
+     6,
+     "Mặt Trăng Nidalee",
      "D",
-     "4.94",
-     "41,1%",
-     "0,68%",
-     "Rakan, Yorick, Sejuani, Cua Kỳ Cục, Vi, Zyra, Amumu, Nidalee"
+     "4.81",
+     "44,4%",
+     "2,40%",
+     "Varus, Diana, Kog'Maw, Vi, Aphelios, Amumu, Nidalee, Người Đá"
     ],
     [
-     30,
-     "Liên Kích Brambleback",
+     7,
+     "Hoa Linh Ahri",
      "D",
-     "5.03",
-     "42,2%",
-     "0,08%",
-     "Rakan, Varus, Xayah, Chim Mẹ, Aphelios, Amumu, Bụi Gai Đỏ, Người Đá"
-    ],
-    [
-     31,
-     "Quái Rừng Malphite",
-     "D",
-     "5.13",
-     "35,0%",
-     "0,26%",
-     "Rek'Sai, Mầm Non, Kog'Maw, Quái Đá Krug, Malphite, Sivir, Nidalee, Người Đá"
-    ],
-    [
-     32,
-     "Tiên Hắc Ám Elise",
-     "D",
-     "5.27",
-     "33,3%",
-     "0,09%",
-     "Camille, Caitlyn, Elise, Cassiopeia, Diana, Hecarim, Morgana, Người Đá"
+     "5.16",
+     "38,1%",
+     "0,85%",
+     "Sỏi, Karma, Quái Đá Krug, Ahri, Morgana, Sett, Người Đá, Taric"
     ]
    ],
-   "goi_y": "Nguồn: OP.GG lọc riêng MÁY CHỦ VIỆT NAM (VN), bản 18.4b, 196.456 ván trong 24 giờ (cập nhật 20/10/2026). Đây là số liệu sát với phòng bạn đánh nhất.\nGỢI Ý NHANH (20/10/2026): (1) Mạnh nhất và đủ người chơi: Đao Phủ Azir 2.78 / top 4 84,3% (1,90% người chơi) · Mặt Trời Yunara 2.84 / top 4 85,1% (0,92% người chơi) · Thần Rừng Kha'Zix 2.84 / top 4 83,7% (0,58% người chơi). (2) Mạnh mà ít người chơi (mẫu nhỏ, dao động): Hỏa Ngục Akali 2.98 / top 4 86,1% (0,07% người chơi) · Thích Ứng Rengar 3.07 / top 4 79,6% (0,12% người chơi). (3) Tránh — đông người mà hạng thấp: Hoa Linh Ahri (Thuật Sĩ) 4.54 / top 4 48,9% (1,60% người chơi) · Đao Phủ Ezreal 4.62 / top 4 49,1% (0,77% người chơi) · Dũng Sĩ Zyra (Nidalee) 4.94 / top 4 41,1% (0,68% người chơi) · Thần Rừng Aphelios 4.69 / top 4 48,2% (0,65% người chơi). Xem trang “Phân tích bản cập nhật” để biết đội nào được lợi ở 18.5."
+   "goi_y": "Nguồn: OP.GG lọc riêng MÁY CHỦ VIỆT NAM (VN), bản 18.5, 32.640 ván trong 24 giờ (cập nhật 22/10/2026). Đây là số liệu sát với phòng bạn đánh nhất.\nGỢI Ý NHANH (22/10/2026): (1) Mạnh nhất và đủ người chơi: Mặt Trời Yunara 3.01 / top 4 79,3% (0,95% người chơi) · Thần Rừng Draven 3.53 / top 4 66,9% (1,01% người chơi) · Quái Rừng Maokai 3.63 / top 4 62,7% (4,18% người chơi). (2) Mạnh mà ít người chơi (mẫu nhỏ, dao động): . (3) Tránh — đông người mà hạng thấp: Mặt Trăng Nidalee 4.81 / top 4 44,4% (2,40% người chơi) · Hoa Linh Ahri 5.16 / top 4 38,1% (0,85% người chơi) · Đao Phủ Malphite 4.57 / top 4 48,7% (0,47% người chơi). Xem trang “Phân tích bản cập nhật” để biết đội nào được lợi ở 18.5."
   },
   "trung": {
    "cot": [
@@ -1373,7 +1144,7 @@
     "y_nghia": "→ Nhánh bị tranh NHIỀU NHẤT VN, 18.4 lại giảm Maokai → hạn chế."
    }
   ],
-  "ghi_chu": "⚠ Bảng Việt Nam: OP.GG · máy chủ VN · bản 18.4b (196.456 ván / 24 giờ, 20/10/2026). Bảng Hàn / Trung Quốc, phần so sánh và “cách build từng bước” vẫn là bản 18.3b (file Excel v1.8) — chỉ để xem xu hướng. ⚠ Cỡ mẫu: đội có tỉ lệ chơi dưới 0,3% chỉ dựa trên vài trăm ván → số liệu dao động mạnh, đừng coi là chắc chắn.",
+  "ghi_chu": "⚠ Bảng Việt Nam: OP.GG · máy chủ VN · bản 18.5 (32.640 ván / 24 giờ, 22/10/2026). Bảng Hàn / Trung Quốc, phần so sánh và “cách build từng bước” vẫn là bản 18.3b (file Excel v1.8) — chỉ để xem xu hướng. ⚠ Cỡ mẫu: đội có tỉ lệ chơi dưới 0,3% chỉ dựa trên vài trăm ván → số liệu dao động mạnh, đừng coi là chắc chắn.",
   "cach_build": [
    {
     "ten": "Triệu Hồi Azir / Vi",

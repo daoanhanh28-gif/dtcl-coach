@@ -2,15 +2,15 @@
  "mua": 18,
  "ten_mua": "Enchanted Wilds",
  "ten_mua_vi": "Đại Ngàn Kỳ Bí",
- "phien_ban": "18.4b",
- "ngay_cap_nhat": "2026-10-20",
+ "phien_ban": "18.5",
+ "ngay_cap_nhat": "2026-10-22",
  "nguon": [
   {
    "ten": "Community Dragon (dữ liệu game Riot, bản tiếng Việt)",
    "url": "https://raw.communitydragon.org/latest/cdragon/tft/vi_vn.json"
   },
   {
-   "ten": "MetaTFT – thống kê đội hình (Bạch Kim+, 3 ngày, bản 18.4b)",
+   "ten": "MetaTFT – thống kê đội hình (Bạch Kim+, 3 ngày, bản 18.5)",
    "url": "https://www.metatft.com/comps"
   },
   {
@@ -26,6 +26,6 @@
  "bo": "18.5",
  "ban_moi": "18.5",
  "ngay_ban_moi": "21/10/2026",
- "vn_nguon": "OP.GG · máy chủ VN · bản 18.4b (196.456 ván / 24 giờ, 20/10/2026)",
+ "vn_nguon": "OP.GG · máy chủ VN · bản 18.5 (32.640 ván / 24 giờ, 22/10/2026)",
  "excel": "file Excel “Hướng dẫn Thách Đấu Mùa 18” v1.8 (06/10/2026) + cập nhật 18.5"
 }

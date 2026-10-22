@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — dựng data/*.json từ dữ liệu thô (Community Dragon + MetaTFT)
+# ĐTCL Coach v1.4 (2026-10-22) — dựng data/*.json từ dữ liệu thô (Community Dragon + MetaTFT)
 """
 Chạy:  python tools/build_data.py
 Đọc tools/raw/*.tsv|txt  →  ghi data/tuong.json, toc_he.json, trang_bi.json, loi.json, doi_hinh.json, meta.json
@@ -15,8 +15,8 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "tools" / "raw"
 DATA = ROOT / "data"
 
-GAME = {"mua": 18, "ten_mua": "Enchanted Wilds", "ten_mua_vi": "Đại Ngàn Kỳ Bí", "phien_ban": "18.4b"}
-NGAY_LAY = "2026-10-20"
+GAME = {"mua": 18, "ten_mua": "Enchanted Wilds", "ten_mua_vi": "Đại Ngàn Kỳ Bí", "phien_ban": "18.5"}
+NGAY_LAY = "2026-10-22"
 CDN = "https://raw.communitydragon.org/latest/game/"
 
 # --------------------------------------------------------------------------- tộc / hệ
@@ -220,9 +220,30 @@ AUG_VI_EXTRA = {  # lõi có trong danh sách MetaTFT nhưng Community Dragon th
 }
 # lõi đã có tên Việt nhưng Riot đổi số ở 18.4 / 18.4b → mô tả mới (giữ tên cũ)
 AUG_MO_TA_MOI = {
+    # bản 18.5 (ghi chú chính thức của Riot, 21/10/2026)
+    "DA_PandorasBench": "Đầu mỗi vòng, 3 ô phải hàng chờ đổi thành tướng ngẫu nhiên cùng giá. Nhận 1 vàng (18.5: 4 → 1).",
+    "DA_InvestmentStrategyI": "Tướng nhận vĩnh viễn 9 Máu tối đa cho mỗi vàng lợi tức. Nhận ngay 3 vàng (18.5: 6 → 3).",
+    "DA_InvestmentStrategy": "Tướng nhận Máu vĩnh viễn theo vàng lợi tức; lợi tức tối đa tăng. Nhận ngay 6 vàng (18.5: 10 → 6).",
+    "DA_PatienceIsAVirtue": "Nhận 5 lượt đổi (18.5: 4 → 5). Mỗi vòng không mua tướng thì vòng sau nhận 1 lượt đổi.",
+    "DA_BuildABud": "Nhận 1 tướng 1 vàng nhiều sao ngẫu nhiên và 9 vàng (18.5: 6 → 9).",
+    "DA_MaliciousMonetization": "Nhận 6 vàng (18.5: 4 → 6). 2 vòng tới, tướng địch rơi vàng khi bị hạ.",
+    "DA_NestingAnvils": "Nhận Gói Tạo Tác; mở xong nhận Gói Thành Phần; mở xong nhận 6 vàng (18.5: 4 → 6).",
+    "DA_PrismaticDestiny": "Nhận 1 lõi Kim Cương ngẫu nhiên và 2 vàng (18.5: 4 → 2).",
+    "DA_PromisedProtection": "Nhận 1 Lời Thề Hộ Vệ, cho thêm Năng Lượng và 175 Máu tối đa (18.5: 200 → 175).",
+    "DA_18_RiftbeastTraitAugment": "Chọn thêm Quái Rừng Đầu Đàn thứ hai. Nhận 1 Cua Kỳ Cục, 1 Mầm Non và 1 Sỏi (18.5: Đầu Đàn thêm 8% Máu, 8% Tốc Độ Đánh, giảm từ 10%).",
+    "DA_18_CovenTraitAugment_LootToAP": "Đổi Tinh Hoa Tiên Hắc Ám thành SMPT cho tướng Tiên Hắc Ám thay vì báu vật. Nhận 1 Camille (18.5: SMPT các mốc đầu giảm nhẹ).",
+    "DA_ExpectedUnexpectedness": "Ngay và đầu 2 giai đoạn tiếp, đổ 3 xúc xắc nhận thưởng theo tổng điểm (18.5: vàng giai đoạn 3/4 giảm 18/20 → 15/18).",
+    "DA_18_FaeTraitAugment": "Pix Tiên Linh lớn hơn, cho thêm SMCK & SMPT (18.5: chỉ số nhận ngay 10% → 18%). Tướng Tiên Linh nhận thêm Máu.",
+    "DA_18_FloraFatalisAugment": "Nhận 1 Ấn Thực Vật. Tướng mang ấn được tăng 70% hiệu ứng Thực Vật (18.5: 50% → 70%). Nhận 3 vàng.",
+    "DA_ChallengersGrace": "Đầu giao tranh +30% Tốc Độ Đánh (18.5: 25% → 30%); khi hạ gục, lướt tới mục tiêu tiếp theo.",
+    "DA_CookingPot": "Mỗi lượt, tướng mang Xẻng/Chảo tăng vĩnh viễn 70 Máu cho tướng gần nhất (18.5: 60 → 70).",
+    "DA_SeraphimsStaff": "Nhận 1 Quyền Trượng Thiên Thần, tăng thêm Hồi Năng Lượng (18.5: ngưỡng SMPT 90% → 110%).",
+    "DA_PandorasItemsII": "Đầu vòng, trang bị trên hàng chờ bị tráo ngẫu nhiên. Nhận trang bị thành phần và 1 vàng (18.5: 4 → 1; thêm bản + ở 3-2, ++ ở 4-2).",
+    "DA_BlackthornTraitAugment": "3 lần đầu hiến tế tướng trên ô Gai Đen, nhận bản sao 1 trang bị thành phần tướng đó đang mang (18.5: không còn tặng Veigar).",
+    "DA_CryMeARiver": "Nhận 1 Nước Mắt Nữ Thần. Cả đội +1 Hồi Năng Lượng, sau 12 giây tăng lên 3 (18.5: 4 → 3).",
+    "DA_FlowingTears": "Nhận 1 Nước Mắt. Sau khi tiêu đủ 7.000 Năng Lượng, nhận thêm Nước Mắt (18.5: 6.500 → 7.000).",
     "DA_BronzeForLifeII": "+2.5% Khuếch Đại Sát Thương và 3 Giáp & Kháng Phép cho mỗi tộc/hệ bậc Đồng (18.4: 4 → 3).",
     "DA_GiantAndMighty": "Cả đội hóa lớn, +225 Máu và 10% Máu tối đa (18.4b: 200 → 225).",
-    "DA_InvestmentStrategyI": "Tướng nhận vĩnh viễn 9 Máu tối đa cho mỗi vàng lợi tức. Nhận ngay 6 vàng (18.4: 8 → 9 Máu, 4 → 6 vàng).",
     "DA_LevelUp": "Mỗi lần mua XP nhận thêm 2 XP. Nhận ngay 10 XP (18.4: 6 → 10 XP).",
     "DA_HeroicGrabBag": "Nhận 2 Máy Sao Chép Tướng Cỡ Nhỏ và 6 vàng (18.4b: 4 → 6 vàng).",
     "DA_Retribution": "Nhận 2 Bàn Tay Công Lý; đồng minh cầm Bàn Tay Công Lý nhận Chuẩn Xác (kỹ năng chí mạng được) và 15% Tỉ Lệ Chí Mạng.",
@@ -377,7 +398,8 @@ def build_comps(champs):
         trait_key = parts[0]
         carry_names = [cmap[c["tuong"]]["ten"] for c in carries]
         tank_names = [cmap[c["tuong"]]["ten"] for c in tanks]
-        named = [cmap[CHAMP_KEY_FIX.get(p, p)]["ten"] for p in parts[1:] if CHAMP_KEY_FIX.get(p, p) in cmap]
+        named = [cmap[CHAMP_KEY_FIX.get(p, p)]["ten"] for p in parts[1:]
+                 if CHAMP_KEY_FIX.get(p, p) in cmap and CHAMP_KEY_FIX.get(p, p) in units]   # bỏ tên MetaTFT gắn nhầm
         head = " & ".join(named[:2] or carry_names[:2])
         ten = f"{head} {TRAITS.get(trait_key, (trait_key,))[0]}"
         a = float(avg)

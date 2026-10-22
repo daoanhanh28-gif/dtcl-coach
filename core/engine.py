@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — bộ não tính toán (luật viết trong code, không dùng AI)
+# ĐTCL Coach v1.4 (2026-10-22) — bộ não tính toán (luật viết trong code, không dùng AI)
 """
 Mọi phép tính của web nằm ở đây, không phụ thuộc Streamlit → kiểm thử dễ.
 Nguồn nội dung chính: file Excel hướng dẫn v1.8 của anh Peach (data/hd_*.json).

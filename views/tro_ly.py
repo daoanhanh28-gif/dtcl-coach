@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — trang Trợ lý ván đấu: bấm hình để nhập, đọc 4 dòng kết luận (luật trong code + AI diễn giải)
+# ĐTCL Coach v1.4 (2026-10-22) — trang Trợ lý ván đấu: bấm hình để nhập, đọc 4 dòng kết luận (luật trong code + AI diễn giải)
 from collections import Counter
 
 import streamlit as st

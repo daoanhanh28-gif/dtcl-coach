@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — giao diện dùng chung: màu, chữ, thẻ tướng, bàn cờ lục giác
+# ĐTCL Coach v1.4 (2026-10-22) — giao diện dùng chung: màu, chữ, thẻ tướng, bàn cờ lục giác
 """
 Bảng màu "rừng đêm + đồng thau":
   nền #0F1714 · mặt thẻ #17211D · viền #2A3631 · đồng #C9A45C · chữ #ECE6D6 · chữ phụ #9AA59E

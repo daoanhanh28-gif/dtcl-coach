@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — cấu hình trung tâm
+# ĐTCL Coach v1.4 (2026-10-22) — cấu hình trung tâm
 """Đọc cấu hình từ st.secrets (Streamlit Cloud) hoặc biến môi trường (chạy local/test)."""
 from __future__ import annotations
 
@@ -9,8 +9,8 @@ from functools import lru_cache, wraps
 from pathlib import Path
 
 APP_NAME = "ĐTCL Coach"
-VERSION = "v1.3"
-VERSION_DATE = "2026-10-20"
+VERSION = "v1.4"
+VERSION_DATE = "2026-10-22"
 VERSION_LABEL = f"{VERSION} · {VERSION_DATE}"
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -20,11 +20,12 @@ LOCAL_LOG_DIR = DATA_DIR / "_logs"
 # Bộ dữ liệu theo bản vá: bản mới nằm thẳng trong data/, bản cũ giữ trong data/ban/<bản>/ để xem song song.
 # Thêm bản: chép data/*.json hiện tại vào data/ban/<bản cũ>/ rồi thêm một dòng ở đây (xem CAP_NHAT_META.md).
 BO_DU_LIEU = {
-    "18.4b": (DATA_DIR / "ban" / "18.4b", "Bản 18.4b · đang chạy (đánh hôm nay)"),
-    "18.5": (DATA_DIR, "Bản 18.5 · xem trước (ra 21/10)"),
+    "18.5": (DATA_DIR, "Bản 18.5 · đang chạy (từ 21/10)"),
+    "18.4b": (DATA_DIR / "ban" / "18.4b", "Bản 18.4b · bản trước"),
     "18.3b": (DATA_DIR / "ban" / "18.3b", "Bản 18.3b · cũ (file Excel v1.8)"),
 }
-BO_MAC_DINH = "18.4b"   # bản đang chạy trên máy chủ VN; khi 18.5 lên VN và có số liệu thì đổi thành "18.5"
+BO_MAC_DINH = "18.5"    # bản đang chạy trên máy chủ VN
+BO_TRUOC = {"18.5": "18.4b", "18.4b": "18.3b"}   # để so số liệu bản mới với bản trước
 
 
 def get(key: str, default=None):

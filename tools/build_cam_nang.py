@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — dựng data/ban/18.4b/cam_nang.json: tempo Thách Đấu, lõi top 1, cặp lõi, bùa (Tinh Linh) theo giai đoạn
+# ĐTCL Coach v1.4 (2026-10-22) — dựng cam_nang.json (bộ 18.4b và 18.5): tempo Thách Đấu, lõi top 1, cặp lõi, bùa (Tinh Linh) theo giai đoạn
 """
 Chạy:  python tools/build_cam_nang.py
 Nội dung chữ viết tay ở dưới (nhận định chuyên môn, ghi rõ là nhận định). Số liệu đi kèm (mốc lên cấp, đội hình, bảng lõi)
@@ -158,6 +158,40 @@ def doc_tinh_linh() -> list[dict]:
     return out
 
 
+SUA_185 = {   # chỗ chữ cần sửa cho bản 18.5 (ghi chú chính thức 21/10/2026)
+    "(18.4: Đầu Đàn thêm 15% Máu, 12% Tốc Độ Đánh).": "(18.5: Đầu Đàn chỉ còn thêm 8% Máu, 8% Tốc Độ Đánh — giảm từ 10%).",
+    "Quái Rừng 7 tăng ở 18.4 — cố đạt mốc 7 ở cấp 8.": "18.5: Quái Rừng 7 bị giảm (SMCK/SMPT 6% → 5%) — vẫn chơi được nhưng không còn ép mạnh như 18.4b.",
+}
+SUA_TINH_LINH_185 = {
+    "Hand Of Baron": {"gia": 4, "mo_ta": "Cả đội nhận Bùa Baron, tăng chỉ số (18.5: giá 6 → 4 vàng, chỉ số giảm khoảng 1/3)."},
+    "Heroic Sacrifice": {"mo_ta": "3 tướng mạnh nhất nhận SỨC MẠNH ANH HÙNG (18.5: Máu 1.200 → 1.000), đồng minh khác bị hiến tế."},
+    "Beggar's Wisp": {"mo_ta": "Không có Tinh Linh lượt này, nhận 2 vàng (18.5: 3 → 2)."},
+    "Abandon Ship": {"gia": 2},
+    "Blood and Iron": {"gia": 4},
+    "Returning Friend": {"tu": "3-1"},
+}
+
+
+def ban_185(obj: dict) -> dict:
+    o = json.loads(json.dumps(obj, ensure_ascii=False))
+    o["phien_ban"] = "18.5"
+    txt = json.dumps(o, ensure_ascii=False)
+    for a, b in SUA_185.items():
+        assert a in txt, a
+        txt = txt.replace(a, b)
+    o = json.loads(txt)
+    o["ghi_chu_loi"] = o["ghi_chu_loi"].replace("18.4b", "18.5")
+    for x in o["loi_top1"]:
+        if x["id"] == "DA_PandorasBench":
+            x["vi_sao"] += " 18.5: chỉ còn tặng 1 vàng (trước 4) — vẫn mạnh cho reroll nhưng bớt lời ở 2-1."
+    for t in o["tinh_linh"]:
+        t.update(SUA_TINH_LINH_185.get(t["ten_en"], {}))
+    o["ghi_chu_tinh_linh"] += " Đã cập nhật giá / số theo bản 18.5."
+    o["nguon"] = [dict(n, ten=n["ten"].replace("18.4b", "18.5 (đội hình) / 18.4b (Ấn)") if "tactics" not in n["ten"] else n["ten"])
+                  for n in o["nguon"]]
+    return o
+
+
 def main():
     obj = {
         "phien_ban": "18.4b",
@@ -179,8 +213,8 @@ def main():
                               "“Từ → đến” là khoảng vòng Tinh Linh có thể xuất hiện. Tên có dấu * là tên tạm dịch "
                               "(dữ liệu game chưa có tên tiếng Việt)."),
     }
-    for d in (ROOT / "data" / "ban" / "18.4b", ROOT / "data"):
-        (d / "cam_nang.json").write_text(json.dumps(obj, ensure_ascii=False, indent=1), encoding="utf-8")
+    (ROOT / "data" / "ban" / "18.4b" / "cam_nang.json").write_text(json.dumps(obj, ensure_ascii=False, indent=1), encoding="utf-8")
+    (ROOT / "data" / "cam_nang.json").write_text(json.dumps(ban_185(obj), ensure_ascii=False, indent=1), encoding="utf-8")
     print(len(obj["loi_top1"]), "lõi top 1,", len(obj["cap_loi"]), "cặp lõi,", len(obj["tinh_linh"]), "Tinh Linh")
 
 

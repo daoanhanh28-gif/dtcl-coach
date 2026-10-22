@@ -59,7 +59,7 @@
     "Giữ Vững Hàng Ngũ",
     "Ấn Đao Phủ"
    ],
-   "khi_nao": "Có đồ phép + Găng; ít đội phép khác trong phòng. ⚠ ↘ 18.5: Soraka, Malphite tăng; Azir, Gai Đen, Thực Vật giảm – giảm nhẹ. ⚠ → 18.5: Soraka, Malphite tăng; Azir, Thực Vật giảm – cân bằng. ⚠ → 18.5: Soraka, Malphite tăng; Azir, Thực Vật giảm – cân bằng. ⚠ ↓ 18.4b: Teemo tăng; Kennen, Veigar, Rammus, Đao Phủ giảm – GIẢM. ⚠ ↓ 18.4b: Teemo tăng; Kennen, Veigar, Rammus, Đao Phủ giảm – GIẢM. ⚠ ↓ 18.4b: Teemo tăng; Kennen, Veigar, Rammus, Đao Phủ giảm – GIẢM.",
+   "khi_nao": "Có đồ phép + Găng; ít đội phép khác trong phòng. ⚠ ↓ 18.4b: Teemo tăng; Kennen, Veigar, Rammus, Đao Phủ giảm – GIẢM.",
    "xep_vi_tri": "Soraka & Zyra hàng sau ở 2 góc; Rammus (cưỡi Bạn Lông Xù) + Fiddlesticks hàng đầu giữa; cây của Zyra lấp khoảng trống phía trước.",
    "meo": "Đây là đội Azir + Rammus + Teemo + Fiddlesticks + Veigar + Zyra + Soraka – số liệu VN xác nhận mạnh nhất · Ấn Đao Phủ → Zyra · Ấn Thuật Sĩ → Soraka · Giữ từ 6 cây Zyra sống để Vườn Gai lên 10%.",
    "diem_yeu": "Đội dồn sát thương phép nhanh; Soraka bị bắt sớm; 2 người cùng ép Soraka/Zyra.",
@@ -122,7 +122,7 @@
     "Thép Mạ Vàng",
     "Quái Thú Bên Trong"
    ],
-   "khi_nao": "Có nhiều Kiếm BF/Găng; có Tạo Tác Đại Bác Hải Tặc; không ai tranh Nidalee. ⚠ ↘ 18.5: Taric tăng; Liên Kích giảm – giảm nhẹ. ⚠ ↗ 18.5: Taric tăng – MẠNH LÊN. ⚠ ↗ 18.5: Taric tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Varus tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Varus tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Varus tăng – MẠNH LÊN.",
+   "khi_nao": "Có nhiều Kiếm BF/Găng; có Tạo Tác Đại Bác Hải Tặc; không ai tranh Nidalee. ⚠ ↗ 18.4b: Varus tăng – MẠNH LÊN.",
    "xep_vi_tri": "Aphelios đứng cạnh tướng Mặt Trăng (Diana) để được tăng sức mạnh; Nidalee đặt ở cánh yếu để lao vào mục tiêu ít đồ trong 3 ô.",
    "meo": "Nguyên Sinh: chọn Phúc Lành HỔ · Sau khi hạ gục, Nidalee nhảy vào tướng ít đồ nhất trong 3 ô → đặt ở cánh yếu để bắt chủ lực địch.",
    "diem_yeu": "Đội nhiều giáp + khống chế; bị tranh Nidalee (đội Sivir & Nidalee cũng dùng).",
@@ -186,7 +186,7 @@
     "Xúc Xắc Vô Tận",
     "Ấn Thợ Săn / Nguyên Sinh"
    ],
-   "khi_nao": "Nhiều Kiếm BF; có Ấn Thợ Săn/Nguyên Sinh; ít người chơi Nidalee. ⚠ ↘ 18.5: Malphite, Ashe tăng; Gai Đen, Quái Rừng giảm – giảm nhẹ. ⚠ ↗ 18.5: Malphite, Ashe tăng – MẠNH LÊN. ⚠ ↗ 18.5: Malphite, Ashe tăng – MẠNH LÊN. ⚠ → 18.4b: Sivir tăng; Ashe giảm – cân bằng. ⚠ → 18.4b: Sivir tăng; Ashe giảm – cân bằng. ⚠ → 18.4b: Sivir tăng; Ashe giảm – cân bằng.",
+   "khi_nao": "Nhiều Kiếm BF; có Ấn Thợ Săn/Nguyên Sinh; ít người chơi Nidalee. ⚠ → 18.4b: Sivir tăng; Ashe giảm – cân bằng.",
    "xep_vi_tri": "Malphite giữa hàng đầu (bị nhiều tướng nhắm → Cự Thạch mạnh hơn); Sivir góc sau; Nidalee ở cánh yếu.",
    "meo": "Nguyên Sinh: chọn HỔ, chọn GẤU khi cần kết liễu · Đặt 1 tướng dư (ví dụ Quái Đá Krug) lên ô hiến tế Gai Đen để Malphite nhận chỉ số · Phải có Ashe để hoàn thiện đội.",
    "diem_yeu": "Tranh Nidalee với đội Nidalee & Aphelios; đội nhiều giáp nếu thiếu Cung Xanh.",
@@ -249,7 +249,7 @@
     "Nồi Nấu Ăn",
     "Giữ Vững Hàng Ngũ"
    ],
-   "khi_nao": "Gặp Kha'Zix sớm (2-1 → 2-3) hoặc nhận Kha'Zix từ quả cầu; có Áo Choàng Bóng Tối. ⚠ ↓ 18.5: Soraka tăng; Kha'Zix, Thần Rừng, Thực Vật giảm – GIẢM. ⚠ ↓ 18.5: Soraka tăng; Kha'Zix, Thực Vật giảm – GIẢM. ⚠ ↘ 18.5: Soraka tăng; Kha'Zix, Thực Vật giảm – giảm nhẹ. ⚠ ↗ 18.4b: Ezreal, Hecarim tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Ezreal, Hecarim tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Ezreal, Hecarim tăng – MẠNH LÊN.",
+   "khi_nao": "Gặp Kha'Zix sớm (2-1 → 2-3) hoặc nhận Kha'Zix từ quả cầu; có Áo Choàng Bóng Tối. ⚠ ↗ 18.4b: Ezreal, Hecarim tăng – MẠNH LÊN.",
    "xep_vi_tri": "Đặt Kha'Zix CÙNG PHÍA với chủ lực của đối thủ để nhảy vào; đỡ đòn và cây Thần Rừng chắn phía trước.",
    "meo": "Thứ tự tiến hoá: Tàn Phá > Đao Phủ > Liên Kích > Thuật Sư · Có lõi Không Đối Thủ thì ra sân cả Rengar · Ưu tiên hạ gục liên tục để tiến hoá sớm.",
    "diem_yeu": "Không hit 3 sao trước 4-2; đội dồn cục nhiều khống chế.",
@@ -312,7 +312,7 @@
     "Kỳ Vọng Bất Ngờ",
     "Xúc Xắc Hoành Tráng"
    ],
-   "khi_nao": "Đầu game nhận nhiều Gậy/Nước Mắt; có Ấn Thuật Sĩ; trong phòng ít người chơi đội phép. ⚠ ↗ 18.5: Morgana, Sett, Taric tăng; Quái Rừng giảm – MẠNH LÊN. ⚠ ↑ 18.5: Morgana, Sett, Taric tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.5: Morgana, Sett, Taric tăng – MẠNH LÊN RÕ. ⚠ ↗ 18.4b: Lux tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Lux tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Lux tăng – MẠNH LÊN.",
+   "khi_nao": "Đầu game nhận nhiều Gậy/Nước Mắt; có Ấn Thuật Sĩ; trong phòng ít người chơi đội phép. ⚠ ↗ 18.4b: Lux tăng – MẠNH LÊN.",
    "xep_vi_tri": "Ahri & Morgana hàng cuối, tách 2 bên; Người Đá + Sett + Quái Đá Krug hàng đầu; Taric ghép cặp với chủ lực.",
    "meo": "Luôn đưa đồ cho tướng nào lên 2 sao trước · Ở cấp 8 đừng dùng Kog'Maw – thay bằng tướng 5 vàng · Gặp đội giống mình thì đổi vị trí để né kỹ năng diện rộng.",
    "diem_yeu": "Đội sát thủ nhảy vào hàng sau; đội nhiều Kháng Phép.",
@@ -375,7 +375,7 @@
     "Thăng Tiến Cuối Trận",
     "Kỷ Nguyên"
    ],
-   "khi_nao": "Có Tiếng Gọi Hoa Linh / Tinh Linh Hoàn Tiền; nhiều Nước Mắt + Gậy; máu cao. ⚠ ↑ 18.5: Sett, Taric, Ashe tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.5: Sett, Taric, Ashe tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.5: Sett, Taric, Ashe tăng – MẠNH LÊN RÕ. ⚠ ↘ 18.4b: Ashe giảm – giảm nhẹ. ⚠ ↘ 18.4b: Ashe giảm – giảm nhẹ. ⚠ ↘ 18.4b: Ashe giảm – giảm nhẹ.",
+   "khi_nao": "Có Tiếng Gọi Hoa Linh / Tinh Linh Hoàn Tiền; nhiều Nước Mắt + Gậy; máu cao. ⚠ ↘ 18.4b: Ashe giảm – giảm nhẹ.",
    "xep_vi_tri": "Ashe đặt ĐỐI DIỆN hướng địch dồn quân để mưa tên phủ rộng nhất; Sett + Maokai đỡ đòn phía trước.",
    "meo": "Không bật/tắt Hoa Linh được – phải ra sân đủ 3 Hoa Linh mới có Tinh Linh nâng cấp · Mua Tinh Linh kinh tế, bỏ Tinh Linh giao tranh trừ khi cần giữ chuỗi · Bản 18.3 cắt mạnh sức mạnh Tinh Linh → đội này yếu hơn trước, cần máu cao và lên 9 sớm.",
    "diem_yeu": "Bị ép máu sớm; nhiều người tranh Hoa Linh / Ahri.",
@@ -437,7 +437,7 @@
     "Quái Rừng Omega",
     "Kỷ Nguyên"
    ],
-   "khi_nao": "Có lõi kinh tế/kinh nghiệm, máu cao ở Giai đoạn 4; ít người cùng lên 9. ⚠ ↘ 18.5: Taric tăng; Quái Rừng giảm – giảm nhẹ. ⚠ ↗ 18.5: Taric tăng – MẠNH LÊN. ⚠ ↗ 18.5: Taric tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Sói Hắc Ám tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Sói Hắc Ám tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Sói Hắc Ám tăng – MẠNH LÊN.",
+   "khi_nao": "Có lõi kinh tế/kinh nghiệm, máu cao ở Giai đoạn 4; ít người cùng lên 9. ⚠ ↗ 18.4b: Sói Hắc Ám tăng – MẠNH LÊN.",
    "xep_vi_tri": "Rồng Ngàn Tuổi chiếm 2 ô ở giữa/hàng trước; Người Đá + Quái Đá Krug đỡ đòn; Sỏi hàng sau.",
    "meo": "Rồng Ngàn Tuổi tính +2 Quái Rừng · Luôn đặt Dấu Ấn Đầu Đàn lên tướng đỡ đòn 2–3 sao · Chỉ chơi khi đủ máu.",
    "diem_yeu": "Bị ép máu ở Giai đoạn 3–4; không lên được cấp 9.",
@@ -500,7 +500,7 @@
     "Quà Sinh Nhật",
     "Ấn Đao Phủ"
    ],
-   "khi_nao": "Có lõi KINH TẾ hoặc chuỗi thắng dài; máu > 60 ở Giai đoạn 4. Không có lõi kinh tế thì gần như không lên 9 kịp. ⚠ ↘ 18.5: Taric tăng; Draven, Thần Rừng giảm – giảm nhẹ. ⚠ → 18.5: Taric tăng; Draven giảm – cân bằng. ⚠ → 18.5: Taric tăng; Draven giảm – cân bằng. ⚠ ↑ 18.4b: Draven, Ezreal, Alistar tăng; Kennen giảm – MẠNH LÊN RÕ. ⚠ ↑ 18.4b: Draven, Ezreal, Alistar tăng; Kennen giảm – MẠNH LÊN RÕ. ⚠ ↑ 18.4b: Draven, Ezreal, Alistar tăng; Kennen giảm – MẠNH LÊN RÕ.",
+   "khi_nao": "Có lõi KINH TẾ hoặc chuỗi thắng dài; máu > 60 ở Giai đoạn 4. Không có lõi kinh tế thì gần như không lên 9 kịp. ⚠ ↑ 18.4b: Draven, Ezreal, Alistar tăng; Kennen giảm – MẠNH LÊN RÕ.",
    "xep_vi_tri": "Draven ở góc hàng cuối; Maokai + Amumu + Alistar giữa hàng đầu; Ezreal góc đối diện; Ivern gần đỡ đòn.",
    "meo": "Đừng nâng Ivern 2 sao trước khi có đủ tướng 5 vàng quan trọng · Draven cần hạ gục cuối để hoàn thành truy nã → đặt nơi dễ đánh mục tiêu yếu.",
    "diem_yeu": "Thua liên tục đầu game mà không có lõi kinh tế; phòng có từ 2 người cùng lên 9.",
@@ -561,7 +561,7 @@
     "Băng Trộm",
     "Kỳ Vọng Bất Ngờ"
    ],
-   "khi_nao": "Có Cuồng Đao + Thịnh Nộ Thủy Quái sớm; có từ 3 Caitlyn ở Giai đoạn 2. ⚠ ↑ 18.5: Caitlyn, Tristana, Ashe, Tiên Linh tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.5: Caitlyn, Tristana, Ashe, Tiên Linh tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.5: Caitlyn, Tristana, Ashe, Tiên Linh tăng – MẠNH LÊN RÕ. ⚠ ↘ 18.4b: Tristana, Sivir, Rakan tăng; Ashe, Tiên Linh, Dũng Sĩ giảm – giảm nhẹ. ⚠ ↘ 18.4b: Tristana, Sivir, Rakan tăng; Ashe, Tiên Linh, Dũng Sĩ giảm – giảm nhẹ. ⚠ ↘ 18.4b: Tristana, Sivir, Rakan tăng; Ashe, Tiên Linh, Dũng Sĩ giảm – giảm nhẹ.",
+   "khi_nao": "Có Cuồng Đao + Thịnh Nộ Thủy Quái sớm; có từ 3 Caitlyn ở Giai đoạn 2. ⚠ ↘ 18.4b: Tristana, Sivir, Rakan tăng; Ashe, Tiên Linh, Dũng Sĩ giảm – giảm nhẹ.",
    "xep_vi_tri": "Caitlyn ở góc hàng cuối; các tướng Dũng Sĩ dàn đều hàng đầu.",
    "meo": "Nhắm vào đỡ đòn chính trước để Thợ Săn khuếch đại sát thương (không đổi mục tiêu) · 18.2 tăng sức mạnh Thợ Săn.",
    "diem_yeu": "Đội sát thủ; thiếu Cuồng Đao Guinsoo.",
@@ -622,7 +622,7 @@
     "Lò Rèn Thần Thoại",
     "Ấn Thực Vật"
    ],
-   "khi_nao": "CHỈ chơi khi có Thực Vật Hấp Thụ hoặc sớm có Veigar 3 sao. ⚠ ↓ 18.5: Sett tăng; Gai Đen, Thực Vật giảm – GIẢM. ⚠ ↗ 18.5: Sett tăng – MẠNH LÊN. ⚠ ↗ 18.5: Sett tăng – MẠNH LÊN. ⚠ → 18.4b: Teemo, Kobuko tăng; Veigar, Rammus giảm – cân bằng. ⚠ → 18.4b: Teemo, Kobuko tăng; Veigar, Rammus giảm – cân bằng. ⚠ → 18.4b: Teemo, Kobuko tăng; Veigar, Rammus giảm – cân bằng.",
+   "khi_nao": "CHỈ chơi khi có Thực Vật Hấp Thụ hoặc sớm có Veigar 3 sao. ⚠ → 18.4b: Teemo, Kobuko tăng; Veigar, Rammus giảm – cân bằng.",
    "xep_vi_tri": "Veigar đứng sau đỡ đòn Tinh Nghịch; thả tướng Tinh Nghịch tốt nhất lên Bạn Lông Xù.",
    "meo": "Thả tướng Tinh Nghịch lên Bạn Lông Xù để chọn người cưỡi (cận chiến/đánh xa sẽ đổi kỹ năng) · Kiếm Tai Ương là Tạo Tác ưu tiên.",
    "diem_yeu": "Không có điều kiện thì rất yếu; đội nhiều Kháng Phép.",
@@ -683,7 +683,7 @@
     "Tăng Vốn I",
     "Hàng Chờ Pandora"
    ],
-   "khi_nao": "Nhặt được nhiều Yunara sớm; có Tạo Tác cho Yunara. ⚠ ↘ 18.5: Azir giảm – giảm nhẹ. ⚠ ↘ 18.5: Azir giảm – giảm nhẹ. ⚠ → 18.5: Azir giảm – cân bằng. ⚠ ↗ 18.4b: Kayle tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Kayle tăng – MẠNH LÊN. ⚠ ↗ 18.4b: Kayle tăng – MẠNH LÊN.",
+   "khi_nao": "Nhặt được nhiều Yunara sớm; có Tạo Tác cho Yunara. ⚠ ↗ 18.4b: Kayle tăng – MẠNH LÊN.",
    "xep_vi_tri": "Yunara góc hàng cuối; Sejuani/Leona chắn trước; Kayle cạnh tướng buff.",
    "meo": "Đừng bật Mặt Trời quá sớm – chờ tới cấp 7–8 khi đã có vài tướng 3 sao thì thưởng mới đáng.",
    "diem_yeu": "Tốn tài nguyên, yếu nếu chỉ có 1 tướng 3 sao.",
@@ -745,7 +745,7 @@
     "Khảm Bảo Thạch",
     "Nồi Nấu Ăn"
    ],
-   "khi_nao": "Gặp nhiều Azir từ Giai đoạn 2; có Gậy Quá Khổ sớm. ⚠ ↓ 18.5: Sett tăng; Azir, Kha'Zix, Gai Đen giảm – GIẢM. ⚠ ↘ 18.5: Sett tăng; Azir, Kha'Zix giảm – giảm nhẹ. ⚠ → 18.5: Sett tăng; Azir, Kha'Zix giảm – cân bằng. ⚠ → 18.4b: không bị đụng tới. ⚠ → 18.4b: không bị đụng tới. ⚠ → 18.4b: không bị đụng tới.",
+   "khi_nao": "Gặp nhiều Azir từ Giai đoạn 2; có Gậy Quá Khổ sớm. ⚠ → 18.4b: không bị đụng tới.",
    "xep_vi_tri": "Azir hàng cuối giữa để lính đi xa nhất; Vi + Rek'Sai chắn trước; Zyra cạnh Azir.",
    "meo": "Đặt 1 tướng dư lên ô hiến tế Gai Đen để buff · Giữ đủ 3 Triệu Hồi (Azir + Yorick + Zyra) thì quân triệu hồi mới đủ mạnh.",
    "diem_yeu": "Yếu nếu không hit 3 sao; sát thương dồn vào quân triệu hồi nên sợ sát thương diện rộng.",
@@ -806,7 +806,7 @@
     "Hang Ổ Baron",
     "To Lớn & Mạnh Mẽ"
    ],
-   "khi_nao": "Có nhiều Cassiopeia sớm; phòng có nhiều đội vật lý đánh thường. ⚠ ↘ 18.5: Soraka tăng; Thực Vật giảm – giảm nhẹ. ⚠ ↘ 18.5: Soraka tăng; Thực Vật giảm – giảm nhẹ. ⚠ → 18.5: Soraka tăng; Thực Vật giảm – cân bằng. ⚠ → 18.4b: Shen tăng; Rammus giảm – cân bằng. ⚠ → 18.4b: Shen tăng; Rammus giảm – cân bằng. ⚠ → 18.4b: Shen tăng; Rammus giảm – cân bằng.",
+   "khi_nao": "Có nhiều Cassiopeia sớm; phòng có nhiều đội vật lý đánh thường. ⚠ → 18.4b: Shen tăng; Rammus giảm – cân bằng.",
    "xep_vi_tri": "Fiddlesticks đặt ngoài rìa, Rammus đứng SÁT BÊN Fiddlesticks; Cassiopeia hàng sau ở giữa.",
    "meo": "Khiêu khích của Rammus kéo kẻ địch, giúp Fiddlesticks hồi máu lâu hơn.",
    "diem_yeu": "Đội gây sát thương chuẩn/giảm kháng; thiếu sát thương ở Giai đoạn 5.",
@@ -866,7 +866,7 @@
     "Quái Rừng Omega",
     "Hàng Chờ Pandora"
    ],
-   "khi_nao": "Có lõi Quái Rừng; nhiều Mầm Non sớm. ⚠ ↘ 18.5: Quái Rừng giảm – giảm nhẹ. ⚠ ↘ 18.5: Quái Rừng giảm – giảm nhẹ. ⚠ ↘ 18.5: Quái Rừng giảm – giảm nhẹ. ⚠ ↑ 18.4b: Sói Hắc Ám, Quái Rừng tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.4b: Sói Hắc Ám, Quái Rừng tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.4b: Sói Hắc Ám, Quái Rừng tăng – MẠNH LÊN RÕ.",
+   "khi_nao": "Có lõi Quái Rừng; nhiều Mầm Non sớm. ⚠ ↑ 18.4b: Sói Hắc Ám, Quái Rừng tăng – MẠNH LÊN RÕ.",
    "xep_vi_tri": "Dồn cục quanh tướng giữ Dấu Ấn Đầu Đàn; chủ lực đứng ngay phía sau.",
    "meo": "Luôn đặt Dấu Ấn Đầu Đàn lên Cua Kỳ Cục hoặc Quái Đá Krug 3 sao để giữ hàng trước lâu hơn.",
    "diem_yeu": "Cuối game thiếu sức mạnh.",
@@ -927,7 +927,7 @@
     "Lò Rèn Thần Thoại",
     "Hàng Chờ Pandora"
    ],
-   "khi_nao": "Có Yi 2 sao sớm + Cuồng Đao Guinsoo; không ai tranh tướng 3 vàng. ⚠ ↑ 18.5: Master Yi, Sett tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.5: Master Yi, Sett tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.5: Master Yi, Sett tăng – MẠNH LÊN RÕ. ⚠ ↘ 18.4b: Master Yi giảm – giảm nhẹ. ⚠ ↘ 18.4b: Master Yi giảm – giảm nhẹ. ⚠ ↘ 18.4b: Master Yi giảm – giảm nhẹ.",
+   "khi_nao": "Có Yi 2 sao sớm + Cuồng Đao Guinsoo; không ai tranh tướng 3 vàng. ⚠ ↘ 18.4b: Master Yi giảm – giảm nhẹ.",
    "xep_vi_tri": "Yi ở cạnh sườn hàng giữa; Kog'Maw góc sau; Sett/Quái Đá Krug/Gnar hàng đầu.",
    "meo": "Yi dạng phép cần Cuồng Đao Guinsoo; Yi dạng vật lý cần Áo Choàng Thủy Ngân · Thích Ứng: SMCK hay SMPT cao hơn sẽ quyết định kỹ năng.",
    "diem_yeu": "Khống chế diện rộng; đội nhiều Giáp.",
@@ -988,7 +988,7 @@
     "Bài Học Sơ Khai",
     "Chuột Nhắt Lan Tràn (Tinh Linh)"
    ],
-   "khi_nao": "Đầu game có từ 3 Akali/Camille; ít người săn 3 sao 1 vàng; 18.2 tăng sức mạnh Akali & Leona. ⚠ → 18.5: không bị đụng tới. ⚠ → 18.5: không bị đụng tới. ⚠ → 18.5: không bị đụng tới. ⚠ ↑ 18.4b: Warwick, Camille, Kayle, Shen tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.4b: Warwick, Camille, Kayle, Shen tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.4b: Warwick, Camille, Kayle, Shen tăng – MẠNH LÊN RÕ.",
+   "khi_nao": "Đầu game có từ 3 Akali/Camille; ít người săn 3 sao 1 vàng; 18.2 tăng sức mạnh Akali & Leona. ⚠ ↑ 18.4b: Warwick, Camille, Kayle, Shen tăng – MẠNH LÊN RÕ.",
    "xep_vi_tri": "Akali đặt ở cạnh sườn để vào hàng sau; Leona/Sejuani/Shen dàn đều hàng đầu.",
    "meo": "Mua Tinh Linh 'Chuột Nhắt Lan Tràn' khi có từ 5 tướng 1 vàng khác nhau trên sân · Mỗi tướng 3 sao khác nhau làm Mặt Trời mạnh hơn.",
    "diem_yeu": "Đội đỡ đòn dày cuối game nếu không thêm tướng 4 vàng; bị tranh Akali.",
@@ -1050,7 +1050,7 @@
     "Tôi Thăng Cấp Một Mình (Rengar)",
     "Ấn Tiên Linh / Tiên Phong"
    ],
-   "khi_nao": "Có cặp Tristana/Rengar sớm; Ấn nhận được quyết định biến thể (Tinh Nghịch / Tiên Linh / Thợ Săn). ⚠ ↑ 18.5: Tristana, Tiên Linh tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.5: Tristana, Tiên Linh tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.5: Tristana, Tiên Linh tăng – MẠNH LÊN RÕ. ⚠ ↗ 18.4b: Tristana, Rengar, Sivir, Xayah, Rakan tăng; Rammus, Tiên Linh giảm – MẠNH LÊN. ⚠ ↗ 18.4b: Tristana, Rengar, Sivir, Xayah, Rakan tăng; Rammus, Tiên Linh giảm – MẠNH LÊN. ⚠ ↗ 18.4b: Tristana, Rengar, Sivir, Xayah, Rakan tăng; Rammus, Tiên Linh giảm – MẠNH LÊN.",
+   "khi_nao": "Có cặp Tristana/Rengar sớm; Ấn nhận được quyết định biến thể (Tinh Nghịch / Tiên Linh / Thợ Săn). ⚠ ↗ 18.4b: Tristana, Rengar, Sivir, Xayah, Rakan tăng; Rammus, Tiên Linh giảm – MẠNH LÊN.",
    "xep_vi_tri": "Tristana ở góc hàng cuối; Rengar ở cạnh sườn để lao vào hàng sau; Rammus giữa hàng đầu.",
    "meo": "Ấn nhận được quyết định hướng biến thể · Cả 3 biến thể đều vào top 2 nếu đủ 3 sao · 18.2 giảm nhẹ Rengar → ưu tiên Tristana làm chủ lực chính.",
    "diem_yeu": "Bị người khác tranh tướng 3 vàng; đội lên 8 nhanh mạnh ở Giai đoạn 5.",
@@ -1111,7 +1111,7 @@
     "Hàng Chờ Pandora",
     "Bài Học Sơ Khai"
    ],
-   "khi_nao": "Đầu game có từ 3 Kayle; nhận được Vương Miện Hắc Hóa. ⚠ ↘ 18.5: Liên Kích giảm – giảm nhẹ. ⚠ → 18.5: không bị đụng tới. ⚠ → 18.5: không bị đụng tới. ⚠ ↑ 18.4b: Varus, Kayle, Shen, Mặt Trăng tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.4b: Varus, Kayle, Shen, Mặt Trăng tăng – MẠNH LÊN RÕ. ⚠ ↑ 18.4b: Varus, Kayle, Shen, Mặt Trăng tăng – MẠNH LÊN RÕ.",
+   "khi_nao": "Đầu game có từ 3 Kayle; nhận được Vương Miện Hắc Hóa. ⚠ ↑ 18.4b: Varus, Kayle, Shen, Mặt Trăng tăng – MẠNH LÊN RÕ.",
    "xep_vi_tri": "Kayle đứng cạnh Diana/Alune (Mặt Trăng) để nhận Tốc Độ Đánh + SMPT.",
    "meo": "Ra sân từ 5 tướng 1 vàng để dùng Tinh Linh 'Chuột Nhắt Lan Tràn' · Mỗi tướng 3 sao khác nhau làm Mặt Trời mạnh hơn.",
    "diem_yeu": "Cuối game yếu nếu không có tướng 4–5 vàng 2 sao.",
@@ -1174,7 +1174,7 @@
     "Kiên Nhẫn Học Tập",
     "Khiên Đơn Đấu"
    ],
-   "khi_nao": "⛔ 18.3b: lõi Tà Thuật đang bị tắt nên chưa chơi được. Khi bật lại: nhận ở 2-1 hoặc 3-2 thì ép luôn. ⚠ ↗ 18.5: Morgana tăng – MẠNH LÊN. ⚠ ↗ 18.5: Morgana tăng – MẠNH LÊN. ⚠ ↗ 18.5: Morgana tăng – MẠNH LÊN. ⚠ ↘ 18.4b: Hecarim tăng; Tiên Hắc Ám giảm – giảm nhẹ. ⚠ ↘ 18.4b: Hecarim tăng; Tiên Hắc Ám giảm – giảm nhẹ. ⚠ ↘ 18.4b: Hecarim tăng; Tiên Hắc Ám giảm – giảm nhẹ.",
+   "khi_nao": "⛔ 18.3b: lõi Tà Thuật đang bị tắt nên chưa chơi được. Khi bật lại: nhận ở 2-1 hoặc 3-2 thì ép luôn. ⚠ ↘ 18.4b: Hecarim tăng; Tiên Hắc Ám giảm – giảm nhẹ.",
    "xep_vi_tri": "Cassiopeia hàng sau giữa, Morgana góc đối diện; Người Đá + Hecarim chắn trước; Taric/Alune hỗ trợ.",
    "meo": "Thua trận người chơi vẫn cho nhiều Tinh Chất → giai đoạn đầu không cần cố thắng bằng mọi giá · Đổi Tinh Chất đúng lúc: tích để nhận quà lớn thay vì đổi lắt nhắt.",
    "diem_yeu": "Không có lõi Tà Thuật thì đội rất yếu; cần Cassiopeia 2 sao sớm.",

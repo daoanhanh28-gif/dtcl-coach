@@ -1,8 +1,8 @@
-# ĐTCL Coach · v1.3 · 2026-10-20
+# ĐTCL Coach · v1.4 · 2026-10-22
 
 Web trợ lý Đấu Trường Chân Lý (Teamfight Tactics) cho máy chủ Việt Nam — Mùa 18 *Đại Ngàn Kỳ Bí*.
-Ba bộ dữ liệu chọn ở thanh bên: **18.4b (đang chạy, mặc định)**, **18.5 (xem trước, ra 21/10)** — số liệu 18.4b + thay đổi 18.5 —
-và **18.3b (cũ)**. Mở thêm tab với link `?ban=18.5` hoặc `?ban=18.3b` để xem song song.
+Ba bộ dữ liệu chọn ở thanh bên: **18.5 (đang chạy, mặc định)**, **18.4b (bản trước)** và **18.3b (cũ)**.
+Mở thêm tab với link `?ban=18.4b` hoặc `?ban=18.3b` để xem song song.
 Chạy trên Streamlit Community Cloud (miễn phí), nhật ký lưu Google Sheets, AI giải thích bằng Gemini (gói miễn phí).
 
 > Hướng dẫn giúp vào top đều hơn, **không đảm bảo** top 1 mọi ván. Không liên kết chính thức với Riot Games.
@@ -52,6 +52,10 @@ streamlit run app.py          # mã đăng nhập mặc định: dtcl2026
 ```
 
 ## Lịch sử phiên bản
+
+- **v1.4 · 2026-10-22** — Bản 18.5 chính thức làm mặc định: ghi chú Riot 18.5 (khác bản xem trước: Sivir, Bụi Gai Đỏ, Alune, Taric
+  tăng thêm; Draven không đổi), thống kê MetaTFT 18.5, OP.GG VN 18.5 (7 đội đủ mẫu). Cẩm nang thêm thẻ “được lợi & spam”:
+  so hạng TB từng đội 18.5 với 18.4b, đội mạnh ít người chơi, top quốc tế. 18.4b giữ làm bản trước.
 
 - **v1.3 · 2026-10-20** — Bộ dữ liệu **18.4b** (bản đang chạy, mặc định): thay đổi 18.4 + 18.4b, OP.GG VN 32 đội (196.456 ván),
   thống kê Ấn tactics.tools. Trang mới **Cẩm nang Thách Đấu**. Trợ lý → Ấn: tối ưu lại, xếp đội quanh chủ lực meta

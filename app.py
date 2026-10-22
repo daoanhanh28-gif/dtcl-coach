@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — điểm vào của web
+# ĐTCL Coach v1.4 (2026-10-22) — điểm vào của web
 # Chạy local:  streamlit run app.py
 import streamlit as st
 

@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — kiểm thử lớp gọi AI (giả lập, không gọi mạng thật)
+# ĐTCL Coach v1.4 (2026-10-22) — kiểm thử lớp gọi AI (giả lập, không gọi mạng thật)
 import json
 import sys
 from pathlib import Path

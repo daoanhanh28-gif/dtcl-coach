@@ -1,4 +1,4 @@
-# ĐTCL Coach v1.3 (2026-10-20) — số liệu cho trang Cẩm nang: top đội mạnh / mạnh ít người chơi / dễ vào top, mốc lên cấp
+# ĐTCL Coach v1.4 (2026-10-22) — số liệu cho trang Cẩm nang: top đội mạnh / mạnh ít người chơi / dễ vào top, mốc lên cấp
 """
 Mọi con số lấy từ bộ dữ liệu đang xem:
   vn_opgg.json          — đội hình máy chủ VN (OP.GG): hạng TB, top 4, top 1, tỉ lệ chơi, độ khó, cấp mục tiêu, tướng + đồ
@@ -77,10 +77,55 @@ def manh_it_nguoi(n: int = 5) -> list[dict]:
     return [_row(r) for r in rows]
 
 
-def manh_it_nguoi_quoc_te(n: int = 4) -> list[dict]:
-    """Cụm MetaTFT hạng TB ≤ 4,35 nhưng ít trận (< 120.000 trong 3 ngày) — ít người biết."""
-    cs = [c for c in E.data()["metatft_doi_hinh"] if c["so_lieu"]["so_tran"] < 120000 and c["so_lieu"]["hang_tb"] <= 4.35]
-    return sorted(cs, key=lambda c: c["so_lieu"]["hang_tb"])[:n]
+def _ti_le_qt(c: dict, tong: int) -> float:
+    return 100 * c["so_lieu"]["so_tran"] / tong if tong else 0.0
+
+
+def manh_it_nguoi_quoc_te(n: int = 5) -> list[dict]:
+    """Cụm MetaTFT hạng TB ≤ 4,40 nhưng < 1,5% số đội hình (ít người chơi, ít bị tranh tướng) — dễ spam leo rank."""
+    cs = E.data()["metatft_doi_hinh"]
+    tong = sum(c["so_lieu"]["so_tran"] for c in cs)
+    out = [{**c, "ti_le_qt": round(_ti_le_qt(c, tong), 2)} for c in cs
+           if _ti_le_qt(c, tong) < 1.5 and c["so_lieu"]["hang_tb"] <= 4.40 and c["so_lieu"]["so_tran"] >= 3000]
+    return sorted(out, key=lambda c: c["so_lieu"]["hang_tb"])[:n]
+
+
+def top_quoc_te(n: int = 6) -> list[dict]:
+    """Mạnh nhất quốc tế (MetaTFT Bạch Kim+), đủ mẫu (≥ 1% số đội hình) — dùng khi số VN của bản mới còn ít."""
+    cs = E.data()["metatft_doi_hinh"]
+    tong = sum(c["so_lieu"]["so_tran"] for c in cs)
+    out = [{**c, "ti_le_qt": round(_ti_le_qt(c, tong), 2)} for c in cs if _ti_le_qt(c, tong) >= 1.0]
+    return sorted(out, key=lambda c: c["so_lieu"]["hang_tb"])[:n]
+
+
+def bien_dong(n: int = 6) -> dict | None:
+    """So hạng TB quốc tế (MetaTFT) của bản đang xem với bản trước: đội được lợi / bị ảnh hưởng nhất (số thật)."""
+    from core import config
+
+    bo = config.active_version()
+    truoc = config.BO_TRUOC.get(bo)
+    if not truoc:
+        return None
+    try:
+        cu = config.load_json("metatft_doi_hinh.json", truoc)
+        ban_cu = config.load_json("meta.json", truoc)["phien_ban"]
+    except FileNotFoundError:
+        return None
+    by_id = {c["id"]: c for c in cu}
+    rows = []
+    for c in E.data()["metatft_doi_hinh"]:
+        o = by_id.get(c["id"])
+        if not o:      # khác bộ cụm: ghép theo tướng
+            us = set(c["tuong"])
+            o = max(cu, key=lambda x: len(us & set(x["tuong"])) / len(us | set(x["tuong"])), default=None)
+            if not o or len(us & set(o["tuong"])) / len(us | set(o["tuong"])) < 0.7:
+                continue
+        if c["so_lieu"]["so_tran"] < 3000:
+            continue
+        d = round(c["so_lieu"]["hang_tb"] - o["so_lieu"]["hang_tb"], 2)
+        rows.append({**c, "truoc": o["so_lieu"], "chenh": d})
+    return {"ban_truoc": ban_cu, "len": sorted([r for r in rows if r["chenh"] < 0], key=lambda r: r["chenh"])[:n],
+            "xuong": sorted([r for r in rows if r["chenh"] > 0], key=lambda r: -r["chenh"])[:n]}
 
 
 def de_vao_top(n: int = 5) -> list[dict]:
