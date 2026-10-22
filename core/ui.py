@@ -444,11 +444,21 @@ def login_panel():
     st.markdown(f"<p class='dc-lede'>Trợ lý Đấu Trường Chân Lý cho server Việt Nam. Đội hình, lõi, trang bị, "
                 f"kinh tế và một trợ lý ván đấu tính sẵn nên đi đội nào, đổi tướng hay lên cấp, chọn lõi gì — "
                 f"theo dữ liệu Mùa {m['mua']}, bản {esc(m['phien_ban'])}.</p>", unsafe_allow_html=True)
-    sample = engine.comps(("S",))[:1]
+    def _vn(c):
+        v = c.get("so_lieu_vn") or {}
+        try:
+            return float(str(v.get("hang_tb")).replace(",", ".")), float(str(v.get("ti_le", "0")).rstrip("%").replace(",", "."))
+        except ValueError:
+            return 9.0, 0.0
+    co_vn = [c for c in engine.comps() if c.get("so_lieu_vn") and _vn(c)[1] >= 0.3]
+    if co_vn:
+        sample, nhan = [min(co_vn, key=lambda c: _vn(c)[0])], "Đội mạnh nhất máy chủ Việt Nam bản này (≥ 0,3% người chơi)"
+    else:
+        sample, nhan = engine.comps(("S",))[:1], "Đội hạng S theo file hướng dẫn"
     if sample:
         c = sample[0]
         st.markdown(f"<div class='dc-card hi'><div style='color:var(--mute);font-size:.82rem;margin-bottom:6px'>"
-                    f"Đội số 1 máy chủ Việt Nam bản này</div>"
+                    f"{esc(nhan)}</div>"
                     f"<div style='font-weight:700;margin-bottom:8px'>{esc(c['ten'])}</div>"
                     f"{champ_row(c['tuong'], 48, roles_of(c))}{stats_html(c)}</div>", unsafe_allow_html=True)
 

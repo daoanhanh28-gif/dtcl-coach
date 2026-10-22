@@ -212,10 +212,10 @@ def _match_vn(d, units, rows):
         ids = {d["champ_by_name"].get(norm(n)) for n in names} - {None}
         if not ids:
             continue
-        s = len(us & ids) / min(len(us), len(ids))
+        s = len(us & ids) / len(us | ids)      # Jaccard: tránh ghép nhầm đội khác chung vài tướng
         if s > score:
             best, score = r, s
-    if best and score >= 0.75:
+    if best and score >= 0.6:
         return {"ten": best[1], "bac": best[2], "hang_tb": best[3], "top4": best[4], "ti_le": best[5],
                 "nguon": d["meta"].get("vn_nguon", "OP.GG · máy chủ VN · bản 18.3b (Excel v1.8)")}
     return None
