@@ -97,8 +97,9 @@ def comp_card(i: int, r: dict, extra: str = "") -> str:
 
 with tab1:
     vn_src = (d.get("vn_opgg") or {}).get("nguon", m.get("vn_nguon", ""))
-    if len((d.get("vn_opgg") or {}).get("doi_hinh", [])) < 15:
-        ui.note(f"Bản {bo} mới ra: OP.GG máy chủ VN mới đủ ván cho {len(d['vn_opgg']['doi_hinh'])} đội. "
+    n_vn = len((d.get("vn_opgg") or {}).get("doi_hinh", []))
+    if 0 < n_vn < 15:
+        ui.note(f"Bản {bo} mới ra: OP.GG máy chủ VN mới đủ ván cho {n_vn} đội. "
                 "Xem thêm số quốc tế ở thẻ đầu tiên; vài ngày nữa nhắn “cập nhật meta” để có bảng VN đầy đủ.")
     st.markdown("### Top đội hình mạnh nhất (đủ người chơi)")
     st.caption(f"Hạng TB thấp nhất trong các đội có ≥ 0,3% người chơi — số liệu đủ lớn để tin. Nguồn: {vn_src}.")
